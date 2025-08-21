@@ -44,9 +44,9 @@ function MyApp({ Component, pageProps }) {
 
   const showSalesIQ = !(router.pathname === '/contact/enquiry' && isMobile);
 
-  // useEffect(() => {
-  //   TagManager.initialize({ gtmId: 'GTM-5T77DVZ' });
-  // }, [router.asPath]);
+  useEffect(() => {
+    TagManager.initialize({ gtmId: 'GTM-5T77DVZ' });
+  }, [router.asPath]);
 
   useEffect(() => {
     const start = () => setLoading(true);
@@ -61,7 +61,6 @@ function MyApp({ Component, pageProps }) {
       router.events.off('routeChangeError', end);
     };
   }, [router.events]);
-
 
   const path = router.asPath.endsWith('/index') ? '' : router.asPath;
 
