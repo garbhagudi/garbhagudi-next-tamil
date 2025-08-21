@@ -49,7 +49,7 @@ const Testimonial = () => {
             {data.map((item) => (
               <div className='flex flex-col justify-center' key={item.id}>
                 <blockquote className='mt-8'>
-                  <div className='mx-auto h-80 max-w-sm px-1.5 text-center font-content text-base font-medium tracking-tight text-gray-800 dark:text-gray-200 sm:max-w-md md:max-w-3xl md:text-lg lg:h-52 lg:leading-[1.8rem]'>
+                  <div className='mx-auto h-fit max-w-sm px-1.5 text-center font-content text-base font-medium tracking-tight text-gray-800 dark:text-gray-200 sm:max-w-md md:max-w-3xl md:text-lg lg:leading-[1.8rem]'>
                     <div className='flex items-center justify-center'>
                       &quot;{item.review}&quot;
                     </div>
