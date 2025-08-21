@@ -13,44 +13,33 @@ import Form from 'sections/LandingPages/Performant/form';
 
 const navigation = {
   treatments: [
-    { name: 'Hysteroscopy', href: '/treatments/hysteroscopy-treatment-in-bangalore' },
-    { name: 'ICSI Treatment', href: '/treatments/icsi-treatment-in-bangalore' },
-    { name: 'IUI Treatment', href: '/treatments/iui-treatment-in-bangalore' },
-    { name: 'IVF Treatment', href: '/treatments/ivf-treatment-in-bangalore' },
-    { name: 'Laparoscopy', href: '/treatments/laparoscopy-treatment-in-bangalore' },
-    { name: 'FET', href: '/treatments/frozen-embryo-transfer' },
+    { name: 'ஹிஸ்டரஸ்கோப்பி', href: '/treatments/hysteroscopy-treatment-in-bangalore' },
+    { name: 'ஐ.சி.எஸ்.ஐ சிகிச்சை', href: '/treatments/icsi-treatment-in-bangalore' },
+    { name: 'ஐ.யூ.ஐ சிகிச்சை', href: '/treatments/iui-treatment-in-bangalore' },
+    { name: 'ஐ.வி.எப் சிகிச்சை', href: '/treatments/ivf-treatment-in-bangalore' },
+    { name: 'லேபரோஸ்கோப்பி ', href: '/treatments/laparoscopy-treatment-in-bangalore' },
+    { name: 'உறைவு கருவுறுப்பு மாற்று', href: '/treatments/frozen-embryo-transfer' },
   ],
-  locations: [
-    { name: 'Hanumanthanagar', href: '/locations/hanumanthanagar' },
-    { name: 'Electronic city', href: '/locations/electronic-city' },
-    { name: 'Kalyan Nagar', href: '/locations/kalyan-nagar' },
-    { name: 'Marthahalli', href: '/locations/marathahalli' },
-    { name: 'Nagarbhavi', href: '/locations/nagarabhavi' },
-    { name: 'New BEL road', href: '/locations/new-bel-road' },
-    { name: 'Jayanagar', href: '/locations/jayanagar' },
-    { name: 'Yelahanka', href: '/locations/yelahanka' },
-    { name: 'Davanagere', href: '/locations/davanagere' },
-  ],
-  resources: [
-    { name: 'Fertility Experts', href: '/fertility-experts' },
-    { name: 'Fertility center', href: '/fertility-center' },
-    { name: 'Blogs', href: '/blogs/page/1' },
-    { name: 'FAQ', href: '/resources/faq' },
-  ],
+  locations: [{ name: 'ஹோசூர்', href: '/locations/hanumanthanagar' }],
+  // resources: [
+  //   { name: 'Fertility Experts', href: '/fertility-experts' },
+  //   { name: 'Fertility center', href: '/fertility-center' },
+  //   { name: 'Blogs', href: '/blogs/page/1' },
+  //   { name: 'FAQ', href: '/resources/faq' },
+  // ],
   company: [
-    { name: 'GarbhaGudi', href: '/about/overview' },
+    { name: 'கர்பகுடி', href: '/about/overview' },
     { name: 'GGIRHR', href: 'https://ggirhr.com' },
-    { name: 'GarbhaGnan', href: 'https://garbhagnan.org' },
-    { name: 'Pharmacy', href: '#' },
+    { name: 'கர்பகினான்', href: 'https://garbhagnan.org' },
+    { name: 'மருந்தகம்', href: '#' },
   ],
   contact: [
-    { name: 'Paripoorna', href: '/features/paripoorna' },
-    { name: 'Careers', href: '/careers' },
-    { name: 'GG care', href: '/gg-care' },
+    { name: 'தொழில் வாய்ப்புகள்', href: 'https://www.garbhagudi.com/careers' },
+    { name: 'GG பராமரிப்பு', href: '/gg-care' },
   ],
   legal: [
-    { name: 'Privacy', href: '/legal/privacy-policy' },
-    { name: 'Terms', href: '/legal/terms-and-conditions' },
+    { name: 'தனியுரிமை', href: 'https://www.garbhagudi.com/legal/privacy-policy' },
+    { name: 'விதிமுறைகள்', href: 'https://www.garbhagudi.com/legal/terms-and-conditions' },
   ],
 };
 
@@ -69,10 +58,10 @@ export default function Footer() {
       <div className='mx-auto flex max-w-7xl flex-col justify-between border-t px-1 pb-12 dark:border-gray-600 sm:px-6 lg:flex-row lg:py-8'>
         <div className='xl:grid xl:grid-cols-2 xl:gap-8'>
           <div className='mt-12 grid grid-cols-1 gap-8 text-center antialiased xl:col-span-full xl:mt-0 xl:grid-cols-1'>
-            <div className='grid grid-cols-3 gap-5 md:grid-cols-6'>
+            <div className='grid grid-cols-3 gap-5 md:grid-cols-5'>
               <div className=''>
                 <h3 className='text-sm font-bold uppercase tracking-wider text-gray-900 dark:text-white'>
-                  Treatments
+                  சிகிச்சைகள்
                 </h3>
                 <ul className='mt-4 space-y-1'>
                   {navigation.treatments.map((item) => (
@@ -88,7 +77,7 @@ export default function Footer() {
               </div>
               <div className=''>
                 <h3 className='text-sm font-bold uppercase tracking-wider text-gray-900 dark:text-white'>
-                  Locations
+                  கிளை மையங்கள்
                 </h3>
                 <ul className='mt-4 space-y-1'>
                   {navigation.locations.map((item) => (
@@ -102,7 +91,7 @@ export default function Footer() {
                   ))}
                 </ul>
               </div>
-              <div className=''>
+              {/* <div className=''>
                 <h3 className='text-sm font-bold uppercase tracking-wider text-gray-900 dark:text-white'>
                   Resources
                 </h3>
@@ -117,10 +106,10 @@ export default function Footer() {
                     </li>
                   ))}
                 </ul>
-              </div>
+              </div> */}
               <div className=''>
                 <h3 className='text-sm font-bold uppercase tracking-wider text-gray-900 dark:text-white'>
-                  Companies
+                  நிறுவனங்கள்
                 </h3>
                 <ul className='mt-4 space-y-1'>
                   {navigation.company.map((item) => (
@@ -136,7 +125,7 @@ export default function Footer() {
               </div>
               <div className=''>
                 <h3 className='text-sm font-bold uppercase tracking-wider text-gray-900 dark:text-white'>
-                  Contact
+                  தொடர்புக்கு
                 </h3>
                 <ul className='mt-4 space-y-1'>
                   {navigation.contact.map((item) => (
@@ -152,7 +141,7 @@ export default function Footer() {
               </div>
               <div className=''>
                 <h3 className='text-sm font-bold uppercase tracking-wider text-gray-900 dark:text-white'>
-                  Legal
+                  சட்டம்
                 </h3>
                 <ul className='mt-4 space-y-1'>
                   {navigation.legal.map((item) => (

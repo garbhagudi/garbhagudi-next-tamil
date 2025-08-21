@@ -19,7 +19,7 @@ const FloatRequestCallBack = () => {
         className='fixed -left-16 top-2/3 z-10 rotate-90 cursor-pointer rounded-md bg-gg-500 p-1.5 px-5 text-white shadow-md'
         onClick={open}
       >
-        <p className='text-base font-bold'>Request Call Back</p>
+        <p className='text-base font-bold'>திரும்ப அழைப்பைக் கோருதல்</p>
       </div>
       <Dialog open={isOpen} as='div' className='relative z-10 focus:outline-none' onClose={close}>
         {/* Faded background */}
@@ -51,7 +51,7 @@ const FloatRequestCallBack = () => {
               <div className='px-0'>
                 <div className='flex justify-center'>
                   <div className='mx-5 mt-5 w-fit self-center rounded-md bg-brandPink px-4 py-1 text-center text-[13px] font-semibold text-white shadow-sm'>
-                    Book your Consultation
+                    உங்கள் ஆலோசனையை பதிவு செய்யவும்
                   </div>
                 </div>
                 <Form />

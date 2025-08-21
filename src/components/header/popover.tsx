@@ -34,7 +34,7 @@ export function About() {
             } `}
           >
             <div className='px-2 py-2'>
-              About <HiChevronDown className='inline-block' />
+              பற்றி <HiChevronDown className='inline-block' />
             </div>
           </PopoverButton>
           <Transition
@@ -94,7 +94,7 @@ export function WhyGarbhaGudi() {
             } `}
           >
             <div className='px-2 py-2'>
-              Why GarbhaGudi
+              ஏன் கர்பகுடி
               <HiChevronDown className='inline-block' />
             </div>
           </PopoverButton>
@@ -218,7 +218,7 @@ export function Contacts() {
             } `}
           >
             <div className='px-2 py-2'>
-              Contact <HiChevronDown className='inline-block' />
+              தொடர்புக்கு <HiChevronDown className='inline-block' />
             </div>
           </PopoverButton>
           <Transition
@@ -278,7 +278,7 @@ export function Locations() {
             } `}
           >
             <div className='px-2 py-2'>
-              Locations <HiChevronDown className='inline-block' />
+              கிளை மையங்கள் <HiChevronDown className='inline-block' />
             </div>
           </PopoverButton>
           <Transition
@@ -334,7 +334,7 @@ export function Languages() {
             } `}
           >
             <div className='px-2 py-2'>
-              Language <HiChevronDown className='inline-block' />
+              மொழிகள் <HiChevronDown className='inline-block' />
             </div>
           </PopoverButton>
           <Transition
@@ -387,7 +387,7 @@ export function Treatments() {
             } `}
           >
             <div className='px-2 py-2'>
-              Treatments <HiChevronDown className='inline-block' />
+              சிகிச்சைகள் <HiChevronDown className='inline-block' />
             </div>
           </PopoverButton>
           <Transition
@@ -414,7 +414,7 @@ export function Treatments() {
                         )
                       }
                     >
-                      Female Infertility
+                      பெண்களின் கருவுறாமை
                     </Tab>
                     <Tab
                       className={({ selected }) =>
@@ -427,7 +427,7 @@ export function Treatments() {
                         )
                       }
                     >
-                      Male Infertility
+                      ஆண்களின் கர்ப்பத்திறன் குறைபாடு
                     </Tab>
                     <Tab
                       className={({ selected }) =>
@@ -440,7 +440,7 @@ export function Treatments() {
                         )
                       }
                     >
-                      Advanced
+                      மேம்பட்ட சிகிச்சைகள்
                     </Tab>
                   </TabList>
                   <TabPanels className='my-2 px-2 text-black transition-all duration-500 ease-out'>

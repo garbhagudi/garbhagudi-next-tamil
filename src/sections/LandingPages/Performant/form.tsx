@@ -131,7 +131,7 @@ const Form = () => {
             className='flex items-center justify-center gap-2 rounded-md bg-gg-500 px-6 py-2 text-base font-bold text-white'
             disabled={load}
           >
-            Get a call back
+            மீண்டும் அழைப்பைப் பெறுதல்
             {load && (
               <svg
                 width={22}

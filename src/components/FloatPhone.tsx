@@ -27,7 +27,7 @@ const FloatPhone = () => {
           onClick={open}
         >
           <MdCalendarMonth className='h-6 w-6' />
-          <div className='text-sm'>Book Appointment</div>
+          <div className='text-sm'>முன்பதிவு அப்பாயிண்ட்மெண்ட்</div>
         </button>
         {/* Phone Call Button */}
         <Link

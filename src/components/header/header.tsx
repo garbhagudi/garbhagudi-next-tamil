@@ -7,7 +7,7 @@ import {
   About,
   WhyGarbhaGudi,
   Treatments,
-  KnowledgeCenter,
+  // KnowledgeCenter,
   Contacts,
   Locations,
   Languages,
@@ -33,11 +33,11 @@ const menu = [
     option: <WhyGarbhaGudi />,
     slug: 'features',
   },
-  {
-    id: 4,
-    option: <KnowledgeCenter />,
-    slug: 'resources',
-  },
+  // {
+  //   id: 4,
+  //   option: <KnowledgeCenter />,
+  //   slug: 'resources',
+  // },
   {
     id: 5,
     option: <Contacts />,
@@ -88,8 +88,8 @@ const Nav = () => {
                   rel='noreferrer'
                   className='duration-2 cursor-pointer rounded-lg bg-gg-500 px-3 py-2 font-lexend text-xs text-gray-200 transition-all ease-in hover:bg-brandPink3 dark:bg-gg-500 dark:hover:bg-gg-600 sm:text-sm'
                 >
-                  Book <span className='hidden sm:inline-block'>Appointment</span>{' '}
-                  <span className='inline-block sm:hidden'>Now</span>
+                  புத்தகம் <span className='hidden sm:inline-block'>நியமனம்</span>{' '}
+                  <span className='inline-block sm:hidden'>இப்போது</span>
                 </Link>
               </div>
               <div className='-mr-2 ml-2 flex items-center justify-center xl:hidden'>
