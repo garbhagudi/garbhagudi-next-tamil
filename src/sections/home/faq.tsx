@@ -32,44 +32,56 @@ export default Faq;
 const data = [
   {
     id: 1,
-    Question: 'How much does IVF treatment cost in Bangalore?',
+    Question: 'IVF சிகிச்சையின் செலவு எவ்வளவு?',
     Answer:
-      'The cost of IVF treatment in Bangalore may vary depending on individual circumstances and treatment requirements. At GarbhaGudi IVF Centre, we offer various IVF packages',
+      'IVF சிகிச்சையின் செலவு, ஒவ்வொரு நபரின் தனிப்பட்ட சூழ்நிலை மற்றும் சிகிச்சை தேவைகளுக்கு ஏற்ப மாறுபடும். கற்பககுடி IVF மையத்தில், நாங்கள் பல்வேறு IVF தொகுப்புகளை வழங்குகிறோம்.',
   },
   {
     id: 2,
-    Question: 'Which IVF clinic has the highest success rate in Bangalore?',
+    Question: 'IVF என்றால் என்ன?',
     Answer:
-      "GarbhaGudi IVF Centre has a high success rate, with many of our patients achieving successful pregnancies. However, it's important to note that success rates can vary depending on individual factors.",
+      ' IVF என்பது In Vitro Fertilization என்ற ஆங்கில சொல்லின் சுருக்கம். இதில், பெண்ணின் முட்டை (Egg) மற்றும் ஆணின் விந்தணு (Sperm) ஆய்வகத்தில் சேர்க்கப்பட்டு கருவாக உருவாக்கப்பட்டு, அதை பெண்ணின் கருப்பையில் வைத்து கர்பம் ஏற்படுத்தும் முறையாகும்.',
   },
   {
     id: 3,
-    Question: 'Does GarbhaGudi Hospital provide fertility treatment?',
+    Question: 'IVF சிகிச்சை எவ்வளவு காலம் ஆகும்?',
     Answer:
-      'Yes, GarbhaGudi IVF Centre is part of GarbhaGudi Hospital, which offers a wide range of fertility treatments.',
+      'பொதுவாக ஒரு IVF சுற்று (cycle) சுமார் 3–4 வாரங்கள் ஆகும். இதில் ஹார்மோன் மருந்துகள், முட்டை எடுக்கும் செயல்முறை, கருவாக்கம் மற்றும் கருப்பையில் வைத்து செலுத்துதல் (Embryo Transfer) இடம்பெறும்.',
   },
   {
     id: 4,
-    Question: 'Why choose GarbhaGudi Hospital to get IVF treatment?',
+    Question: 'IVF சிகிச்சையில் வெற்றியின் வாய்ப்பு எவ்வளவு?',
     Answer:
-      'GarbhaGudi IVF Centre offers advanced infertility treatments using state-of-the-art technology and experienced doctors. Our team of experts provides personalized care to each patient and strives to achieve the best possible outcomes.',
+      'வயது, உடல்நிலை, முட்டை மற்றும் விந்தணுவின் தரம் போன்ற காரணங்களின் படி வெற்றி விகிதம் மாறுபடும். பொதுவாக 25–40 வயதுக்கு இடையில் வெற்றியின் வாய்ப்பு அதிகம்.',
   },
   {
     id: 5,
-    Question: 'Who is the best infertility doctor in Bangalore?',
+    Question: 'IVF சிகிச்சையில் வலி உண்டா?',
     Answer:
-      'At GarbhaGudi IVF Centre, we have a team of highly experienced infertility specialists who are dedicated to providing the best possible care to our patients. We do not single out any one doctor as the "best" as all of our doctors are highly skilled and experienced in their fields.',
+      'பெரும்பாலான செயல்முறைகள் சிறிய ஊசிகள் மற்றும் சிறிய அறுவைச் சிகிச்சை மூலம் செய்யப்படுவதால், வலி மிகக் குறைவாக இருக்கும்.',
   },
   {
     id: 6,
-    Question: 'Is IVF 100% accurate?',
+    Question: 'IVF குழந்தைகள் சாதாரணமாகப் பிறக்குமா?',
     Answer:
-      "IVF is a highly accurate and effective fertility treatment, but it's important to note that success rates can vary depending on individual factors.",
+      'ஆம். IVF மூலம் பிறக்கும் குழந்தைகள், இயல்பான முறையில் பிறக்கும் குழந்தைகளைப்போலவே ஆரோக்கியமாக இருப்பார்கள்.',
   },
   {
     id: 7,
-    Question: 'Does insurance cover IVF cost in India?',
+    Question: 'IVF சிகிச்சைக்கு பக்கவிளைவுகள் உண்டா?',
     Answer:
-      "In India, insurance coverage for IVF treatment can vary depending on the policy and insurance provider. It's best to check with your insurance provider to see if IVF treatment is covered under your policy. At GarbhaGudi IVF Centre, we also offer various financing options to help make IVF treatment more affordable and accessible for our patients.",
+      'சிலருக்கு சிறிய அளவில் வீக்கம், ஹார்மோன் மாற்றங்கள் அல்லது வயிற்றில் சற்றே தடம் இருக்கலாம். இவை பொதுவாக தற்காலிகமானவை.',
+  },
+  {
+    id: 8,
+    Question: 'IVF சிகிச்சை வெற்றியில்லையெனில் அடுத்ததாக என்ன செய்யலாம்?',
+    Answer:
+      ' மருத்துவர் உங்களின் நிலையை மதிப்பீடு செய்து, மீண்டும் IVF முயற்சி, ICSI, அல்லது பிற கருவுறுதல் சிகிச்சைகள் பரிந்துரைக்கலாம்.',
+  },
+  {
+    id: 9,
+    Question: 'ஏன் கர்பகுடி IVF மையத்தை தேர்வு செய்ய வேண்டும்?',
+    Answer:
+      'கர்பகுடி IVF மையம், நவீன தொழில்நுட்பம் மற்றும் அனுபவமிக்க மருத்துவர்களின் உதவியுடன், முன்னேற்றமான கருத்தரிப்பு சிகிச்சைகளை வழங்குகிறது. எங்கள் நிபுணர்கள் ஒவ்வொரு நோயாளிக்கும் தனிப்பட்ட பராமரிப்பை வழங்கி, சிறந்த முடிவுகளைப் பெற உறுதியாக செயல்படுகின்றனர்.',
   },
 ];

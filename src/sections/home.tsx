@@ -9,10 +9,10 @@ const Features = dynamic(() => import('sections/home/features'), { ssr: false })
 const Stats = dynamic(() => import('./home/stats/stats'), { ssr: false });
 const WhyGG = dynamic(() => import('./home/whyGarbhaGudi'), { ssr: false });
 const Stat = dynamic(() => import('./home/stat'), { ssr: false });
-const BlogsSnip = dynamic(() => import('./home/newBlogs'), { ssr: false });
+// const BlogsSnip = dynamic(() => import('./home/newBlogs'), { ssr: false });
 const Testimonial = dynamic(() => import('sections/home/testimonial'), { ssr: false });
 
-const HomeComponent = ({ testimonialPassthrough, blogsPassthrough }) => {
+const HomeComponent = ({ testimonialPassthrough }) => {
   return (
     <div>
       <Band />
@@ -25,7 +25,7 @@ const HomeComponent = ({ testimonialPassthrough, blogsPassthrough }) => {
       <Stats />
       <WhyGG />
       <Stat />
-      <BlogsSnip posts={blogsPassthrough} />
+      {/* <BlogsSnip posts={blogsPassthrough} /> */}
       <Testimonial />
     </div>
   );

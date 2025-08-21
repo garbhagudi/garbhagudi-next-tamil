@@ -1,6 +1,4 @@
-import React from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
 
 const Hero = () => {
   return (
@@ -10,32 +8,20 @@ const Hero = () => {
           <div className='px-4 sm:px-6 sm:text-center md:mx-auto md:max-w-2xl lg:col-span-6 lg:flex lg:items-center lg:text-left'>
             <div>
               <div className='mt-4 font-heading text-4xl font-extrabold tracking-tight text-gray-800 dark:text-gray-200 max-sm:text-3xl sm:mt-5 sm:leading-none lg:mt-6 lg:text-5xl xl:text-6xl'>
-                <span className='md:block'>Experience the Joy</span>{' '}
-                <span className='text-gg-500 dark:text-gg-400 md:mt-2 md:block'>
-                  of Being Complete...
-                </span>
+                முழுமையின் மகிழ்ச்சியை அனுபவிக்கவும்
               </div>
               <div className='text-md text-right font-content font-bold text-gray-800 dark:text-gray-200'>
-                ...with the <h1 className='inline-block'>Best IVF Centre in Bangalore</h1>
+                சிறந்த IVF மையம் – கர்பகுடி
               </div>
               <p className='mt-3 font-content text-base text-gray-800 dark:text-gray-200 sm:mt-5 sm:text-xl lg:text-lg xl:text-base'>
-                GarbhaGudi is a chain of new generation{' '}
-                <Link
-                  href={'/treatments/infertility-treatment-in-bangalore'}
-                  className='text-gg-500 hover:underline dark:text-gg-400'
-                >
-                  infertility treatment hospitals
-                </Link>{' '}
-                equipped with state-of-the-art infrastructure and cutting-edge technology to address
-                this ever-increasing infertility problem. It was founded by a team of committed
-                entrepreneurs and healthcare specialists, led by{' '}
-                <Link
-                  href={'/fertility-experts/dr-asha-s-vijay'}
-                  className='text-gg-500 hover:underline dark:text-gg-400'
-                >
-                  Dr. Asha S Vijay
-                </Link>
-                , a renowned gynaecologist and fertility specialist.
+                கர்பகுடி என்பது நவீன வசதிகளுடன், உலகத்தரத்திலான மருத்துவ தொழில்நுட்பத்துடன் கூடிய
+                ஒரு முன்னோடியான கருவுறாமை சிகிச்சை மையம். இங்கு, அனுபவம் வாய்ந்த மருத்தவர்கள்,
+                அன்பும் பரிவும் கலந்த சேவையுடன், உங்களின் பெற்றோராகும் பயணத்தில் துணையாக
+                இருப்பார்கள்.
+                <br />
+                புகழ்பெற்ற மகப்பேறு மற்றும் கருத்தரிப்பு நிபுணர் டாக்டர் ஆஷா எஸ் விஜய் அவர்களின்
+                வழிகாட்டுதலில், ஆயிரக்கணக்கான குடும்பங்கள் இன்று தங்கள் குழந்தையின் சிரிப்பால்
+                வீட்டை நிறைத்துள்ளனர்.
               </p>
             </div>
           </div>

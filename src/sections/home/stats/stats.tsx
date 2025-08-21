@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Image from 'next/image';
 
 const StatsPC = () => {
@@ -6,7 +6,8 @@ const StatsPC = () => {
   return (
     <div className='hidden lg:block'>
       <p className='bg-brandPink5 py-10 text-center font-heading text-4xl font-bold dark:bg-gray-700'>
-        This is why you can trust GarbhaGudi for your infertility treatments
+        அதனால்தான், உங்கள் கருத்தரிப்பு சிகிச்சைகளுக்கு கர்பகுடியை நீங்கள் நம்பிக்கையுடன் தேர்வு
+        செய்யலாம்.
       </p>
       <div className='mx-auto mt-4 max-w-lg align-middle md:max-w-4xl'>
         <div className='text-center'>

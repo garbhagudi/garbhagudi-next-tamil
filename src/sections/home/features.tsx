@@ -1,4 +1,3 @@
-import React from 'react';
 import Link from 'next/link';
 import { CiPercent, CiMedicalCase, CiBank } from 'react-icons/ci';
 import { BsCurrencyRupee } from 'react-icons/bs';
@@ -8,49 +7,50 @@ import { ImLab } from 'react-icons/im';
 const features = [
   {
     id: 1,
-    name: 'Excellent Success Rate',
+    name: 'சிறந்த வெற்றிவிகிதங்கள்',
     icon: <CiPercent />,
-    content: 'GarbhaGudi has one of the highest IVF treatments success rates in the industry.',
+    content:
+      'கர்பககுடி ஐவிஎப் சிகிச்சைகளில் மிக உயர்ந்த வெற்றிவிகிதங்களை கொண்ட மையங்களில் ஒன்றாகும்.',
     link: '/features/success-rates-of-ivf',
   },
   {
     id: 2,
-    name: 'Top Fertility Specialists',
+    name: 'சிறந்த கருத்தரிப்பு நிபுணர்கள்',
     icon: <CiMedicalCase />,
     content:
-      'Team of fertility specialists like gynecologists, embryologists, technicians and staff to help you conceive.',
+      'மகப்பேறு நிபுணர்கள், தொழில்நுட்ப நிபுணர்கள் மற்றும் பணியாளர்கள் ஆகியோரைக் கொண்ட கருத்தரிப்பு நிபுணர் குழு, நீங்கள் குழந்தையைப் பெற உதவ தயாராக உள்ளது.',
     link: '/fertility-experts',
   },
   {
     id: 3,
-    name: 'Affordable Treatments',
+    name: 'மலிவு சிகிச்சைகள்',
     icon: <BsCurrencyRupee />,
     content:
-      'GarbhaGudi offers Affordable Infertility treatment without any compromise on service or quality of medicines or services',
+      'சேவை அல்லது மருந்துகளின் தரத்தில் எந்தவித குறைப்பும் இன்றி, கர்பககுடி மலிவான கருத்தரிப்பு சிகிச்சைகளை வழங்குகிறது.',
     link: '/features/affordable-treatments',
   },
   {
     id: 4,
-    name: 'Financing Options',
+    name: 'நிதி வசதிகள்',
     icon: <CiBank />,
     content:
-      '0% interest for patients when they cannot manage the finances to meet the cost of procedures.',
+      'சிகிச்சை செலவுகளைச் சமாளிக்க முடியாத நேரங்களில், தம்பதிகளுக்கு 0% வட்டியில் நிதி வசதி வழங்கப்படுகிறது.',
     link: '/features/financing-options',
   },
   {
     id: 5,
-    name: 'Holistic Approach',
+    name: 'முழுமையான அணுகுமுறை',
     icon: <GiMeditation />,
     content:
-      'At GarbhaGudi we are committed to Treating infertility through the holistic mind-body-soul programs.',
+      'கர்பககுடியில், மனம்–உடல்–ஆன்மா ஒருங்கிணைந்த திட்டத்தின் மூலம் கருத்தரிக்காத பிரச்சினைகளைச் சிகிச்சையளிப்பதில் நாங்கள் முழுமையாக அர்ப்பணிக்கப்பட்டுள்ளோம்.',
     link: '/features/holistic-approach',
   },
   {
     id: 6,
-    name: 'Best in Class Facilities',
+    name: 'உயர்தர வசதிகள்',
     icon: <ImLab />,
     content:
-      'Our IVF Centers in Bangalore are equipped to handle the most challenging cases with state of the art technology at our disposal',
+      'எங்கள் ஐவிஎப் மையங்கள், நவீன தொழில்நுட்பங்களுடன், மிகவும் சிக்கலான கேஸ்களையும்  திறம்பட கையாளும் வகையில் அமைக்கப்பட்டுள்ளன.',
     link: '/features/best-in-class-facilities',
   },
 ];
@@ -60,12 +60,13 @@ const Features = () => {
     <div className='sm:py-18 relative bg-white py-8 dark:bg-gray-800' id='features'>
       <div className='mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8'>
         <h2 className='mt-2 font-heading text-3xl font-extrabold tracking-tight text-gray-800 dark:text-gray-200 sm:text-4xl'>
-          Our Versatile Approach
+          எங்களின் பலதரப்பட்ட அணுகுமுறை
         </h2>
         <p className='text-md mx-auto mt-5 max-w-prose font-content text-gray-800 dark:text-gray-200'>
-          At GarbhaGudi, we understand that fertility treatments can be mentally and physically
-          stressful. We are always committed to providing a world of options and bringing a new ray
-          of hope to many who are trying to conceive. So, you can expect:
+          கர்பககுடியில், கருத்தரிப்பு சிகிச்சைகள் மனதிலும் உடலிலும் அழுத்தம் தரக்கூடும் என்பதை
+          நாங்கள் நன்றாகப் புரிந்திருக்கிறோம். குழந்தையைப் பெற முயற்சிக்கும் பலருக்கும், பல்வேறு
+          வாய்ப்புகளை வழங்கி, ஒரு புதிய நம்பிக்கையின் ஒளியை கொடுப்பதில் எப்போதும் உறுதியாக
+          செயல்படுகிறோம். அதனால், நீங்கள் எதிர்பார்க்கக்கூடியவை:’
         </p>
         <div className='mt-8'>
           <div className='grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3'>

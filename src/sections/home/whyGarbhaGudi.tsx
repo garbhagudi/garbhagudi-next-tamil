@@ -1,5 +1,3 @@
-import React from 'react';
-import Link from 'next/link';
 import Image from 'next/image';
 
 const WhyGG = () => {
@@ -21,30 +19,21 @@ const WhyGG = () => {
               <div className='w-full shrink-0 grow-0 basis-auto lg:w-6/12 xl:w-8/12'>
                 <div className='px-6 py-12 md:px-12'>
                   <h2 className='mb-4 text-left font-heading text-2xl font-bold text-gray-800 dark:text-gray-200 lg:text-center'>
-                    Why GarbhaGudi should be your next destination to complete your family?
+                    ஏன் உங்கள் குடும்பத்தை முழுமையாக்கும் அடுத்த அடிக்கல்லாக கர்பககுடியைத்
+                    தேர்ந்தெடுக்க வேண்டும்?
                   </h2>
                   <p className='mb-6 font-content text-gray-800 dark:text-gray-200'>
-                    GarbhaGudi is a leading{' '}
-                    <Link href={'/'} className='text-gg-500 hover:underline dark:text-gg-400'>
-                      IVF Clinic and Hospital in Bangalore
-                    </Link>{' '}
-                    with over 14 years of experience in providing comprehensive fertility solutions.
-                    It has a renowned team of specialists, state-of-the-art infrastructure,
-                    transparent pricing, and consistently high success rates in assisted
-                    reproductive techniques. GarbhaGudi's holistic approach to{' '}
-                    <Link
-                      href={'/treatments/infertility-treatment-in-bangalore'}
-                      className='text-gg-500 hover:underline dark:text-gg-400'
-                    >
-                      fertility treatment
-                    </Link>{' '}
-                    addresses physical, emotional, and psychological aspects and includes nutrition
-                    counseling and stress management. Choose GarbhaGudi for personalized and
-                    compassionate care at the{' '}
-                    <Link href={'/'} className='text-gg-500 hover:underline dark:text-gg-400'>
-                      Best IVF Clinic and Hospital in Bangalore
-                    </Link>{' '}
-                    .
+                    கர்பககுடி 14 ஆண்டுகளுக்கும் மேலான அனுபவத்துடன் முழுமையான கருத்தரிப்பு தீர்வுகளை
+                    வழங்கும் முன்னணி ஐவிஎப் மையமும் மருத்துவமனையும் ஆகும். உலகப்புகழ் பெற்ற
+                    நிபுணர்கள் குழு, நவீன தொழில்நுட்ப வசதிகள், வெளிப்படையான கட்டண முறைகள் மற்றும்
+                    எப்போதும் உயர்ந்த வெற்றிவிகிதங்களைப் பெற்றுள்ளோம்.
+                    <br />
+                    கருத்தரிப்பு சிகிச்சையில் கர்பககுடியின் முழுமையான அணுகுமுறை, உடல், மனம்,
+                    உணர்ச்சி ஆகிய அனைத்தையும் கவனத்தில் கொண்டு, உணவுப் பரிந்துரைகள் மற்றும் மனஅழுத்த
+                    மேலாண்மை உள்ளிட்ட சேவைகளை வழங்குகிறது.
+                    <br />
+                    ஐவிஎப் மையம் மற்றும் மருத்துவமனையில், உங்களுக்கு ஏற்ற தனிப்பட்ட மற்றும் அன்பான
+                    பராமரிப்பிற்காக கர்பககுடியைத் தேர்ந்தெடுங்கள்.
                   </p>
                 </div>
               </div>

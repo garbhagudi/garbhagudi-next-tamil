@@ -85,62 +85,14 @@ export default Testimonial;
 const data = [
   {
     id: 1,
-    name: 'Anjali Shivarkar',
+    name: 'கவிதா ஜி',
     review:
-      'GarbhaGudi is a hope to any couple. They provide the best service. Doctors are very well-experienced and truly amazing in their work. Very well-maintained center. Staffs are well trained and they are very supportive throughout the treatment journey with constant follow-up calls. highly recommended. Keep up the same spirit.',
+      'நான் கர்பகுடி மருத்துவமனை வந்ததில் மிகவும் மகிழ்ச்சி அடைகிறேன். அவர்கள் சிறந்த சிகிச்சையை வழங்கினர். டாக்டர்கள் எனது சிகிச்சையில் மிகவும் ஆதரவு அளித்தார்கள். டாக்டர் அனைத்து மருத்துவ விவரங்களையும் விளக்கினார். மிகவும் நட்பாக இருந்து, என் கர்ப்பத்திற்கான பொறுப்புடன் கவனித்துக் கொண்டார். அனைத்து நர்ஸுகளும் மற்றும் பணியாளர்கள் நல்ல பராமரிப்பு செய்தார்கள். அவர்கள் சிறப்பாக ஆதரவு அளித்தார்கள். IVF சிகிச்சையில் நாங்கள் நேர்மறையான முடிவைப் பெற்றோம். கர்பகுடி குழுவிடமிருந்து கிடைத்த இந்த வாழ்நாள் பரிசை எதிர்பார்த்து காத்திருந்தோம் . டாக்டர் ஆஷா மேடம், டாக்டர் அனிதா மேடம் மற்றும் கர்பகுடி முழு குழுவிற்கும் எங்களின் இதயம் கனிந்த நன்றி.',
   },
   {
     id: 2,
-    name: 'Kavitha G',
+    name: 'பத்மப்ரியா கணபதி ராமன்',
     review:
-      'I am very happy that I visited garbhagudi hospital, they provided the best treatment.. Doctors are very supportive in my treatment she explained all medical details, she is to friendly and took at most care and responsibility towards my pregnancy, all sister and staff took good responsibility and supported us very well we got positive results from IVF treatment and waiting for a lifetime gift that we received from GarbhaGudi team .... We wholeheartedly are very thankful to Dr Asha mam, Dr. Anitha mam and the entire team of GARBHAGUDI 🙏❤️',
-  },
-  {
-    id: 3,
-    name: 'Anjali Khadtare',
-    review:
-      'The service at garbhagudi IVF Centre was very good. All staffs and Doctor were ready to assist at anytime. We are very pleased and thankful for the help, assistance and support provided by the Doctor and their staff. Wonderful efforts of them resulted in us for a joyful and successful life. Thanks to all.',
-  },
-  {
-    id: 4,
-    name: 'Afreen Khan',
-    review:
-      "When I googled about the best Hospital, I got to see many and later reading the reviews and many comments, I chose the best one of all. I have no words to feel how good and talented the Doctor is. And you also the staff, all are very friendly and yes they also help you to understand all the problems you are going through. Overall I'm happy that I selected this place for our treatment and yes I'm happy with the result.",
-  },
-  {
-    id: 5,
-    name: 'Sharifa Begum',
-    review:
-      'Received great response from all the staff members, Doctor give us sufficient time to listen and explain in details of what had happened and what need to do... Overall it was a good experience to visit GarbaGudi.. You people are doing a very good job by creating happiness and igniting light in the dark life... of a couple.. I wish u all the best .. Thank you ...',
-  },
-  {
-    id: 6,
-    name: 'Sonal Thorat',
-    review:
-      'I cannot express how much thankful I am to the entire team of GarbhaGudi hospital. We got positive results in the first visit itself. Front desk staff nurses and doctors all are very cooperative. I request to visit this branch once if you are struggling with infertility issues. And one of the best things is the front desk team will follow up with you give reminders for all visits and scans.. overall 10/10 !!!',
-  },
-  {
-    id: 7,
-    name: 'Padmapriya Ganapathy Raman',
-    review:
-      'Thanks to GarbhaGudi for their constant support for the past 6-7 months. The moment we reached the place to get treated, we felt positive vibes. The staff were welcoming with their warm wishes and smile, nurses explained each and every detail post every consultation. I used to receive calls before every appointment which was very much helpful in remembering the visits. I would strongly recommend GarbhaGudi Electronic City for experiencing fertility treatment in a very positive and convincing way. Continue this great job.',
-  },
-  {
-    id: 8,
-    name: 'Sameekshya Pattnaik',
-    review:
-      'I am very happy to visit GarbhaGudi. I would say that they do miracles here. After trying for more than a year and tired of visiting doctors and clinics, I got to know about this place. The doctors and staff are really good, they understand the mental trauma of a couple and they give real mental support to go through all of these. I got my positive pregnancy with their treatment. They have transparency of what treatment they are giving and why. I am forever grateful to GarbhaGudi and the staff. I would suggest all the couples who are trying to conceive must visit here once. Thank you GarbhaGudi for giving me the gift of life.',
-  },
-  {
-    id: 9,
-    name: 'Manikandan Hariharan',
-    review:
-      "Extremely happy today. My wife is 90 days pregnant. The timely follow-ups with the treatment made by the doctor and her team is highly appreciated, without which the end result might not have been possible. Also, the hospital won't levy unnecessary treatment costs or treatments. Every procedure had its own cause and a good outcome. I strongly recommend this GarbhaGudi Marathahalli branch for those who are dealing with infertility issues.",
-  },
-  {
-    id: 10,
-    name: 'Prathap Kumar',
-    review:
-      'I would really recommend GarbhaGudi IVF for people who want to have a baby. It was really an amazing experience having babies. Yes, it was hard initially but it brought so much happiness after we had our babies. Thank you very much GarbhaGudi IVF and thanks to the team & staff. Brilliant guidance. Amazing team. No words to describe... Thank you so much Team GarbhaGudi IVF.',
+      'கடந்த 6-7 மாதங்களாக தொடர்ந்து வழங்கிய ஆதரவுக்கு கர்பகுடிக்கு மனமார்ந்த நன்றி. சிகிச்சைக்காக இங்கு வந்த அந்த தருணத்திலேயே நல்ல உணர்வு ஏற்பட்டது. பணியாளர்கள் அன்பான வாழ்த்துகளும் சிரிப்பும் கொண்டு வரவேற்றார்கள். ஒவ்வொரு ஆலோசனைக்கும் பிறகு, செவிலியர்கள் ஒவ்வொரு விவரத்தையும் விளக்கினார்கள். ஒவ்வொரு நேர்முகப்புக்கும் முன்பாக அழைப்புகள் வந்தது, அது வருகையை நினைவுபடுத்த மிகவும் உதவியாக இருந்தது. மகப்பேறு சிகிச்சையை மிகவும் நேர்மறையான மற்றும் நம்பிக்கையூட்டும் முறையில் அனுபவிக்க, கர்பகுடியை நான் உறுதியாக பரிந்துரைக்கிறேன். இந்த சிறந்த பணியை தொடர்ந்து செய்யுங்கள்.',
   },
 ];

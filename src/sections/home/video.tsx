@@ -29,7 +29,7 @@ const Video = ({ testimonials }: testimonialProps) => {
     <div className='bg-gradient-to-br from-brandPink5 to-brandPurple2 dark:from-gray-800 dark:via-gray-800 dark:to-brandPurpleDark'>
       <div className='mx-auto max-w-7xl py-8'>
         <h2 className='flex items-center justify-center text-center font-heading text-2xl font-extrabold text-gray-800 dark:text-gray-200 lg:text-4xl'>
-          Testimonials from our happy couples
+          எங்கள் மகிழ்ச்சியான தம்பதிகளின் அனுபவங்கள்
         </h2>
         <div className='mx-auto flex max-w-7xl flex-row items-center justify-center px-3 sm:px-0'>
           <Carousel

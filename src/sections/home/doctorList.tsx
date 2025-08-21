@@ -57,12 +57,12 @@ const DoctorList = (doctorList: doctorListProps) => {
           <div className='space-y-12'>
             <div className='space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl'>
               <h2 className='font-heading text-3xl font-extrabold tracking-tight text-gray-800 dark:text-gray-200 sm:text-4xl'>
-                Meet our Fertility Experts
+                எங்கள் கருத்தரித்தல் நிபுணர்களை சந்திக்கவும்
               </h2>
               <p className='text-md font-content text-gray-800 dark:text-gray-200'>
-                Our team of IVF specialists in Bangalore have been known for their extensive
-                clinical experience and research contributions and their success in treating the
-                most challenging fertility cases.
+                எங்கள் ஐ.வி.எப். நிபுணர்கள், விரிவான மருத்துவ அனுபவம், ஆராய்ச்சியில் செய்த
+                பங்களிப்புகள் மற்றும் மிகக் கடினமான கருத்தரிப்பு சிக்கல்களையும் வெற்றிகரமாக
+                சிகிச்சையளித்ததில் புகழ் பெற்றவர்கள்.
               </p>
             </div>
             {/* Tabs for Categories */}

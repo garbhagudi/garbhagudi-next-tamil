@@ -52,7 +52,7 @@ const Form = () => {
     }
   };
   return (
-    <div className='zcwf_lblLeft crmWebToEntityForm mx-auto h-auto w-full rounded-lg bg-transparent py-8'>
+    <div className='zcwf_lblLeft crmWebToEntityForm mx-auto h-auto w-max rounded-lg bg-transparent py-8'>
       <form onSubmit={handleSubmit(onSubmit)}>
         <div className='mx-auto flex flex-col space-y-5 px-3'>
           <div className='mx-auto max-w-sm'>

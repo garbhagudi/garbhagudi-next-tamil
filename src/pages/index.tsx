@@ -162,7 +162,7 @@ const Home = ({ data, testimonials }) => {
         />
       </Head>
       <BannerComponent banners={data.banners} />
-      <HomeComponent testimonialPassthrough={testimonials} blogsPassthrough={data.blogs} />
+      <HomeComponent testimonialPassthrough={testimonials} />
       <DoctorList doctors={data.doctors} />
       <Faq />
       <LandingPagePopUp />
