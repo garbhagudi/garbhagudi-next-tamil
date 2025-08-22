@@ -55,7 +55,7 @@ const Overview = ({ directors }) => {
           <div className='space-y-12 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0'>
             <div className='space-y-5 sm:space-y-4'>
               <h2 className='font-content text-4xl font-bold tracking-tight text-gray-800 dark:text-gray-200 sm:text-5xl md:text-6xl'>
-                Founders and Directors
+                நிறுவுநர்கள் மற்றும் இயக்குநர்கள்
               </h2>
             </div>
             <div className='lg:col-span-2'>

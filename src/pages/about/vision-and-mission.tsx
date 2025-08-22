@@ -65,7 +65,7 @@ const VisionMission = () => {
           <div className='-mx-4 -mb-10 flex flex-wrap text-center'>
             <div className='mb-10 px-4 sm:w-1/2'>
               <h2 className='title-font mb-3 mt-6 font-heading text-3xl font-semibold text-gray-800 dark:text-gray-200'>
-                Vision
+                பார்வை
               </h2>
               <div className='h-64 overflow-hidden rounded-lg'>
                 <Image
@@ -76,26 +76,41 @@ const VisionMission = () => {
                   height={500}
                 />
               </div>
-
+              <h3 className='title-font my-3 font-content text-xl font-medium text-gray-800 dark:text-gray-200'>
+                ஒரு பணி, அதனைத் தொடர்ந்து அர்ப்பணிப்பு மற்றும் கடின உழைப்பு – இதுவே ஒரு பார்வையாக
+                மாறுகிறது.
+              </h3>
               <p className='text-brandDark mt-2 text-left font-content text-lg leading-relaxed'>
-                A mission followed by dedication and hard work turns into a vision. Enormous amount
-                of hard work goes into reaching out to more and more people and create an awareness
-                about infertility and{' '}
-                <Link
-                  href='/treatments/best-female-infertility-treatment-in-bangalore'
-                  className='text-gg-500 underline'
-                >
-                  treatments for infertility
-                </Link>
-                . With a vision to help nurture the happiest moments of life, our vision is to reach
-                far and wide, to have GarbhaGudi as a globally renowned health university with
-                superlative success rate, strong scientific approach, ethical values, and humane
-                touch.
+                கருத்தரிப்பு மற்றும் அதற்கான சிகிச்சைகள் குறித்து மக்களிடையே விழிப்புணர்வை
+                ஏற்படுத்தி, அதிகமானவர்களை அணுகுவதற்கு பேரளவு உழைப்பும் அர்ப்பணிப்பும் செய்கின்றன.
+                <br />
+                <strong>
+                  வாழ்க்கையின் மகிழ்ச்சியான தருணங்களை பராமரித்து வளர்க்கும் நோக்குடன்,
+                </strong>{' '}
+                எங்கள் பார்வை – கர்பகுடியை உலகப் புகழ்பெற்ற{' '}
+                <strong>சுகாதாரப் பல்கலைக்கழகமாக</strong> உருவாக்குவது.
               </p>
+              <div>
+                <p className='text-brandDark mt-2 text-left font-content text-lg leading-relaxed'>
+                  இதில்:
+                </p>
+                <div className='prose prose-indigo prose-lg text-brandDark lg:max-w-none'>
+                  <ul className='list-disc space-y-2 font-content text-gray-800 dark:text-gray-200'>
+                    <li>மிகச் சிறந்த வெற்றிவிகிதங்கள்,</li>
+                    <li>வலுவான அறிவியல் அணுகுமுறை,</li>
+                    <li>ஒழுக்கமான மதிப்புகள்,</li>
+                    <li>மனித நேயத்துடன் கூடிய தொட்டு பராமரிப்பு</li>
+                  </ul>
+                </div>
+                <p className='text-brandDark mt-2 text-left font-content text-lg leading-relaxed'>
+                  இவற்றின் அடிப்படையில் செயல்படுவதே எங்கள் குறிக்கோள் <br />
+                  கர்பகுடி – மனித நேயம், அறிவியல், வெற்றி
+                </p>
+              </div>
             </div>
             <div className='mb-10 px-4 sm:w-1/2'>
               <h2 className='title-font mb-3 mt-6 font-heading text-3xl font-semibold text-gray-800 dark:text-gray-200'>
-                Mission
+                பணி
               </h2>
               <div className='h-64 overflow-hidden rounded-lg'>
                 <Image
@@ -109,20 +124,23 @@ const VisionMission = () => {
 
               <p className='text-brandDark mt-2 text-left font-content text-lg leading-relaxed'>
                 <Link href='/fertility-experts/dr-asha-s-vijay' className='text-gg-500 underline'>
-                  Dr. Asha S. Vijay
+                  டாக்டர் ஆஷா எஸ் விஜய்
                 </Link>
-                , a post graduate in Obstetrics &amp; Gynecology from the prestigious Bangalore
-                Medical College, started her career with Kidwai Institute of Oncology, Bangalore and
-                subsequently set up her own practice with Sannidhi Multi-Specialty Hospital. In
-                years of her career, she saw the struggle of infertility patients. Her observation
-                of people having{' '}
-                <Link href='/resources/myths-and-facts' className='text-gg-500 underline'>
-                  misconceptions about infertility
-                </Link>{' '}
-                and infertility treatments, cost, and procedure, motivated her to help and guide
-                people with reproductive disorders, who were clueless about the right approach. It
-                was at that time that she started on a mission and the result of such a mission is
-                what GarbhaGudi exists today.
+                பிரபலமான பெங்களூரு மெடிக்கல் கல்லூரியில் பிரசவவியல் மற்றும் மகப்பேறு துறையில்
+                முதுநிலை பட்டம் பெற்ற டாக்டர் ஆஷா எஸ் விஜய், தனது மருத்துவ வாழ்க்கையை Kidwai
+                Institute of Oncology, பெங்களூரு-வில் தொடங்கினார். பின்னர், தனது சொந்த மருத்துவ
+                சேவையை Sannidhi Multi-Specialty Hospital மூலமாக நிறுவினார்.
+                <br />
+                அவரது மருத்துவப் பயணத்தில், அவர் பல கருத்தரிப்பு நோயாளிகள் சந்திக்கும் பாடுகளை
+                அருகில் கண்டார். கருத்தரிப்பு மற்றும் அதன் சிகிச்சைகள் குறித்து மக்களிடம் நிலவும்
+                தவறான எண்ணங்கள் – செலவு, நடைமுறை, மற்றும் சிகிச்சை முறைகள் குறித்த குழப்பங்கள்
+                ஆகியவற்றை அவர் கவனித்தார்.
+                <br />
+                இவ்வாறான நிலையில், சரியான வழிகாட்டுதலை பெற முடியாமல் தவித்தவர்களுக்கு உதவ வேண்டும்
+                என்ற ஆவல் அவருக்குள் உருவானது. அந்த மனப்பூர்வமான பணி மற்றும் நோக்கத்தின் விளைவாக
+                இன்று கர்பகுடி உருவாகியுள்ளது.
+                <br />
+                கர்பகுடி – டாக்டர் ஆஷா எஸ். விஜயின் அர்ப்பணிப்பும் பார்வையும்
               </p>
             </div>
           </div>

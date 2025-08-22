@@ -259,9 +259,8 @@ body {
 }
 
 @media screen and (max-width: 420px) {
-  .zsiq_flt_rel{
+  .zsiq_flt_rel {
     position: absolute;
-    bottom: 70px;
+    bottom: 85px;
   }
-  
 }

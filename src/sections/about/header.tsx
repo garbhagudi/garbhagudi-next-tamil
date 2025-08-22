@@ -21,14 +21,15 @@ const Header = () => {
             <main className='mx-auto mt-10 max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28'>
               <div className='sm:text-center lg:text-left'>
                 <h1 className='font-content text-4xl font-bold tracking-tight text-gray-800 dark:text-gray-200 sm:text-5xl md:text-6xl'>
-                  <span className='block xl:inline'>About GarbhaGudi</span>
+                  <span className='block xl:inline'>கர்பகுடி பற்றி</span>
                 </h1>
                 <p className='text-brandDark z-10 mt-3 overflow-visible font-content text-base text-gray-800 dark:text-gray-200 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0'>
-                  GarbhaGudi is a chain of new generation infertility treatment hospitals equipped
-                  with state-of-the-art infrastructure and cutting-edge technology to address this
-                  ever-increasing problem of infertility. It was founded by a team of committed
-                  entrepreneurs and healthcare specialists, led by Dr. Asha S Vijay, who is a
-                  renowned gynecologist and fertility specialist.
+                  கர்பகுடி என்பது, நாளுக்கு நாள் அதிகரித்து வரும் கருத்தரிக்க முடியாத பிரச்சினையை
+                  தீர்க்க, நவீன தொழில்நுட்பங்களும், உலகத் தரத்திலான அடிப்படை வசதிகளும் கொண்ட, புதிய
+                  தலைமுறை கருத்தரிப்பு சிகிச்சை மருத்துவமனை ஆகும். புகழ்பெற்ற மகப்பேறு மற்றும்
+                  கருத்தரிப்பு நிபுணரான டாக்டர் <strong>ஆஷா எஸ் விஜய்</strong> தலைமையிலான,
+                  அர்ப்பணிப்புள்ள தொழில்முனைவோர் மற்றும் சுகாதார நிபுணர்கள் கொண்ட குழுவால் இது
+                  தொடங்கப்பட்டது.
                 </p>
               </div>
             </main>
@@ -49,11 +50,12 @@ const Header = () => {
         <div className='mx-auto flex max-w-7xl flex-col items-center py-4 md:flex-row lg:justify-between'>
           <div className='w-full py-10 text-center md:w-3/4 md:text-left'>
             <div className='font-heading text-2xl font-bold tracking-tight text-gg-500 dark:text-gg-400 md:text-3xl'>
-              Discover the GarbhaGudi Way
+              கர்பகுடியின் தனித்துவமான பாதையை அறிக
             </div>
             <div className='mt-3 font-content text-base font-semibold text-gray-800 dark:text-gray-200 md:text-lg'>
-              Discover our values and how we operate as an organization. Gain insight into our
-              guiding principles, from Couple's Delight to Holistic Approach.
+              எங்களின் மதிப்புகளையும், ஒரு நிறுவனமாக எவ்வாறு செயல்படுகிறோம் என்பதையும் அறிந்து
+              கொள்ளுங்கள். தம்பதிகளின் மகிழ்ச்சியிலிருந்து முழுமையான அணுகுமுறை வரை, எங்களின்
+              வழிகாட்டும் கொள்கைகளைப் பற்றி தெளிவாக அறிக.
             </div>
           </div>
           <div className='mx-auto mb-4 md:mb-0'>
@@ -61,7 +63,7 @@ const Header = () => {
               href={'/about/garbhagudi-way'}
               className='rounded-md bg-gg-500 px-4 py-3 font-lexend text-lg font-normal text-white transition-all duration-200 hover:bg-gg-400 dark:bg-gg-400 dark:text-gray-800 dark:hover:bg-gg-500'
             >
-              Know More
+              மேலும் அறிய
             </Link>
           </div>
         </div>

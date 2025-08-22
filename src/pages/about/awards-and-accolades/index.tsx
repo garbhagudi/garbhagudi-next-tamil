@@ -101,7 +101,7 @@ const Awards = ({ award }: Award) => {
         <div className='relative mx-auto max-w-7xl'>
           <div className='text-center'>
             <h1 className='font-heading text-3xl font-extrabold tracking-tight text-gray-800 drop-shadow-xl dark:text-gray-200 sm:text-4xl'>
-              Awards and Accolades
+              விருதுகள் மற்றும் பாராட்டுகள்
             </h1>
           </div>
           <div className='w mx-auto mt-12 grid max-w-xl gap-8 lg:max-w-none lg:grid-cols-3'>

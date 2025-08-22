@@ -88,8 +88,7 @@ const Nav = () => {
                   rel='noreferrer'
                   className='duration-2 cursor-pointer rounded-lg bg-gg-500 px-3 py-2 font-lexend text-xs text-gray-200 transition-all ease-in hover:bg-brandPink3 dark:bg-gg-500 dark:hover:bg-gg-600 sm:text-sm'
                 >
-                  புத்தகம் <span className='hidden sm:inline-block'>நியமனம்</span>{' '}
-                  <span className='inline-block sm:hidden'>இப்போது</span>
+                  முன்பதிவு நியமனம்
                 </Link>
               </div>
               <div className='-mr-2 ml-2 flex items-center justify-center xl:hidden'>

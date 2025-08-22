@@ -66,36 +66,39 @@ const CoreVision = () => {
           </svg>
           <div className='relative md:p-6'>
             <p className='my-4 mt-2 font-content text-4xl font-bold leading-8 tracking-tight text-gray-800 dark:text-gray-200 sm:text-5xl'>
-              Core Values
+              மூலியங்கள்
             </p>
             <div className='lg:grid lg:grid-cols-2 lg:gap-6'>
               <div className='prose prose-indigo prose-lg text-brandDark lg:max-w-none'>
                 <ul className='list-disc space-y-2 font-content text-gray-800 dark:text-gray-200'>
+                  <li>நோயாளிகளுக்கு சேவையில் நம்பிக்கை, நிறுவனத்திற்கு நிதி தொடர்பான நம்பிக்கை.</li>
                   <li>
-                    Service loyalty to the patients and financial loyalty to the organization.
+                    அனைத்து சூழ்நிலைகளிலும், எப்போதும் ஒழுக்கநெறிகளை முழுமையாகக் கடைப்பிடித்தல்.
                   </li>
-                  <li>Complete adherence to ethical practices, at all times, in all situations.</li>
                   <li>
-                    Adhere to Government rules, Medical Council rules & guidelines and importantly
-                    to the rules of mother Nature.
+                    அரசின் விதிகள், மருத்துவக் குழுவின் விதிமுறைகள் & வழிகாட்டுதல்கள், மேலும்
+                    முக்கியமாக இயற்கையின் விதிகளைக் கடைப்பிடித்தல்.
                   </li>
-                  <li>Priority to patients, people and partners</li>
-                  <li>Hire the best people, train them and retain them</li>
+                  <li>நோயாளிகள், மக்கள் மற்றும் பங்குதாரர்களுக்கு முன்னுரிமை வழங்குதல்.</li>
                   <li>
-                    Commitment to social responsibility in terms of treatments and costs to those
-                    who cannot afford treatments.
+                    சிறந்த நபர்களைத் தேர்வு செய்து, அவர்களைப் பயிற்றுவித்து, நீண்ட காலம் இணைத்துக்
+                    கொள்வது.
+                  </li>
+                  <li>
+                    சிகிச்சை செலவினங்களைச் சமாளிக்க முடியாதவர்களுக்கு, சிகிச்சை மற்றும் செலவுகளின்
+                    அடிப்படையில் சமூகப் பொறுப்புணர்வுடன் செயல்படுதல்.
                   </li>
                 </ul>
               </div>
 
               <div className='mt-6 text-gray-500 lg:mt-0'>
                 <p className='my-4 font-content text-4xl font-bold leading-8 tracking-tight text-gray-800 dark:text-gray-200 sm:text-5xl lg:-mt-[72px]'>
-                  Vision
+                  பார்வை
                 </p>
                 <p className='font-content italic text-gray-800 dark:text-gray-200'>
-                  &quot;My GarbhaGudi shall be a globally renowned reproductive health university,
-                  having superlative success rates, due to strong scientific approach, ethical
-                  values and humane touch&quot;
+                  &quot;என் கற்பகுடி, வலுவான அறிவியல் அணுகுமுறை, ஒழுக்கநெறிகள் மற்றும் மனித நேயம்
+                  ஆகியவற்றின் அடிப்படையில், மிகச் சிறந்த வெற்றி விகிதங்களைப் பெற்று, உலகளவில்
+                  புகழ்பெற்ற இனப்பெருக்க சுகாதாரப் பல்கலைக்கழகமாக திகழ வேண்டும்.&quot;
                 </p>
               </div>
             </div>
