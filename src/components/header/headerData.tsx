@@ -282,6 +282,11 @@ export const AboutUs = [
     icon: 'https://res.cloudinary.com/garbhagudiivf/image/upload/v1642839038/Icons/About/Vision_jaxu8d.svg',
   },
   {
+    name: 'நிறுவுநர்கள் மற்றும் இயக்குநர்கள்',
+    href: '/about/overview',
+    icon: 'https://res.cloudinary.com/garbhagudiivf/image/upload/v1642839222/Icons/About/Directors_w3497h.svg',
+  },
+  {
     name: 'டாக்டர் ஆஷா எஸ் விஜய்',
     href: '/fertility-experts/dr-asha-s-vijay',
     icon: 'https://res.cloudinary.com/garbhagudiivf/image/upload/v1642838895/Icons/About/Asha_Vijay_zpq05s.svg',
@@ -295,6 +300,11 @@ export const AboutUs = [
     name: 'விருதுகள் மற்றும் பாராட்டுகள்',
     href: '/about/awards-and-accolades',
     icon: 'https://res.cloudinary.com/garbhagudiivf/image/upload/v1642838895/Icons/About/Awards_Accorlads_z68rlr.svg',
+  },
+  {
+    name: 'கருவுறுதல் ஆலோசகர்கள்',
+    href: '/fertility-consultants',
+    icon: 'https://res.cloudinary.com/garbhagudiivf/image/upload/v1642838895/Icons/About/About_Us_01_yz3h95.svg',
   },
   {
     name: 'கருத்தரிப்பு மையம்',
