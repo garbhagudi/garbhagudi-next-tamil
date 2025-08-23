@@ -11,7 +11,7 @@ export const getStaticProps = async ({ params }) => {
   const { data } = await apolloClient.query({
     query: gql`
       query ($slug: String!) {
-        valueAddedService(where: { slug: $slug }) {
+        article(where: { slug: $slug }) {
           id
           title
           slug
@@ -30,14 +30,14 @@ export const getStaticProps = async ({ params }) => {
       slug: params.slug,
     },
   });
-  if (data?.error || !data?.valueAddedService) {
+  if (data?.error || !data?.article) {
     return {
       notFound: true,
     };
   }
   return {
     props: {
-      valueAddedService: data.valueAddedService,
+      valueAddedService: data?.article,
     },
     revalidate: 180,
   };
@@ -47,7 +47,7 @@ export const getStaticPaths = async () => {
   const { data } = await apolloClient.query({
     query: gql`
       query {
-        valueAddedServices {
+        articles(where: { articleType: valueAddedService }) {
           title
           slug
         }
@@ -55,7 +55,7 @@ export const getStaticPaths = async () => {
     `,
   });
   return {
-    paths: data.valueAddedServices.map(({ slug }) => ({ params: { slug } })),
+    paths: data?.articles?.map(({ slug }) => ({ params: { slug } })),
     fallback: false,
   };
 };

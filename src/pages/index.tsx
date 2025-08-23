@@ -176,8 +176,7 @@ export const getStaticProps = async () => {
   const { data } = await apolloClient.query({
     query: gql`
       query {
-        doctors(orderBy: order_ASC) {
-          order
+        doctors {
           name
           qualification
           category
@@ -196,23 +195,6 @@ export const getStaticProps = async () => {
           url
           image {
             url
-          }
-        }
-        blogs(first: 3, orderBy: publishedOn_DESC) {
-          id
-          title
-          publishedOn
-          slug
-          image {
-            url
-          }
-          doctor {
-            slug
-            name
-            id
-            image {
-              url
-            }
           }
         }
       }

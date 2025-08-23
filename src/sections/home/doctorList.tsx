@@ -35,7 +35,7 @@ const DoctorList = (doctorList: doctorListProps) => {
       display: 'none',
     },
   };
-  const groupedDoctors = doctorList.doctors.reduce(
+  const groupedDoctors = doctorList?.doctors?.reduce(
     (acc, doctor) => {
       const categoryKey = doctor.category || 'Others';
       if (!acc[categoryKey]) {

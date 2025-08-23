@@ -112,7 +112,7 @@ export const getStaticProps = async ({ params }) => {
           virtualTourLink1
           virtualTourLink2
           virtualTourLink3
-          doctors(orderBy: order_ASC) {
+          doctors {
             id
             name
             slug

@@ -76,7 +76,7 @@ const VisionMission = () => {
                   height={500}
                 />
               </div>
-              <h3 className='title-font my-3 font-content text-xl font-medium text-gray-800 dark:text-gray-200'>
+              <h3 className='title-font my-3 text-justify font-content text-xl font-medium text-gray-800 dark:text-gray-200'>
                 ஒரு பணி, அதனைத் தொடர்ந்து அர்ப்பணிப்பு மற்றும் கடின உழைப்பு – இதுவே ஒரு பார்வையாக
                 மாறுகிறது.
               </h3>
@@ -94,8 +94,8 @@ const VisionMission = () => {
                 <p className='text-brandDark mt-2 text-left font-content text-lg leading-relaxed'>
                   இதில்:
                 </p>
-                <div className='prose prose-indigo prose-lg text-brandDark lg:max-w-none'>
-                  <ul className='list-disc space-y-2 font-content text-gray-800 dark:text-gray-200'>
+                <div className='prose prose-indigo prose-lg text-brandDark mx-5 lg:max-w-none'>
+                  <ul className='list-disc space-y-2 text-justify font-content text-gray-800 dark:text-gray-200'>
                     <li>மிகச் சிறந்த வெற்றிவிகிதங்கள்,</li>
                     <li>வலுவான அறிவியல் அணுகுமுறை,</li>
                     <li>ஒழுக்கமான மதிப்புகள்,</li>
