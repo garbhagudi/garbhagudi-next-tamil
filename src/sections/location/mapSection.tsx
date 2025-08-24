@@ -81,9 +81,9 @@ const MapSection = ({ maplink, address, description, doctors, title }: MapSectio
             </h2>
 
             <div
-              className={`relative w-full text-justify transition-all duration-500 ease-in-out ${
+              className={`relative w-full transition-all duration-500 ease-in-out ${
                 showFullText ? 'max-h-full' : 'max-h-[580px] overflow-hidden'
-              }`}
+              } overflow-x-hidden whitespace-normal break-words`}
             >
               <RichText
                 content={description}
