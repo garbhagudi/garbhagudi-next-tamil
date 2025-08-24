@@ -3,54 +3,20 @@ const LiveBirth = () => {
     <div className='mx-auto max-w-7xl text-gray-800 dark:text-gray-200'>
       <div className='px-3 lg:px-6'>
         <h2 className='pb-10 text-center font-heading text-3xl font-bold lg:pb-16 lg:text-4xl'>
-          Factors Affecting the Success Rate of an IVF Cycle
+          IVF வெற்றி விகிதத்தை பாதிக்கும் காரணங்கள்
         </h2>
-        <div className='font-content'>
-          There are several factors that can affect the success rate of an in vitro fertilization
-          (IVF) cycle. These include:
-        </div>
         <div className='mt-4 font-content'>
           <ul className='list-outside list-disc space-y-3'>
+            <li>வயது: 35 வயதுக்கு குறைவான பெண்களுக்கு IVF வெற்றி அதிகம்.</li>
             <li>
-              <strong>Age:</strong> The age of the woman undergoing IVF can have a significant
-              impact on the success rate of the procedure. Women under the age of 35 generally have
-              a higher success rate with IVF compared to women over the age of 35.
+              கருத்தரிப்பு காரணம்: அடைப்பு குழாய் / என்டோமெட்ரியோசிஸ் இருப்பவர்கள் குறைந்த வெற்றி
+              விகிதம்.
             </li>
-            <li>
-              <strong>Fertility diagnosis:</strong> The underlying cause of fertility issues can
-              affect the success rate of IVF. For example, women with blocked fallopian tubes or
-              endometriosis may have a lower success rate with IVF compared to women with
-              unexplained fertility issues.
-            </li>
-            <li>
-              <strong>Quality of the eggs and sperm:</strong> The quality of the eggs and sperm used
-              in the IVF process can also impact the success rate. For example, if the eggs or sperm
-              are of poor quality, it may be more difficult to achieve a successful pregnancy
-              through IVF.
-            </li>
-            <li>
-              <strong>Number of embryos transferred:</strong> The number of embryos transferred
-              during the IVF process can also affect the success rate. Transferring more embryos may
-              increase the chances of a successful pregnancy, but it can also increase the risk of
-              multiple pregnancies and complications.
-            </li>
-            <li>
-              <strong>Lifestyle factors:</strong> Certain lifestyle factors, such as smoking,
-              obesity, and stress, can also impact the success rate of IVF. It is important for
-              patients to discuss any potential lifestyle factors that may affect their fertility
-              with their healthcare provider.
-            </li>
-            <li>
-              <strong>Embryo quality:</strong> The quality of the embryos created during the IVF
-              process can also affect the success rate. Embryos with high quality are more likely to
-              implant and result in a successful pregnancy.
-            </li>
+            <li>முட்டை மற்றும் விந்தணு தரம்</li>
+            <li>கருவினங்களின் (embryos) தரம்</li>
+            <li>வாழ்க்கை முறைகள் – புகைபிடித்தல், அதிக எடை, மன அழுத்தம் போன்றவை.</li>
+            <li>கருவினங்கள் எத்தனை மாற்றப்படுகின்றன என்பதும் வெற்றி விகிதத்தை பாதிக்கும்.</li>
           </ul>
-          <div className='mt-4'>
-            Overall, the success rate of IVF can vary greatly depending on these and other factors.
-            It is important for patients to discuss their specific situation with their healthcare
-            provider to determine the best course of treatment.
-          </div>
         </div>
       </div>
     </div>

@@ -26,7 +26,7 @@ const IndexPage = ({ articles }: Article) => {
         {/* Primary Tags */}
 
         <meta name='viewport' content='width=device-width, initial-scale=1' />
-        <title>Fertility Centre</title>
+        <title>கருத்தரிப்பு மையம்</title>
         <meta name='title' content='Fertility Centre | GarbhaGudi IVF Centre' />
         <meta
           name='description'
@@ -63,7 +63,7 @@ const IndexPage = ({ articles }: Article) => {
         />
       </Head>
       <h1 className='mx-auto max-w-7xl pt-12 text-center font-heading text-4xl font-semibold'>
-        Fertility Center
+        கருத்தரிப்பு மையம்
       </h1>
       <p className='mx-auto max-w-7xl px-1 pt-6 text-center font-content font-semibold'>
         GarbhaGudi is where dreams come alive, hopes never fade and possibilities never end. We work

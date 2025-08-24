@@ -1,31 +1,22 @@
-import { HiChatAlt, HiPhone, HiCalendar } from 'react-icons/hi';
+import { HiPhone, HiCalendar } from 'react-icons/hi';
 import Link from 'next/link';
 import Image from 'next/image';
 
 const supportLinks = [
   {
-    name: 'Chat Support',
+    name: 'எங்களை தொடர்பு கொள்ளுங்கள்',
     description:
-      'Chat online with our team now from anywhere. We provide you with a seamless and hassle-free online chat experience from the comfort of your home. Get the proper assistance now!',
-    icon: HiChatAlt,
-    ctaAction: 'Chat Now',
-    ctaLink:
-      'https://salesiq.zohopublic.com/signaturesupport.ls?widgetcode=93210c756ea31b2224df734860e5d813b081008ce54deb21426241464ccb8de2e6558490d76d66086d0b48b1ed4abff0',
-  },
-  {
-    name: 'Call Support',
-    description:
-      'Reach out to us with your questions, concerns, or challenges. We’ll be happy to help you at any time, and we’re always trying to make things easier for you!',
+      'உங்களிடம் உள்ள கேள்விகள், சந்தேகங்கள் அல்லது சவால்கள் எதுவாக இருந்தாலும் எங்களை தொடர்பு கொள்ளுங்கள்.எந்த நேரத்திலும் உங்களுக்கு உதவுவதில் எங்களுக்கு மகிழ்ச்சி. உங்களுக்கு எளிதாக இருக்க நாங்கள் எப்போதும் முயற்சி செய்து வருகிறோம்!',
     icon: HiPhone,
-    ctaAction: 'Call Now',
+    ctaAction: 'எங்களை தொடர்பு கொள்ளுங்கள்',
     ctaLink: 'tel:+919108910832',
   },
   {
-    name: 'Book an Appointment',
+    name: 'இப்போது நேர்முகம் பதிவு செய்யுங்கள்',
     description:
-      'Now book an appointment with any of your nearest locations of GarbhaGudi IVF Centre, and get the best fertility treatments from our experts!',
+      'உங்களுக்கு அருகிலுள்ள கர்பகுடி IVF மையத்தில் உடனே ஒரு நேர்முகத்தை (Appointment) பதிவு செய்யுங்கள். எங்கள் நிபுணர்களிடமிருந்து சிறந்த சிகிச்சைகளை (Fertility Treatments) பெறுங்கள்!',
     icon: HiCalendar,
-    ctaAction: 'Book an Appointment',
+    ctaAction: 'இப்போது நேர்முகம் பதிவு செய்யுங்கள்',
     ctaLink:
       '/contact/enquiry?utm_source=ggcare&utm_medium=chat&utm_campaign=ggcare_chat&pageVisit=/gg-care',
   },
@@ -59,7 +50,7 @@ const Hero = () => {
         aria-labelledby='contact-heading'
       >
         <h2 className='sr-only' id='contact-heading'>
-          Contact us
+          எங்களை தொடர்பு கொள்ளுங்கள்
         </h2>
         <div className='grid grid-cols-1 gap-y-20 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-0'>
           {supportLinks.map((link) => (

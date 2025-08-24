@@ -19,11 +19,10 @@ const TreatmentOptions = ({ branch, image }: TreatmentOptionsProps) => {
             className='w-20 rounded-lg bg-white dark:bg-gray-200/70'
             loading='lazy'
           />
-          <div className='font-lexend text-xl font-bold'>NABH Certified*</div>
         </div>
       )}
       <div className='px-2 py-16 text-center font-heading text-xl font-bold lg:py-20 lg:text-2xl'>
-        Infertility Treatment Options at {branch}
+        {branch} கர்பகுடி IVF மையத்தில் கருத்தரிப்பு சிகிச்சை வாய்ப்புகள்
       </div>
       <div className='grid grid-cols-2 gap-x-3 gap-y-16 px-2 pb-10 lg:grid-cols-4 lg:gap-16 lg:pb-16'>
         {Data.map((items) => (
@@ -52,7 +51,7 @@ const TreatmentOptions = ({ branch, image }: TreatmentOptionsProps) => {
                 href={items?.link}
                 className='font-content font-bold text-white dark:text-white'
               >
-                Learn More
+                மேலும் அறிக
               </Link>
             </div>
           </div>
@@ -67,8 +66,8 @@ export default TreatmentOptions;
 const Data = [
   {
     id: 1,
-    treatent: 'IVF Treatment',
-    desc: "Unlock the doors of parenthood with GarbhaGudi's advanced IVF treatment options and give your dreams of starting a family a new lease of life.",
+    treatent: 'IVF சிகிச்சை',
+    desc: 'உங்கள் பெற்றோராகும் கனவை நிறைவேற்ற கர்பகுடியின் மேம்பட்ட IVF சிகிச்சையைப் பயன்படுத்துங்கள்',
     link: '/treatments/ivf-treatment-in-bangalore',
     image:
       'https://res.cloudinary.com/garbhagudiivf/image/upload/v1674890412/Misc/ivf%20icons/ivf_jwjqwf.webp',
@@ -76,7 +75,7 @@ const Data = [
   {
     id: 2,
     treatent: 'ICSI',
-    desc: "Experience the joy of parenthood with GarbhaGudi's IUI treatment, designed to increase your chances of pregnancy in a natural way.",
+    desc: ' கருத்தரிப்பில் சிரமப்படும் தம்பதிகளுக்கான உயர்ந்த வெற்றி விகிதத்துடன் கூடிய கர்பகுடியின் ICSI சிகிச்சை.',
     link: '/treatments/icsi-treatment-in-bangalore',
     image:
       'https://res.cloudinary.com/garbhagudiivf/image/upload/v1674890412/Misc/ivf%20icons/fertilization_o5hpkk.webp',
@@ -84,7 +83,7 @@ const Data = [
   {
     id: 3,
     treatent: 'IUI',
-    desc: "Take the first step towards parenthood with GarbhaGudi's state-of-the-art ICSI treatment, which offers a high success rate for couples struggling with infertility.",
+    desc: 'இயற்கையான முறையில் கர்ப்பமாகும் வாய்ப்பை அதிகரிக்கும் கர்பகுடியின் IUI சிகிச்சை.',
     link: '/treatments/iui-treatment-in-bangalore',
     image:
       'https://res.cloudinary.com/garbhagudiivf/image/upload/v1674890412/Misc/ivf%20icons/in-vitro_mujzkz.webp',
@@ -92,39 +91,39 @@ const Data = [
   {
     id: 4,
     treatent: 'TESA/PESA',
-    desc: "Get the chance to father a child with GarbhaGudi's TESA/PESA treatment, a revolutionary option for men with low sperm count or poor sperm quality.",
+    desc: 'குறைந்த ஸ்பெர்ம் எண்ணிக்கை அல்லது தரமற்ற ஸ்பெர்ம் கொண்ட ஆண்களுக்கு குழந்தையைப் பெற உதவும் மேம்பட்ட சிகிச்சை.',
     link: '/treatments/pesa-and-tesa',
     image:
       'https://res.cloudinary.com/garbhagudiivf/image/upload/v1674890412/Misc/ivf%20icons/research_j8mdnk.webp',
   },
   {
     id: 5,
-    treatent: 'Blastocyst Culture',
-    desc: 'Maximize your chances with blastocyst culture treatment, which allows embryos to grow for a longer period before transfer, increasing the chances of implantation.',
+    treatent: 'பிளாஸ்டோசிஸ்ட் கல்ச்சர்',
+    desc: ' எம்ப்ரியோவை நீண்ட நாட்கள் வளர்த்து வெற்றிகரமாக கருப்பை நட்டு வைக்கும் வாய்ப்பை அதிகரிக்கும் சிகிச்சை.',
     link: '/treatments/ivf-treatment-in-bangalore',
     image:
       'https://res.cloudinary.com/garbhagudiivf/image/upload/v1674890412/Misc/ivf%20icons/sperm_utf0oe.webp',
   },
   {
     id: 6,
-    treatent: 'Gyanec Treatments',
-    desc: "Say goodbye to gynecological problems with GarbhaGudi's comprehensive range of treatments, specially designed to keep you healthy and fertile.",
+    treatent: 'மகளிர் நல சிகிச்சைகள்',
+    desc: ' பெண்களின் ஆரோக்கியம் மற்றும் கருத்தரிப்பை பாதுகாக்க முழுமையான சிகிச்சைகள்',
     link: '/resources/causes/polycystic-ovarian-syndrome-pcos',
     image:
       'https://res.cloudinary.com/garbhagudiivf/image/upload/v1674890412/Misc/ivf%20icons/gynecology_ynvds8.webp',
   },
   {
     id: 7,
-    treatent: 'Natural Conception',
-    desc: "Start your journey to parenthood with GarbhaGudi's natural conception program, which helps you understand their fertility and increase their chances of conceiving.",
+    treatent: 'இயற்கை கருத்தரிப்பு',
+    desc: 'உங்கள் கருத்தரிப்பு நிலையைப் புரிந்து கொண்டு இயற்கையான முறையில் கர்ப்பமாகும் வாய்ப்பை அதிகரிக்க உதவும் திட்டம்.',
     link: '/treatments/natural-pregnancy',
     image:
       'https://res.cloudinary.com/garbhagudiivf/image/upload/v1674890412/Misc/ivf%20icons/maternity_cee8v2.webp',
   },
   {
     id: 8,
-    treatent: 'Semen Analysis / CASA',
-    desc: "Get a detailed analysis of your semen and understand your fertility status with GarbhaGudi's advanced Semen Analysis/CASA service.",
+    treatent: 'வீரிய பரிசோதனை / CASA',
+    desc: ' உங்கள் கருத்தரிப்பு நிலையை மதிப்பீடு செய்ய விரிவான வீரிய பரிசோதனை.',
     link: '/resources/diagnosis/semen-analysis',
     image:
       'https://res.cloudinary.com/garbhagudiivf/image/upload/v1674890580/Misc/ivf%20icons/semen_nqxd6s.webp',

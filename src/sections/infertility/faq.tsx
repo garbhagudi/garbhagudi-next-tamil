@@ -6,7 +6,7 @@ const Faq = () => {
   return (
     <div className='bg-fuchsia-50 dark:bg-gray-700'>
       <h2 className='lg:pt:16 pt-10 text-center font-heading text-3xl font-bold text-gray-800 dark:text-gray-200 lg:text-4xl'>
-        Frequently asked questions
+        அடிக்கடி கேட்கப்படும் கேள்விகள்
       </h2>
       <div className='px-3 pb-10 lg:pb-16'>
         <div className='mx-auto mt-10 flex max-w-6xl flex-col justify-center'>
@@ -32,56 +32,50 @@ export default Faq;
 const data = [
   {
     id: 1,
-    Question: 'What is infertility?',
+    Question: 'கருவுறாமை என்றால் என்ன',
     Answer:
-      'Infertility is a medical condition where a couple is unable to conceive despite regular unprotected intercourse for at least a year.',
+      'கருவுறாமை என்பது ஒரு மருத்துவ நிலை, இதில் ஒரு தம்பதியினர் குறைந்தது ஒரு வருடமாவது வழக்கமான பாதுகாப்பற்ற உடலுறவு கொண்டாலும் கருத்தரிக்க முடியாது.',
   },
   {
     id: 2,
-    Question: 'What are the common causes of infertility in women?',
+    Question: 'பெண்களில் கருவுறாமைக்கான பொதுவான காரணங்கள் யாவை?',
     Answer:
-      'Common causes of infertility in women include hormonal imbalances, ovulation disorders, uterine or fallopian tube abnormalities, endometriosis, and age-related factors.',
+      'பெண்களில் கருவுறாமைக்கான பொதுவான காரணங்களில் ஹார்மோன் சமநிலையின்மை, அண்டவிடுப்பின் கோளாறுகள், கருப்பை அல்லது ஃபலோபியன் குழாய் அசாதாரணங்கள், எண்டோமெட்ரியோசிஸ் மற்றும் வயது தொடர்பான  காரணங்கள் ஆகியவை அடங்கும்.',
   },
   {
     id: 3,
-    Question: 'What are the common causes of infertility in men?',
+    Question: 'ஆண்களில் கருவுறாமைக்கான பொதுவான காரணங்கள் யாவை?',
     Answer:
-      'Common causes of infertility in men include sperm abnormalities, low sperm count, issues with sperm motility, and genetic factors.',
+      'ஆண்களில் மலட்டுத்தன்மைக்கான பொதுவான காரணங்களில் விந்தணு அசாதாரணங்கள், குறைந்த விந்தணு எண்ணிக்கை, விந்தணு இயக்கத்தில் உள்ள சிக்கல்கள் மற்றும் மரபணு  காரணங்கள் ஆகியவை அடங்கும்.',
   },
   {
     id: 4,
-    Question: 'When should I consider seeking infertility treatment?',
+    Question: 'கருவுறாமைக்கான சிகிச்சை விருப்பங்கள் என்ன?',
     Answer:
-      "If you have been trying to conceive for at least a year (or six months if the woman is over 35) without success, it's recommended to seek infertility evaluation and treatment.",
+      'கருவுறாமைக்கான குறிப்பிட்ட காரணத்தைப் பொறுத்து, கருவுறாமை சிகிச்சை விருப்பங்களில் கருப்பையக கருவூட்டல் (IUI), விட்ரோ கருத்தரித்தல் (IVF), இன்ட்ராசைட்டோபிளாஸ்மிக் விந்து ஊசி (ICSI) மற்றும் பிற உதவி இனப்பெருக்க தொழில்நுட்பங்கள் ஆகியவை அடங்கும்.',
   },
   {
     id: 5,
-    Question: 'What are the treatment options for infertility?',
+    Question: 'கருவுறாமை சிகிச்சை எவ்வளவு வெற்றிகரமாக உள்ளது?',
     Answer:
-      'Infertility treatment options may include Intrauterine Insemination (IUI), In Vitro Fertilization (IVF), Intracytoplasmic Sperm Injection (ICSI), and other assisted reproductive technologies, depending on the specific cause of infertility.',
+      'குழந்தையின்மை சிகிச்சையின் வெற்றி விகிதங்கள் வயது, குழந்தையின்மைக்கான காரணம் மற்றும் சிகிச்சை முறை போன்ற காரணங்களைப் பொறுத்து மாறுபடும். எங்கள் கருவுறுதல் நிபுணர்கள் சிறந்த முடிவுகளை அடைய நோயாளிகளுடன் நெருக்கமாக பணியாற்றுகிறார்கள்.',
   },
   {
     id: 6,
-    Question: 'How successful is infertility treatment?',
+    Question: 'வயது கருவுறுதலை பாதிக்குமா?',
     Answer:
-      'Success rates of infertility treatment vary depending on factors such as age, the cause of infertility, and the treatment method. Our fertility experts work closely with patients to achieve the best possible outcomes.',
+      'ஆம், வயது கருத்தரிப்பில் குறிப்பிடத்தக்க தாக்கத்தை ஏற்படுத்துகிறது. ஒருவரின் வயது அதிகரிக்கும் போது கருத்தரிப்பு திறன் குறைய ச்செய்யும், குறிப்பாக பெண்களுக்கு. பெண்கள் வரையறுக்கப்பட்ட எண்ணிக்கையிலான முட்டைகளுடன் பிறக்கின்றனர், மேலும் அவற்றின் தரமும் எண்ணிக்கையும் காலப்போக்கில் குறையத் தொடங்குகின்றன. இதனால் கருவுறுவதில் சிரமங்கள், கருக்கலைப்பு அபாயம், பிறப்பு குறைபாடுகள் ஆகியவை வயதுடன் அதிகரிக்கலாம். ஆண்களும் வயதுக்கு இணையாக கருத்தரிப்பு திறனில் படிப்படியாக குறைவைக் காண்கிறார்கள். இது விந்தணுவின் தரம் மற்றும் இனப்பெருக்க செயல்பாட்டில் பாதிப்பை ஏற்படுத்தக்கூடும்',
   },
   {
     id: 7,
-    Question: 'Does age impact fertility?',
+    Question: 'குழந்தையின்மை சிகிச்சைக்கு எவ்வளவு செலவாகும்?',
     Answer:
-      'Yes, age can significantly impact fertility. Fertility tends to decline as a person gets older, particularly for women. Women are born with a finite number of eggs, and their quality and quantity decrease over time. This can lead to difficulties in conceiving and a higher risk of miscarriages and birth defects as age increases. Men also experience a gradual decline in fertility with age, with potential impacts on sperm quality and reproductive function.',
+      'கருத்தரிப்பு சிகிச்சையின் செலவு பல காரணங்களின் அடிப்படையில் மாறுபடும். எடுத்துக்காட்டாக, தேர்ந்தெடுக்கப்படும் சிகிச்சை முறை, மருத்துவமனை அல்லது கிளினிக், மேலும் நோயாளியின் தனிப்பட்ட உடல்நிலை போன்றவை செலவை தீர்மானிக்கும்.எனவே, உங்கள் நிலைக்கு ஏற்ப துல்லியமான செலவு மதிப்பீட்டை பெற, கருத்தரிப்பு நிபுணருடனும் நீங்கள் தேர்வு செய்யும் கிளினிக்குடனும் ஆலோசிப்பது மிகவும் அவசியம்.',
   },
   {
     id: 8,
-    Question: 'How much does fertility treatment cost in Bangalore?',
+    Question: 'கருவுறாமை சிகிச்சைக்குப் பிறகு கர்பமாக இருக்க எவ்வளவு நேரம் ஆகும்?',
     Answer:
-      "Fertility treatment costs in Bangalore, as well as anywhere else, can vary widely depending on the specific treatment, the clinic or hospital, and the individual circumstances of the patient. It's essential to consult with a fertility specialist and the chosen clinic to get a more accurate cost estimate based on your situation.",
-  },
-  {
-    id: 9,
-    Question: 'How long does it take to get pregnant after fertility treatment?',
-    Answer:
-      "The time it takes to get pregnant after fertility treatment can vary widely depending on the specific treatment, individual factors, and the success of the treatment. Some couples may achieve pregnancy in the first treatment cycle, while others may require multiple cycles. For example, in IVF, it typically takes a few weeks for the entire treatment cycle, from ovarian stimulation to embryo transfer. After the embryo transfer, it can take around 10-14 days to determine if the treatment was successful through a pregnancy test. However, it's important to note that not all fertility treatments result in pregnancy, and some individuals or couples may require more time or adjustments to their treatment plan.",
+      'கருத்தரிப்பு சிகிச்சைக்கு பின் கர்ப்பம் அடையும் நேரம் பல காரணங்களின் அடிப்படையில் மாறுபடும். அது எந்த சிகிச்சை செய்யப்படுகிறது, தனிநபரின் உடல்நிலை, மற்றும் சிகிச்சையின் வெற்றித்தரம் ஆகியவற்றைப் பொறுத்தது.சில தம்பதிகள் முதல் சிகிச்சை சுழற்சியிலேயே கர்பம் அடையலாம், ஆனால் சிலருக்கு பல சுழற்சிகள் தேவைப்படலாம். எடுத்துக்காட்டாக, IVF சிகிச்சையில், முட்டை உற்பத்தி தூண்டுதல் முதல் கருவியல் மாற்றம் வரை சில வாரங்கள் ஆகும். கருவியல் மாற்றம் செய்யப்பட்ட பின், கர்பம் ஏற்பட்டதா என்பதை அறிய சுமார் 10–14 நாட்களுக்கு பிறகு கர்பச் சோதனை செய்யப்படுகிறது. ஆனால், எல்லா கருத்தரிப்பு சிகிச்சைகளும் கர்பத்திற்கு வழிவகுக்கும் என்று சொல்ல முடியாது. சிலர் கூடுதல் நேரம் எடுக்க வேண்டியிருக்கலாம் அல்லது சிகிச்சை திட்டத்தில் மாற்றங்கள் தேவைப்படலாம்.',
   },
 ];

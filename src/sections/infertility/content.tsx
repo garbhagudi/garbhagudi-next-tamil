@@ -1,36 +1,59 @@
 import Image from 'next/image';
-import Link from 'next/link';
 
 export const WhatIsInfertilityTreatment = () => {
   return (
     <div className='mx-auto max-w-7xl px-3 text-gray-800 dark:text-gray-200'>
       <div className='py-3 lg:py-8'>
         <h2 className='py-3 font-heading text-3xl font-bold'>
-          What is Infertility Treatment ? Enhancing Fertility for Parenthood
+          கருத்தரிக்க முடியாமை சிகிச்சை என்ன? பெற்றோராகும் பயணத்திற்கு கருத்தரிப்புத் திறனை
+          மேம்படுத்துதல்
         </h2>
         <div className='font-content'>
           <div className='pb-4'>
-            <span className='font-bold'>Infertility Treatment</span> is a comprehensive approach
-            designed to assist couples struggling to conceive naturally. For those seeking top-notch{' '}
-            <span className='font-bold'>Fertility Treatment in Bangalore</span>, GarbhaGudi IVF
-            Centre offers cutting-edge solutions and compassionate care.
+            கருத்தரிக்க முடியாமை சிகிச்சை என்பது இயற்கையாக கருவுற சிரமப்படும் தம்பதிகளுக்கு
+            உதவுவதற்கான முழுமையான அணுகுமுறை ஆகும்.{' '}
+            <strong>
+              கருத்தரிக்க முடியாமை சிகிச்சை என்ன? – பெற்றோராகும் பயணத்திற்கு கருத்தரிப்புத் திறனை
+              மேம்படுத்துதல்
+            </strong>
           </div>
           <div className='pb-4'>
-            Our expert team of fertility specialists utilizes advanced medical techniques and
-            state-of-the-art facilities to diagnose and address various infertility issues. With a
-            personalized approach, we tailor treatment plans to meet the unique needs of each
-            individual, maximizing the chances of successful conception and a healthy pregnancy.
+            கருத்தரிக்க முடியாமை சிகிச்சை என்பது இயற்கையாக கருவுற சிரமப்படும் தம்பதிகளுக்கு
+            உதவுவதற்கான முழுமையான அணுகுமுறை ஆகும். ஹோசூரில் சிறந்த கருத்தரிப்பு சிகிச்சையை
+            நாடுபவர்களுக்கு, <strong>கர்ப்பகுடி IVF மையம்</strong> முன்னோடியான தீர்வுகளையும்,
+            கருணையுடன் கூடிய பராமரிப்பையும் வழங்குகிறது.
           </div>
           <div className='pb-4'>
-            At GarbhaGudi IVF Centre, we understand the emotional journey of infertility, and our
-            dedicated team is committed to providing unwavering support throughout the process.
-            Whether it's Intrauterine Insemination (IUI), In Vitro Fertilization (IVF), or other
-            assisted reproductive technologies, we strive to make your parenthood dream a reality.
+            எங்கள் நிபுணர் கருத்தரிப்பு மருத்துவர்கள் குழு, மேம்பட்ட மருத்துவ நுட்பங்களையும், நவீன
+            வசதிகளையும் பயன்படுத்தி, பல்வேறு கருத்தரிப்பு பிரச்சினைகளை கண்டறிந்து சரிசெய்கின்றனர்.
+            ஒவ்வொருவரின் தனிப்பட்ட தேவைகளுக்கு ஏற்ப சிகிச்சை திட்டங்களை வடிவமைத்து, வெற்றிகரமான
+            கர்ப்பம் மற்றும் ஆரோக்கியமான குழந்தை பெறும் வாய்ப்புகளை அதிகரிக்கிறோம்.
           </div>
           <div>
-            Experience the leading-edge{' '}
-            <span className='font-bold'>Infertility Treatment in Bangalore </span>
-            at GarbhaGudi IVF Centre and embark on your path to parenthood with confidence.
+            <span className='font-bold'>கர்ப்பகுடி IVF மையத்தில், </span>
+            கருத்தரிக்க முடியாமையின் உணர்ச்சி பூர்வமான பயணத்தை நாங்கள் நன்கு புரிந்துகொள்கிறோம்.
+            எனவே, எங்கள் அர்ப்பணிப்புடன் கூடிய குழு, முழு சிகிச்சை காலத்திலும் தளராத ஆதரவை
+            வழங்குகிறது. அது{' '}
+            <strong> IUI (Intrauterine Insemination), IVF (In Vitro Fertilization) </strong>அல்லது
+            பிற உதவிப் பிரஜன நுட்பங்களாக இருந்தாலும், உங்கள் பெற்றோராகும் கனவை நனவாக்குவதே எங்கள்
+            நோக்கம்.
+          </div>
+          <div className='pb-4'>
+            ஹோசூரில் முன்னணி கருத்தரிக்க முடியாமை சிகிச்சையை{' '}
+            <strong>கர்ப்பகுடி IVF மையத்தில் </strong> அனுபவித்து, பெற்றோராகும் உங்கள் பாதையை
+            நம்பிக்கையுடன் தொடங்குங்கள்.
+          </div>
+          <div className='pb-4'>
+            சிறந்த கருத்தரிப்பு சிகிச்சையை நாடுபவர்களுக்கு, <strong>கர்ப்பகுடி IVF மையம் </strong>{' '}
+            முன்னோடியான தீர்வுகளையும், கருணையுடன் கூடிய பராமரிப்பையும் வழங்குகிறது.
+          </div>
+          <div className='pb-4'>
+            எங்கள் நிபுணர் கருத்தரிப்பு மருத்துவர்கள் குழு, மேம்பட்ட மருத்துவ நுட்பங்களையும், நவீன
+            வசதிகளையும் பயன்படுத்தி, பல்வேறு கருத்தரிப்பு பிரச்சினைகளை கண்டறிந்து சரிசெய்கின்றனர்.
+          </div>
+          <div className='pb-4'>
+            ஒவ்வொருவரின் தனிப்பட்ட தேவைகளுக்கு ஏற்ப சிகிச்சை திட்டங்களை வடிவமைத்து, வெற்றிகரமான
+            கர்ப்பம் மற்றும் ஆரோக்கியமான குழந்தை பெறும் வாய்ப்புகளை அதிகரிக்கிறோம்.
           </div>
         </div>
       </div>
@@ -43,37 +66,35 @@ export const InfertilityTreatmentProcess = () => {
     <div className='mx-auto max-w-7xl px-3 text-gray-800 dark:text-gray-200'>
       <div className='py-3 lg:py-8'>
         <div className='py-3 font-heading text-3xl font-bold'>
-          What Is The Process Of Infertility Treatment in Bangalore? - Navigating the Path to
-          Parenthood
+          ஹோசூரில் கருத்தரிக்க முடியாமை சிகிச்சை செயல்முறை என்ன? – பெற்றோராகும் பாதையில்
+          வழிகாட்டுதல்
         </div>
         <div className='space-y-4 font-content'>
           <div>
-            At GarbhaGudi IVF Centre, a leading{' '}
-            <span className='font-bold'>Infertility Centre in Bangalore</span>, we offer a
-            well-structured and patient-centric approach to{' '}
-            <span className='font-bold'>infertility treatment</span>. Our goal is to guide couples
-            through every step of their journey to parenthood, ensuring a supportive and seamless
-            experience.
+            ஹோசூரில் முன்னணி கருத்தரிப்பு மையமான கர்ப்பகுடி IVF மையத்தில், நாங்கள் நோயாளி
+            மையப்படுத்தப்பட்ட மற்றும் முறையாக வடிவமைக்கப்பட்ட சிகிச்சை முறையை வழங்குகிறோம். எங்கள்
+            குறிக்கோள், தம்பதிகள் பெற்றோராகும் கனவை அடையும் பயணத்தின் ஒவ்வொரு கட்டத்திலும் அவர்களை
+            வழிநடத்தி, ஆதரவு மற்றும் தடையற்ற அனுபவத்தை ஏற்படுத்துவதாகும்.
           </div>
           <div>
-            The process begins with a comprehensive evaluation to identify the root cause of
-            infertility. Our experienced team of specialists conducts a thorough assessment,
-            including medical history, physical examinations, and advanced diagnostic tests. Based
-            on the findings, a tailored treatment plan is crafted to address specific challenges.
+            செயல்முறை, கருத்தரிக்க முடியாமைக்கு அடிப்படை காரணத்தை கண்டறிய விரிவான மதிப்பீட்டுடன்
+            தொடங்குகிறது. எங்கள் அனுபவம் வாய்ந்த நிபுணர்கள் குழு மருத்துவ வரலாறு, உடல் பரிசோதனைகள்
+            மற்றும் மேம்பட்ட கண்டறிதல் சோதனைகள் ஆகியவற்றைச் செய்து முழுமையான ஆய்வை நடத்துகின்றனர்.
+            முடிவுகளின் அடிப்படையில், தனிப்பட்ட சவால்களை தீர்க்க ஒரு சிறப்பான சிகிச்சை திட்டம்
+            வடிவமைக்கப்படுகிறது.
           </div>
           <div>
-            Our state-of-the-art{' '}
-            <span className='font-bold'>Infertility Hospital in Bangalore</span> provides a wide
-            array of treatment options, ranging from basic interventions such as IUI to advanced
-            techniques like IVF and ICSI. Throughout the treatment, we prioritize open
-            communication, compassion, and empathy, ensuring that our patients feel heard and cared
-            for.
+            எங்கள் நவீன வசதிகளுடன் கூடிய கருத்தரிப்பு மருத்துவமனை, அடிப்படை IUI சிகிச்சையிலிருந்து
+            மேம்பட்ட IVF மற்றும் ICSI போன்ற பல்வேறு சிகிச்சை விருப்பங்களை வழங்குகிறது. சிகிச்சை
+            முழுவதும் திறந்த உரையாடல், பரிவு மற்றும் கருணையை முன்னிலைப்படுத்தி, ஒவ்வொரு நோயாளியும்
+            கேட்கப்பட்டதாகவும் கவனிக்கப்பட்டதாகவும் உணர்வதை உறுதி செய்கிறோம்.
           </div>
           <div>
-            At GarbhaGudi IVF Centre, we understand the emotional and physical toll of infertility,
-            and our dedicated team is committed to supporting you at every stage. With our advanced
-            treatments and expert guidance, let us walk with you on the path to parenthood and bring
-            joy to your life.
+            கர்ப்பகுடி IVF மையத்தில், கருத்தரிக்க முடியாமை ஏற்படுத்தும் மனஉளைச்சலும் உடல்
+            சிரமங்களையும் நாங்கள் நன்கு புரிந்துகொள்கிறோம். அதனால், எங்கள் அர்ப்பணிப்புடன் கூடிய
+            குழு ஒவ்வொரு கட்டத்திலும் உங்களுக்கு தளராத ஆதரவை வழங்குகிறது. எங்கள் மேம்பட்ட
+            சிகிச்சைகளும் நிபுணத்துவ வழிகாட்டுதலும் இணைந்து, பெற்றோராகும் உங்கள் பாதையில் உங்களுடன்
+            பயணித்து, உங்கள் வாழ்க்கையில் மகிழ்ச்சியை கொண்டு வருவோம்.
           </div>
         </div>
       </div>
@@ -86,42 +107,44 @@ export const WhyGarbhaGudi = () => {
     <div className='mx-auto max-w-7xl px-3 text-gray-800 dark:text-gray-200'>
       <div className='py-3 lg:pt-8'>
         <div className='py-3 font-heading text-3xl font-bold'>
-          Why GarbhaGudi Is The Best Fertility Hospital In Bangalore? - Leading the Way in
-          Infertility Treatment
+          ஏன் கர்பகுடி ஹோசூரில் சிறந்த கருத்தரிப்பு மருத்துவமனை? – கருத்தரிப்பு சிகிச்சையில்
+          முன்னோடி
         </div>
         <div className='font-content'>
           <div className='pb-4'>
-            GarbhaGudi IVF Centre stands as the epitome of excellence, making it the{' '}
-            <span className='font-bold'> Best Fertility Hospital in Bangalore</span>. We take pride
-            in offering a comprehensive range of{' '}
-            <span className='font-bold'> Infertility treatments</span> to cater to diverse needs,
-            ensuring that every couple receives personalized care and attention.
+            <span className='font-bold'>கர்பகுடி ஐவிஎஃப் மையம்,</span>.சிறப்பின் உச்சமாக திகழ்ந்து,
+            ஹோசூரில் சிறந்த கருத்தரிப்பு மருத்துவமனையாக அறியப்படுகிறது. ஒவ்வொரு தம்பதியரும்
+            தனிப்பட்ட பராமரிப்பு மற்றும் அக்கறை பெறுவதை உறுதி செய்ய, பல்வேறு தேவைகளுக்குத் தகுந்த
+            விரிவான கருத்தரிப்பு சிகிச்சைகளை நாங்கள் வழங்குகிறோம்.
           </div>{' '}
           <div className='pb-4'>
-            As a prominent <span className='font-bold'> Infertility Hospital in Bangalore</span>,
-            our facility houses state-of-the-art infrastructure and cutting-edge technologies. Our
-            dedicated team of fertility experts brings together years of experience and expertise to
-            provide the highest level of care.
+            முக்கிய கருத்தரிப்பு மருத்துவமனையாக, எங்களிடம்{' '}
+            <span className='font-bold'> நவீன வசதிகளும், மிக முன்னேற்றமான தொழில்நுட்பங்களும்</span>,
+            உள்ளன. பல வருட அனுபவமும் நிபுணத்துவமும் கொண்ட எங்கள் அர்ப்பணிப்பு கொண்ட கருத்தரிப்பு
+            நிபுணர்கள் குழு, உங்களுக்கு மிக உயர்ந்த தரமான பராமரிப்பை வழங்குகின்றனர்.
           </div>{' '}
+          <div className='pb-4'>கர்பகுடி ஐவிஎஃப் மையத்தில் வழங்கப்படும் சிகிச்சைகள்:</div>
+          <ul className='ml-4 max-w-lg list-outside list-disc space-y-3 pt-4'>
+            <li>இன்ட்ராயூட்டரின் இன்செமினேஷன் (IUI)</li>
+            <li>இன்விட்ரோ பெர்டிலைசேஷன் (IVF)</li>
+            <li>இன்ட்ராசைடோபிளாஸ்மிக் ஸ்பெர்ம் இன்ஜெக்ஷன் (ICSI)</li>
+            <li>முட்டை உறைபோடுதல் (Egg Freezing)</li>
+            <li>மற்றும் பல</li>
+          </ul>
           <div className='pb-4'>
-            At GarbhaGudi IVF Centre, our suite of treatments includes Intrauterine Insemination
-            (IUI), In Vitro Fertilization (IVF), Intracytoplasmic Sperm Injection (
-            <Link
-              href='/treatments/intracytoplasmic-sperm-injection-icsi'
-              className='text-gg-500 underline'
-            >
-              ICSI
-            </Link>
-            ), Egg Freezing and more. We believe in a holistic approach, focusing not just on the
-            medical aspects but also on the emotional well-being of our patients.
+            நாங்கள் மருத்துவ சிகிச்சையிலேயே அல்லாமல்,
+            <span className='font-bold'> உணர்ச்சி ரீதியான நலனிலும்</span>. கவனம் செலுத்தும்
+            முழுமையான அணுகுமுறையில் நம்பிக்கை வைக்கிறோம்.
           </div>
           <div className='pb-4'>
-            With a commitment to excellence, compassionate care, and a high success rate, GarbhaGudi
-            IVF Centre has rightfully earned its reputation as the{' '}
-            <span className='font-bold'> Best Fertility Hospital in Bangalore</span>. Trust us to
-            accompany you on your journey to parenthood and make your dreams of a complete family a
-            reality.
+            சிறப்பிற்கான அர்ப்பணிப்பு, கருணையுடன் கூடிய பராமரிப்பு, மற்றும் உயர்ந்த வெற்றிவிகிதம்
+            ஆகியவற்றால், கர்பகுடி ஐவிஎஃப் மையம் ஹோசூரின் சிறந்த கருத்தரிப்பு மருத்துவமனையாக தனது
+            பெயரைப் பெற்றுள்ளது.
           </div>
+        </div>
+        <div className='py-3 font-heading text-3xl font-bold'>
+          உங்கள் பெற்றோர் ஆகும் பயணத்தில் எங்களை நம்பிக்கையுடன் இணைத்துக் கொள்ளுங்கள்; முழுமையான
+          குடும்பம் என்ற உங்கள் கனவை நனவாக்குங்கள்.
         </div>
       </div>
     </div>
@@ -133,29 +156,36 @@ export const WhenDiagnose = () => {
     <div className='mx-auto max-w-7xl px-3 text-gray-800 dark:text-gray-200'>
       <div className='py-3 lg:py-8'>
         <div className='py-3 font-heading text-3xl font-bold'>
-          When to Diagnose for Infertility Treatment? - Taking the First Step
+          கருத்தரிப்பு சிகிச்சைக்கான பரிசோதனையை எப்போது செய்ய வேண்டும்? – முதல் அடி எடுங்கள்
         </div>
         <div>
           <div className='pb-4'>
-            For couples facing challenges in conceiving, seeking professional help from a reputable{' '}
-            <span className='font-bold'>Infertility Centre in Bangalore</span> is a crucial first
-            step. At GarbhaGudi IVF Centre, recognized as one of the{' '}
-            <span className='font-bold'>Best Infertility Centre in Bangalore</span>, we recommend
-            considering infertility evaluation if conception has not occurred after a year of
-            unprotected intercourse (or six months if the woman is over 35).
+            கருவுறுவதில் சிரமம் அனுபவிக்கும் தம்பதிகளுக்கு, நம்பகமான கருத்தரிப்பு மையத்தில்
+            தொழில்முறை உதவியை நாடுவது மிக முக்கியமான முதல் படியாகும். சிறந்த கருத்தரிப்பு மையங்களில்
+            ஒன்றாக மதிக்கப்படும் கர்பகுடி ஐவிஎஃப் மையத்தில், நாங்கள் பரிந்துரைப்பது:
+          </div>
+          <ul className='ml-4 max-w-lg list-outside list-disc space-y-3 pt-4'>
+            <li>ஒரு ஆண்டு காலம் பாதுகாப்பற்ற உடலுறவு வைத்தும் கருவுறாத நிலையில் இருப்பின்</li>
+            <li>
+              அல்லது பெண்மணி 35 வயதிற்கு மேல் இருந்தால் ஆறு மாதங்களுக்குள் கருவுறாத நிலையில்
+              இருப்பின்
+            </li>
+          </ul>
+          <div className='pb-4'>கருத்தரிப்பு பரிசோதனையை மேற்கொள்வது நல்லது.</div>
+          <div className='pb-4'>
+            எங்கள் திறமையான நிபுணர்கள் குழு, கருத்தரிப்பு சிரமத்திற்கு காரணமான அடிப்படை காரணங்களை
+            கண்டறிய முழுமையான மதிப்பீடுகளை மேற்கொள்கின்றனர். நவீன பரிசோதனைகள் மற்றும் ஆய்வுகள்
+            மூலம், கருத்தரிப்பை பாதிக்கும் சாத்தியமான பிரச்சனைகளை துல்லியமாக அடையாளம் காண்கிறோம்.
           </div>
           <div className='pb-4'>
-            Our skilled team of specialists conducts a thorough assessment to identify the
-            underlying factors contributing to infertility. Through advanced diagnostic tests and
-            examinations, we aim to pinpoint any potential issues affecting fertility. Early
-            diagnosis and intervention can significantly increase the success rates of infertility
-            treatment, making GarbhaGudi IVF Centre the preferred{' '}
-            <span className='font-bold'>Infertility Centre in Bangalore</span> for those aspiring to
-            build a family.
+            ஆரம்பத்திலேயே கண்டறிதல் மற்றும் சிகிச்சை மேற்கொள்வது, கருத்தரிப்பு சிகிச்சையின்
+            வெற்றிவிகிதத்தை குறிப்பிடத்தக்க அளவில் அதிகரிக்கிறது. இதனால், குடும்பம் அமைக்க
+            விரும்புவோருக்கான முன்னணி கருத்தரிப்பு மையமாக கர்பகுடி ஐவிஎஃப் மையம் திகழ்கிறது.
           </div>
           <div className='pb-4'>
-            Don't let infertility deter your dreams of parenthood. Take the first step towards your
-            journey with GarbhaGudi IVF Centre, where hope meets advanced medical care.
+            கருவுறாமை உங்கள் பெற்றோர் ஆகும் கனவுகளை தடை செய்ய விடாதீர்கள். உங்கள் பயணத்தின் முதல்
+            அடியை கர்பகுடி ஐவிஎஃப் மையத்துடன் தொடங்குங்கள் – இங்கு நம்பிக்கை, நவீன மருத்துவ
+            பராமரிப்பை சந்திக்கிறது.
           </div>
         </div>
       </div>
@@ -167,7 +197,7 @@ export const InfertilityTreatmentOptions = () => {
   return (
     <div className='mx-auto max-w-7xl px-3 text-gray-800 dark:text-gray-200'>
       <div className='pb-3 font-heading text-3xl font-bold lg:pb-5'>
-        Best-in-class Infertility Treatment in Bangalore - Enhancing Your Path to Parenthood
+        ஹோசூரில் சிறந்த மலட்டுத்தன்மை சிகிச்சை - பெற்றோராக உங்கள் பாதையை மேம்படுத்துதல்
       </div>
       <div className='mx-auto flex max-w-7xl flex-col items-center justify-center pb-4 lg:flex-row lg:pb-8'>
         <div className='flex h-full items-center justify-center overflow-hidden rounded-lg lg:w-1/2'>
@@ -181,21 +211,20 @@ export const InfertilityTreatmentOptions = () => {
         </div>
         <div className='px-0 pt-3 font-content text-gray-800 dark:text-gray-200 lg:w-1/2 lg:px-8 lg:pt-0'>
           <p className=''>
-            Discover the joy of parenthood with our cutting-edge and compassionate
-            <span className='font-bold'> Infertility Treatment in Bangalore</span>. At our
-            state-of-the-art facility, we offer personalized{' '}
-            <span className='font-bold'>Fertility Treatment in Bangalore</span> to address various
-            infertility challenges that couples may face.
+            ஹோசூரில் உள்ள எங்கள் நவீன மருத்துவ மையத்தில், தம்பதிகள் எதிர்கொள்ளும் பல்வேறு
+            கருத்தரிப்பு சவால்களை சமாளிக்க தனிப்பட்ட கருத்தரிப்பு சிகிச்சைகளை வழங்குகிறோம்.
           </p>
           <p className='mt-4'>
-            Our dedicated team of fertility experts and advanced medical technologies ensure that
-            you receive the highest standard of care and the best chances of success in your journey
-            to conceive. Whether it's IUI, IVF, ICSI, or other assisted reproductive techniques, our
-            comprehensive services cater to your unique needs and aspirations.
+            எங்கள் அர்ப்பணிப்புடன் கூடிய கருத்தரிப்பு நிபுணர்கள் குழுவும், மேம்பட்ட மருத்துவ
+            நுட்பங்களும் இணைந்து, உங்களுக்கு மிக உயர்ந்த தரமான சிகிச்சையையும், கருவுறும் அதிக
+            வாய்ப்புகளையும் உறுதி செய்கின்றன. அது <strong>IUI, IVF, ICSI</strong> அல்லது பிற உதவிப்
+            பிரஜன நுட்பங்களாக இருந்தாலும், எங்கள் முழுமையான சேவைகள் உங்கள் தனிப்பட்ட தேவைகளையும்
+            கனவுகளையும் பூர்த்தி செய்யும்.
           </p>
           <p className='mt-4'>
-            Experience unparalleled support and guidance throughout your fertility treatment, and
-            take the first step towards fulfilling your dream of parenthood with us.
+            உங்கள் கருத்தரிப்பு சிகிச்சை முழுவதும், எங்களின் தளராத ஆதரவும் வழிகாட்டுதலும் உங்களுடன்
+            இருக்கும். பெற்றோராகும் உங்கள் கனவை நிறைவேற்றும் முதல் படியை எங்களுடன் எடுத்து
+            வையுங்கள்.
           </p>
         </div>
       </div>
@@ -209,25 +238,36 @@ export const Causes = () => {
       <div className='mx-auto flex max-w-7xl flex-col items-center justify-center px-3 py-8 lg:flex-row lg:py-10'>
         <div className='pr-0 font-content text-gray-800 dark:text-gray-200 lg:w-1/2 lg:pr-8'>
           <div className='mb-4 font-heading text-3xl font-bold'>
-            Causes of Infertility - Understanding the Factors Affecting Fertility
+            கருத்தரிக்க முடியாமையின் காரணங்கள் – கருத்தரிப்பை பாதிக்கும் அம்சங்களைப் புரிந்துகொள்வது
           </div>
           <p className=''>
-            Infertility can be a complex issue, influenced by various factors that affect both men
-            and women. Some common causes of infertility include hormonal imbalances, ovulation
-            disorders, uterine or fallopian tube abnormalities, sperm abnormalities, and age-related
-            factors.
+            கருத்தரிக்க முடியாமை என்பது சிக்கலான ஒரு பிரச்சினையாகும்; இது ஆண்கள் மற்றும் பெண்கள்
+            இருவரையும் பாதிக்கும் பல காரணங்களினால் ஏற்படலாம். பொதுவான சில காரணங்கள் :
           </p>
+          <ul className='ml-4 max-w-lg list-outside list-disc space-y-3 pt-4'>
+            <li>ஹார்மோன் சமநிலையின்மை</li>
+            <li>அடிக்கடி ஏற்படும் அல்லது இல்லாத மாதவிடாய் / முட்டை வெளிப்படும் கோளாறுகள்</li>
+            <li>மருந்துகள், ஆய்வகக் கட்டணங்கள் போன்ற கூடுதல் செலவுகள்</li>
+            <li>விந்தணு குறைபாடுகள்</li>
+            <li>வயதுசார்ந்த காரணங்கள்</li>
+          </ul>
+          <p className='mt-4'>வாழ்க்கை முறைகளும் முக்கிய பங்கு வகிக்கின்றன:</p>
+          <ul className='ml-4 max-w-lg list-outside list-disc space-y-3 pt-4'>
+            <li>புகைபிடித்தல்</li>
+            <li>அதிக அளவு மது அருந்துதல்</li>
+            <li>அதிக எடை / கெட்டியான உடல்</li>
+            <li>மன அழுத்தம்</li>
+          </ul>
           <p className='mt-4'>
-            Lifestyle factors, such as smoking, excessive alcohol consumption, obesity, and stress,
-            can also play a role in infertility. Additionally, medical conditions like
-            endometriosis, polycystic ovary syndrome (PCOS), and certain genetic conditions can
-            contribute to fertility challenges.
-          </p>
-          <p className='mt-4'>
-            At our infertility treatment center, we conduct thorough evaluations to identify the
-            specific causes affecting fertility for each individual or couple. Our experienced team
-            of specialists devises personalized treatment plans to address these underlying factors
-            and improve the chances of successful conception and pregnancy.
+            மேலும்,{' '}
+            <strong>என்டோமெட்ரியோசிஸ், பிசிஓஎஸ் (PCOS), மற்றும் சில மரபணு குறைபாடுகள்</strong> போன்ற
+            மருத்துவ நிலைகளும் கருத்தரிப்பை பாதிக்கக்கூடும்.
+            <br />
+            எங்கள் கருத்தரிப்பு சிகிச்சை மையத்தில், ஒவ்வொரு தனிநபர் அல்லது தம்பதியருக்கும் ஏற்ப
+            கருத்தரிக்க முடியாமையின் குறிப்பிட்ட காரணங்களை கண்டறிய விரிவான மதிப்பீடுகளை
+            மேற்கொள்கிறோம். அதன் பிறகு, எங்கள் அனுபவம் வாய்ந்த நிபுணர்கள் குழு, அந்த காரணங்களை
+            சரிசெய்ய <strong>தனிப்பட்ட சிகிச்சை திட்டங்களை</strong> வடிவமைக்கின்றனர். இதன் மூலம்
+            வெற்றிகரமான கர்பம் மற்றும் ஆரோக்கியமான குழந்தையை பெறும் வாய்ப்பு அதிகரிக்கிறது.
           </p>
         </div>
         <div className='mt-3 overflow-hidden rounded-lg lg:mt-0 lg:w-1/2'>

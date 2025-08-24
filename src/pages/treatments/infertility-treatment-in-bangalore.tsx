@@ -116,7 +116,7 @@ const InfertilityPage = ({ doctors }) => {
       <div className=''>
         <div className='mx-auto bg-transparent py-10 lg:py-16'>
           <h2 className='pb-10 text-center font-heading text-2xl font-bold lg:pb-16 lg:text-3xl'>
-            Our Fertility Specialists
+            எங்கள் கருத்தரிப்பு நிபுணர்கள்
           </h2>
           <div className='relative mx-auto flex max-w-lg items-center justify-center'>
             <Carousel
@@ -167,16 +167,15 @@ const InfertilityPage = ({ doctors }) => {
             </Carousel>
           </div>
           <div className='mx-auto max-w-5xl pt-6 font-content'>
-            If you're seeking the <span className='font-bold'>best infertility care</span>, look no
-            further than GarbhaGudi IVF Centre in Bangalore. Our team boasts the finest{' '}
-            <span className='font-bold'>infertility specialists</span>, dedicated to providing
-            top-tier treatments and solutions. As the leading{' '}
-            <span className='font-bold'>infertility doctor in Bangalore</span>, we take pride in
-            being the go-to destination for those in search of effective and compassionate care.
-            With a reputation as the{' '}
-            <span className='font-bold'>best fertility doctor in Bangalore</span>, our experts at
-            GarbhaGudi are committed to guiding your journey towards parenthood with expertise and
-            unwavering support.
+            கருத்தரிப்புக்கான சிறந்த சிகிச்சையைத் தேடுகிறீர்களா? அப்படியானால் கர்பகுடி ஐவிஎஃப்
+            மையம், ஹோசூர் தான் சரியான இடம். எங்களிடம் திறமையான மற்றும் அனுபவமிக்க கருத்தரிப்பு
+            நிபுணர்கள் உள்ளனர். அவர்கள் உங்களுக்கு உயர்தர சிகிச்சை மற்றும் சிறந்த தீர்வுகளை வழங்க
+            அர்ப்பணிப்புடன் செயல்படுகிறார்கள்.
+            <br />
+            ஹோசூரில் முன்னணி கருத்தரிப்பு மருத்துவமாக பெயர் பெற்ற கர்பகுடி இன்று பல தம்பதிகள்
+            நம்பிக்கையுடன் அணையும் மையமாக திகழ்கிறது. சிறந்த கருத்தரிப்பு மருத்துவர் என்ற பெயருக்கு
+            ஏற்ப, எங்கள் நிபுணர்கள் உங்கள் பெற்றோராகும் பயணத்தை நிபுணத்துவத்துடனும் அன்பான
+            ஆதரவுடனும் வழிநடத்துகிறார்கள்.
           </div>
         </div>
       </div>

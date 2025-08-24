@@ -32,7 +32,7 @@ const TreatmentOptions = ({ branch }) => {
             </div>
             <div className='w-full rounded-b-2xl border bg-brandPink4 py-1 text-center'>
               <Link href={items?.link} className='font-content font-bold text-white'>
-                Learn More
+                மேலும் அறிக
               </Link>
             </div>
           </div>

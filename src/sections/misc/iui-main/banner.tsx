@@ -38,38 +38,24 @@ const Banner = () => {
       <div className='flex flex-col items-center justify-center py-5 text-gray-800 dark:text-gray-200'>
         <div className='w-full text-center md:w-11/12 lg:w-3/4'>
           <div className='font-heading text-xl font-bold xl:text-2xl'>
-            Experience the hope of starting a family with{' '}
-            <h1 className='inline-block'>IUI treatment in Bangalore</h1>
+            ஹோசூரில் IUI சிகிச்சையுடன் உங்கள் அன்பின் மழலைக்குழந்தையை அணைப்பதன் மகிழ்ச்சியை
+            அனுபவியுங்கள்.
           </div>
           <div className='mt-4 font-content text-base font-semibold'>
-            Where expert fertility care meets state-of-the-art technology.
+            முன்னணி கருத்தரிப்பு நிபுணர்கள் + நவீன தொழில்நுட்பம் – உங்கள் பெற்றோராகும் கனவை நனவாக்க
           </div>
           <div className='pt-5 font-content text-base'>
-            Experience the miracle of life with{' '}
-            <Link
-              href={'/treatments/iui-treatment-in-bangalore'}
-              className='text-brandPink hover:underline'
-            >
-              IUI treatment in Bangalore.
-            </Link>{' '}
-            Nestled in the heart of the city, our state-of-the-art fertility clinic offers hope and
-            a ray of sunshine for couples who are looking to start a family. Our team of expert
-            fertility specialists and cutting-edge technology will guide you on your journey towards
-            parenthood, every step of the way. Embrace the joy of holding your bundle of love in
-            your arms, with{' '}
-            <Link
-              href={'/treatments/iui-treatment-in-bangalore'}
-              className='text-brandPink hover:underline'
-            >
-              IUI treatment in Bangalore.
-            </Link>{' '}
+            ஹோசூரில் அமைந்துள்ள எங்கள் நவீன கருத்தரிப்பு மையம், குடும்பம் அமைக்க விரும்பும்
+            தம்பதிகளுக்கு நம்பிக்கையும், புதிய ஒளியும் அளிக்கிறது. அனுபவமிக்க கருத்தரிப்பு
+            நிபுணர்கள் மற்றும் முன்னேற்றமான தொழில்நுட்பத்துடன், பெற்றோராகும் உங்கள் பயணத்தின்
+            ஒவ்வொரு கட்டத்திலும் நாங்கள் உங்களுடன் இருக்கிறோம்.
           </div>
         </div>
         <Link
           href={'#leadForm'}
           className='mt-5 rounded-lg bg-gg-500 px-3 py-2 font-content text-lg font-semibold text-white hover:bg-gg-400 dark:bg-gray-500 dark:hover:bg-gg-500'
         >
-          Consult Now
+          இப்போதே ஆலோசனை செய்யுங்கள்
         </Link>
       </div>
     </div>

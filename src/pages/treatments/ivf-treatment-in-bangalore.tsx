@@ -4,11 +4,11 @@ const Cta = dynamic(() => import('sections/gg-care/cta'), { ssr: false });
 const Content = dynamic(() => import('sections/misc/ivf-main/content'), { ssr: false });
 const Banner = dynamic(() => import('sections/misc/ivf-main/banner'), { ssr: true });
 const WhenIvf = dynamic(() => import('sections/misc/ivf-main/when-ivf'), { ssr: false });
-const Faq = dynamic(() => import('sections/misc/ivf-main/faq'), { ssr: false });
+// const Faq = dynamic(() => import('sections/misc/ivf-main/faq'), { ssr: false });
 const LiveBirth = dynamic(() => import('sections/misc/ivf-main/live-birth'), { ssr: false });
 const Risks = dynamic(() => import('sections/misc/ivf-main/risks'), { ssr: false });
-const Video = dynamic(() => import('sections/misc/ivf-main/video'), { ssr: false });
-const Related = dynamic(() => import('sections/misc/ivf-main/related'), { ssr: false });
+// const Video = dynamic(() => import('sections/misc/ivf-main/video'), { ssr: false });
+// const Related = dynamic(() => import('sections/misc/ivf-main/related'), { ssr: false });
 
 const Ivf = () => {
   function addReviewJsonLd() {
@@ -274,10 +274,10 @@ const Ivf = () => {
         <Content />
         <WhenIvf />
         <LiveBirth />
-        <Faq />
+        {/* <Faq /> */}
         <Risks />
-        <Video />
-        <Related />
+        {/* <Video /> */}
+        {/* <Related /> */}
         <Cta />
       </div>
     </div>

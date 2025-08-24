@@ -24,7 +24,7 @@ const Header = () => {
             </ul>
             <Link href={'#register'} className=''>
               <button className='rounded-lg bg-gg-500 px-4 py-2 font-bold text-white transition-all duration-300 hover:bg-gg-600'>
-                Get Started
+                தொடங்குங்கள்
               </button>
             </Link>
           </div>

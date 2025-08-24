@@ -9,21 +9,18 @@ const Banner = () => {
           <div className='max-w-xl text-center sm:text-left'>
             <h1 className='flex flex-col'>
               <span className='py-2 font-heading text-3xl font-extrabold text-gray-800 dark:text-gray-200 sm:text-5xl'>
-                Helping couples in their
+                பெற்றோராகும் பயணத்தில் தம்பதிகளுக்கு துணையாக
               </span>
-              <strong className='block pb-2 font-heading text-3xl font-extrabold text-brandPink sm:text-5xl'>
-                Journey towards Parenthood
-              </strong>
               <span className='font-content text-xs font-semibold'>
-                With In-Vitro Fertilization (IVF) - GarbhaGudi IVF Centre, Bangalore.
+                இன்விட்ரோ கருவுறுதல் (IVF) – கற்பககுடி IVF மையம்
               </span>
             </h1>
             <h3 className='mt-4 max-w-lg font-content text-gray-800 dark:text-gray-200 sm:text-xl sm:leading-relaxed'>
-              GarbhaGudi has helped thousands of families begin their journeys, creating millions of
-              cherished memories.
+              கற்பககுடி ஆயிரக்கணக்கான குடும்பங்களுக்கு அவர்கள் பயணத்தைத் தொடங்க உதவியுள்ளது,
+              இலட்சக்கணக்கான இனிய நினைவுகளை உருவாக்கியுள்ளது.
             </h3>
             <h3 className='mt-4 max-w-lg font-content text-gray-800 dark:text-gray-200 sm:text-xl sm:leading-relaxed'>
-              Making families smile since 2011
+              2011 முதல் குடும்பங்களில் சிரிப்பை பரப்பி வருகின்றோம்.
             </h3>
 
             <div className='mt-8 flex flex-wrap gap-4 text-center'>
@@ -31,14 +28,14 @@ const Banner = () => {
                 href='/gg-care'
                 className='block w-full rounded bg-gg-500 px-12 py-3 font-content text-sm font-bold text-white shadow hover:bg-gg-400 focus:outline-none focus:ring active:bg-brandPink3 dark:bg-gray-500 dark:hover:bg-gg-400 sm:w-auto'
               >
-                Get Started
+                தொடங்குங்கள்
               </Link>
 
               <Link
                 href='#know-more'
                 className='block w-full scroll-smooth rounded bg-white px-12 py-3 font-content text-sm font-bold text-brandPink shadow hover:text-gg-400 focus:outline-none focus:ring active:text-rose-500 dark:bg-gg-500 dark:text-white dark:hover:bg-gg-400 sm:w-auto'
               >
-                Learn More
+                மேலும் அறிக
               </Link>
             </div>
           </div>

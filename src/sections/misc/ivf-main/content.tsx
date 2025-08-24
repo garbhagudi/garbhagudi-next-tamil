@@ -6,39 +6,32 @@ const Content = () => {
       <div className='relative bg-white pt-10 dark:bg-gray-800 lg:pt-24'>
         <div className='container relative m-auto px-3 md:px-12 lg:px-6'>
           <h2 className='mx-auto text-left font-heading text-4xl font-black lg:text-5xl'>
-            What is IVF and how does it work ?
+            IVF என்றால் என்ன? அது எவ்வாறு செயல்படுகிறது?
           </h2>{' '}
           <div className='mx-auto flex-wrap text-gray-800 dark:text-gray-200 md:flex'>
             <div className='grid grid-cols-1 lg:grid-cols-2'>
               <div className='relative mx-auto ml-0 mt-8 space-y-8 text-left font-content md:mt-16 md:max-w-lg lg:max-w-2xl'>
                 <p className=''>
-                  GarbhaGudi IVF Centre is a leading fertility clinic in Bangalore that provides a
-                  wide range of fertility treatments, including IVF treatment in Bangalore. IVF, or
-                  In vitro fertilization, is a popular assisted reproductive technology (ART) that
-                  helps couples who are struggling with infertility to conceive.
+                  கர்ப்பகுடி IVF மையம், முன்னணி கருத்தரிப்பு (fertility) மருத்துவமையங்களில்
+                  ஒன்றாகும். இங்கு IVF சிகிச்சை உள்ளிட்ட பல்வேறு கருத்தரிப்பு சிகிச்சைகள்
+                  வழங்கப்படுகின்றன.
                   <br />
                   <br />
-                  IVF or In Vitro Fertilization is one of the more widely known types of Assisted
-                  Reproductive Techniques (ART). It involves retrieving eggs from the woman's
-                  ovaries and fertilizing them with sperm in a laboratory dish. The resulting
-                  embryos are then transferred back into the woman's uterus in the hope of achieving
-                  a successful pregnancy. GarbhaGudi IVF center offers state-of-the-art facilities
-                  and a team of experienced doctors and embryologists who work together to provide
-                  personalized care and support to couples undergoing IVF in Bangalore. With the
-                  help of IVF, couples struggling with infertility can have a chance to conceive and
-                  start a family.
+                  IVF (In Vitro Fertilization) என்பது கருத்தரிக்க முடியாமல் தவிக்கும் தம்பதிகளுக்கு
+                  குழந்தை பெற உதவும், மிகவும் பரவலாக பயன்படுத்தப்படும் செயற்கை இனப்பெருக்க நுட்பம்
+                  (Assisted Reproductive Technology – ART) ஆகும். இதில், பெண்ணின் கருப்பையில்
+                  இருந்து முட்டைகள் (eggs) எடுக்கப்பட்டு, ஆண் விந்தணுக்களுடன் (sperm) ஆய்வகத்தில்
+                  சேர்க்கப்படுகின்றன. பின்னர் உருவாகும் கருவினங்கள் (embryos) பெண்ணின் கருப்பையில்
+                  (uterus) மாற்றி வைக்கப்படுகின்றன, இதன் மூலம் கர்ப்பம் அடைய வாய்ப்பு அதிகரிக்கிறது.
                 </p>
                 <p>
-                  IVF treatment in Bangalore is a multi-step process that involves several stages,
-                  including ovarian stimulation, egg retrieval, fertilization, embryo culture, and
-                  embryo transfer. The process is carefully monitored by our team of experienced
-                  fertility specialists, who work closely with patients to customize a treatment
-                  plan that meets their unique needs and maximizes their chances of success.
+                  கர்ப்பகுடி IVF மையத்தில் நவீன உபகரணங்களுடன் கூடிய ஆய்வகம், அனுபவமிக்க மருத்துவர்
+                  குழு, திறமையான எம்ப்ரியாலஜிஸ்ட் குழு ஆகியோர் இணைந்து, ஒவ்வொரு தம்பதிக்கும்
+                  தனிப்பட்ட சிகிச்சை அளித்து, கர்ப்பம் அடையும் வாய்ப்பை அதிகப்படுத்துகின்றனர்.
                 </p>
                 <h2 className='font-heading text-lg font-bold'>
-                  What is the Process of IVF Treatment in Bangalore?
+                  IVF சிகிச்சையின் படிப்படையான செயல்முறை
                 </h2>
-                <div>Here is a general overview of the steps involved in a typical IVF cycle:</div>
               </div>
               <div className='-right-0 mx-auto mt-4 max-w-[50rem] lg:p-4'>
                 <div className='relative w-full'>
@@ -56,71 +49,39 @@ const Content = () => {
             <div>
               <ul className='space-y-3 pt-3 font-content'>
                 <li>
-                  <strong>Initial consultation:</strong> The first step in the IVF process is
-                  usually a consultation with a fertility specialist. During this appointment, the
-                  specialist will discuss the person's medical history, perform a physical
-                  examination, and order any necessary tests to determine the cause of infertility.
+                  <strong>முதல் ஆலோசனை (Initial Consultation):</strong> முதலில், கருத்தரிப்பு
+                  நிபுணருடன் ஆலோசனை நடத்தப்படுகிறது. இதில் மருத்துவ வரலாறு, உடல் பரிசோதனை மற்றும்
+                  தேவையான சோதனைகள் மேற்கொள்ளப்படுகின்றன.
                 </li>
                 <li>
-                  <strong>Ovarian stimulation:</strong> The next step is to stimulate the production
-                  of multiple eggs. This is typically done using injectable medications, such as
-                  gonadotropins or gonadotropin-releasing hormone agonists. The goal is to produce
-                  several mature eggs that can be retrieved and fertilized during the IVF process.
+                  <strong>கருவுறும் ஹார்மோன் தூண்டுதல் (Ovarian Stimulation):</strong> பெண்ணின்
+                  கருப்பை முட்டை உற்பத்தியை அதிகரிக்க மருந்துகள் செலுத்தப்படுகின்றன. இதன் மூலம் பல
+                  முட்டைகள் (eggs) ஒரே நேரத்தில் வளர்ச்சியடையும்.
                 </li>
                 <li>
-                  <strong>Egg retrieval:</strong> Once the eggs are mature, they are retrieved using
-                  a procedure called transvaginal ultrasound-guided oocyte retrieval. This procedure
-                  is performed under conscious sedation or general anesthesia and involves inserting
-                  a needle through the vagina and into the ovaries to remove the eggs.
+                  <strong>முட்டை எடுப்பு (Egg Retrieval):</strong> முட்டைகள் வளர்ந்த பிறகு,
+                  சுண்டையுடன் (ultrasound guided needle) கருப்பையிலிருந்து எடுக்கப்படுகின்றன. இது
+                  சிறிய மயக்க மருந்துடன் (sedation/anesthesia) செய்யப்படும்.
                 </li>
                 <li>
-                  <strong>Fertilization:</strong> The retrieved eggs are mixed with sperm in a
-                  laboratory setting to allow fertilization to occur. If the fertilized eggs are
-                  deemed to be healthy and viable, they are allowed to grow for a few more days in
-                  the laboratory.
+                  <strong>உரச்சேர்க்கை (Fertilization):</strong> எடுக்கப்பட்ட முட்டைகள், ஆண்
+                  விந்தணுக்களுடன் ஆய்வகத்தில் சேர்க்கப்படுகின்றன. உரம் சேர்ந்த முட்டைகள் சில நாட்கள்
+                  வளர்த்துப் பார்க்கப்படுகின்றன.
                 </li>
                 <li>
-                  <strong>Embryo transfer:</strong> If the fertilized eggs have developed into
-                  embryos, one or more of them may be transferred to the uterus. The embryo transfer
-                  procedure is usually performed a few days after the egg retrieval procedure and
-                  involves inserting a thin tube through the cervix and into the uterus. The embryos
-                  are then gently placed into the uterus.
+                  <strong>கருவின மாற்று (Embryo Transfer):</strong> நல்ல முறையில் வளர்ந்த
+                  கருவினங்கள், பெண்ணின் கருப்பையில் (uterus) ஒரு மெல்லிய குழாயின் (catheter) மூலம்
+                  மாற்றப்படுகின்றன.
                 </li>
                 <li>
-                  <strong>Pregnancy test:</strong> A pregnancy test is usually performed about two
-                  weeks after the embryo transfer procedure to determine whether or not the IVF
-                  cycle was successful. If the test is positive, the person is considered pregnant.
+                  <strong>கர்ப்ப சோதனை (Pregnancy Test):</strong> கருவின மாற்றிய 2 வாரங்கள் கழித்து
+                  கர்ப்ப சோதனை (blood test) மேற்கொள்ளப்படுகிறது.
                 </li>
               </ul>
             </div>
             <div className='mt-8 font-content'>
-              One full IVF cycle takes about three weeks but sometimes the procedure is split into
-              parts, to manage certain challenges in the couples. This may delay the process. IVF
-              can be done using the woman’s eggs and the male partner’s sperm or it may involve
-              sperm, eggs or embryos from anonymous donors.
-              <br />
-              <br />
-              At GarbhaGudi IVF Centre, we are committed to providing the best IVF treatment in
-              Bangalore. We use the latest technology and techniques to ensure the best possible
-              outcomes for our patients. Our state-of-the-art laboratory is equipped with advanced
-              equipment and staffed by a team of highly skilled embryologists who are dedicated to
-              providing exceptional care and support.
-              <br />
-              <br />
-              It is important to note that not all IVF cycles result in pregnancy, and it may be
-              necessary to try multiple cycles before achieving a successful pregnancy. The success
-              rate of IVF depends on a variety of factors, including the person's age, the cause of
-              infertility, and the quality of the eggs and sperm.
-              <br />
-              <br />
-              If you are struggling with infertility and considering IVF in Bangalore, GarbhaGudi
-              IVF Centre can help. Our experienced fertility specialists will work with you every
-              step of the way to help you achieve your dream of starting or growing your family.
-              GarbhaGudi offers multiple oprions to make IVF treatment cost in Bangalore as
-              affordable as possible.
-              <br />
-              Contact us today to schedule a consultation and learn more about how we can help you
-              on your fertility journey.
+              ஒரு முழு IVF சுழற்சி (cycle) சுமார் 3 வாரங்கள் ஆகும். சில நேரங்களில், சிகிச்சை
+              பிரிக்கப்பட்டு செய்யப்படலாம்.
             </div>
           </div>
         </div>

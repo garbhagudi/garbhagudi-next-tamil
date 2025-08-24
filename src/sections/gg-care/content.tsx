@@ -9,7 +9,7 @@ const Contact = () => {
         <div className='divide-y-2 divide-gray-200'>
           <div className='lg:grid lg:grid-cols-3 lg:gap-8'>
             <h2 className='font-heading text-2xl font-extrabold text-gray-800 dark:text-gray-200 sm:text-3xl'>
-              Get in touch
+              தொடர்புக்கு
             </h2>
             <div className='mt-8 grid grid-cols-1 gap-12 font-content sm:grid-cols-2 sm:gap-x-8 sm:gap-y-12 lg:col-span-2 lg:mt-0'>
               {contactData?.getInTouch.map((items) => (
@@ -48,7 +48,7 @@ const Contact = () => {
           <div className='mt-16 pt-16 lg:grid lg:grid-cols-2 lg:gap-8'>
             <div className='mt-8 grid grid-cols-1 gap-12 font-content sm:grid-cols-3 sm:gap-x-8 sm:gap-y-12 lg:col-span-2 lg:mt-0'>
               <h2 className='font-heading text-2xl font-extrabold text-gray-800 dark:text-gray-200 sm:text-3xl'>
-                Locations
+                இடங்கள்
               </h2>
               {contactData?.locations.map((items) => (
                 <div key={items.id}>
@@ -77,7 +77,7 @@ const Contact = () => {
                         <span>
                           <SiGooglemaps className='ml-2 flex items-center text-base' />
                         </span>
-                        <span className='whitespace-nowrap pl-2 pr-4'>Direction</span>
+                        <span className='whitespace-nowrap pl-2 pr-4'>திசை</span>
                       </Link>
                       <Link
                         href={`tel:${items.phone}`}
@@ -108,155 +108,39 @@ export const contactData = {
   getInTouch: [
     {
       id: 1,
-      name: 'Appointments & Queries',
+      name: 'நேர்முகப் பேட்டி & கேள்விகள்',
       email: 'dreams@garbhagudi.com',
       phone: '+91 9108 9108 32',
     },
     {
       id: 2,
-      name: 'Feedback & Complaints',
+      name: 'கருத்துக்கள் & புகார்கள்',
       email: 'grievance@garbhagudi.com',
       phone: '+91 9108 9108 32',
     },
     {
       id: 3,
-      name: 'Human Resources',
+      name: 'மனிதவள மேலாண்மை',
       email: 'hr@garbhagudi.com',
     },
     {
       id: 4,
-      name: 'Partnership',
+      name: 'கூட்டாண்மை தொடர்புகள்',
       email: 'jayaram@garbhagudi.com',
     },
   ],
   locations: [
     {
       id: '1',
-      name: 'Hanumanthanagar',
+      name: 'Hosur',
       address: (
         <div>
-          <p>
-            Subhasri Complex, 210/A, Kumaraswamy Temple Rd, 2nd Block, Phase 1, Banashankari Stage
-            I, Banashankari,
-          </p>
-          <p className='mb-5 mt-1'>Bengaluru, Karnataka 560050</p>
+          <p>நம்பர். 822/3, கே.எம். டவேர்ஸ், புதிய கிருஷ்ணகிரி பைபாஸ் சாலை, வசந்த் நகர்,</p>
+          <p className='mb-5 mt-1'> ஹோசூர், தமிழ்நாடு – 635109</p>
         </div>
       ),
-      phone: '+91 9886 9155 56',
+      phone: '+91 9108 9108 32',
       directionLink: 'https://g.page/GG1-HN?share',
-    },
-    {
-      id: '2',
-      name: 'Kalyan Nagar',
-      address: (
-        <div>
-          <p>
-            Park Landing, 5AC-709, Outer Ring Rd, Balachandra Layout, HRBR Layout 2nd Block,
-            Chelekare, Extension,
-          </p>
-          <p className='mb-5 mt-1'>Bengaluru, Karnataka 560043</p>
-        </div>
-      ),
-      phone: '+91 8861 4333 39',
-      directionLink: 'https://g.page/GarbhaGudi-IVF-Bangalore?share',
-    },
-    {
-      id: '3',
-      name: 'Jayanagar',
-      address: (
-        <div>
-          <p>
-            #26, Pattalamma Temple Road, Behind South End Circle Metro Station, Basavanagudi, <br />
-            Jayanagar
-          </p>
-          <p className='mb-5 mt-1'>Bengaluru, Karnataka 560004</p>
-        </div>
-      ),
-      phone: '+91 9972 4633 55',
-      directionLink: 'https://g.page/ggivf?share',
-    },
-    {
-      id: '4',
-      name: 'Electronic City',
-      address: (
-        <div>
-          <p>
-            Ganesh Towers, 3rd Floor, 60/5 and 60/6, NH 44, Beside Andhra Bank, Konappana Agrahara,
-            Electronic City,
-          </p>
-          <p className='mb-5 mt-1'>Bengaluru, Karnataka 560100</p>
-        </div>
-      ),
-      phone: '+91 8861 8111 16',
-      directionLink: 'https://g.page/GG4-EC?share',
-    },
-    {
-      id: '5',
-      name: 'Marathahalli',
-      address: (
-        <div>
-          <p>
-            2nd Floor, Balaji Plaza, 95/1, Abdul Kalam Layout, opp. ISRO Main Gate, above Karnataka
-            Bank, Aswath Nagar,
-            <br />
-            Marathahalli,
-          </p>
-          <p className='mb-5 mt-1'>Bengaluru, Karnataka 560037</p>
-        </div>
-      ),
-      phone: '+91 8105 1815 15',
-      directionLink: 'https://goo.gl/maps/kxhfM5SCZuq6EDnE9',
-    },
-    {
-      id: '6',
-      name: 'New BEL Road',
-      address: (
-        <div>
-          <p>
-            #3, 1st Floor, New BEL Rd, opp. to Ramaiah Hospital, RMV 2nd Stage, Ashwath Nagar,
-            Devasandra Layout, Sadashivnagar
-          </p>
-          <p className='mb-5 mt-1'>Bengaluru, Karnataka 560094</p>
-        </div>
-      ),
-      phone: '+91 9108 9108 25',
-      directionLink: 'https://goo.gl/maps/Fmiwn4ZCsSTxehnq9',
-    },
-    {
-      id: '7',
-      name: 'Nagarbhavi',
-      address: (
-        <div>
-          <p>1st Floor, 80ft Main Road, NGCF Layout, 2nd Stage, BDA Road, Naagarabhaavi,</p>
-          <p className='mb-5 mt-1'>Bengaluru, Karnataka 560072</p>
-        </div>
-      ),
-      phone: '+91 9886 9886 65',
-      directionLink: 'https://goo.gl/maps/6ZCKzTrmE3UzgFuS7',
-    },
-    {
-      id: '8',
-      name: 'Yelahanka',
-      address: (
-        <div>
-          <p>Pyramid North Square, S-1, 520/432, Bellary Road, Nehru Nagar, Yelahanka Hobli,</p>
-          <p className='mb-5 mt-1'>Bengaluru, Karnataka 560064</p>
-        </div>
-      ),
-      phone: '+91 9108 9108 32',
-      directionLink: 'https://maps.app.goo.gl/GSj2ctaQ347UhCS67',
-    },
-    {
-      id: '9',
-      name: 'Davanagere',
-      address: (
-        <div>
-          <p>Srisada, 1st & 2nd Floor, No. 2659/1, Dental College Road, MCC B Block, MCC,</p>
-          <p className='mb-5 mt-1'>Davanagere, Karnataka 577004</p>
-        </div>
-      ),
-      phone: '+91 9108 9108 32',
-      directionLink: 'https://maps.app.goo.gl/r1HNjzH5TWn76sSUA',
     },
   ],
 };

@@ -9,29 +9,30 @@ const ContentXtra = () => {
       <div className='grid grid-cols-1 gap-3 lg:grid-cols-2'>
         <div className='px-3'>
           <h3 className='py-4 font-heading text-2xl font-bold lg:text-3xl'>
-            The Process of IUI Treatment
+            IUI சிகிச்சையின் செயல்முறை
           </h3>
           <div className='mt-4 font-content'>
-            IUI, or intrauterine insemination, is a fertility treatment procedure that involves
-            placing sperm inside a woman's uterus to help her become pregnant. Here's a simple
-            explanation of the process:
+            IUI என்பது பெண்களின் கருப்பைக்குள் விந்தணுக்களை செலுத்துவதன் மூலம் கர்ப்பம் அடைய உதவும்
+            சிகிச்சை.
+            <h4 className='py-4 font-heading text-xl font-bold lg:text-2xl'>செயல்முறை:</h4>
             <ul className='ml-4 max-w-lg list-outside list-disc space-y-3 pt-4'>
               <li>
-                The first step is to stimulate the woman's ovaries with medication to produce
-                multiple eggs.
+                முதலில், பெண்களின் கருப்பையை தூண்டும் மருந்துகள் கொடுத்து, பல முட்டைகள் உற்பத்தி
+                செய்ய வைக்கப்படுகிறது.
               </li>
               <li>
-                Next, the sperm is collected from the man or a sperm donor and is washed and
-                prepared for the procedure.
+                பிறகு, ஆண் துணையிடமிருந்து (அல்லது விந்து தானம் கொடுத்தவரிடமிருந்து) விந்து
+                சேகரிக்கப்படுகிறது.
               </li>
               <li>
-                Then, a thin, flexible tube called a catheter is inserted through the cervix and
-                into the uterus.
+                அந்த விந்து சுத்திகரிக்கப்பட்டு (washed & prepared), கர்ப்பத்திற்கு உகந்த வகையில்
+                தயாராக்கப்படுகிறது.
               </li>
-              <li>The prepared sperm is then injected into the uterus through the catheter.</li>
               <li>
-                After the procedure, the woman will rest for a short period before going home.
+                ஒரு மெல்லிய குழாய் (Catheter) மூலம் கருப்பை வழியாக, விந்து கருப்பைக்குள்
+                செலுத்தப்படுகிறது.
               </li>
+              <li>சிகிச்சைக்கு பின், பெண் சில நேரம் ஓய்வெடுத்து, பின்னர் வீட்டிற்கு செல்லலாம்.</li>
             </ul>
           </div>
         </div>
@@ -47,22 +48,27 @@ const ContentXtra = () => {
         </div>
       </div>
       <div className='mt-4 px-3 font-content'>
-        It's important to note that IUI is usually done in conjunction with ovulation induction
-        medications. The success rate for IUI varies depending on several factors, including the
-        woman's age and the cause of infertility. It's a relatively simple and low-invasive
-        procedure.
+        பொதுவாக, IUI சிகிச்சை முட்டை உற்பத்தி மருந்துகளுடன் சேர்த்து செய்யப்படுகிறது.
       </div>
       <div>
         <h3 className='px-3 pt-6 font-heading text-lg font-bold'>
-          How Does IUI treatment Help in Achieving Pregnancy ?
+          IUI கர்ப்பத்திற்கு எப்படி உதவுகிறது?
         </h3>
         <div className='mt-4 px-3 font-content'>
-          IUI helps in pregnancy by increasing the number of sperm that reach the fallopian tubes,
-          where fertilization of the egg occurs. By placing the sperm directly inside the uterus,
-          the procedure bypasses the cervix, which can be a barrier to fertilization. The procedure
-          is timed to coincide with ovulation, which increases the chances of the sperm meeting and
-          fertilizing an egg. Additionally, IUI can also help with cervical mucus issues, which can
-          be a barrier to fertilization.
+          <ul className='ml-4 max-w-lg list-outside list-disc space-y-3 pt-4'>
+            <li>
+              IUI மூலம், விந்தணுக்கள் நேரடியாக கருப்பைக்குள் செலுத்தப்படுவதால், அவை Fallopian குழாயை
+              எளிதில் அடைய முடிகிறது.
+            </li>
+            <li>
+              இவ்வாறு செய்வதால் கருப்பை கழிவு (cervical mucus) சிக்கல்கள் தவிர்க்கப்படுகின்றன.
+            </li>
+            <li>
+              மேலும், சிகிச்சை முட்டை வெளியேறும் (Ovulation) நேரத்துடன் இணைக்கப்பட்டு
+              செய்யப்படுவதால், விந்தணுக்கள் மற்றும் முட்டைகள் சந்திக்கும் வாய்ப்பு அதிகரிக்கிறது.
+            </li>
+            <li>இதனால் உரம் சேர்க்கை (fertilization) சாத்தியம் உயரும்.</li>
+          </ul>
         </div>
       </div>
     </div>

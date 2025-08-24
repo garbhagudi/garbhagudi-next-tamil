@@ -1,17 +1,16 @@
 import { useState } from 'react';
 import AccordionLayout from 'sections/Faq/FaqLayout';
-import Link from 'next/link';
 
 const Faq = () => {
   const [activeIndex1, setActiveIndex1] = useState<string | number>(1);
   return (
     <div className='scroll-m-16 px-3' id='faq'>
       <h2 className='pt-12 text-center font-heading text-2xl font-semibold text-gray-800 dark:text-gray-200 lg:text-3xl'>
-        Frequently Asked Questions
+        அடிக்கடி கேட்கப்படும் கேள்விகள்
       </h2>
       <div className='mt-8 text-center font-content text-lg'>
-        Here are some of the most frequently asked questions about infertility and its treatment
-        options.
+        இங்கே கருத்தரிப்பு மற்றும் அதற்கான சிகிச்சை வாய்ப்புகள் குறித்து அடிக்கடி கேட்கப்படும் சில
+        கேள்விகள் உள்ளன.
       </div>
       <div className='mx-auto mt-10 flex max-w-6xl flex-col justify-center'>
         {Data.map((items) => (
@@ -35,72 +34,77 @@ export default Faq;
 const Data = [
   {
     id: 1,
-    q: 'What is IUI?',
+    q: 'ஐயூஐ என்றல் என்ன?',
     a: (
       <div>
-        IUI stands for intrauterine insemination. It is a procedure in which sperm is placed
-        directly inside the uterus to increase the chances of pregnancy.
+        <strong>
+          IUI என்பதன் விரிவான பெயர் ‘இன்ட்ராயூட்டரின் இன்செமினேஷன்’ (Intrauterine Insemination).
+        </strong>
+        இது ஒரு மருத்துவச் செயல்முறை ஆகும், இதில் விந்தணுக்கள் நேரடியாக கருப்பை (uterus) உள்ளே
+        செலுத்தப்படுகின்றன. இதனால் கர்ப்பம் தரிக்கும் வாய்ப்பு அதிகரிக்கிறது.
       </div>
     ),
   },
   {
     id: 2,
-    q: 'Who is a good candidate for IUI?',
+    q: 'IUI சிகிச்சைக்குத் தகுதியானவர் யார்?',
     a: (
       <div>
-        IUI is typically recommended for couples with mild fertility issues, such as problems with
-        ovulation or sperm count. It can also be used in cases of unexplained infertility or as part
-        of a treatment plan for couples undergoing assisted reproduction.
+        IUI சிகிச்சை பொதுவாகச் சிறிய அளவிலான கருத்தரிப்பு சிக்கல்கள் உள்ள தம்பதிகளுக்கு
+        பரிந்துரைக்கப்படுகிறது. உதாரணமாக, ஒவுலேஷன் (முட்டை வெளிவருதல்) குறைபாடு, விந்தணு எண்ணிக்கை
+        குறைவு, விளக்கமளிக்க முடியாத கருத்தரிப்பு பிரச்சனை (Unexplained Infertility) கொண்ட
+        தம்பதிகளுக்கும், அல்லது உதவிப் பிரசவ சிகிச்சை (Assisted Reproduction) பெறும் தம்பதிகளுக்கான
+        சிகிச்சைத் திட்டத்தின் ஒரு பகுதியாகவும் IUI பயன்படுத்தப்படலாம்.
       </div>
     ),
   },
   {
     id: 3,
-    q: 'How is the IUI procedure performed?',
+    q: 'IUI செயல்முறை எவ்வாறு செய்யப்படுகிறது?',
     a: (
       <div>
-        During the IUI procedure, sperm is collected from the male partner or a sperm donor and
-        prepared. The prepared sperm is then inserted into the uterus through a thin, flexible tube
-        called a catheter during ovulation.
+        IUI செயல்முறையின் போது, ஆண் துணையிடமிருந்து அல்லது விந்தணு தானதாரியிடமிருந்து விந்து
+        சேகரிக்கப்பட்டு, சிறப்பு முறையில் தயார் செய்யப்படுகிறது. அதன் பின், அந்தத் தயார் செய்யப்பட்ட
+        விந்து, கேத்தெட்டர் (catheter) எனப்படும் மெல்லிய, நெகிழ்வான குழாயின் மூலம், முட்டை வெளிவரும்
+        காலத்தில் (Ovulation) நேரடியாக கருப்பைக்குள் செலுத்தப்படுகிறது.
       </div>
     ),
   },
   {
     id: 4,
-    q: 'How long does an IUI treatment cycle take?',
+    q: 'IUI சிகிச்சை சுழற்சி எவ்வளவு காலம் எடுக்கும்?',
     a: (
       <div>
-        An{' '}
-        <Link
-          href={'/treatments/iui-treatment-in-bangalore'}
-          className='text-brandPink hover:underline'
-        >
-          IUI treatment
-        </Link>{' '}
-        cycle can take around 4 to 6 weeks to complete, starting from the monitoring of ovulation to
-        the confirmation of pregnancy.
+        ஒரு IUI சிகிச்சைச் சுழற்சி பொதுவாக 4 முதல் 6 வாரங்கள் வரை ஆகும். இது, முட்டை வெளிவருவதை
+        (ovulation) கண்காணிப்பதிலிருந்து தொடங்கி, கர்ப்பம் உறுதியாவதைச் (pregnancy confirmation)
+        சேர்த்து முடிவடைகிறது.
       </div>
     ),
   },
   {
     id: 5,
-    q: 'What is the success rate of IUI?',
+    q: 'IUI-ன் வெற்றி விகிதம் என்ன?',
     a: (
       <div>
-        The success rate of IUI is typically around 10-20% per cycle, but it can vary depending on
-        many factors such as the woman's age, the cause of infertility and the overall health of the
-        sperm
+        IUI சிகிச்சையின் வெற்றி விகிதம் பொதுவாக ஒரு சுழற்சிக்கு 10% முதல் 20% வரை இருக்கும். ஆனால்
+        இது பல காரணங்களின் அடிப்படையில் மாறுபடும். உதாரணமாக, பெண்களின் வயது, கருத்தரிக்க
+        முடியாததற்கான காரணம், விந்தணுக்களின் பொது ஆரோக்கியம் - இவற்றின் அடிப்படையில் வெற்றி விகிதம்
+        அதிகமாகவும் குறைவாகவும் இருக்கலாம்.
       </div>
     ),
   },
   {
     id: 6,
-    q: 'Are there any side effects of IUI?',
+    q: 'IUI-யால் ஏதேனும் பக்க விளைவுகள் உண்டா?',
     a: (
       <div>
-        IUI is generally considered a safe procedure with minimal side effects. Some women may
-        experience mild cramping or discomfort during or after the procedure. Ovulation induction
-        medications may cause mild side effects such as hot flashes, headaches, or mood swings.
+        <strong>IUI சிகிச்சை பொதுவாக பாதுகாப்பானதாகக் கருதப்படுகிறது, </strong>
+        மேலும் இதனால் பெரும்பாலும் குறைந்த பக்கவிளைவுகள் மட்டுமே ஏற்படும். சில பெண்களுக்கு,
+        செயல்முறை நடைபெறும் போது அல்லது அதன் பின், லேசான வயிற்று வலி அல்லது அசௌகரியம் ஏற்படலாம்.
+        <br />
+        முட்டை வெளிவரச் செய்வதற்கான (Ovulation induction) மருந்துகள் சில சமயங்களில் சிறிய
+        பக்கவிளைவுகளை உண்டாக்கலாம். உதாரணமாக: உடலில் சூடேற்றம் (hot flashes), தலைவலி, மனநிலை
+        மாற்றங்கள் (mood swings).
       </div>
     ),
   },

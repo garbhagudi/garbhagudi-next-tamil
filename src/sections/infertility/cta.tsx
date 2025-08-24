@@ -29,15 +29,15 @@ const CTA: React.FC = () => {
     >
       <div className='absolute h-full w-full bg-gray-800 opacity-30 dark:opacity-60'></div>
       <div className='z-10 max-w-lg rounded-lg bg-white bg-opacity-75 p-8 shadow-md dark:bg-gray-800'>
-        <h2 className='mb-2 font-heading text-2xl font-bold'>Get Started Today!</h2>
+        <h2 className='mb-2 font-heading text-2xl font-bold'>இன்றே தொடங்குங்கள்!</h2>
         <p className='mb-4 font-content font-medium text-gray-800 dark:text-gray-200'>
-          Contact us now to start your journey with us and experience the joy of parenthood.
+          எங்களுடன் உங்கள் பயணத்தைத் தொடங்கி, பெற்றோராகும் மகிழ்ச்சியை அனுபவியுங்கள்.
         </p>
         <button
           onClick={handleBookAppointmentBtn}
           className='rounded-lg bg-gg-500 px-4 py-2 font-semibold text-white hover:bg-gg-400 focus:outline-none dark:bg-gray-600 dark:hover:bg-gg-400'
         >
-          Book an Appointment
+          முன்பதிவு செய்யுங்கள்
         </button>
       </div>
       {isOpen && (

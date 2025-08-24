@@ -92,24 +92,26 @@ const BlogFooter = () => {
             </div>
             <div className='relative mx-auto max-w-md space-y-6 px-4 py-12 sm:max-w-3xl sm:px-6 sm:py-16 lg:col-span-6 lg:col-start-4 lg:max-w-none lg:p-0'>
               <h2 className='font-heading text-3xl font-extrabold text-gray-100' id='join-heading'>
-                About Us
+                எங்களை பற்றி
               </h2>
               <p className='font-qs text-lg text-gray-100'>
-                GarbhaGudi is a chain of New-Generation Infertility Treatment Hospitals equipped
-                with state-of- art-infrastructure &amp; cutting-edge IVF Technology to address
-                infertility issues &amp; their emotional &amp; mental effects on couples. We have a
-                team of qualified &amp; experienced doctors; their in-depth knowledge &amp;
-                expertise leaves no stone unturned to solve all your infertility issues. The
-                Supportive &amp; caring staff is always by your side to motivate &amp; guide you
-                throughout the journey. GarbhaGudi IVF, the best fertility treatment hospital in
-                Bangalore, provides emotional support to couples facing infertility issues and
-                sexual problems
+                கர்பகுடி என்பது கருத்தரிக்கையின்மை சிகிச்சைக்கான புதிய தலைமுறை மருத்துவமனைகளின்
+                சங்கிலியாகும். இது அதிநவீன உள்கட்டமைப்பு மற்றும் முன்னோடியான IVF தொழில்நுட்ப
+                வசதிகளுடன், கருத்தரிக்கையின்மை பிரச்சினைகள் மற்றும் அதனால் தம்பதிகள் எதிர்கொள்ளும்
+                மனோவியல் மற்றும் உணர்ச்சி பாதிப்புகளைச் சமாளிக்க வடிவமைக்கப்பட்டுள்ளது. நாங்கள்
+                தகுதியும், அனுபவமும் கொண்ட மருத்துவர்களைக் கொண்ட அணியை உடையவர்கள். அவர்களின் ஆழ்ந்த
+                அறிவும் நிபுணத்துவமும், உங்கள் கருத்தரிக்கையின்மை பிரச்சினைகளைத் தீர்க்க எந்தக்
+                கல்லையும் அசைக்காமல் செயல் படுகிறது. எங்கள் ஆதரவான மற்றும் அன்பான பணியாளர்கள்
+                எப்போதும் உங்களுடன் இருந்து, உங்கள் பயணத்தின் முழுவதும் உங்களை ஊக்குவித்து
+                வழிகாட்டுகிறார்கள். பெங்களூரில் சிறந்த கருத்தரிப்பு சிகிச்சை மருத்துவமனையாக
+                விளங்கும் கர்பகுடி IVF, கருத்தரிக்கையின்மை மற்றும் பாலியல் பிரச்சினைகளால்
+                பாதிக்கப்பட்ட தம்பதிகளுக்கு உணர்ச்சி ஆதரவு வழங்குகிறது.
               </p>
               <Link
                 className='text-brandDark hover:bg-brandDark block w-full rounded-md bg-white px-5 py-3 text-center font-content text-base font-semibold hover:text-black sm:inline-block sm:w-auto'
                 href={`/contact/enquiry?pageVisit=${path}`}
               >
-                Contact Us
+                எங்களை தொடர்பு கொள்ள
               </Link>
             </div>
           </div>

@@ -6,9 +6,9 @@ const LPACta = () => {
     <div className='bg-gray-50 dark:bg-gray-700'>
       <div className='mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:flex lg:items-center lg:justify-between lg:px-8 lg:py-16'>
         <h2 className='font-heading text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl'>
-          <span className='block text-gg-400'>Ready to get started?</span>
+          <span className='block text-gg-400'>துவங்க தயாரா?</span>
           <span className='block text-xl text-gray-800 dark:text-gray-200 md:text-2xl'>
-            We&apos;re here to provide information, advice, support and understanding.
+            உங்கள் கனவுகளை நனவாக்க நாங்கள் உங்களுடன்…இருக்கின்றோம்
           </span>
         </h2>
         <div className='mt-8 flex lg:mt-0 lg:flex-shrink-0'>
@@ -17,7 +17,7 @@ const LPACta = () => {
               type='button'
               className='inline-flex items-center justify-center rounded-md border border-transparent bg-gg-500 px-5 py-3 font-content text-base font-medium text-gray-200 hover:bg-brandPink3 dark:bg-gg-500 dark:hover:bg-gg-600'
             >
-              Contact Us
+              எங்களை தொடர்பு கொள்ளுங்கள்
             </button>
           </Link>
           <div className='ml-3 inline-flex rounded-md shadow'>
@@ -27,7 +27,7 @@ const LPACta = () => {
               rel='noreferrer'
               className='inline-flex items-center justify-center rounded-md border border-transparent bg-gg-500 px-5 py-3 font-content text-base font-medium text-gray-200 hover:bg-brandPink3 dark:bg-gg-500 dark:hover:bg-gg-600'
             >
-              <BsWhatsapp /> <span className='ml-2'>WhatsApp</span>
+              <BsWhatsapp /> <span className='ml-2'>வாட்ஸ்அப்</span>
             </a>
           </div>
         </div>

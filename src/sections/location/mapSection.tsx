@@ -44,7 +44,7 @@ const MapSection = ({ maplink, address, description, doctors, title }: MapSectio
             <div className='shadow-3xl relative flex flex-wrap rounded-3xl bg-white py-6 dark:bg-gray-800'>
               <div className='px-6 lg:w-1/2'>
                 <div className='title-font font-qs text-xs font-semibold tracking-widest text-gray-800 dark:text-gray-200'>
-                  ADDRESS
+                  முகவரி
                 </div>
                 <p className='mt-1 font-content text-sm text-gray-800 dark:text-gray-200'>
                   {address}
@@ -63,7 +63,7 @@ const MapSection = ({ maplink, address, description, doctors, title }: MapSectio
                   </Link>
                 </div>
                 <div className='mt-4 font-qs text-xs font-semibold tracking-widest text-gray-800 dark:text-gray-200'>
-                  PHONE
+                  தொலைபேசி
                 </div>
                 <p className='font-qs text-sm leading-relaxed text-gray-800 dark:text-gray-200'>
                   <Link href={title === 'Davanagere' ? 'tel:+919108910832' : 'tel:+918880000909'}>
@@ -77,7 +77,7 @@ const MapSection = ({ maplink, address, description, doctors, title }: MapSectio
           {/* Description */}
           <div className='flex flex-col items-center px-6 font-content text-gray-800 dark:text-gray-200 lg:w-1/2'>
             <h2 className='py-3 font-heading text-xl font-bold lg:text-2xl'>
-              GarbhaGudi IVF Centre, {title}
+              கர்பகுடி IVF மையம், {title}
             </h2>
 
             <div
@@ -106,7 +106,7 @@ const MapSection = ({ maplink, address, description, doctors, title }: MapSectio
               onClick={() => setShowFullText(!showFullText)}
               className='mt-4 text-sm font-semibold text-brandPink transition hover:underline'
             >
-              {showFullText ? 'Show Less' : 'Read More'}
+              {showFullText ? 'குறைவாகக் காட்டு' : 'மேலும் படிக்கவும்'}
             </button>
           </div>
         </div>
@@ -114,7 +114,7 @@ const MapSection = ({ maplink, address, description, doctors, title }: MapSectio
         {/* Fertility Specialists */}
         <div className='flex w-full flex-col pb-8 md:mt-0'>
           <h2 className='py-10 text-center font-heading text-2xl font-semibold text-gray-800 dark:text-gray-200 lg:mt-0'>
-            Fertility Specialists at {title}
+            கருவுறுதல் நிபுணர்கள் {title}
           </h2>
           <div className='mx-auto grid grid-cols-2 gap-3 space-y-0 sm:gap-8 sm:space-y-0 lg:grid-cols-6'>
             {doctors?.map((item) => (

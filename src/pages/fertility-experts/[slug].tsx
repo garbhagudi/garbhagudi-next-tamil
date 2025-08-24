@@ -137,7 +137,7 @@ const Doctor = ({ doctor }) => {
         <meta name='twitter:image' content={doctor?.image.url} />
       </Head>
       <BreadCrumbs
-        text1={'Our Fertility Experts'}
+        text1={'எங்கள் பரம்பரை நிபுணர்கள்'}
         link1='/fertility-experts'
         text2={doctor?.name}
         link2='#'
@@ -208,20 +208,20 @@ const Doctor = ({ doctor }) => {
                   <div className='mb-2 text-gray-800 dark:text-gray-200'>{doctor.designation}</div>
                   {doctor?.medicalRegNo && (
                     <div className='mb-2 text-gray-800 dark:text-gray-200'>
-                      Medical Registration Number (KMC) :{' '}
+                      மருத்துவ பதிவு எண். (KMC) :{' '}
                       <span className='font-bold underline'>{doctor?.medicalRegNo}</span>
                     </div>
                   )}
                   {doctor?.languages && (
                     <div className='mb-2 text-gray-800 dark:text-gray-200'>
-                      Languages Known :{' '}
+                      தெரிந்த மொழிகள் :{' '}
                       <span className='font-bold underline'>{doctor?.languages}</span>
                     </div>
                   )}
                   <div>
                     <button className='mt-6 rounded-md bg-brandPink px-4 py-2 font-content font-bold text-white hover:bg-brandPink3'>
                       <a href='tel:+919108910832' hrefLang='en-us'>
-                        Give us a Call
+                        எங்களை அழைக்கவும்
                       </a>
                     </button>
                   </div>
@@ -229,7 +229,7 @@ const Doctor = ({ doctor }) => {
                 <div className='mt-10 border-t border-gray-300 py-10'>
                   <div className='flex flex-col items-center justify-center gap-y-2'>
                     <div className='w-full px-4 lg:w-9/12'>
-                      <h2 className='text-2xl font-bold'>{`About ${doctor?.name}`}</h2>
+                      <h2 className='text-2xl font-bold'>{`${doctor?.name} பற்றி`}</h2>
                       <div className='prose mb-4 text-justify text-gray-800 dark:text-gray-200'>
                         <RichText
                           content={doctor?.bio?.raw?.children}

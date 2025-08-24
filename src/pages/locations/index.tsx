@@ -20,7 +20,7 @@ const Locations = ({ branches }) => {
         <meta name='title' content='Locations | GarbhaGudi IVF Centre' />
         <meta
           name='description'
-          content='GarbhaGudi is where dreams come alive, hopes never fade and possibilities never end. We work to help you cherish the golden moment of holding your bundle of joy'
+          content='கர்பகுடி என்பது கனவுகள் நனவாகும் இடம், நம்பிக்கைகள் ஒருபோதும் மங்காத இடம், முடிவில்லா வாய்ப்புகள் நிறைந்த இடம். உங்கள் மகிழ்ச்சியின் குட்டி பொக்கிஷத்தை (குழந்தையை) தழுவும் அந்த பொற்கணத்தை நீங்கள் அனுபவிக்க நாங்கள் உழைக்கிறோம்.'
         />
 
         {/* Open Graph / Facebook */}
@@ -30,7 +30,7 @@ const Locations = ({ branches }) => {
         <meta property='og:url' content='https://garbhagudi.com' />
         <meta
           property='og:description'
-          content='GarbhaGudi is where dreams come alive, hopes never fade and possibilities never end. We work to help you cherish the golden moment of holding your bundle of joy'
+          content='கர்பகுடி என்பது கனவுகள் நனவாகும் இடம், நம்பிக்கைகள் ஒருபோதும் மங்காத இடம், முடிவில்லா வாய்ப்புகள் நிறைந்த இடம். உங்கள் மகிழ்ச்சியின் குட்டி பொக்கிஷத்தை (குழந்தையை) தழுவும் அந்த பொற்கணத்தை நீங்கள் அனுபவிக்க நாங்கள் உழைக்கிறோம்.'
         />
         <meta property='og:type' content='website' />
         <meta
@@ -45,7 +45,7 @@ const Locations = ({ branches }) => {
         <meta name='twitter:title' content='Locations | GarbhaGudi IVF Centre' />
         <meta
           name='twitter:description'
-          content='GarbhaGudi is a place where dreams come alive, hopes never fade, and possibilities never end. We ceaselessly work to help you cherish the golden moment of holding your little bundles of joy.'
+          content='கர்பகுடி என்பது கனவுகள் நனவாகும் இடம், நம்பிக்கைகள் ஒருபோதும் மங்காத இடம், முடிவில்லா வாய்ப்புகள் நிறைந்த இடம். உங்கள் மகிழ்ச்சியின் குட்டி பொக்கிஷத்தை (குழந்தையை) தழுவும் அந்த பொற்கணத்தை நீங்கள் அனுபவிக்க நாங்கள் உழைக்கிறோம்.'
         />
         <meta
           name='twitter:image'

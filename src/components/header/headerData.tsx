@@ -216,7 +216,7 @@ export const Resources = [
 export const Location = [
   {
     name: 'ஹோசூர்',
-    href: '/locations/hanumanthanagar',
+    href: '/locations/hosur',
     icon: <SiGooglemaps />,
     short: 'HR',
   },

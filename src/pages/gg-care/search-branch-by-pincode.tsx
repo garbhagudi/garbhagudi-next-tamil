@@ -228,147 +228,16 @@ export default NearestZipcodeFinder;
 const locations = [
   {
     id: '1',
-    name: 'Hanumanthanagar',
+    name: 'Hosur',
     image: 'https://media.graphassets.com/pzLEWknQ9GG46x1mErBM',
-    zipCode: '560050',
+    zipCode: '635109',
     address: (
       <div>
-        <p>
-          Subhasri Complex, 210/A, Kumaraswamy Temple Rd, 2nd Block, Phase 1, Banashankari Stage I,
-          Banashankari,
-        </p>
-        <p className='mb-5 mt-1'>Bengaluru, Karnataka 560050</p>
+        <p>நம்பர். 822/3, கே.எம். டவேர்ஸ், புதிய கிருஷ்ணகிரி பைபாஸ் சாலை,</p>
+        <p className='mb-5 mt-1'> வசந்த் நகர், ஹோசூர், தமிழ்நாடு – 635109</p>
       </div>
     ),
-    phone: '+91 9886 9155 56',
+    phone: '+91 9108 9108 32',
     directionLink: 'https://g.page/GG1-HN?share',
-  },
-  {
-    id: '2',
-    name: 'Kalyan Nagar',
-    image: 'https://media.graphassets.com/jP2NLCi0TQyEZcZYgmtK',
-    zipCode: '560043',
-    address: (
-      <div>
-        <p>
-          Park Landing, 5AC-709, Outer Ring Rd, Balachandra Layout, HRBR Layout 2nd Block,
-          Chelekare, Extension,
-        </p>
-        <p className='mb-5 mt-1'>Bengaluru, Karnataka 560043</p>
-      </div>
-    ),
-    phone: '+91 8861 4333 39',
-    directionLink: 'https://g.page/GarbhaGudi-IVF-Bangalore?share',
-  },
-  {
-    id: '3',
-    name: 'Jayanagar',
-    image: 'https://media.graphassets.com/3gyLPQfGQcqlK1OegwGz',
-    zipCode: '560004',
-    address: (
-      <div>
-        <p>
-          #26, Pattalamma Temple Road, Behind South End Circle Metro Station, Basavanagudi, <br />
-          Jayanagar
-        </p>
-        <p className='mb-5 mt-1'>Bengaluru, Karnataka 560004</p>
-      </div>
-    ),
-    phone: '+91 9972 4633 55',
-    directionLink: 'https://g.page/ggivf?share',
-  },
-  {
-    id: '4',
-    name: 'Electronic City',
-    image: 'https://media.graphassets.com/gQZguDjlSHWnPqkwmtCx',
-    zipCode: '560100',
-    address: (
-      <div>
-        <p>
-          Ganesh Towers, 3rd Floor, 60/5 and 60/6, NH 44, Beside Andhra Bank, Konappana Agrahara,
-          Electronic City,
-        </p>
-        <p className='mb-5 mt-1'>Bengaluru, Karnataka 560100</p>
-      </div>
-    ),
-    phone: '+91 8861 8111 16',
-    directionLink: 'https://g.page/GG4-EC?share',
-  },
-  {
-    id: '5',
-    name: 'Marathahalli',
-    image: 'https://media.graphassets.com/GqmL79ASSZeiU6wyL4cQ',
-    zipCode: '560037',
-    address: (
-      <div>
-        <p>
-          4TH floor, Chirag Towers, Born Babies Building, 24 & 64, Service Rd, next to कलामंदिर,{' '}
-          <br />
-          Marathahalli,
-        </p>
-        <p className='mb-5 mt-1'>Bengaluru, Karnataka 560037</p>
-      </div>
-    ),
-    phone: '+91 8105 1815 15',
-    directionLink: 'https://goo.gl/maps/kxhfM5SCZuq6EDnE9',
-  },
-  {
-    id: '6',
-    name: 'New BEL Road',
-    image: 'https://media.graphassets.com/pZ8Jm4ZLTv2HWLUycBvH',
-    zipCode: '560094',
-    address: (
-      <div>
-        <p>
-          #3, 1st Floor, New BEL Rd, opp. to Ramaiah Hospital, RMV 2nd Stage, Ashwath Nagar,
-          Devasandra Layout, Sadashivnagar
-        </p>
-        <p className='mb-5 mt-1'>Bengaluru, Karnataka 560094</p>
-      </div>
-    ),
-    phone: '+91 9108 9108 25',
-    directionLink: 'https://goo.gl/maps/Fmiwn4ZCsSTxehnq9',
-  },
-  {
-    id: '7',
-    name: 'Nagarbhavi',
-    image: 'https://media.graphassets.com/UK6hOwG1Q02lMszniXIE',
-    zipCode: '560072',
-    address: (
-      <div>
-        <p>1st Floor, 80ft Main Road, NGCF Layout, 2nd Stage, BDA Road, Naagarabhaavi,</p>
-        <p className='mb-5 mt-1'>Bengaluru, Karnataka 560072</p>
-      </div>
-    ),
-    phone: '+91 9886 9886 65',
-    directionLink: 'https://goo.gl/maps/6ZCKzTrmE3UzgFuS7',
-  },
-  {
-    id: '8',
-    name: 'Yelahanka',
-    image: 'https://media.graphassets.com/9pZ6WLkfT3qBNpJGDzD4',
-    zipCode: '560064',
-    address: (
-      <div>
-        <p>Pyramid North Square, S-1, 520/432, Bellary Road, Nehru Nagar, Yelahanka Hobli</p>
-        <p className='mb-5 mt-1'>Bengaluru, Karnataka 560064</p>
-      </div>
-    ),
-    phone: '+91 9108 9108 32',
-    directionLink: 'https://maps.app.goo.gl/GSj2ctaQ347UhCS67',
-  },
-  {
-    id: '9',
-    name: 'Davanagere',
-    image: 'https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cmdzyur6h2bux07per8j8v5dd',
-    zipCode: '577004',
-    address: (
-      <div>
-        <p>Srisada, 1st & 2nd Floor, No. 2659/1, Dental College Road, MCC B Block, MCC,</p>
-        <p className='mb-5 mt-1'>Davanagere, Karnataka 577004</p>
-      </div>
-    ),
-    phone: '+91 9108 9108 32',
-    directionLink: 'https://maps.app.goo.gl/r1HNjzH5TWn76sSUA',
   },
 ];
