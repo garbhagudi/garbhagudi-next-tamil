@@ -97,7 +97,7 @@ const Vas = ({ valueAddedService }) => {
       </Head>
       <BreadCrumbs
         link1='/features'
-        text1='Features'
+        text1='அம்சங்கள்'
         link2={valueAddedService?.slug}
         text2={valueAddedService.title}
         link3={''}

@@ -101,9 +101,9 @@ const ExecutiveTeam = ({ director }) => {
         />
       </Head>
       <BreadCrumbs
-        text1='About'
+        text1='பற்றி'
         link1='/about/overview'
-        text2='Executive Team'
+        text2='நிர்வாக குழு'
         link2='/about/overview'
         text3={director?.name}
         link3='#'

@@ -48,9 +48,9 @@ const VisionMission = () => {
         />
       </Head>
       <BreadCrumbs
-        text1='About'
+        text1='பற்றி'
         link1='/about/overview'
-        text2='Mission &amp; Vision'
+        text2='பணி & பார்வை'
         link2='#'
         link3={''}
         text3={''}

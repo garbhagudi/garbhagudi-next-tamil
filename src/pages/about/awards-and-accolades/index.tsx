@@ -86,8 +86,8 @@ const Awards = ({ award }: Award) => {
       </Head>
       <BreadCrumbs
         link1='/about/overview'
-        text1='About'
-        text2={`Awards & Accolades`}
+        text1='பற்றி'
+        text2={`விருதுகள் மற்றும் பாராட்டுகள்`}
         link2={`/about/awards-and-accolades`}
         link3={''}
         text3={''}

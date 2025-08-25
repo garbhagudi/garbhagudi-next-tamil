@@ -436,7 +436,7 @@ const Treatment = ({ treatment }) => {
           </div>
         </div>
       </div>
-      {treatment?.faq && (
+      {treatment?.faq?.length > 0 && (
         <div style={{ minHeight: '300px' }}>
           <FAQs data={treatment?.faq} activeIndex={treatment?.faq[0]?.id} />
         </div>

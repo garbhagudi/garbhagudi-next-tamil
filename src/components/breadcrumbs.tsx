@@ -31,7 +31,7 @@ const BreadCrumbs = ({
           <li className='inline-flex items-center'>
             <Link passHref href='/'>
               <span className='flex items-center justify-center text-sm'>
-                <HiHome className='mb-0.5 mr-1 h-4 w-4' /> Home
+                <HiHome className='mb-0.5 mr-1 h-4 w-4' /> வீடு
               </span>
             </Link>
           </li>
