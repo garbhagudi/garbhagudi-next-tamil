@@ -7,11 +7,11 @@ const Banner = () => {
             <div className='absolute z-10'>
               <div className='mx-auto w-full px-3 text-center text-base md:max-w-2xl md:text-left'>
                 <h1 className='font-heading text-3xl font-bold leading-tight text-brandPink lg:text-4xl'>
-                  ஹோசூரில் கருத்தரிக்க முடியாமைக்கு சிகிச்சை
+                  ஓசூரில் கருத்தரிக்க முடியாமைக்கு சிகிச்சை
                 </h1>
               </div>
               <div className='mt-4 px-3 text-center font-content text-base font-medium text-gray-200 md:max-w-xl md:text-left'>
-                "கர்பகுடி IVF மையம், ஹோசூரில் முன்னேற்றமான கருத்தரிக்க முடியாமை சிகிச்சையை
+                "கர்பகுடி IVF மையம், ஓசூரில் முன்னேற்றமான கருத்தரிக்க முடியாமை சிகிச்சையை
                 வழங்குகிறது. பெற்றோராகும் உங்கள் வாய்ப்புகளை அதிகரிக்கும் வகையில் தனிப்பட்ட
                 தீர்வுகளை நாங்கள் வழங்குகிறோம். புகழ்பெற்ற கருத்தரிப்பு நிபுணர்கள் குழுவும், நவீன
                 வசதிகளும் இணைந்து, முழுமையான மற்றும் பயனுள்ள கருத்தரிப்பு சிகிச்சைக்கான சிறந்த

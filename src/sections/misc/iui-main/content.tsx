@@ -31,10 +31,10 @@ const Content = () => {
           <div className='font-content'>
             <ul className='list-outside list-disc space-y-3'>
               <li className='ml-4 hover:text-brandPink hover:underline'>
-                <Link href='#iui-centres-in-bangalore'> ஹோசூரில் IUI மையம்</Link>
+                <Link href='#iui-centres-in-bangalore'> ஓசூரில் IUI மையம்</Link>
               </li>
               <li className='ml-4 hover:text-brandPink hover:underline'>
-                <Link href='#cost-of-iui-in-bangalore'>ஹோசூரில் IUI சிகிச்சை செலவு</Link>
+                <Link href='#cost-of-iui-in-bangalore'>ஓசூரில் IUI சிகிச்சை செலவு</Link>
               </li>
               <li className='ml-4 hover:text-brandPink hover:underline'>
                 <Link href='#procedure-of-iui'>IUI செயல்முறை</Link>

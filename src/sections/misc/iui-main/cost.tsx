@@ -6,7 +6,7 @@ const Cost = () => {
     >
       <div className='pt-10 lg:pt-16'>
         <h2 className='pb-6 text-center font-heading text-2xl font-bold lg:text-3xl'>
-          ஹோசூரில் IUI சிகிச்சை செலவு
+          ஓசூரில் IUI சிகிச்சை செலவு
         </h2>
         <div className='mt-4 px-3 font-content'>
           IUI சிகிச்சை செலவு பல காரணங்களை ப் பொறுத்தது:

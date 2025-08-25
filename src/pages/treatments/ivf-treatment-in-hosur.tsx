@@ -209,10 +209,10 @@ const Ivf = () => {
           as='image'
         />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
-        <title>ஹோசூரில் IVF சிகிச்சை மற்றும் முட்டை உறைதல் - கர்ப்பகுடி IVF மையம்</title>
+        <title>ஓசூரில் IVF சிகிச்சை மற்றும் முட்டை உறைதல் - கர்ப்பகுடி IVF மையம்</title>
         <meta
           name='title'
-          content='ஹோசூரில் IVF சிகிச்சை மற்றும் முட்டை உறைதல் - கர்ப்பகுடி IVF மையம்'
+          content='ஓசூரில் IVF சிகிச்சை மற்றும் முட்டை உறைதல் - கர்ப்பகுடி IVF மையம்'
         />
         <meta
           name='description'
@@ -253,7 +253,7 @@ const Ivf = () => {
 
         <meta
           property='og:title'
-          content='ஹோசூரில் IVF சிகிச்சை மற்றும் முட்டை உறைதல் - கர்ப்பகுடி IVF மையம் | GarbhaGudi '
+          content='ஓசூரில் IVF சிகிச்சை மற்றும் முட்டை உறைதல் - கர்ப்பகுடி IVF மையம் | GarbhaGudi '
         />
         <meta property='og:site_name' content='GarbhaGudi IVF Centre' />
         <meta property='og:url' content='https://garbhagudi.com' />
