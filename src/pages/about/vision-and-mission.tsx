@@ -11,21 +11,21 @@ const VisionMission = () => {
         {/* Primary Tags */}
 
         <meta name='viewport' content='width=device-width, initial-scale=1' />
-        <title>Vision &amp; Mission | GarbhaGudi</title>
-        <meta name='title' content='Vision &amp; Mission | GarbhaGudi IVF Centre' />
+        <title>பணி மற்றும் பார்வை </title>
+        <meta name='title' content='பணி மற்றும் பார்வை ' />
         <meta
           name='description'
-          content='GarbhaGudi has served as a beacon of hope to thousands of infertile couples. Our experienced specialists, nurses, & embryologists work to cater for your needs'
+          content='கர்பகுடி, ஆயிரக்கணக்கான கருத்தரிக்கையின்மை பிரச்சினை கொண்ட தம்பதிகளுக்கு நம்பிக்கையின் ஒளியாக இருந்து வருகிறது. எங்கள் அனுபவமிக்க நிபுணர்கள், செவிலியர்கள் மற்றும் கருவுறுப்பு நிபுணர்கள் (Embryologists) உங்கள் தேவைகளுக்கேற்ப அர்ப்பணிப்புடன் சேவை செய்கிறார்கள்.'
         />
 
         {/* Open Graph / Facebook */}
 
-        <meta property='og:title' content='Vision and Mission | GarbhaGudi IVF Centre' />
+        <meta property='og:title' content='பணி மற்றும் பார்வை ' />
         <meta property='og:site_name' content='GarbhaGudi IVF Centre' />
         <meta property='og:url' content='https://garbhagudi.com' />
         <meta
           property='og:description'
-          content='GarbhaGudi has served as a beacon of hope to thousands of infertile couples. Our experienced specialists, nurses, & embryologists work to cater for your needs'
+          content='கர்பகுடி, ஆயிரக்கணக்கான கருத்தரிக்கையின்மை பிரச்சினை கொண்ட தம்பதிகளுக்கு நம்பிக்கையின் ஒளியாக இருந்து வருகிறது. எங்கள் அனுபவமிக்க நிபுணர்கள், செவிலியர்கள் மற்றும் கருவுறுப்பு நிபுணர்கள் (Embryologists) உங்கள் தேவைகளுக்கேற்ப அர்ப்பணிப்புடன் சேவை செய்கிறார்கள்.'
         />
         <meta property='og:type' content='website' />
         <meta
@@ -37,10 +37,10 @@ const VisionMission = () => {
 
         <meta name='twitter:card' content='summary_large_image' />
         <meta name='twitter:site' content='@garbhagudiivf' />
-        <meta name='twitter:title' content=' | GarbhaGudi IVF Centre' />
+        <meta name='twitter:title' content='பணி மற்றும் பார்வை ' />
         <meta
           name='twitter:description'
-          content='GarbhaGudi has served as a beacon of hope to thousands of infertile couples. Our experienced specialists, nurses, & embryologists work to cater for your needs'
+          content='கர்பகுடி, ஆயிரக்கணக்கான கருத்தரிக்கையின்மை பிரச்சினை கொண்ட தம்பதிகளுக்கு நம்பிக்கையின் ஒளியாக இருந்து வருகிறது. எங்கள் அனுபவமிக்க நிபுணர்கள், செவிலியர்கள் மற்றும் கருவுறுப்பு நிபுணர்கள் (Embryologists) உங்கள் தேவைகளுக்கேற்ப அர்ப்பணிப்புடன் சேவை செய்கிறார்கள்.'
         />
         <meta
           name='twitter:image'

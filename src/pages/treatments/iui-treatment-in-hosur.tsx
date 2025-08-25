@@ -180,11 +180,11 @@ const Iui = () => {
           as='image'
         />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
-        <title>IUI Treatment in Bangalore: Trusted Fertility Solutions</title>
-        <meta name='title' content='IUI Treatment in Bangalore: Trusted Fertility Solutions ' />
+        <title>ஹோசூரில் IUI சிகிச்சை - நம்பகமான கருவுறுதல் தீர்வுகள்</title>
+        <meta name='title' content='ஹோசூரில் IUI சிகிச்சை - நம்பகமான கருவுறுதல் தீர்வுகள் ' />
         <meta
           name='description'
-          content='Explore the best IUI treatment in Bangalore at GarbhaGudi IVF Centre. High success rates, affordable costs & expert care. Book a consultation today!'
+          content='ஹோசூரில் உள்ள கர்பகுடி IVF மையத்தில் சிறந்த IUI சிகிச்சையை அனுபவிக்குங்கள். உயர்ந்த வெற்றிவிகிதம், மலிவான செலவுகள் மற்றும் நிபுணர்களின் பராமரிப்பு – அனைத்தும் ஒரே இடத்தில். இன்றேஆலோசனையை முன்பதிவு செய்யுங்கள்!'
         />
 
         {/* Ld+JSON Data */}
@@ -215,15 +215,12 @@ const Iui = () => {
 
         {/* Open Graph / Facebook */}
 
-        <meta
-          property='og:title'
-          content='IUI Treatment in Bangalore: Trusted Fertility Solutions'
-        />
+        <meta property='og:title' content='ஹோசூரில் IUI சிகிச்சை - நம்பகமான கருவுறுதல் தீர்வுகள்' />
         <meta property='og:site_name' content='GarbhaGudi IVF Centre' />
         <meta property='og:url' content='https://garbhagudi.com' />
         <meta
           property='og:description'
-          content='Your Path to Parenthood with Expert Guidance. Experience the best IUI treatment in Bangalore, tailored to maximize your chances of conceiving. Contact us for personalized care'
+          content='ஹோசூரில் உள்ள கர்பகுடி IVF மையத்தில் சிறந்த IUI சிகிச்சையை அனுபவிக்குங்கள். உயர்ந்த வெற்றிவிகிதம், மலிவான செலவுகள் மற்றும் நிபுணர்களின் பராமரிப்பு – அனைத்தும் ஒரே இடத்தில். இன்றேஆலோசனையை முன்பதிவு செய்யுங்கள்!'
         />
         <meta property='og:type' content='website' />
         <meta
@@ -235,10 +232,13 @@ const Iui = () => {
 
         <meta name='twitter:card' content='summary_large_image' />
         <meta name='twitter:site' content='@garbhagudiivf' />
-        <meta name='twitter:title' content='Intra-Uterine Insemination - IUI | GarbhaGudi' />
+        <meta
+          name='twitter:title'
+          content='ஹோசூரில் IUI சிகிச்சை - நம்பகமான கருவுறுதல் தீர்வுகள்'
+        />
         <meta
           name='twitter:description'
-          content="IUI (Intrauterine Insemination) is a fertility treatment procedure in which sperm is placed directly inside a woman's uterus to increase the chance of pregnancy."
+          content='ஹோசூரில் உள்ள கர்பகுடி IVF மையத்தில் சிறந்த IUI சிகிச்சையை அனுபவிக்குங்கள். உயர்ந்த வெற்றிவிகிதம், மலிவான செலவுகள் மற்றும் நிபுணர்களின் பராமரிப்பு – அனைத்தும் ஒரே இடத்தில். இன்றேஆலோசனையை முன்பதிவு செய்யுங்கள்!'
         />
         <meta
           name='twitter:image'

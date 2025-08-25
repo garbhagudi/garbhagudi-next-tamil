@@ -19,27 +19,27 @@ const IndexPage = () => {
           as='image'
         />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
-        <title>GG CARE - Committed to Couple Delight</title>
+        <title>ஜிஜி கேர் - தம்பதிகளின் மகிழ்ச்சிக்கு உறுதியளிக்கிறது.</title>
         <meta
           name='title'
-          content='GG CARE - Committed to Couple Delight | GarbhaGudi IVF Centre'
+          content='ஜிஜி கேர் - தம்பதிகளின் மகிழ்ச்சிக்கு உறுதியளிக்கிறது. | GarbhaGudi IVF Centre'
         />
         <meta
           name='description'
-          content='To book an appointment for your Fertility and IVF treatment in GarbhaGudi, you can contact on 9108910832 or you can also Email us on dreams@garbhagudi.com.'
+          content='உங்கள் கருத்தரிப்பு மற்றும் IVF சிகிச்சைக்காக கர்பகுடியில் நேர்முகப் பரிசோதனைக்கு முன்பதிவு செய்ய, 9108910832 என்ற எண்ணிற்கு தொடர்பு கொள்ளலாம் அல்லது dreams@garbhagudi.com என்ற மின்னஞ்சலுக்கு எழுதலாம்.'
         />
 
         {/* Open Graph / Facebook */}
 
         <meta
           property='og:title'
-          content='GG CARE - Committed to Couple Delight | GarbhaGudi IVF Centre'
+          content='ஜிஜி கேர் - தம்பதிகளின் மகிழ்ச்சிக்கு உறுதியளிக்கிறது. | GarbhaGudi IVF Centre'
         />
         <meta property='og:site_name' content='GarbhaGudi IVF Centre' />
         <meta property='og:url' content='https://garbhagudi.com' />
         <meta
           property='og:description'
-          content="Reach out with your questions, concerns and challenges. Or just to say hi. We're always standing by and eager to help."
+          content='உங்கள் கருத்தரிப்பு மற்றும் IVF சிகிச்சைக்காக கர்பகுடியில் நேர்முகப் பரிசோதனைக்கு முன்பதிவு செய்ய, 9108910832 என்ற எண்ணிற்கு தொடர்பு கொள்ளலாம் அல்லது dreams@garbhagudi.com என்ற மின்னஞ்சலுக்கு எழுதலாம்.'
         />
         <meta property='og:type' content='website' />
         <meta
@@ -53,11 +53,11 @@ const IndexPage = () => {
         <meta name='twitter:site' content='@garbhagudiivf' />
         <meta
           name='twitter:title'
-          content='GG CARE - Committed to Couple Delight | GarbhaGudi IVF Centre'
+          content='ஜிஜி கேர் - தம்பதிகளின் மகிழ்ச்சிக்கு உறுதியளிக்கிறது. | GarbhaGudi IVF Centre'
         />
         <meta
           name='twitter:description'
-          content="Reach out with your questions, concerns and challenges. Or just to say hi. We're always standing by and eager to help."
+          content='உங்கள் கருத்தரிப்பு மற்றும் IVF சிகிச்சைக்காக கர்பகுடியில் நேர்முகப் பரிசோதனைக்கு முன்பதிவு செய்ய, 9108910832 என்ற எண்ணிற்கு தொடர்பு கொள்ளலாம் அல்லது dreams@garbhagudi.com என்ற மின்னஞ்சலுக்கு எழுதலாம்.'
         />
         <meta
           name='twitter:image'

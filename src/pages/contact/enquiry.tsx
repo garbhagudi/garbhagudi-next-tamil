@@ -13,21 +13,21 @@ const IndexPage = () => {
           as='image'
         />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
-        <title>Enquiry Form | GarbhaGudi</title>
-        <meta name='title' content='Enquiry Form | GarbhaGudi IVF Centre' />
+        <title>விசாரணை படிவம் | கர்பகுடி</title>
+        <meta name='title' content='விசாரணை படிவம் | கர்பகுடி' />
         <meta
           name='description'
-          content='GarbhaGudi is a chain of new generation infertility treatment hospitals equipped with state-of-the-art cutting-edge technology to address infertility.'
+          content='கர்பகுடி என்பது கருத்தரிக்கையின்மை சிகிச்சைக்கான புதிய தலைமுறை மருத்துவமனைகளின் சங்கிலியாகும். இது அதிநவீன, முன்னோடியான தொழில்நுட்ப வசதிகளுடன் கருத்தரிக்கையின்மை சிக்கல்களை திறம்பட சமாளிக்க வடிவமைக்கப்பட்டுள்ளது..'
         />
 
         {/* Open Graph / Facebook */}
 
-        <meta property='og:title' content='Enquiry Form' />
+        <meta property='og:title' content='விசாரணை படிவம்' />
         <meta property='og:site_name' content='GarbhaGudi IVF Centre' />
         <meta property='og:url' content='https://garbhagudi.com' />
         <meta
           property='og:description'
-          content='GarbhaGudi is a chain of new generation infertility treatment hospitals equipped with state-of-the-art cutting-edge technology to address infertility.'
+          content='கர்பகுடி என்பது கருத்தரிக்கையின்மை சிகிச்சைக்கான புதிய தலைமுறை மருத்துவமனைகளின் சங்கிலியாகும். இது அதிநவீன, முன்னோடியான தொழில்நுட்ப வசதிகளுடன் கருத்தரிக்கையின்மை சிக்கல்களை திறம்பட சமாளிக்க வடிவமைக்கப்பட்டுள்ளது..'
         />
         <meta property='og:type' content='website' />
         <meta
@@ -39,10 +39,10 @@ const IndexPage = () => {
 
         <meta name='twitter:card' content='summary_large_image' />
         <meta name='twitter:site' content='@garbhagudiivf' />
-        <meta name='twitter:title' content='Enquiry Form' />
+        <meta name='twitter:title' content='விசாரணை படிவம்' />
         <meta
           name='twitter:description'
-          content='GarbhaGudi is a chain of new generation infertility treatment hospitals equipped with state-of-the-art cutting-edge technology to address infertility.'
+          content='கர்பகுடி என்பது கருத்தரிக்கையின்மை சிகிச்சைக்கான புதிய தலைமுறை மருத்துவமனைகளின் சங்கிலியாகும். இது அதிநவீன, முன்னோடியான தொழில்நுட்ப வசதிகளுடன் கருத்தரிக்கையின்மை சிக்கல்களை திறம்பட சமாளிக்க வடிவமைக்கப்பட்டுள்ளது..'
         />
         <meta
           name='twitter:image'

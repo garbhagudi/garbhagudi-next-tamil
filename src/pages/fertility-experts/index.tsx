@@ -89,7 +89,7 @@ const IndexPage = ({ branches }: Branches) => {
       />
       <div className='mx-auto max-w-7xl'>
         <h1 className='pt-12 text-center font-heading text-4xl font-semibold'>
-          எங்கள் பரம்பரை நிபுணர்கள்
+          எங்கள் மகப்பேறு நிபுணர்கள்
         </h1>
         <p className='text-md text-brandDark mx-auto mt-4 max-w-4xl text-center font-content'>
           எங்கள் கருதரிப்பு நிபுணர்களின் குழு, விரிவான மருத்துவ அனுபவம், ஆராய்ச்சி பங்களிப்புகள்

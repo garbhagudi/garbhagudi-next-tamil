@@ -26,21 +26,21 @@ const IndexPage = ({ articles }: Article) => {
         {/* Primary Tags */}
 
         <meta name='viewport' content='width=device-width, initial-scale=1' />
-        <title>கருத்தரிப்பு மையம்</title>
-        <meta name='title' content='Fertility Centre | GarbhaGudi IVF Centre' />
+        <title>கருவுறுதல் மையம்</title>
+        <meta name='title' content='கருவுறுதல் மையம்' />
         <meta
           name='description'
-          content='Discover advanced fertility care at GarbhaGudi Fertility Center. Expert doctors, modern treatments & compassionate support. Book your appointment today!'
+          content='கர்பகுடி கருத்தரிப்பு மையத்தில் மேம்பட்ட கருத்தரிப்பு சிகிச்சையை அனுபவிக்குங்கள். நிபுணத்துவம் பெற்ற மருத்துவர்கள், நவீன சிகிச்சைகள் மற்றும் அன்பான ஆதரவு – இவை அனைத்தும் உங்களுக்காக. உங்கள் நேரத்தை இன்றே முன்பதிவு செய்யுங்கள்!'
         />
 
         {/* Open Graph / Facebook */}
 
-        <meta property='og:title' content='Fertility Centre | GarbhaGudi IVF Centre' />
+        <meta property='og:title' content='கருவுறுதல் மையம்' />
         <meta property='og:site_name' content='GarbhaGudi IVF Centre' />
         <meta property='og:url' content='https://garbhagudi.com' />
         <meta
           property='og:description'
-          content='Discover advanced fertility care at GarbhaGudi Fertility Center. Expert doctors, modern treatments & compassionate support. Book your appointment today!'
+          content='கர்பகுடி கருத்தரிப்பு மையத்தில் மேம்பட்ட கருத்தரிப்பு சிகிச்சையை அனுபவிக்குங்கள். நிபுணத்துவம் பெற்ற மருத்துவர்கள், நவீன சிகிச்சைகள் மற்றும் அன்பான ஆதரவு – இவை அனைத்தும் உங்களுக்காக. உங்கள் நேரத்தை இன்றே முன்பதிவு செய்யுங்கள்!'
         />
         <meta property='og:type' content='website' />
         <meta
@@ -52,10 +52,10 @@ const IndexPage = ({ articles }: Article) => {
 
         <meta name='twitter:card' content='summary_large_image' />
         <meta name='twitter:site' content='@garbhagudiivf' />
-        <meta name='twitter:title' content='Fertility Centre | GarbhaGudi IVF Centre' />
+        <meta name='twitter:title' content='கருவுறுதல் மையம்' />
         <meta
           name='twitter:description'
-          content='Discover advanced fertility care at GarbhaGudi Fertility Center. Expert doctors, modern treatments & compassionate support. Book your appointment today!'
+          content='கர்பகுடி கருத்தரிப்பு மையத்தில் மேம்பட்ட கருத்தரிப்பு சிகிச்சையை அனுபவிக்குங்கள். நிபுணத்துவம் பெற்ற மருத்துவர்கள், நவீன சிகிச்சைகள் மற்றும் அன்பான ஆதரவு – இவை அனைத்தும் உங்களுக்காக. உங்கள் நேரத்தை இன்றே முன்பதிவு செய்யுங்கள்!'
         />
         <meta
           name='twitter:image'

@@ -27,20 +27,20 @@ const IndexPage = ({ articles }: Article) => {
         {/* Primary Tags */}
         <link rel='dns-prefetch' href='https://media.graphassets.com' />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
-        <title>Facilities | GarbhaGudi IVF Centre</title>
-        <meta name='title' content='Facilities | GarbhaGudi IVF Centre' />
+        <title>வசதிகள் - கர்பகுடி IVF மையம்</title>
+        <meta name='title' content='வசதிகள் - கர்பகுடி IVF மையம்' />
         <meta
           name='description'
-          content='Explore top-notch facilities designed for comfort & convenience. From modern amenities to exceptional services, we’ve got you covered! Visit us today!'
+          content='உங்கள் வசதிக்கும், சுகத்திற்கும் ஏற்றவாறு வடிவமைக்கப்பட்ட உயர்தர வசதிகளை ஆராயுங்கள். நவீன அம்சங்களிலிருந்து சிறப்பான சேவைகள் வரை, அனைத்தையும் ஒரே இடத்தில் வழங்குகிறோம்! இன்றே  எங்களைச் சந்திக்கவும்!'
         />
         {/* Open Graph / Facebook */}
 
-        <meta property='og:title' content='Facilities | GarbhaGudi IVF Centre' />
+        <meta property='og:title' content='வசதிகள் - கர்பகுடி IVF மையம்' />
         <meta property='og:site_name' content='GarbhaGudi IVF Centre' />
         <meta property='og:url' content='https://garbhagudi.com' />
         <meta
           property='og:description'
-          content='Explore top-notch facilities designed for comfort & convenience. From modern amenities to exceptional services, we’ve got you covered! Visit us today!'
+          content='உங்கள் வசதிக்கும், சுகத்திற்கும் ஏற்றவாறு வடிவமைக்கப்பட்ட உயர்தர வசதிகளை ஆராயுங்கள். நவீன அம்சங்களிலிருந்து சிறப்பான சேவைகள் வரை, அனைத்தையும் ஒரே இடத்தில் வழங்குகிறோம்! இன்றே  எங்களைச் சந்திக்கவும்!'
         />
         <meta property='og:type' content='website' />
         <meta
@@ -52,10 +52,10 @@ const IndexPage = ({ articles }: Article) => {
 
         <meta name='twitter:card' content='summary_large_image' />
         <meta name='twitter:site' content='@garbhagudiivf' />
-        <meta name='twitter:title' content='Facilities | GarbhaGudi IVF Centre' />
+        <meta name='twitter:title' content='வசதிகள் - கர்பகுடி IVF மையம்' />
         <meta
           name='twitter:description'
-          content='Explore top-notch facilities designed for comfort & convenience. From modern amenities to exceptional services, we’ve got you covered! Visit us today!'
+          content='உங்கள் வசதிக்கும், சுகத்திற்கும் ஏற்றவாறு வடிவமைக்கப்பட்ட உயர்தர வசதிகளை ஆராயுங்கள். நவீன அம்சங்களிலிருந்து சிறப்பான சேவைகள் வரை, அனைத்தையும் ஒரே இடத்தில் வழங்குகிறோம்! இன்றே  எங்களைச் சந்திக்கவும்!'
         />
         <meta
           name='twitter:image'

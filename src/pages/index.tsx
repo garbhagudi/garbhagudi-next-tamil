@@ -94,14 +94,14 @@ const Home = ({ data, testimonials }) => {
         {/* Primary Tags */}
 
         <meta name='viewport' content='width=device-width, initial-scale=1' />
-        <title>Best IVF Centre in Bangalore | IVF Hospital in Bangalore - GarbhaGudi</title>
+        <title>ஹோசூரில் சிறந்த IVF மையம் | ஹோசூரில் IVF மருத்துவமனை - கர்பகுடி</title>
         <meta
           name='title'
-          content='Best IVF Centre in Bangalore | IVF Hospital in Bangalore - GarbhaGudi'
+          content='ஹோசூரில் சிறந்த IVF மையம் | ஹோசூரில் IVF மருத்துவமனை - கர்பகுடி'
         />
         <meta
           name='description'
-          content='GarbhaGudi is one of the best IVF Clinic in Bangalore with a high success rate for IVF / infertility treatment. Book a Consultation now with the best IVF hospital in Bangalore.'
+          content='கர்பகுடி (GarbhaGudi) என்பது பெங்களூருவில் உள்ள சிறந்த IVF மருத்துவமனைகளில் ஒன்றாகும். IVF / கருத்தரிக்கையின்மை சிகிச்சைகளில் மிக உயர்ந்த வெற்றிவிகிதத்துடன் சேவையை வழங்குகிறது. ஹோசூரில் உள்ள சிறந்த கர்பகுடி IVF மருத்துவமனையில் இப்போது ஆலோசனையை பதிவு செய்யுங்கள்.'
         />
         {/* Ld+JSON Data */}
 
@@ -124,13 +124,13 @@ const Home = ({ data, testimonials }) => {
 
         <meta
           property='og:title'
-          content='GarbhaGudi IVF Centre | Best IVF & Fertility Hospital in India'
+          content='ஹோசூரில் சிறந்த IVF மையம் | ஹோசூரில் IVF மருத்துவமனை - கர்பகுடி'
         />
         <meta property='og:site_name' content='GarbhaGudi IVF Centre' />
         <meta property='og:url' content='https://garbhagudi.com' />
         <meta
           property='og:description'
-          content='GarbhaGudi is one of the best IVF Centre in Bangalore with a high success rate for infertility treatment. Get excellent treatment at affordable cost for your fertility issues. Visit the best IVF hospital now!'
+          content='கர்பகுடி (GarbhaGudi) என்பது பெங்களூருவில் உள்ள சிறந்த IVF மருத்துவமனைகளில் ஒன்றாகும். IVF / கருத்தரிக்கையின்மை சிகிச்சைகளில் மிக உயர்ந்த வெற்றிவிகிதத்துடன் சேவையை வழங்குகிறது. ஹோசூரில் உள்ள சிறந்த கர்பகுடி IVF மருத்துவமனையில் இப்போது ஆலோசனையை பதிவு செய்யுங்கள்.'
         />
         <meta property='og:type' content='website' />
         <meta
@@ -144,11 +144,11 @@ const Home = ({ data, testimonials }) => {
         <meta name='twitter:site' content='@garbhagudiivf' />
         <meta
           name='twitter:title'
-          content='GarbhaGudi IVF Centre | Best IVF & Fertility Hospital in India'
+          content='ஹோசூரில் சிறந்த IVF மையம் | ஹோசூரில் IVF மருத்துவமனை - கர்பகுடி'
         />
         <meta
           name='twitter:description'
-          content='GarbhaGudi is one of the best IVF Centre in Bangalore with a high success rate for infertility treatment. Get excellent treatment at affordable cost for your fertility issues. Visit the best IVF hospital now!'
+          content='கர்பகுடி (GarbhaGudi) என்பது பெங்களூருவில் உள்ள சிறந்த IVF மருத்துவமனைகளில் ஒன்றாகும். IVF / கருத்தரிக்கையின்மை சிகிச்சைகளில் மிக உயர்ந்த வெற்றிவிகிதத்துடன் சேவையை வழங்குகிறது. ஹோசூரில் உள்ள சிறந்த கர்பகுடி IVF மருத்துவமனையில் இப்போது ஆலோசனையை பதிவு செய்யுங்கள்.'
         />
         <meta
           name='twitter:image'

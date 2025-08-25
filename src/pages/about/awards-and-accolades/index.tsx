@@ -48,21 +48,24 @@ const Awards = ({ award }: Award) => {
         <link rel='dns-prefetch' href='https://media.graphassets.com' />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <meta name='robots' content='noindex, nofollow' />
-        <title>Awards &amp; Accolades GarbhaGudi IVF Centre</title>
-        <meta name='title' content={`Awards & Accolades GarbhaGudi IVF Centre`} />
+        <title>விருதுகள் மற்றும் பாராட்டுகள் - கர்பகுடி IVF மருத்துவமனை</title>
+        <meta name='title' content={`விருதுகள் மற்றும் பாராட்டுகள் - கர்பகுடி IVF மருத்துவமனை`} />
         <meta
           name='description'
-          content="Explore GarbhaGudi IVF's Awards and Accolades for excellence in fertility care. Celebrating our milestones in patient success. Discover More!"
+          content='கர்பகுடி IVF பெற்றிருக்கும் விருதுகள் மற்றும் பாராட்டுகளை ஆராயுங்கள் – கருத்தரிப்பு சிகிச்சையில் எங்கள் சிறப்பினை வெளிப்படுத்தும் சான்றுகள். நோயாளிகளின் வெற்றிப் பயணங்களில் எட்டிய எங்கள் மைல்கற்களை கொண்டாடுகிறோம். மேலும் அறியுங்கள்!'
         />
 
         {/* Open Graph / Facebook */}
 
-        <meta property='og:title' content={`Awards & Accolades GarbhaGudi IVF Centre`} />
+        <meta
+          property='og:title'
+          content={`விருதுகள் மற்றும் பாராட்டுகள் - கர்பகுடி IVF மருத்துவமனை`}
+        />
         <meta property='og:site_name' content='GarbhaGudi IVF Centre' />
         <meta property='og:url' content='https://garbhagudi.com' />
         <meta
           property='og:description'
-          content="Explore GarbhaGudi IVF's Awards and Accolades for excellence in fertility care. Celebrating our milestones in patient success. Discover More!"
+          content='கர்பகுடி IVF பெற்றிருக்கும் விருதுகள் மற்றும் பாராட்டுகளை ஆராயுங்கள் – கருத்தரிப்பு சிகிச்சையில் எங்கள் சிறப்பினை வெளிப்படுத்தும் சான்றுகள். நோயாளிகளின் வெற்றிப் பயணங்களில் எட்டிய எங்கள் மைல்கற்களை கொண்டாடுகிறோம். மேலும் அறியுங்கள்!'
         />
         <meta property='og:type' content='website' />
         <meta
@@ -74,10 +77,13 @@ const Awards = ({ award }: Award) => {
 
         <meta name='twitter:card' content='summary_large_image' />
         <meta name='twitter:site' content='@garbhagudiivf' />
-        <meta name='twitter:title' content={`Awards & Accolades GarbhaGudi IVF Centre`} />
+        <meta
+          name='twitter:title'
+          content={`விருதுகள் மற்றும் பாராட்டுகள் - கர்பகுடி IVF மருத்துவமனை`}
+        />
         <meta
           name='twitter:description'
-          content="Explore GarbhaGudi IVF's Awards and Accolades for excellence in fertility care. Celebrating our milestones in patient success. Discover More!"
+          content='கர்பகுடி IVF பெற்றிருக்கும் விருதுகள் மற்றும் பாராட்டுகளை ஆராயுங்கள் – கருத்தரிப்பு சிகிச்சையில் எங்கள் சிறப்பினை வெளிப்படுத்தும் சான்றுகள். நோயாளிகளின் வெற்றிப் பயணங்களில் எட்டிய எங்கள் மைல்கற்களை கொண்டாடுகிறோம். மேலும் அறியுங்கள்!'
         />
         <meta
           name='twitter:image'

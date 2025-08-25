@@ -26,21 +26,21 @@ const IndexPage = ({ articles }: Article) => {
         {/* Primary Tags */}
 
         <meta name='viewport' content='width=device-width, initial-scale=1' />
-        <title>Fertility Consultants</title>
-        <meta name='title' content='Fertility Consultants | GarbhaGudi IVF Centre' />
+        <title>கருவுறுதல் ஆலோசகர்கள்</title>
+        <meta name='title' content='கருவுறுதல் ஆலோசகர்கள்' />
         <meta
           name='description'
-          content='Get expert guidance from top fertility-consultants at GarbhaGudi IVF. Personalized care for your parenthood journey. Book a consultation today! .'
+          content='கர்பகுடி IVF இல் சிறந்த கருத்தரிப்பு நிபுணர்களிடமிருந்து நிபுணத்துவ ஆலோசனையைப் பெறுங்கள். உங்கள் பெற்றோர் பயணத்திற்கான தனிப்பட்ட பராமரிப்பு – இன்றே ஆலோசனையை முன்பதிவு செய்யுங்கள்!.'
         />
 
         {/* Open Graph / Facebook */}
 
-        <meta property='og:title' content='Fertility Consultants | GarbhaGudi IVF Centre' />
+        <meta property='og:title' content='கருவுறுதல் ஆலோசகர்கள் ' />
         <meta property='og:site_name' content='GarbhaGudi IVF Centre' />
         <meta property='og:url' content='https://garbhagudi.com' />
         <meta
           property='og:description'
-          content='Get expert guidance from top fertility-consultants at GarbhaGudi IVF. Personalized care for your parenthood journey. Book a consultation today! .'
+          content='கர்பகுடி IVF இல் சிறந்த கருத்தரிப்பு நிபுணர்களிடமிருந்து நிபுணத்துவ ஆலோசனையைப் பெறுங்கள். உங்கள் பெற்றோர் பயணத்திற்கான தனிப்பட்ட பராமரிப்பு – இன்றே ஆலோசனையை முன்பதிவு செய்யுங்கள்!.'
         />
         <meta property='og:type' content='website' />
         <meta
@@ -52,10 +52,10 @@ const IndexPage = ({ articles }: Article) => {
 
         <meta name='twitter:card' content='summary_large_image' />
         <meta name='twitter:site' content='@garbhagudiivf' />
-        <meta name='twitter:title' content='Fertility Consultants | GarbhaGudi IVF Centre' />
+        <meta name='twitter:title' content='கருவுறுதல் ஆலோசகர்கள் ' />
         <meta
           name='twitter:description'
-          content='Get expert guidance from top fertility-consultants at GarbhaGudi IVF. Personalized care for your parenthood journey. Book a consultation today! .'
+          content='கர்பகுடி IVF இல் சிறந்த கருத்தரிப்பு நிபுணர்களிடமிருந்து நிபுணத்துவ ஆலோசனையைப் பெறுங்கள். உங்கள் பெற்றோர் பயணத்திற்கான தனிப்பட்ட பராமரிப்பு – இன்றே ஆலோசனையை முன்பதிவு செய்யுங்கள்!.'
         />
         <meta
           name='twitter:image'

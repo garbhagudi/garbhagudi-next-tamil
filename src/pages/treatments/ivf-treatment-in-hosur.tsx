@@ -209,11 +209,14 @@ const Ivf = () => {
           as='image'
         />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
-        <title>Best IVF Treatment In Bangalore</title>
-        <meta name='title' content='Best IVF Treatment In Bangalore' />
+        <title>ஹோசூரில் IVF சிகிச்சை மற்றும் முட்டை உறைதல் - கர்ப்பகுடி IVF மையம்</title>
+        <meta
+          name='title'
+          content='ஹோசூரில் IVF சிகிச்சை மற்றும் முட்டை உறைதல் - கர்ப்பகுடி IVF மையம்'
+        />
         <meta
           name='description'
-          content='Explore the best IVF treatment in Bangalore at GarbhaGudi IVF Centre. High success rates, expert care & affordable costs. Book a consultation today!'
+          content='கர்பகுடி IVF இல் மேம்பட்ட IVF சிகிச்சை மற்றும் முட்டை உறைவு (Egg Freezing) சேவைகளை அனுபவிக்குங்கள். நிபுணர்களின் பராமரிப்புடன் உங்கள் கருத்தரிப்பு பயணத்தை மேம்படுத்துங்கள். இன்றே ஆலோசனையை முன்பதிவு செய்யுங்கள்!'
         />
 
         {/* Ld+JSON Data */}
@@ -248,12 +251,15 @@ const Ivf = () => {
         />
         {/* Open Graph / Facebook */}
 
-        <meta property='og:title' content='Best IVF Treatment In Bangalore | GarbhaGudi ' />
+        <meta
+          property='og:title'
+          content='ஹோசூரில் IVF சிகிச்சை மற்றும் முட்டை உறைதல் - கர்ப்பகுடி IVF மையம் | GarbhaGudi '
+        />
         <meta property='og:site_name' content='GarbhaGudi IVF Centre' />
         <meta property='og:url' content='https://garbhagudi.com' />
         <meta
           property='og:description'
-          content='IVF Treatment in Bangalore:Experience advanced IVF treatment in Bangalore, tailored to help you achieve your dream of parenthood. Contact us for expert care and support.'
+          content='கர்பகுடி IVF இல் மேம்பட்ட IVF சிகிச்சை மற்றும் முட்டை உறைவு (Egg Freezing) சேவைகளை அனுபவிக்குங்கள். நிபுணர்களின் பராமரிப்புடன் உங்கள் கருத்தரிப்பு பயணத்தை மேம்படுத்துங்கள். இன்றே ஆலோசனையை முன்பதிவு செய்யுங்கள்!.'
         />
         <meta property='og:type' content='website' />
         <meta property='og:image' content='https://media.graphassets.com/B1dYqOD6RMihLOVzSDCm' />
@@ -265,7 +271,7 @@ const Ivf = () => {
         <meta name='twitter:title' content='In-vitro Fertilization - IVF | GarbhaGudi' />
         <meta
           name='twitter:description'
-          content='What is IVF and how does it work? IVF or In Vitro Fertilization is one of the more widely known types of Assisted Reproductive Techniques (ART).'
+          content='கர்பகுடி IVF இல் மேம்பட்ட IVF சிகிச்சை மற்றும் முட்டை உறைவு (Egg Freezing) சேவைகளை அனுபவிக்குங்கள். நிபுணர்களின் பராமரிப்புடன் உங்கள் கருத்தரிப்பு பயணத்தை மேம்படுத்துங்கள். இன்றே ஆலோசனையை முன்பதிவு செய்யுங்கள்!'
         />
         <meta name='twitter:image' content='https://media.graphassets.com/B1dYqOD6RMihLOVzSDCm' />
       </Head>

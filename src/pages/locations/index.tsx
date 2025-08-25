@@ -16,8 +16,8 @@ const Locations = ({ branches }) => {
           as='image'
         />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
-        <title>Locations | GarbhaGudi IVF Centre</title>
-        <meta name='title' content='Locations | GarbhaGudi IVF Centre' />
+        <title>இடங்கள்</title>
+        <meta name='title' content='இடங்கள்' />
         <meta
           name='description'
           content='கர்பகுடி என்பது கனவுகள் நனவாகும் இடம், நம்பிக்கைகள் ஒருபோதும் மங்காத இடம், முடிவில்லா வாய்ப்புகள் நிறைந்த இடம். உங்கள் மகிழ்ச்சியின் குட்டி பொக்கிஷத்தை (குழந்தையை) தழுவும் அந்த பொற்கணத்தை நீங்கள் அனுபவிக்க நாங்கள் உழைக்கிறோம்.'
@@ -25,7 +25,7 @@ const Locations = ({ branches }) => {
 
         {/* Open Graph / Facebook */}
 
-        <meta property='og:title' content='Locations | GarbhaGudi IVF Centrea' />
+        <meta property='og:title' content='இடங்கள்a' />
         <meta property='og:site_name' content='GarbhaGudi IVF Centre' />
         <meta property='og:url' content='https://garbhagudi.com' />
         <meta
@@ -42,7 +42,7 @@ const Locations = ({ branches }) => {
 
         <meta name='twitter:card' content='summary_large_image' />
         <meta name='twitter:site' content='@garbhagudiivf' />
-        <meta name='twitter:title' content='Locations | GarbhaGudi IVF Centre' />
+        <meta name='twitter:title' content='இடங்கள்' />
         <meta
           name='twitter:description'
           content='கர்பகுடி என்பது கனவுகள் நனவாகும் இடம், நம்பிக்கைகள் ஒருபோதும் மங்காத இடம், முடிவில்லா வாய்ப்புகள் நிறைந்த இடம். உங்கள் மகிழ்ச்சியின் குட்டி பொக்கிஷத்தை (குழந்தையை) தழுவும் அந்த பொற்கணத்தை நீங்கள் அனுபவிக்க நாங்கள் உழைக்கிறோம்.'

@@ -8,21 +8,21 @@ const IndexPage = () => {
         {/* Primary Tags */}
 
         <meta name='viewport' content='width=device-width, initial-scale=1' />
-        <title>Our Versatile Approach | GarbhaGudi IVF Centre</title>
-        <meta name='title' content='Our Versatile Approach | GarbhaGudi IVF Centre' />
+        <title>எங்கள் பல்துறை அணுகுமுறை - கர்பகுடி IVF மையம்</title>
+        <meta name='title' content='எங்கள் பல்துறை அணுகுமுறை - கர்பகுடி IVF மையம்' />
         <meta
           name='description'
-          content='At GarbhaGudi, We are always committed to providing a world of options and bringing a new ray of hope to many who are trying to conceive. So, you can expect:'
+          content='கர்பகுடியில், கருத்தரிக்க முயலும் பலருக்கும் புதிய நம்பிக்கையின் ஒளியை கொண்டு வந்து, விருப்பங்களின் உலகை வழங்குவதற்கு எப்போதும் நாங்கள் அர்ப்பணித்துள்ளோம். எனவே, நீங்கள் எதிர்பார்க்கக்கூடியவை:'
         />
 
         {/* Open Graph / Facebook */}
 
-        <meta property='og:title' content='Our Versatile Approach | GarbhaGudi IVF Centre' />
+        <meta property='og:title' content='எங்கள் பல்துறை அணுகுமுறை - கர்பகுடி IVF மையம்' />
         <meta property='og:site_name' content='GarbhaGudi IVF Centre' />
         <meta property='og:url' content='https://garbhagudi.com' />
         <meta
           property='og:description'
-          content='At GarbhaGudi, We are always committed to providing a world of options and bringing a new ray of hope to many who are trying to conceive. So, you can expect:'
+          content='கர்பகுடியில், கருத்தரிக்க முயலும் பலருக்கும் புதிய நம்பிக்கையின் ஒளியை கொண்டு வந்து, விருப்பங்களின் உலகை வழங்குவதற்கு எப்போதும் நாங்கள் அர்ப்பணித்துள்ளோம். எனவே, நீங்கள் எதிர்பார்க்கக்கூடியவை:'
         />
         <meta property='og:type' content='website' />
         <meta
@@ -34,10 +34,10 @@ const IndexPage = () => {
 
         <meta name='twitter:card' content='summary_large_image' />
         <meta name='twitter:site' content='@garbhagudiivf' />
-        <meta name='twitter:title' content='Our Versatile Approach | GarbhaGudi IVF Centre' />
+        <meta name='twitter:title' content='எங்கள் பல்துறை அணுகுமுறை - கர்பகுடி IVF மையம்' />
         <meta
           name='twitter:description'
-          content='At GarbhaGudi, We are always committed to providing a world of options and bringing a new ray of hope to many who are trying to conceive. So, you can expect:'
+          content='கர்பகுடியில், கருத்தரிக்க முயலும் பலருக்கும் புதிய நம்பிக்கையின் ஒளியை கொண்டு வந்து, விருப்பங்களின் உலகை வழங்குவதற்கு எப்போதும் நாங்கள் அர்ப்பணித்துள்ளோம். எனவே, நீங்கள் எதிர்பார்க்கக்கூடியவை:'
         />
         <meta
           name='twitter:image'
