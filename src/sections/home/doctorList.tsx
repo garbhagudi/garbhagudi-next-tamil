@@ -21,7 +21,7 @@ interface doctorListProps {
 }
 
 const CATEGORY_TITLES: Record<string, string> = {
-  fertilitySpecialist: 'Fertility Specialists',
+  fertilitySpecialist: 'கருத்தரித்தல் நிபுணர்கள்',
   embryologist: 'Embryologists',
   andrologist: 'Andrologists',
   yogaSpecialist: 'Yoga Specialists',

@@ -17,7 +17,7 @@ const Testimonial = () => {
         <FcGoogle className='mx-auto h-14 w-14 text-center' />
         <div className='text-center font-sans font-semibold dark:text-gray-200'>
           <MdOutlineRateReview className='mr-2 inline-block' />
-          Reviews
+          விமர்சனங்கள்
         </div>
 
         <div className='mx-auto flex items-center justify-start'>
@@ -76,7 +76,7 @@ const Testimonial = () => {
           </div>
         </div>
         <div className='mx-auto max-w-6xl py-1 pt-4 text-center font-content text-sm underline lg:text-right'>
-          Swipe for more reviews <MdOutlineSwipeLeft className='inline-block' />
+          மேலும் மதிப்புரைகளை காண ஸ்வைப் செய்யவும் <MdOutlineSwipeLeft className='inline-block' />
         </div>
       </section>
     </div>

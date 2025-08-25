@@ -25,7 +25,7 @@ const Share: React.FC<Props> = ({ pinmedia }) => {
   return (
     <div className='mx-auto mt-16 space-x-0.5 text-center'>
       <h3 className='mb-5 text-center font-content text-xl font-semibold text-gray-800 dark:text-gray-200'>
-        Share this page
+        இந்தப் பக்கத்தை பகிரவும்
       </h3>
       <FacebookShareButton url={`https://garbhagudi.com${router.asPath}`}>
         <FacebookIcon size={44} />

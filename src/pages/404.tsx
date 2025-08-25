@@ -5,26 +5,27 @@ import Image from 'next/image';
 
 const links = [
   {
-    title: 'Our Fertility Experts',
-    description: 'Meet our team of fertility experts.',
+    title: 'எங்கள் மகப்பேறு நிபுணர்கள்',
+    description: 'எங்கள் மகப்பேறு நிபுணர் குழுவைச் சந்தியுங்கள்.',
     icon: 'https://res.cloudinary.com/garbhagudiivf/image/upload/v1642839012/Icons/About/Our_Fertility_Experts_bxsrrh.svg',
     path: '/fertility-experts',
   },
+  // {
+  //   title: 'Resources & Knowledge Center',
+  //   description: 'Learn more about causes, diagnosis and treatment options of infertility.',
+  //   icon: 'https://res.cloudinary.com/garbhagudiivf/image/upload/v1643264858/Icons/Resources/FAQs_x8rsvf.svg',
+  //   path: '/resources',
+  // },
   {
-    title: 'Resources & Knowledge Center',
-    description: 'Learn more about causes, diagnosis and treatment options of infertility.',
-    icon: 'https://res.cloudinary.com/garbhagudiivf/image/upload/v1643264858/Icons/Resources/FAQs_x8rsvf.svg',
-    path: '/resources',
-  },
-  {
-    title: 'About Us',
-    description: 'Learn more about GarbhaGudi.',
+    title: 'எங்களைப் பற்றி',
+    description: 'கர்பகுடி பற்றி மேலும் அறியுங்கள்.',
     icon: 'https://res.cloudinary.com/garbhagudiivf/image/upload/v1642838895/Icons/About/About_Us_01_yz3h95.svg',
     path: '/about/overview',
   },
   {
-    title: 'GG Care',
-    description: 'Contact our executives for more information and appointments.',
+    title: 'ஜி.ஜி. கேர்',
+    description:
+      'மேலும் தகவல்களுக்கும், நேரம் பெறுவதற்கும் எங்கள் நிர்வாகிகளை தொடர்பு கொள்ளுங்கள்.',
     icon: 'https://res.cloudinary.com/garbhagudiivf/image/upload/v1643459544/Icons/Contact/GG_Care_e7e1pc.svg',
     path: '/gg-care',
   },
@@ -60,18 +61,18 @@ const FourOhFour = () => {
           <div className='mx-auto max-w-xl py-16 sm:py-24'>
             <div className='text-center'>
               <p className='font-content text-sm font-semibold uppercase tracking-wide text-brandPink'>
-                404 error.
+                404 பிழை.
               </p>
               <h1 className='mt-4 font-heading text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl'>
-                This page does not exist.
+                இந்தப் பக்கம் இல்லை.
               </h1>
               <p className='mt-2 font-content text-lg text-gray-500'>
-                The page you are looking for could not be found.
+                நீங்கள் தேடும் பக்கத்தை கண்டுபிடிக்க முடியவில்லை.
               </p>
             </div>
             <div className='mt-12'>
               <h2 className='font-heading text-sm font-semibold uppercase tracking-wide text-gray-500'>
-                Popular pages
+                பிரபலமான பக்கங்கள்
               </h2>
               <ul
                 role='list'
@@ -114,7 +115,7 @@ const FourOhFour = () => {
                   href='/'
                   className='font-content text-base font-medium text-brandPink4 hover:text-brandPink'
                 >
-                  Or go back home<span aria-hidden='true'> &rarr;</span>
+                  அல்லது முகப்புப் பக்கத்திற்குத் திரும்பவும்<span aria-hidden='true'> &rarr;</span>
                 </Link>
               </div>
             </div>

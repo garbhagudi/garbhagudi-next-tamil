@@ -66,8 +66,9 @@ const IndexPage = ({ articles }: Article) => {
         கருத்தரிப்பு மையம்
       </h1>
       <p className='mx-auto max-w-7xl px-1 pt-6 text-center font-content font-semibold'>
-        GarbhaGudi is where dreams come alive, hopes never fade and possibilities never end. We work
-        to help you cherish the golden moment of holding your bundle of joy
+        கர்பகுடி என்பது கனவுகள் நனவாகும் இடம், நம்பிக்கைகள் மங்காத இடம், முடிவில்லா வாய்ப்புகள்
+        நிறைந்த இடம். உங்கள் செல்லக் குழந்தையை அரவணைக்கும் அந்த பொன்னான தருணத்தை நீங்கள் அனுபவிக்க
+        நாங்கள் உழைக்கிறோம்.
       </p>
       <div className='mx-auto flex max-w-7xl py-6 sm:py-12'>
         <div className='mx-auto grid grid-cols-1 gap-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>

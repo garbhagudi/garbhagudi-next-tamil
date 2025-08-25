@@ -76,7 +76,7 @@ const Video = ({ testimonials }: testimonialProps) => {
             </Carousel>
           </div>
           <div className='mx-auto max-w-6xl py-1 pt-4 text-center font-content text-sm underline lg:text-right'>
-            Swipe for more reviews <MdOutlineSwipeLeft className='inline-block' />
+            மேலும் மதிப்புரைகளை காண ஸ்வைப் செய்யவும் <MdOutlineSwipeLeft className='inline-block' />
           </div>
         </div>
       </div>

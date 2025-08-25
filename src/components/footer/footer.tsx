@@ -13,11 +13,11 @@ import Form from 'sections/LandingPages/Performant/form';
 
 const navigation = {
   treatments: [
-    { name: 'ஹிஸ்டரஸ்கோப்பி', href: '/treatments/hysteroscopy-treatment-in-bangalore' },
-    { name: 'ஐ.சி.எஸ்.ஐ சிகிச்சை', href: '/treatments/icsi-treatment-in-bangalore' },
-    { name: 'ஐ.யூ.ஐ சிகிச்சை', href: '/treatments/iui-treatment-in-bangalore' },
-    { name: 'ஐ.வி.எப் சிகிச்சை', href: '/treatments/ivf-treatment-in-bangalore' },
-    { name: 'லேபரோஸ்கோப்பி ', href: '/treatments/laparoscopy-treatment-in-bangalore' },
+    { name: 'ஹிஸ்டரஸ்கோப்பி', href: '/treatments/hysteroscopy-treatment-in-hosur' },
+    { name: 'ஐ.சி.எஸ்.ஐ சிகிச்சை', href: '/treatments/icsi-treatment-in-hosur' },
+    { name: 'ஐ.யூ.ஐ சிகிச்சை', href: '/treatments/iui-treatment-in-hosur' },
+    { name: 'ஐ.வி.எப் சிகிச்சை', href: '/treatments/ivf-treatment-in-hosur' },
+    { name: 'லேபரோஸ்கோப்பி ', href: '/treatments/laparoscopy-treatment-in-hosur' },
     { name: 'உறைவு கருவுறுப்பு மாற்று', href: '/treatments/frozen-embryo-transfer' },
   ],
   locations: [{ name: 'ஹோசூர்', href: '/locations/hosur' }],
@@ -174,7 +174,8 @@ export default function Footer() {
           ))}
         </div>
         <p className='py-8 text-center font-content text-gray-800 dark:text-white'>
-          &copy; {new Date().getFullYear()} GarbhaGudi IVF Centre, Inc. All rights reserved.
+          &copy; {new Date().getFullYear()} கர்பகுடி IVF மையம்.inc. அனைத்து உரிமைகளும்
+          பாதுகாக்கப்பட்டவை.
         </p>
       </div>
     </footer>

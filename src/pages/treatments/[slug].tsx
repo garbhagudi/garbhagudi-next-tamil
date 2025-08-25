@@ -301,7 +301,7 @@ const Treatment = ({ treatment }) => {
       </Head>
       <BreadCrumbs
         link1='/treatments'
-        text1='Treatments'
+        text1='சிகிச்சைகள்'
         link2={treatment?.slug}
         text2={treatment?.title}
         link3={''}
@@ -402,7 +402,7 @@ const Treatment = ({ treatment }) => {
           <div className='mx-auto max-w-7xl'>
             <h1>
               <span className='mt-4 block text-center font-heading text-2xl font-bold leading-8 tracking-tight text-gray-900 dark:text-gray-200 sm:text-4xl'>
-                {treatment?.altTitle || treatment?.title}
+                {treatment?.title || treatment?.altTitle}
               </span>
             </h1>
             <figure>
@@ -436,9 +436,11 @@ const Treatment = ({ treatment }) => {
           </div>
         </div>
       </div>
-      <div style={{ minHeight: '300px' }}>
-        <FAQs data={treatment?.faq} activeIndex={treatment?.faq[0]?.id} />
-      </div>
+      {treatment?.faq && (
+        <div style={{ minHeight: '300px' }}>
+          <FAQs data={treatment?.faq} activeIndex={treatment?.faq[0]?.id} />
+        </div>
+      )}
 
       <Cta />
     </div>
