@@ -20,7 +20,7 @@ const navigation = {
     { name: 'லேபரோஸ்கோப்பி ', href: '/treatments/laparoscopy-treatment-in-hosur' },
     { name: 'உறைவு கருவுறுப்பு மாற்று', href: '/treatments/frozen-embryo-transfer' },
   ],
-  locations: [{ name: 'ஹோசூர்', href: '/locations/hosur' }],
+  locations: [{ name: 'ஓசூர்', href: '/locations/hosur' }],
   // resources: [
   //   { name: 'Fertility Experts', href: '/fertility-experts' },
   //   { name: 'Fertility center', href: '/fertility-center' },

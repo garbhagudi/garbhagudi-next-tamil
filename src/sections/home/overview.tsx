@@ -89,7 +89,7 @@ const Overview = () => {
         <div className='relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0'>
           <div className='pt-12 sm:pt-16 lg:pt-20'>
             <h2 className='font-heading text-3xl font-extrabold tracking-tight text-gray-800 dark:text-gray-200 sm:text-4xl lg:mt-10'>
-              ஹோசூர் கர்பகுடி IVF மையம் உங்களை வரவேற்கிறது
+              ஓசூர் கர்பகுடி IVF மையம் உங்களை வரவேற்கிறது
             </h2>
             <div className='mt-3 font-content text-base text-gray-800 dark:text-gray-200 sm:mt-5 sm:text-xl lg:text-lg xl:text-base'>
               <p className='text-md lg:text-lg'>

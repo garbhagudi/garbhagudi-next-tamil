@@ -15,7 +15,7 @@ const Banner = ({ branchTitle }) => {
                   {branchTitle && <span className='text-brandPink'> {branchTitle}</span>}
                 </h1>
                 <h3 className='mt-4 font-content font-semibold leading-7 text-gray-800 dark:text-gray-200'>
-                  கர்பகுடி IVF மையம் தனது புதிய கிளையை <strong>ஹோசூர், தமிழ்நாடு</strong>வில்
+                  கர்பகுடி IVF மையம் தனது புதிய கிளையை <strong>ஓசூர், தமிழ்நாடு</strong>வில்
                   துவங்கியதை மகிழ்ச்சியுடன் அறிவிக்கிறது!
                   <strong>கர்நாடகாவிற்கு வெளியே எங்களின் முதல் கிளை.</strong>
                   <br />
