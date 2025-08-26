@@ -414,7 +414,7 @@ export function Treatments() {
                         )
                       }
                     >
-                      பெண்களின் கருவுறாமை
+                      பெண்கள் மகப்பேறு குறைவு
                     </Tab>
                     <Tab
                       className={({ selected }) =>
@@ -427,7 +427,7 @@ export function Treatments() {
                         )
                       }
                     >
-                      ஆண்களின் கர்ப்பத்திறன் குறைபாடு
+                      ஆண்கள் மகப்பேறு குறைவு
                     </Tab>
                     <Tab
                       className={({ selected }) =>
