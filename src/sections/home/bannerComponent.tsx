@@ -1,8 +1,7 @@
-import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { HiChevronLeft, HiChevronRight } from 'react-icons/hi';
-import Carousel from 'nuka-carousel';
+// import { HiChevronLeft, HiChevronRight } from 'react-icons/hi';
+// import Carousel from 'nuka-carousel';
 
 interface bannerProps {
   banners: [
@@ -18,15 +17,15 @@ interface bannerProps {
 }
 
 const BannerComponent = (bannerData: bannerProps) => {
-  const defaultControlsConfig = {
-    pagingDotsStyle: {
-      display: 'none',
-    },
-  };
-
+  // const defaultControlsConfig = {
+  //   pagingDotsStyle: {
+  //     display: 'none',
+  //   },
+  // };
+  const banner = bannerData?.banners?.[0];
   return (
     <div>
-      <Carousel
+      {/* <Carousel
         autoplay
         autoplayInterval={5000}
         className='border-0 shadow-2xl drop-shadow-2xl'
@@ -68,7 +67,23 @@ const BannerComponent = (bannerData: bannerProps) => {
         ) : (
           <div></div>
         )}
-      </Carousel>
+      </Carousel> */}
+      <Link
+        href={banner?.url || '#'}
+        target='_blank'
+        rel='noreferrer'
+        key={banner.id}
+        className='border-0 shadow-2xl drop-shadow-2xl'
+      >
+        <Image
+          src={banner?.image?.url}
+          alt={banner?.title}
+          width={1920}
+          height={1080}
+          className='h-full w-full object-cover'
+          priority
+        />
+      </Link>
     </div>
   );
 };
