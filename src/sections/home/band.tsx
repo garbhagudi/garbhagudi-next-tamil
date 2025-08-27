@@ -10,7 +10,7 @@ const Band = () => {
         </div>
       </div>
       <div className='pt-4 text-center'>
-        <div className='mx-auto rounded-xl bg-gray-300 px-4 py-2 font-content text-lg font-semibold dark:bg-gray-700 lg:w-96'>
+        <div className='mx-auto w-fit rounded-xl bg-gray-300 px-4 py-2 font-content text-lg font-semibold dark:bg-gray-700'>
           நியமனங்களுக்கு 📞(கால்) செய்யவும்:{' '}
           <Link
             href={'tel:+919108910832'}

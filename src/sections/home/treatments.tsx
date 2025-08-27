@@ -23,7 +23,10 @@ const TreatmentOptions = () => {
                   className='w-20 transition-all duration-300 group-hover:grayscale-0 dark:grayscale'
                 />
               </div>
-              <div className='flex flex-col items-center justify-center py-2'>
+              <div
+                className='flex flex-col items-center justify-center py-2'
+                style={{ wordBreak: 'break-word' }}
+              >
                 <div className='pb-2 text-center font-heading text-xl font-bold'>
                   {items?.treatent}
                 </div>
@@ -42,7 +45,7 @@ const TreatmentOptions = () => {
         </div>
         <Link
           href={'/treatments'}
-          className='mx-auto mb-6 flex w-32 items-center justify-center rounded-lg border-2 border-gg-500 bg-transparent px-3 py-2 text-center font-content font-bold text-gg-500 duration-300 hover:-translate-y-1 hover:bg-gg-500 hover:shadow-2xl hover:shadow-gg-500 hover:transition-all dark:border-gg-400 dark:text-gg-400 dark:hover:bg-gg-400 dark:hover:text-gray-800'
+          className='mx-auto mb-6 flex w-fit items-center justify-center rounded-lg border-2 border-gg-500 bg-transparent px-3 py-2 text-center font-content font-bold text-gg-500 duration-300 hover:-translate-y-1 hover:bg-gg-500 hover:text-white hover:shadow-2xl hover:shadow-gg-500 hover:transition-all dark:border-gg-400 dark:text-gg-400 dark:hover:bg-gg-400 dark:hover:text-gray-800'
         >
           மேலும் பார்க்க
         </Link>

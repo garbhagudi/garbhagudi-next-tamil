@@ -9,7 +9,7 @@ const StatsPC = () => {
         அதனால்தான், உங்கள் கருத்தரிப்பு சிகிச்சைகளுக்கு கர்பகுடியை நீங்கள் நம்பிக்கையுடன் தேர்வு
         செய்யலாம்.
       </p>
-      <div className='mx-auto mt-4 max-w-lg align-middle md:max-w-4xl'>
+      <div className='mx-auto mt-24 max-w-lg align-middle md:max-w-4xl'>
         <div className='text-center'>
           <div className='grid grid-cols-4 grid-rows-4 font-content'>
             <div>

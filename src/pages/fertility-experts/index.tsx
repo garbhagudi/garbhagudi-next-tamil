@@ -170,7 +170,7 @@ const IndexPage = ({ branches }: Branches) => {
                           </div>
                         </div>
                       </div>
-                      <div className='order-1 flex w-full flex-col md:ml-auto md:mt-0 md:w-full md:py-4 lg:w-1/2'>
+                      <div className='order-1 flex w-full flex-col md:ml-auto md:mt-0 md:w-full md:py-4 lg:h-[480px] lg:w-1/2'>
                         <p className='mt-7 px-2 text-center font-heading text-xl font-bold lg:mt-0'>
                           Fertility specialists at our {items.title} branch
                         </p>
