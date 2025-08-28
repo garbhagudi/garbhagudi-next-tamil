@@ -8,7 +8,7 @@ const Banner = () => {
         <div className='relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8'>
           <div className='max-w-xl text-center sm:text-left'>
             <h1 className='flex flex-col'>
-              <span className='py-2 font-heading text-3xl font-extrabold text-gray-800 dark:text-gray-200 sm:text-5xl'>
+              <span className='break-words py-2 font-heading text-xl font-extrabold text-gray-800 dark:text-gray-200 sm:text-3xl'>
                 பெற்றோராகும் பயணத்தில் தம்பதிகளுக்கு துணையாக ஓசூரில் அமைந்துள்ள எங்கள் நவீன
                 கருத்தரிப்பு மையம், புதிய ஒளியும் அளிக்கிறது.
               </span>
