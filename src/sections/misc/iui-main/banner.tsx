@@ -8,7 +8,10 @@ const Banner = () => {
         <div className='relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8'>
           <div className='max-w-xl text-center sm:text-left'>
             <h1 className='flex flex-col'>
-              <span className='break-words py-2 font-heading text-xl font-extrabold text-gray-800 dark:text-gray-200 sm:text-3xl'>
+              <span
+                className='py-2 font-heading text-xl font-extrabold text-gray-800 dark:text-gray-200 sm:text-3xl'
+                style={{ wordBreak: 'break-all' }}
+              >
                 பெற்றோராகும் பயணத்தில் தம்பதிகளுக்கு துணையாக ஓசூரில் அமைந்துள்ள எங்கள் நவீன
                 கருத்தரிப்பு மையம், புதிய ஒளியும் அளிக்கிறது.
               </span>
@@ -30,14 +33,14 @@ const Banner = () => {
                 href='/gg-care'
                 className='block w-full rounded bg-gg-500 px-12 py-3 font-content text-sm font-bold text-white shadow hover:bg-gg-400 focus:outline-none focus:ring active:bg-brandPink3 dark:bg-gray-500 dark:hover:bg-gg-400 sm:w-auto'
               >
-                Get Started
+                தொடங்குங்கள்
               </Link>
 
               <Link
                 href='#know-more'
                 className='block w-full scroll-smooth rounded bg-white px-12 py-3 font-content text-sm font-bold text-brandPink shadow hover:text-gg-400 focus:outline-none focus:ring active:text-rose-500 dark:bg-gg-500 dark:text-white dark:hover:bg-gg-400 sm:w-auto'
               >
-                Learn More
+                மேலும் அறிக
               </Link>
             </div>
           </div>
