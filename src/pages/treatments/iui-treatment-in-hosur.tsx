@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import dynamic from 'next/dynamic';
-import Header from 'sections/LandingPages/unbounce/header';
 
 // Dynamically import the components without SSR
 const LPACta = dynamic(() => import('components/LPACta'), { ssr: false });
@@ -242,7 +241,6 @@ const Iui = () => {
           content='https://res.cloudinary.com/garbhagudiivf/image/upload/v1674112151/Misc/c9xR52ZwxhbTdCfXFGsx4-transformed_1_lrnub0.webp'
         />
       </Head>
-      <Header />
       <Banner />
       <Content />
       <ContentXtra />

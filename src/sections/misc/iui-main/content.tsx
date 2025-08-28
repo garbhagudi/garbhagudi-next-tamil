@@ -6,7 +6,7 @@ const Content = () => {
       <h2 className='py-10 text-center font-heading text-2xl font-bold lg:py-16 lg:text-3xl'>
         IUI சிகிச்சை என்றால் என்ன?
       </h2>
-      <div className='grid grid-cols-1 lg:grid-cols-4'>
+      <div className='grid grid-cols-1 lg:grid-cols-4' id='know-more'>
         <div className='col-span-3 max-w-4xl px-3 font-content'>
           <h3 className='pb-6 font-heading text-lg font-bold'>IUI அறிமுகம்</h3>
           <div>
