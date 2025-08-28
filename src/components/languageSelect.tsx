@@ -10,8 +10,14 @@ import { HiSelector } from 'react-icons/hi';
 import Link from 'next/link';
 
 const language = [
-  { name: 'English', link: '/' },
-  { name: 'ಕನ್ನಡ', link: 'https://kannada.garbhagudi.com' },
+  {
+    name: 'English',
+    link: 'https://www.garbhagudi.com/',
+  },
+  {
+    name: 'ಕನ್ನಡ',
+    link: 'https://kannada.garbhagudi.com',
+  },
 ];
 
 export default function LanguageSelect() {
