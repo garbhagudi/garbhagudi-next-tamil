@@ -208,7 +208,7 @@ const Doctor = ({ doctor }) => {
                   <div className='mb-2 text-gray-800 dark:text-gray-200'>{doctor.designation}</div>
                   {doctor?.medicalRegNo && (
                     <div className='mb-2 text-gray-800 dark:text-gray-200'>
-                      மருத்துவ பதிவு எண். (KMC) :{' '}
+                      மருத்துவ பதிவு எண். (TNMC) :{' '}
                       <span className='font-bold underline'>{doctor?.medicalRegNo}</span>
                     </div>
                   )}
