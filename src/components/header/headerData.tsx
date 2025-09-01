@@ -208,7 +208,7 @@ export const Location = [
     name: 'ஓசூர்',
     href: '/locations/hosur',
     icon: <SiGooglemaps />,
-    short: 'HR',
+    short: 'HOS',
   },
 ];
 
