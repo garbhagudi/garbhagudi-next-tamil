@@ -126,8 +126,12 @@ const IndexPage = ({ treatments }: TreatmentProps) => {
                         );
                       }
                     })}
-                    <Link href={`/treatments/ivf-treatment-in-hosur`} passHref className='group'>
-                      <div className='mx-auto flex h-full w-80 cursor-pointer rounded-2xl border-2 border-solid border-brandPink px-4 py-3 transition-all duration-100 hover:border-transparent hover:bg-brandPink hover:text-white dark:border-gray-700 dark:hover:border-gg-400 dark:hover:bg-gray-600 md:w-96'>
+                    <Link
+                      href={`/treatments/ivf-treatment-in-bangalore`}
+                      passHref
+                      className='group'
+                    >
+                      <div className='mx-auto flex w-80 cursor-pointer rounded-2xl border-2 border-solid border-brandPink px-4 py-3 transition-all duration-100 hover:border-transparent hover:bg-brandPink hover:text-white dark:border-gray-700 dark:hover:border-gg-400 dark:hover:bg-gray-600 md:w-96'>
                         <div className='w-1/3'>
                           <Image
                             className='h-16 w-16 rounded-md object-cover transition-all duration-500 ease-in-out group-hover:grayscale-0 dark:grayscale'
@@ -145,8 +149,12 @@ const IndexPage = ({ treatments }: TreatmentProps) => {
                         </div>
                       </div>
                     </Link>
-                    <Link href={`/treatments/iui-treatment-in-hosur`} passHref className='group'>
-                      <div className='mx-auto flex h-full w-80 cursor-pointer rounded-2xl border-2 border-solid border-brandPink px-4 py-3 transition-all duration-100 hover:border-transparent hover:bg-brandPink hover:text-white dark:border-gray-700 dark:hover:border-gg-400 dark:hover:bg-gray-600 md:w-96'>
+                    <Link
+                      href={`/treatments/iui-treatment-in-bangalore`}
+                      passHref
+                      className='group'
+                    >
+                      <div className='mx-auto flex w-80 cursor-pointer rounded-2xl border-2 border-solid border-brandPink px-4 py-3 transition-all duration-100 hover:border-transparent hover:bg-brandPink hover:text-white dark:border-gray-700 dark:hover:border-gg-400 dark:hover:bg-gray-600 md:w-96'>
                         <div className='w-1/3'>
                           <Image
                             className='h-16 w-16 rounded-md object-cover transition-all duration-500 ease-in-out group-hover:grayscale-0 dark:grayscale'
