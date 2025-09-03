@@ -1,9 +1,7 @@
 import Logo from 'components/assets/logo';
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
 
 const Header = () => {
-  const path = usePathname();
   return (
     <div>
       <div className='mx-auto max-w-7xl px-3'>

@@ -1,7 +1,6 @@
 import { CloseButton, Dialog, DialogPanel } from '@headlessui/react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
 import { useState } from 'react';
 import { HiPhone } from 'react-icons/hi';
 import { IoIosCloseCircleOutline } from 'react-icons/io';
@@ -10,7 +9,6 @@ import Form from 'sections/LandingPages/Performant/form';
 
 const FloatPhone = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const path = usePathname();
   function open() {
     setIsOpen(true);
   }
