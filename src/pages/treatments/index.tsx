@@ -63,7 +63,7 @@ const IndexPage = ({ treatments }: TreatmentProps) => {
       </Head>
       <BreadCrumbs
         link1='/treatments'
-        text1='Treatments'
+        text1='சிகிச்சைகள்'
         text2=''
         link2=''
         link3={''}
@@ -72,23 +72,25 @@ const IndexPage = ({ treatments }: TreatmentProps) => {
         text4={''}
       />
       <div className='mx-auto max-w-7xl'>
-        <h1 className='pt-12 text-center font-heading text-4xl font-semibold'>Treatment Options</h1>
+        <h1 className='pt-12 text-center font-heading text-4xl font-semibold'>
+          சிகிச்சை விருப்பங்கள்
+        </h1>
         <div className='w-full max-w-7xl px-2 py-16 sm:px-0'>
           <TabGroup>
             <TabList className={'flex space-x-1 rounded-xl bg-brandPink p-1'}>
               <Tab className='mx-auto w-full rounded-lg py-2 text-center font-heading text-xl font-semibold text-gray-100 focus:outline-none ui-selected:bg-gray-100 ui-selected:text-brandPink2 ui-selected:shadow-xl ui-selected:transition-all ui-selected:duration-300 ui-selected:ease-linear ui-selected:hover:bg-gray-100 ui-not-selected:hover:bg-brandPink3 dark:text-gray-800 dark:ui-selected:bg-gray-800 dark:ui-selected:text-gray-200'>
                 <div className='mx-auto max-w-7xl text-center font-heading text-base font-semibold md:text-2xl'>
-                  Female Infertility
+                  பெண்கள் மகப்பேறு குறைவு
                 </div>
               </Tab>
               <Tab className='mx-auto w-full rounded-lg py-2 text-center font-heading text-xl font-semibold text-gray-100 focus:outline-none ui-selected:bg-gray-100 ui-selected:text-brandPink2 ui-selected:shadow-xl ui-selected:transition-all ui-selected:duration-300 ui-selected:ease-linear ui-selected:hover:bg-gray-100 ui-not-selected:hover:bg-brandPink3 dark:text-gray-800 dark:ui-selected:bg-gray-800 dark:ui-selected:text-gray-200'>
                 <div className='mx-auto max-w-7xl px-2 text-center font-heading text-base font-semibold md:text-2xl'>
-                  Male Infertility
+                  ஆண்கள் மகப்பேறு குறைவு
                 </div>
               </Tab>
               <Tab className='mx-auto w-full rounded-lg py-2 text-center font-heading text-xl font-semibold text-gray-100 focus:outline-none ui-selected:bg-gray-100 ui-selected:text-brandPink2 ui-selected:shadow-xl ui-selected:transition-all ui-selected:duration-300 ui-selected:ease-linear ui-selected:hover:bg-gray-100 ui-not-selected:hover:bg-brandPink3 dark:text-gray-800 dark:ui-selected:bg-gray-800 dark:ui-selected:text-gray-200'>
                 <div className='mx-auto max-w-7xl text-center font-heading text-base font-semibold md:text-2xl'>
-                  Advanced Options
+                  மேம்பட்ட சிகிச்சைகள்
                 </div>
               </Tab>
             </TabList>
@@ -141,7 +143,9 @@ const IndexPage = ({ treatments }: TreatmentProps) => {
                           />
                         </div>
                         <div className='flex w-2/3 flex-col justify-center text-left'>
-                          <p className='font-qs text-lg font-semibold'>In-Vitro Fertilization</p>
+                          <p className='font-qs text-lg font-semibold'>
+                            ஐ வி எப் (IVF) (இன் விற்றோ பெஃர்டிலைசேஷன்){' '}
+                          </p>
                         </div>
                       </div>
                     </Link>
@@ -163,7 +167,7 @@ const IndexPage = ({ treatments }: TreatmentProps) => {
                         </div>
                         <div className='flex w-2/3 flex-col justify-center text-left'>
                           <p className='font-qs text-lg font-semibold'>
-                            Intra-Uterine Insemination
+                            ஐ யு ஐ (IUI) (இன்ட்ரா யுடெரின் இன்செமினேஷன்)
                           </p>
                         </div>
                       </div>
