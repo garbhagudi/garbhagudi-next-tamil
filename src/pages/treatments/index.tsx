@@ -127,7 +127,7 @@ const IndexPage = ({ treatments }: TreatmentProps) => {
                       }
                     })}
                     <Link
-                      href={`/treatments/ivf-treatment-in-bangalore`}
+                      href={`/treatments/ivf-treatment-in-hosur`}
                       passHref
                       className='group'
                     >
@@ -150,7 +150,7 @@ const IndexPage = ({ treatments }: TreatmentProps) => {
                       </div>
                     </Link>
                     <Link
-                      href={`/treatments/iui-treatment-in-bangalore`}
+                      href={`/treatments/iui-treatment-in-hosur`}
                       passHref
                       className='group'
                     >
