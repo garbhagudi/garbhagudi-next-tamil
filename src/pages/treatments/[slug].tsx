@@ -273,7 +273,7 @@ const Treatment = ({ treatment }) => {
             {treatment?.docJsonLd && (
               <script type='application/ld+json' dangerouslySetInnerHTML={addDocJsonLd()} />
             )}
-            {treatment?.slug === 'laparoscopy-treatment-in-bangalore' && (
+            {treatment?.slug === 'laparoscopy-treatment-in-hosur' && (
               <script
                 type='application/ld+json'
                 dangerouslySetInnerHTML={faqJsonLd()}

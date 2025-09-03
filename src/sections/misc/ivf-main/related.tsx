@@ -44,21 +44,21 @@ const keywords = [
   {
     id: 4,
     word: 'IVF Cost In Bangalore',
-    link: '/treatments/ivf-treatment-in-bangalore',
+    link: '/treatments/ivf-treatment-in-hosur',
   },
   {
     id: 5,
     word: 'IVF Treatment Cost In Bangalore',
-    link: '/treatments/ivf-treatment-in-bangalore',
+    link: '/treatments/ivf-treatment-in-hosur',
   },
   {
     id: 6,
     word: 'IVF Treatment In Bangalore',
-    link: '/treatments/ivf-treatment-in-bangalore',
+    link: '/treatments/ivf-treatment-in-hosur',
   },
   {
     id: 7,
     word: 'Best IVF Treatment In Bangalore',
-    link: '/treatments/ivf-treatment-in-bangalore',
+    link: '/treatments/ivf-treatment-in-hosur',
   },
 ];

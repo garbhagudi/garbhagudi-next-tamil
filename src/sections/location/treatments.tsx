@@ -68,7 +68,7 @@ const Data = [
     id: 1,
     treatent: 'IVF சிகிச்சை',
     desc: 'உங்கள் பெற்றோராகும் கனவை நிறைவேற்ற கர்பகுடியின் மேம்பட்ட IVF சிகிச்சையைப் பயன்படுத்துங்கள்',
-    link: '/treatments/ivf-treatment-in-bangalore',
+    link: '/treatments/ivf-treatment-in-hosur',
     image:
       'https://res.cloudinary.com/garbhagudiivf/image/upload/v1674890412/Misc/ivf%20icons/ivf_jwjqwf.webp',
   },
@@ -76,7 +76,7 @@ const Data = [
     id: 2,
     treatent: 'ICSI',
     desc: ' கருத்தரிப்பில் சிரமப்படும் தம்பதிகளுக்கான உயர்ந்த வெற்றி விகிதத்துடன் கூடிய கர்பகுடியின் ICSI சிகிச்சை.',
-    link: '/treatments/icsi-treatment-in-bangalore',
+    link: '/treatments/icsi-treatment-in-hosur',
     image:
       'https://res.cloudinary.com/garbhagudiivf/image/upload/v1674890412/Misc/ivf%20icons/fertilization_o5hpkk.webp',
   },
@@ -84,7 +84,7 @@ const Data = [
     id: 3,
     treatent: 'IUI',
     desc: 'இயற்கையான முறையில் கர்ப்பமாகும் வாய்ப்பை அதிகரிக்கும் கர்பகுடியின் IUI சிகிச்சை.',
-    link: '/treatments/iui-treatment-in-bangalore',
+    link: '/treatments/iui-treatment-in-hosur',
     image:
       'https://res.cloudinary.com/garbhagudiivf/image/upload/v1674890412/Misc/ivf%20icons/in-vitro_mujzkz.webp',
   },
@@ -100,7 +100,7 @@ const Data = [
     id: 5,
     treatent: 'பிளாஸ்டோசிஸ்ட் கல்ச்சர்',
     desc: ' எம்ப்ரியோவை நீண்ட நாட்கள் வளர்த்து வெற்றிகரமாக கருப்பை நட்டு வைக்கும் வாய்ப்பை அதிகரிக்கும் சிகிச்சை.',
-    link: '/treatments/ivf-treatment-in-bangalore',
+    link: '/treatments/ivf-treatment-in-hosur',
     image:
       'https://res.cloudinary.com/garbhagudiivf/image/upload/v1674890412/Misc/ivf%20icons/sperm_utf0oe.webp',
   },

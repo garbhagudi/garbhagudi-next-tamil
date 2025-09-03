@@ -107,7 +107,7 @@ const IndexPage = ({ treatments }: TreatmentProps) => {
                             key={item?.id}
                             className='group'
                           >
-                            <div className='mx-auto flex w-80 cursor-pointer rounded-2xl border-2 border-solid border-brandPink px-4 py-3 transition-all duration-100 hover:border-transparent hover:bg-brandPink hover:text-white dark:border-gray-700 dark:hover:border-gg-400 dark:hover:bg-gray-600 md:w-96'>
+                            <div className='mx-auto flex h-full w-80 cursor-pointer rounded-2xl border-2 border-solid border-brandPink px-4 py-3 transition-all duration-100 hover:border-transparent hover:bg-brandPink hover:text-white dark:border-gray-700 dark:hover:border-gg-400 dark:hover:bg-gray-600 md:w-96'>
                               <div className='w-1/3'>
                                 <Image
                                   className='h-16 w-16 rounded-md object-cover transition-all duration-500 ease-in-out group-hover:grayscale-0 dark:grayscale'
@@ -118,7 +118,7 @@ const IndexPage = ({ treatments }: TreatmentProps) => {
                                   loading='lazy'
                                 />
                               </div>
-                              <div className='flex w-2/3 flex-col justify-center text-left'>
+                              <div className='flex w-2/3 flex-col justify-center break-words text-left'>
                                 <p className='font-qs text-lg font-semibold'>{item?.title}</p>
                               </div>
                             </div>
@@ -126,12 +126,8 @@ const IndexPage = ({ treatments }: TreatmentProps) => {
                         );
                       }
                     })}
-                    <Link
-                      href={`/treatments/ivf-treatment-in-bangalore`}
-                      passHref
-                      className='group'
-                    >
-                      <div className='mx-auto flex w-80 cursor-pointer rounded-2xl border-2 border-solid border-brandPink px-4 py-3 transition-all duration-100 hover:border-transparent hover:bg-brandPink hover:text-white dark:border-gray-700 dark:hover:border-gg-400 dark:hover:bg-gray-600 md:w-96'>
+                    <Link href={`/treatments/ivf-treatment-in-hosur`} passHref className='group'>
+                      <div className='mx-auto flex h-full w-80 cursor-pointer rounded-2xl border-2 border-solid border-brandPink px-4 py-3 transition-all duration-100 hover:border-transparent hover:bg-brandPink hover:text-white dark:border-gray-700 dark:hover:border-gg-400 dark:hover:bg-gray-600 md:w-96'>
                         <div className='w-1/3'>
                           <Image
                             className='h-16 w-16 rounded-md object-cover transition-all duration-500 ease-in-out group-hover:grayscale-0 dark:grayscale'
@@ -142,19 +138,15 @@ const IndexPage = ({ treatments }: TreatmentProps) => {
                             loading='lazy'
                           />
                         </div>
-                        <div className='flex w-2/3 flex-col justify-center text-left'>
+                        <div className='flex w-2/3 flex-col justify-center break-words text-left'>
                           <p className='font-qs text-lg font-semibold'>
                             ஐ வி எப் (IVF) (இன் விற்றோ பெஃர்டிலைசேஷன்){' '}
                           </p>
                         </div>
                       </div>
                     </Link>
-                    <Link
-                      href={`/treatments/iui-treatment-in-bangalore`}
-                      passHref
-                      className='group'
-                    >
-                      <div className='mx-auto flex w-80 cursor-pointer rounded-2xl border-2 border-solid border-brandPink px-4 py-3 transition-all duration-100 hover:border-transparent hover:bg-brandPink hover:text-white dark:border-gray-700 dark:hover:border-gg-400 dark:hover:bg-gray-600 md:w-96'>
+                    <Link href={`/treatments/iui-treatment-in-hosur`} passHref className='group'>
+                      <div className='mx-auto flex h-full w-80 cursor-pointer rounded-2xl border-2 border-solid border-brandPink px-4 py-3 transition-all duration-100 hover:border-transparent hover:bg-brandPink hover:text-white dark:border-gray-700 dark:hover:border-gg-400 dark:hover:bg-gray-600 md:w-96'>
                         <div className='w-1/3'>
                           <Image
                             className='h-16 w-16 rounded-md object-cover transition-all duration-500 ease-in-out group-hover:grayscale-0 dark:grayscale'
@@ -165,7 +157,7 @@ const IndexPage = ({ treatments }: TreatmentProps) => {
                             loading='lazy'
                           />
                         </div>
-                        <div className='flex w-2/3 flex-col justify-center text-left'>
+                        <div className='flex w-2/3 flex-col justify-center break-words text-left'>
                           <p className='font-qs text-lg font-semibold'>
                             ஐ யு ஐ (IUI) (இன்ட்ரா யுடெரின் இன்செமினேஷன்)
                           </p>
@@ -182,7 +174,7 @@ const IndexPage = ({ treatments }: TreatmentProps) => {
                       if (item?.category == 'Male') {
                         return (
                           <Link href={`treatments/${item?.slug}`} passHref key={item?.id}>
-                            <div className='mx-auto flex w-80 cursor-pointer rounded-2xl border-2 border-solid border-brandPink px-4 py-3 transition-colors duration-100 hover:border-transparent hover:bg-brandPink hover:text-white md:w-96'>
+                            <div className='mx-auto flex h-full w-80 cursor-pointer rounded-2xl border-2 border-solid border-brandPink px-4 py-3 transition-colors duration-100 hover:border-transparent hover:bg-brandPink hover:text-white md:w-96'>
                               <div className='w-1/3'>
                                 <Image
                                   className='h-16 w-16 rounded-full object-cover'
@@ -193,7 +185,7 @@ const IndexPage = ({ treatments }: TreatmentProps) => {
                                   loading='lazy'
                                 />
                               </div>
-                              <div className='flex w-2/3 flex-col justify-center text-left'>
+                              <div className='flex w-2/3 flex-col justify-center break-words text-left'>
                                 <p className='font-qs text-lg font-semibold'>{item?.title}</p>
                               </div>
                             </div>
@@ -211,7 +203,7 @@ const IndexPage = ({ treatments }: TreatmentProps) => {
                       if (item?.category == 'Advanced') {
                         return (
                           <Link href={`treatments/${item?.slug}`} passHref key={item?.id}>
-                            <div className='mx-auto flex w-80 cursor-pointer rounded-2xl border-2 border-solid border-brandPink px-4 py-3 transition-colors duration-100 hover:border-transparent hover:bg-brandPink hover:text-white md:w-96'>
+                            <div className='mx-auto flex h-full w-80 cursor-pointer rounded-2xl border-2 border-solid border-brandPink px-4 py-3 transition-colors duration-100 hover:border-transparent hover:bg-brandPink hover:text-white md:w-96'>
                               <div className='w-1/3'>
                                 <Image
                                   className='h-16 w-16 rounded-full object-cover'
@@ -222,7 +214,7 @@ const IndexPage = ({ treatments }: TreatmentProps) => {
                                   loading='lazy'
                                 />
                               </div>
-                              <div className='flex w-2/3 flex-col justify-center text-left'>
+                              <div className='flex w-2/3 flex-col justify-center break-words text-left'>
                                 <p className='font-qs text-lg font-semibold'>{item?.title}</p>
                               </div>
                             </div>

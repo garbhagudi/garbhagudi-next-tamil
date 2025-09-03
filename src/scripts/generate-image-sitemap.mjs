@@ -280,7 +280,7 @@ function generateSiteMap(
       ],
     },
     {
-      loc: '/treatments/infertility-treatment-in-bangalore',
+      loc: '/treatments/infertility-treatment-in-hosur',
       image: [
         'https://res.cloudinary.com/garbhagudiivf/image/upload/v1691234594/Misc/gynecologist-performing-ultrasound-consultation-min_qb43zc.webp',
         'https://res.cloudinary.com/garbhagudiivf/image/upload/v1691234829/Misc/young-wife-husband-have-problems-family-life-min_csilul.webp',

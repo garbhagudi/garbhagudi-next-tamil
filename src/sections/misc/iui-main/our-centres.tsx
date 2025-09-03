@@ -2,9 +2,9 @@ import Link from 'next/link';
 
 const OurCentres = () => {
   return (
-    <div className='container mx-auto scroll-m-24 px-3' id='iui-centres-in-bangalore'>
+    <div className='container mx-auto scroll-m-24 px-3' id='iui-centres-in-hosur'>
       <h2 className='pb-5 text-center font-heading text-2xl font-bold text-gray-800 dark:text-gray-200 lg:text-3xl'>
-        GarbhaGudi IVF Centers in Bangalore
+        GarbhaGudi IVF Centers in Hosur
       </h2>
       <div className='flex items-center justify-center pb-5'>
         <svg

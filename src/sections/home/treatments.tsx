@@ -64,7 +64,7 @@ const Data = [
       <div>
         கர்பகுடியின் முன்னேற்றமான
         <Link
-          href={'/treatments/ivf-treatment-in-bangalore'}
+          href={'/treatments/ivf-treatment-in-hosur'}
           className='pr-1 text-gg-500 hover:underline dark:text-gg-400'
         >
           IVF சிகிச்சையின்
@@ -73,7 +73,7 @@ const Data = [
         கொடுங்கள்.
       </div>
     ),
-    link: '/treatments/ivf-treatment-in-bangalore',
+    link: '/treatments/ivf-treatment-in-hosur',
     image:
       'https://res.cloudinary.com/garbhagudiivf/image/upload/v1674890412/Misc/ivf%20icons/ivf_jwjqwf.webp',
   },
@@ -84,7 +84,7 @@ const Data = [
       <div>
         கர்பகுடியின் நவீன
         <Link
-          href={'/treatments/icsi-treatment-in-bangalore'}
+          href={'/treatments/icsi-treatment-in-hosur'}
           className='pr-1 text-gg-500 hover:underline dark:text-gg-400'
         >
           ICSI சிகிச்சையின்
@@ -93,7 +93,7 @@ const Data = [
         தம்பதிகளுக்கு இது அதிக வெற்றிவிகிதத்தை வழங்குகிறது.
       </div>
     ),
-    link: '/treatments/icsi-treatment-in-bangalore',
+    link: '/treatments/icsi-treatment-in-hosur',
     image:
       'https://res.cloudinary.com/garbhagudiivf/image/upload/v1674890412/Misc/ivf%20icons/fertilization_o5hpkk.webp',
   },
@@ -104,7 +104,7 @@ const Data = [
       <div>
         கர்பகுடியின்
         <Link
-          href={'/treatments/iui-treatment-in-bangalore'}
+          href={'/treatments/iui-treatment-in-hosur'}
           className='pr-1 text-gg-500 hover:underline dark:text-gg-400'
         >
           IUI சிகிச்சையுடன்
@@ -113,7 +113,7 @@ const Data = [
         அதிகரிக்கும் வகையில் இது வடிவமைக்கப்பட்டுள்ளது.
       </div>
     ),
-    link: '/treatments/iui-treatment-in-bangalore',
+    link: '/treatments/iui-treatment-in-hosur',
     image:
       'https://res.cloudinary.com/garbhagudiivf/image/upload/v1674890412/Misc/ivf%20icons/in-vitro_mujzkz.webp',
   },
@@ -124,7 +124,7 @@ const Data = [
       <div>
         கர்பகுடி
         <Link
-          href={'/treatments/infertility-treatment-in-bangalore'}
+          href={'/treatments/infertility-treatment-in-hosur'}
           className='pr-1 text-gg-500 hover:underline dark:text-gg-400'
         >
           IVF மையம்
@@ -133,7 +133,7 @@ const Data = [
         அறிந்து கொள்ளுங்கள்!
       </div>
     ),
-    link: '/treatments/infertility-treatment-in-bangalore',
+    link: '/treatments/infertility-treatment-in-hosur',
     image:
       'https://res.cloudinary.com/garbhagudiivf/image/upload/v1674890412/Misc/ivf%20icons/research_j8mdnk.webp',
   },

@@ -36,9 +36,7 @@ const FloatPhone = () => {
         >
           <HiPhone className='h-5 w-5' />
           <div className='text-sm' suppressHydrationWarning>
-            {path === '/treatments/iui-treatment-in-bangalore'
-              ? '+91 9480 9480 05'
-              : '+91 9108 9108 32'}
+            +91 9108 9108 32
           </div>
         </Link>
       </div>

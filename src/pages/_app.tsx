@@ -32,7 +32,6 @@ function MyApp({ Component, pageProps }) {
     '/lp/egg-freezing',
     '/treatments/iui-treatment-in-bangalore',
   ];
-  const iuiTreatmentPage = router.pathname === '/treatments/iui-treatment-in-bangalore';
 
   const shouldDisplay = !noRenderPaths.includes(router.pathname);
   const [loading, setLoading] = useState(false);
@@ -89,7 +88,7 @@ function MyApp({ Component, pageProps }) {
           <div className='min-h-screen selection:bg-gg-500 selection:text-white dark:bg-gray-800'>
             {shouldDisplay && <Nav />}
             <Component {...pageProps} />
-            {!iuiTreatmentPage && <Footer />}
+            <Footer />
           </div>
         )}
         {shouldDisplay && showSalesIQ && (
@@ -101,7 +100,7 @@ function MyApp({ Component, pageProps }) {
       </ThemeProvider>
       {/* <SpeedInsights /> */}
       <FloatRequestCallBack />
-      {!iuiTreatmentPage && <FloatWhatsApp />}
+      <FloatWhatsApp />
       <FloatPhone />
     </RootLayout>
   );
