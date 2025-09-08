@@ -264,7 +264,7 @@ function generateSiteMap(
     {
       loc: '/contact/enquiry',
       image: [
-        'https://res.cloudinary.com/garbhagudiivf/image/upload/v1722509021/Banner/Google_Form_Header-min_tjenif_1_1_k8jrow.webp',
+        'https://res.cloudinary.com/garbhagudiivf/image/upload/v1757330475/GG_Popup_Image-02_xtezjv.webp',
       ],
     },
     {

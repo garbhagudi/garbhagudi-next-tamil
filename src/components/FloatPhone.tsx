@@ -54,7 +54,7 @@ const FloatPhone = () => {
             >
               <div className='relative h-32 w-full'>
                 <Image
-                  src='https://res.cloudinary.com/garbhagudiivf/image/upload/v1722509021/Banner/Google_Form_Header-min_tjenif_1_1_k8jrow.webp'
+                  src='https://res.cloudinary.com/garbhagudiivf/image/upload/v1757330475/GG_Popup_Image-02_xtezjv.webp'
                   alt='formBanner'
                   className='h-full w-full rounded-t-md'
                   width={380}
