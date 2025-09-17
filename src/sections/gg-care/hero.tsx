@@ -52,7 +52,7 @@ const Hero = () => {
         <h2 className='sr-only' id='contact-heading'>
           எங்களை தொடர்பு கொள்ளுங்கள்
         </h2>
-        <div className='grid grid-cols-1 gap-y-20 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-0'>
+        <div className='grid grid-cols-1 justify-center gap-y-20 lg:grid-cols-2 lg:gap-x-8 lg:gap-y-0'>
           {supportLinks.map((link) => (
             <div
               key={link.name}

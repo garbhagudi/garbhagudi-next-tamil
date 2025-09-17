@@ -21,12 +21,11 @@ const navigation = {
     { name: 'உறைவு கருவுறுப்பு மாற்று', href: '/treatments/frozen-embryo-transfer' },
   ],
   locations: [{ name: 'ஓசூர்', href: '/locations/hosur' }],
-  // resources: [
-  //   { name: 'Fertility Experts', href: '/fertility-experts' },
-  //   { name: 'Fertility center', href: '/fertility-center' },
-  //   { name: 'Blogs', href: '/blogs/page/1' },
-  //   { name: 'FAQ', href: '/resources/faq' },
-  // ],
+  resources: [
+    { name: 'மகப்பேறு நிபுணர்கள்', href: '/fertility-experts' },
+    { name: 'கருத்தரிப்பு மையம்', href: '/fertility-center' },
+    { name: 'அம்சங்கள்', href: '/features' },
+  ],
   company: [
     { name: 'கர்பகுடி', href: '/about/overview' },
     { name: 'GGIRHR', href: 'https://ggirhr.com' },
@@ -58,7 +57,7 @@ export default function Footer() {
       <div className='mx-auto flex max-w-7xl flex-col justify-between border-t px-1 pb-12 dark:border-gray-600 sm:px-6 lg:flex-row lg:py-8'>
         <div className='xl:grid xl:grid-cols-2 xl:gap-8'>
           <div className='mt-12 grid grid-cols-1 gap-8 text-center antialiased xl:col-span-full xl:mt-0 xl:grid-cols-1'>
-            <div className='grid grid-cols-3 gap-5 md:grid-cols-5'>
+            <div className='grid grid-cols-3 gap-5 md:grid-cols-4 lg:grid-cols-6'>
               <div className=''>
                 <h3 className='text-sm font-bold uppercase tracking-wider text-gray-900 dark:text-white'>
                   சிகிச்சைகள்
@@ -77,23 +76,7 @@ export default function Footer() {
               </div>
               <div className=''>
                 <h3 className='text-sm font-bold uppercase tracking-wider text-gray-900 dark:text-white'>
-                  கிளை மையங்கள்
-                </h3>
-                <ul className='mt-4 space-y-1'>
-                  {navigation.locations.map((item) => (
-                    <li key={item.name}>
-                      <Link passHref href={item.href}>
-                        <span className='cursor-pointer text-xs text-gray-800 hover:text-sm hover:text-brandPink hover:underline dark:text-white md:text-sm md:hover:text-base'>
-                          {item.name}
-                        </span>
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              {/* <div className=''>
-                <h3 className='text-sm font-bold uppercase tracking-wider text-gray-900 dark:text-white'>
-                  Resources
+                  வளங்கள்
                 </h3>
                 <ul className='mt-4 space-y-1'>
                   {navigation.resources.map((item) => (
@@ -106,7 +89,7 @@ export default function Footer() {
                     </li>
                   ))}
                 </ul>
-              </div> */}
+              </div>
               <div className=''>
                 <h3 className='text-sm font-bold uppercase tracking-wider text-gray-900 dark:text-white'>
                   நிறுவனங்கள்
@@ -123,6 +106,7 @@ export default function Footer() {
                   ))}
                 </ul>
               </div>
+
               <div className=''>
                 <h3 className='text-sm font-bold uppercase tracking-wider text-gray-900 dark:text-white'>
                   தொடர்புக்கு
@@ -131,6 +115,22 @@ export default function Footer() {
                   {navigation.contact.map((item) => (
                     <li key={item.name}>
                       <Link href={item.href} passHref>
+                        <span className='cursor-pointer text-xs text-gray-800 hover:text-sm hover:text-brandPink hover:underline dark:text-white md:text-sm md:hover:text-base'>
+                          {item.name}
+                        </span>
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div className=''>
+                <h3 className='text-sm font-bold uppercase tracking-wider text-gray-900 dark:text-white'>
+                  கிளை மையங்கள்
+                </h3>
+                <ul className='mt-4 space-y-1'>
+                  {navigation.locations.map((item) => (
+                    <li key={item.name}>
+                      <Link passHref href={item.href}>
                         <span className='cursor-pointer text-xs text-gray-800 hover:text-sm hover:text-brandPink hover:underline dark:text-white md:text-sm md:hover:text-base'>
                           {item.name}
                         </span>

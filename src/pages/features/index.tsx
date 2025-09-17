@@ -46,7 +46,7 @@ const IndexPage = () => {
       </Head>
       <BreadCrumbs
         link1='/features'
-        text1='Features'
+        text1='அம்சங்கள்'
         link2=''
         text2=''
         link3={''}

@@ -4,73 +4,72 @@ import Image from 'next/image';
 const features = [
   {
     id: 1,
-    name: 'High Success Rate',
+    name: 'உயர் வெற்றிவிகிதம்',
     icon: 'https://res.cloudinary.com/garbhagudiivf/image/upload/v1642840283/Icons/Features/Success_Rate_lig6sq.svg',
-    content: 'GarbhaGudi has one of the highest IVF treatments success rates in the industry.',
+    content:
+      'கர்பகுடி, தொழில்துறையில் மிக உயர்ந்த IVF சிகிச்சை வெற்றிவிகிதம் கொண்ட மையங்களில் ஒன்றாகும்.',
     link: '/features/success-rates-of-ivf',
   },
   {
     id: 2,
-    name: 'World Class Fertility Care',
+    name: 'உலகத் தரமான கருத்தரிப்பு பராமரிப்பு',
     icon: 'https://res.cloudinary.com/garbhagudiivf/image/upload/v1642840286/Icons/Features/World_Class_Fertility_Care_un83f6.svg',
-    content:
-      'GarbhaGudi is Proud to have played a key role in bringing more than 15,000+ babies into the world since 2011.',
+    content: '2011 முதல் இதுவரை 15,000+ குழந்தைகளை உலகிற்கு கொண்டு வருவதில் பெருமை கொண்டுள்ளது.',
     link: '/features/world-class-fertility-care',
   },
   {
     id: 3,
-    name: 'Top Fertility Specialists',
+    name: 'முன்னணி கருத்தரிப்பு நிபுணர்கள்',
     icon: 'https://res.cloudinary.com/garbhagudiivf/image/upload/v1642840305/Icons/Features/Top_Fertility_Specialists_zkyl9x.svg',
     content:
-      'Team of fertility specialists like gynecologists, embryologists, technicians and staff to help you conceive.',
+      'மருத்துவர்கள், கருவுறுதல் நிபுணர்கள், தொழில்நுட்ப வல்லுநர்கள் மற்றும் பணியாளர்களைக் கொண்ட சிறந்த குழு உங்களுடன் உள்ளது.',
     link: '/fertility-experts',
   },
   {
     id: 4,
-    name: 'Affordable Treatments',
+    name: 'மலிவான சிகிச்சைகள்',
     icon: 'https://res.cloudinary.com/garbhagudiivf/image/upload/v1642840310/Icons/Features/Affordable_Treatment_lwaaku.svg',
     content:
-      'GarbhaGudi offers Affordable Infertility treatment without any compromise on service or quality of medicines or services',
+      'சேவையிலும் மருந்துகளின் தரத்திலும் எந்தச் சமரசமும் இல்லாமல் மலிவான சிகிச்சைகளை வழங்குகிறோம்.',
     link: '/features/affordable-treatments',
   },
   {
     id: 5,
-    name: 'Free Second Opinion',
+    name: 'இலவச இரண்டாவது ஆலோசனை',
     icon: 'https://res.cloudinary.com/garbhagudiivf/image/upload/v1642840323/Icons/Features/Free_Second_Opinion_lkihbz.svg',
     content:
-      'Patients can come and meet our doctors and understand if the advised treatment is the best thing for the patient couple.',
+      'நோயாளிகள் எங்கள் மருத்துவர்களைச் சந்தித்து, பரிந்துரைக்கப்பட்ட சிகிச்சை தங்களுக்கு ஏற்றதா என்பதைப் புரிந்துகொள்ளலாம்.',
     link: 'https://garbhagudi-ivf.com/contact-us',
   },
   {
     id: 6,
-    name: 'Financing Options',
+    name: 'நிதி வசதிகள்',
     icon: 'https://res.cloudinary.com/garbhagudiivf/image/upload/v1642840329/Icons/Features/Financial_Options_rrv8hi.svg',
-    content:
-      '0% interest for patients when they cannot manage the finances to meet the cost of procedures.',
+    content: 'சிகிச்சைக்கான செலவினை சமாளிக்க முடியாத நோயாளிகளுக்கு 0% வட்டியுடன் நிதி வசதி',
     link: '/features/financing-options',
   },
   {
     id: 7,
-    name: 'Holistic Approach',
+    name: 'முழுமையான அணுகுமுறை',
     icon: 'https://res.cloudinary.com/garbhagudiivf/image/upload/v1642840338/Icons/Features/Holistic_Approach_pcqyr1.svg',
     content:
-      'At GarbhaGudi we are committed to Treating infertility through the holistic mind-body-soul programs.',
+      'மனம்–உடல்–ஆன்மா என அனைத்தையும் ஒருங்கிணைக்கும் முழுமையான அணுகுமுறையின் மூலம் கருதரிப்பு சிகிச்சையளிக்கிறோம்.',
     link: '/features/holistic-approach',
   },
   {
     id: 8,
-    name: 'Treatment Protocols',
+    name: 'சிகிச்சை முறைகள்',
     icon: 'https://res.cloudinary.com/garbhagudiivf/image/upload/v1642840352/Icons/Features/Treatment_Protocols_hll4cu.svg',
     content:
-      'Regularly enhanced and upgraded to incorporate the latest advancements in process, technology and clinical research.',
+      'சமீபத்திய தொழில்நுட்பங்கள், ஆராய்ச்சிகள் மற்றும் முன்னேற்றங்களை தொடர்ந்து இணைத்து மேம்படுத்தப்படுகின்றன.',
     link: '/features/treatment-protocols',
   },
   {
     id: 9,
-    name: 'Best in Class Facilities',
+    name: 'சிறந்த வசதிகள்',
     icon: 'https://res.cloudinary.com/garbhagudiivf/image/upload/v1642840357/Icons/Features/Best_in_Class_Facilities_fchmjr.svg',
     content:
-      'Our IVF Centers in Bangalore are equipped to handle the most challenging cases with state of the art technology at our disposal',
+      'பெங்களூரில் உள்ள எங்கள் IVF மையங்கள், நவீன தொழில்நுட்பங்களுடன் மிகச் சவாலான கருவுறுதல் பிரச்சினைகளை கையாளும் திறன் கொண்டவை.',
     link: '/features/best-in-class-facilities',
   },
 ];
@@ -80,12 +79,13 @@ const Features2 = () => {
     <div className='sm:py-18 relative bg-white py-8' id='features'>
       <div className='mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8'>
         <h1 className='text-brandDark mt-2 font-heading text-3xl font-extrabold tracking-tight sm:text-4xl'>
-          Our Versatile Approach
+          எங்கள் பல்துறை அணுகுமுறை
         </h1>
         <p className='text-md text-brandDark mx-auto mt-5 max-w-prose font-content'>
-          At GarbhaGudi, we understand that fertility treatments can be mentally and physically
-          stressful. We are always committed to providing a world of options and bringing a new ray
-          of hope to many who are trying to conceive. So, you can expect:
+          கற்பப்பை சிகிச்சைகள் மனதாலும் உடலாலும் சிரமமானவை என்பதை கர்பகுடி நன்கு அறிந்துள்ளது.
+          நாங்கள் எப்போதும் பல்வேறு வாய்ப்புகளை வழங்குவதற்கும், தம்பதிகளின் வாழ்வில் புதிய
+          நம்பிக்கையின் ஒளியை கொண்டு வருவதற்கும் அர்ப்பணிக்கப்பட்டுள்ளோம். எனவே, நீங்கள்
+          எங்களிடமிருந்து எதிர்பார்க்கக்கூடியவை:
         </p>
         <div className='mt-12'>
           <div className='grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3'>
