@@ -32,7 +32,7 @@ const AshaSection = () => {
                 டாக்டர் ஆஷா எஸ் விஜய்
               </h3>
               <div className='text-blueGray-400 mb-2 mt-0 font-content text-sm font-bold uppercase leading-normal'>
-                MBBS, MD(OBG), FRM
+                MBBS, DNB(OBG), DGO, PGD-RM&E
               </div>
               <div className='text-blueGray-600 mb-2 mt-6 font-content font-semibold'>
                 Founder & Medical Director – கர்பகுடி ஐவிஎஃப் மையம்
