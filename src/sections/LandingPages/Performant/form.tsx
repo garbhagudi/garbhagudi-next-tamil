@@ -6,7 +6,7 @@ const Form = () => {
   const router = useRouter();
   const path = usePathname();
   const pageVisit = router.query?.pageVisit || path;
-
+  const utmCampaign = router.query?.utm_campaign || '';
   const {
     register,
     handleSubmit,
@@ -18,8 +18,8 @@ const Form = () => {
       Phone: '',
       Email: '',
       Lead_Source: `Online`,
-      Lead_Sub_Source: 'GarbhaGudi_Organic',
-      UTM_Campaign: '',
+      Lead_Sub_Source: 'GarbhaGudi_TAM_Organic',
+      UTM_Campaign: utmCampaign,
       Page_Visited: pageVisit,
     },
   });
@@ -27,6 +27,9 @@ const Form = () => {
   useEffect(() => {
     setValue('Page_Visited', `${window.location?.origin}${pageVisit}`);
   }, [pageVisit, setValue]);
+  useEffect(() => {
+    setValue('UTM_Campaign', utmCampaign);
+  }, [utmCampaign, setValue]);
   const onSubmit = async (data) => {
     setLoad(true);
     try {

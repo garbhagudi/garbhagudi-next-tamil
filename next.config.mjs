@@ -146,6 +146,11 @@ const nextConfig = {
         destination: '/treatments/:slug',
         permanent: true,
       },
+      {
+        source: '/thank-you-dh.html',
+        destination: '/thank-you.html',
+        permanent: true,
+      },
     ];
   },
 };
