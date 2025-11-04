@@ -7,7 +7,7 @@ const Steps = () => {
       id='how-to'
     >
       <h3 className='mb-14 text-center font-heading text-3xl font-bold text-gray-800 dark:text-gray-200 lg:text-4xl'>
-        How to Avail the Paripoorna Benefit
+        பரிபூர்ணா பலனைப் பெறுவது எப்படி
       </h3>
       <div className='flex flex-col items-center justify-center gap-3 lg:flex-row'>
         <div className='grid w-full gap-2 font-lexend md:w-7/12 lg:grid-cols-2'>
@@ -17,13 +17,14 @@ const Steps = () => {
                 1
               </span>
               <p className='font-lexend text-base text-gray-800 dark:text-gray-200 dark:group-hover:text-gray-800'>
-                Visit your nearest GG branch 📍
+                உங்கள் அருகிலுள்ள கர்பகுடி IVF மையத்தைப் பார்வையிடவும் 📍
               </p>
             </div>
             <p className='text-sm text-gray-800 dark:text-gray-200 dark:group-hover:text-gray-800'>
-              Embark on your fertility journey by stepping into our warm and welcoming GarbhaGudi
-              branch. Our state-of-the-art facilities are designed to provide you with the utmost
-              care and comfort from the moment you walk through our doors.
+              எங்கள் அன்பான மற்றும் வரவேற்கும் கர்ப்பகுடி IVF மையக் கிளைக்குள் நுழைந்து உங்கள்
+              கருத்தரிப்புப் பயணத்தைத் தொடங்குங்கள். நீங்கள் எங்கள் கதவுகளுக்குள் நுழைந்த
+              தருணத்திலிருந்து உங்களுக்கு மிகுந்த கவனிப்பையும் வசதியையும் வழங்க எங்கள் அதிநவீன
+              வசதிகள் சிந்தனையுடன் வடிவமைக்கப்பட்டுள்ளன.
             </p>
           </div>
           <div className='group rounded p-5 hover:bg-purple-50 md:p-2 lg:p-5 lg:transition lg:duration-300'>
@@ -32,13 +33,14 @@ const Steps = () => {
                 2
               </span>
               <p className='font-lexend text-base text-gray-800 dark:text-gray-200 dark:group-hover:text-gray-800'>
-                Consult the doctor 🌟
+                கருத்தரிப்புச் சிறப்பு மருத்துவருடன் ஆலோசனைக்கு திட்டமிடவும்🩺
               </p>
             </div>
             <p className='text-sm text-gray-800 dark:text-gray-200 dark:group-hover:text-gray-800'>
-              Meet our experienced and compassionate fertility experts who are dedicated to
-              understanding your unique needs. Our doctors will guide you through personalized
-              fertility solutions, ensuring you receive the care that suits your individual journey.
+              உங்களின் தனிப்பட்ட தேவைகளைப் புரிந்துகொள்ள எங்கள் அனுபவம் வாய்ந்த மற்றும் இரக்கமுள்ள
+              கருத்தரிப்புச் சிறப்பு மருத்துவர்களைச் சந்திக்கவும். எங்கள் கருத்தரிப்புச் சிறப்பு
+              மருத்துவர்கள் உங்களின் பெற்றோர் ஆவதற்கான தனிப்பட்ட பாதையைக் கேட்க, புரிந்துகொள்ள
+              மற்றும் ஆதரிக்கக் இருக்கிறார்கள்.
             </p>
           </div>
           <div className='group rounded p-5 hover:bg-pink-50 md:p-2 lg:p-5 lg:transition lg:duration-300'>
@@ -47,14 +49,14 @@ const Steps = () => {
                 3
               </span>
               <p className='font-lexend text-base text-gray-800 dark:text-gray-200 dark:group-hover:text-gray-800'>
-                Speak to the financial counsellor 💬
+                நிதி ஆலோசகருடன் பேசவும் 🤝
               </p>
             </div>
             <p className='text-sm text-gray-800 dark:text-gray-200 dark:group-hover:text-gray-800'>
-              Navigating the financial aspects of fertility treatment can be stress-free with
-              GarbhaGudi. Our dedicated financial counsellors are here to assist you, offering
-              transparent and tailored solutions to make your path to parenthood as smooth as
-              possible.
+              கருத்தரிப்பு சிகிச்சையின் நிதி அம்சங்களை எதிர்கொள்வது கர்ப்பகுடி IVF மையத்தில் மன
+              அழுத்தமில்லாமல் இருக்கும். உங்களின் பெற்றோர் ஆகும் பயணத்தை முடிந்தவரை சீராக மாற்ற,
+              வெளிப்படையான மற்றும் தனிப்பயனாக்கப்பட்ட தீர்வுகளை வழங்க எங்கள் அர்ப்பணிப்புள்ள நிதி
+              ஆலோசகர்கள் உங்களுக்கு உதவ இங்கே இருக்கிறார்கள்.
             </p>
           </div>
           <div className='group rounded p-5 hover:bg-yellow-50 md:p-2 lg:p-5 lg:transition lg:duration-300'>
@@ -63,13 +65,14 @@ const Steps = () => {
                 4
               </span>
               <p className='font-lexend text-base text-gray-800 dark:text-gray-200 dark:group-hover:text-gray-800'>
-                Sit back and relax 🌈
+                சாய்ந்து ஓய்வெடுக்கவும் 🤰
               </p>
             </div>
             <p className='text-sm text-gray-800 dark:text-gray-200 dark:group-hover:text-gray-800'>
-              Once you've taken the initial steps, it's time to sit back and relax. Trust in
-              GarbhaGudi's expertise to handle the rest. Our team is committed to providing you with
-              unparalleled support, allowing you to focus on the excitement of building your family.
+              நீங்கள் ஆரம்ப அடியை எடுத்து வைத்தவுடன், சாய்ந்து ஓய்வெடுக்க வேண்டிய நேரம் இது.
+              மீதமுள்ளவற்றைக் கையாள கர்பகுடி IVF மையக் குழுவின் நிபுணத்துவத்தை நம்புங்கள். உங்கள்
+              குடும்பத்தை உருவாக்குவதற்கான உற்சாகத்தில் நீங்கள் கவனம் செலுத்த அனுமதிக்க,
+              ஒப்பிடமுடியாத ஆதரவை உங்களுக்கு வழங்க நாங்கள் கடமைப்பட்டுள்ளோம்.
             </p>
           </div>
         </div>

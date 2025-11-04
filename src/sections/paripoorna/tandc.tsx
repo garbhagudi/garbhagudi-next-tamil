@@ -2,23 +2,19 @@ const TermsConditions = () => {
   return (
     <div className='lg:px-00 px-3'>
       <h3 className='py-10 text-center font-heading text-3xl font-bold text-gray-800 dark:text-gray-200 lg:py-16 lg:text-4xl'>
-        Terms and Conditions
+        நிபந்தனைகள்
       </h3>
       <div className='mx-auto max-w-5xl pb-10 font-lexend text-base text-gray-800 dark:text-gray-200'>
-        The GarbhaGnan Foundation is one of the foremost foundations in the country that offers
-        specialised and the latest healthcare for women. with growing rates of infertility across
-        the globe due to various reasons, The GarbhaGnan Foundation remains steadfast in helping
-        couples experience the joy of parenthood and the bliss of family life.
+        கர்பக்ஞான் அறக்கட்டளை நாட்டில் உள்ள முன்னணி அறக்கட்டளைகளில் ஒன்றாகும், இது தம்பதிகள் மற்றும்
+        பெண்களுக்கு சிறப்பு மற்றும் சமீபத்திய சுகாதார வசதிகளை வழங்குகிறது. பல்வேறு காரணங்களால்
+        உலகளவில் கருவுறாமை விகிதங்கள் அதிகரித்து வருவதால், கர்பக்ஞான் அறக்கட்டளை தம்பதிகளுக்கு
+        பெற்றோர் ஆனந்தத்தையும், குடும்ப வாழ்க்கையின் பேரின்பத்தையும் அனுபவிக்க உதவுவதில் உறுதியாக
+        உள்ளது.
         <br />
-        <br />
-        This year we are extending this offer of Rs. 1,00,000 discount to woman, Egg Freezing
-        facility, who are wanting to wait due to professional career goals or want to postpone
-        extension of family due to various other reasons.
-        <br />
-        <br />
-        In its pursuit of rendering service to couples looking for progeny, Garbhagnan Foundation
-        has decided to offer <strong> "PARIPOORNA 2024"</strong>, where the discount offered by the
-        GarbhaGudi IVF Center is being borne by GarbhaGnan Foundation as a part of its CSR activity.
+        சந்ததியைத் தேடும் தம்பதிகளுக்கு சேவையை வழங்குவதற்கான அதன் முயற்சியில், கர்பக்ஞான் அறக்கட்டளை{' '}
+        <strong> "பரிபூர்ணா 2025"</strong>, ஐ வழங்க முடிவு செய்துள்ளது, இதில் கர்பகுடி IVF மையம்
+        வழங்கும் தள்ளுபடி, அதன் CSR செயல்பாட்டின் ஒரு பகுதியாக கர்பக்ஞான் அறக்கட்டளையால்
+        ஏற்கப்படுகிறது.
       </div>
       <ul role='list' className='pb-8'>
         {items.map((item) => (
@@ -39,32 +35,33 @@ export default TermsConditions;
 const items = [
   {
     id: 1,
-    title: 'The couple should be citizens and residents of India',
+    title: 'தம்பதியினர் இந்திய குடிமக்களாகவும் குடியிருப்பாளர்களாகவும் இருக்க வேண்டும்.',
   },
   {
     id: 2,
-    title: 'Paripoorna cannot be combined with any other benefit plans provided at GarbhaGudi',
+    title:
+      'கர்ப்பகுடி IVF மையத்தில் வழங்கப்படும் வேறு எந்தப் பலன் திட்டங்களுடனும் பரிபூர்ணாவை இணைக்க முடியாது.',
   },
   {
     id: 3,
-    title: 'Paripoorna Benefit plan is non-transferrable',
+    title: 'பரிபூர்ணா மாற்ற முடியாதது (non-transferrable).',
   },
   {
     id: 4,
-    title: 'No Offer code required to avail the benefit',
+    title: 'பலனைப் பெற எந்த சலுகைக் குறியீடும் (Offer code) தேவையில்லை.',
   },
   {
     id: 6,
     title:
-      'The benefit plan ends on the mentioned date and cannot be extended under any circumstances, unless specified by GarbhaGudi Management',
+      'பலன் திட்டம் குறிப்பிடப்பட்ட தேதியுடன் முடிவடைகிறது, கர்பகுடி நிர்வாகத்தால் குறிப்பிடப்படாவிட்டால், எந்தச் சூழ்நிலையிலும் அதை நீட்டிக்க முடியாது.',
   },
   {
     id: 9,
     title:
-      'All the terms and conditions are subject to change without notice, which is at the sole discretion of the GarbhaGudi IVF Centre & GarbhaGnan Foundation',
+      'அனைத்து விதிமுறைகள் மற்றும் நிபந்தனைகள் அறிவிப்பு இல்லாமல் மாற்றத்திற்கு உட்பட்டவை, இது கர்பகுடி IVF மையம் & கர்பக்ஞான் அறக்கட்டளையின் முழு விருப்பத்தின் பேரில் உள்ளது.',
   },
   {
     id: 10,
-    title: 'Additional terms and conditions may apply',
+    title: 'கூடுதல் விதிமுறைகள் மற்றும் நிபந்தனைகள் பொருந்தலாம்.',
   },
 ];

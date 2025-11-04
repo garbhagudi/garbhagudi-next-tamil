@@ -6,7 +6,7 @@ const FAQ = () => {
   return (
     <div className='mx-auto max-w-4xl px-3 pb-10 lg:px-0'>
       <h3 className='text 3xl py-10 text-center font-heading font-bold text-gray-800 dark:text-gray-200 lg:py-16 lg:text-4xl'>
-        Frequently Asked Questions
+        அடிக்கடி கேட்கப்படும் கேள்விகள்
       </h3>
       {Data.map((items) => (
         <AccordionLayout
@@ -28,80 +28,79 @@ export default FAQ;
 const Data = [
   {
     id: 1,
-    title: 'What is the procedure to register for PARIPOORNA offer?',
+    title: 'பரிபூர்ணா சலுகைக்கு பதிவு செய்வதற்கான நடைமுறை என்ன?',
     contents: (
       <div>
-        Visit any of our centres during the registration for PARIPOORNA plan, duly fill the form,
-        and submit it to the concerned person.
+        பரிபூர்ணாவுக்குப் பதிவு செய்ய, கருத்தரிப்புச் சிறப்பு மருத்துவர் ஆலோசனைக்காக எங்கள்
+        கிளைகளைப் பார்வையிடவும் அல்லது - 9108 9108 22 என்ற எண்ணில் எங்கள் கர்பகுடி கேர் ஆதரவுக்
+        குழுவைத் தொடர்பு கொள்ளவும். நாங்கள் உங்களுக்கு செயல்முறையின் மூலம் வழிகாட்டி, செயல்முறையை
+        சீராக முடிக்க உதவுவோம்.
       </div>
     ),
   },
   {
     id: 2,
-    title: 'Who is eligible for the PARIPOORNA offer?',
+    title: 'பரிபூர்ணாவுக்கு யார் தகுதியானவர்?',
     contents: (
       <div>
-        This plan is specially designed for couples looking for infertility treatment but need
-        financial support.
+        இது கருவுறாமை சிகிச்சை தேடும் மற்றும் நிதி உதவி தேவைப்படும் தம்பதிகளுக்காக சிறப்பாக
+        வடிவமைக்கப்பட்டுள்ளது.
       </div>
     ),
   },
   {
     id: 3,
-    title: `Is everyone who registers entitled to receive the benefit?`,
+    title: `பதிவு செய்யும் அனைவருக்கும் பலன் பெற உரிமை உள்ளதா?`,
     contents: (
       <div>
-        A couple will be eligible for the offer only after proper validation of the application and
-        approval by the GarbhaGnan foundation committee.
+        ஒரு தம்பதியினர் பதிவு செய்தல், கருத்தரிப்புச் சிறப்பு மருத்துவருடன் ஆலோசனை செய்தல், நோய்
+        கண்டறிதல் மற்றும் தம்பதிகளின் தனிப்பட்ட தேவைகளைப் பூர்த்தி செய்ய ஒரு சிகிச்சை
+        பரிந்துரைக்கப்பட்ட பிறகு பரிபூர்ணாவுக்குத் தகுதியுடையவர்கள் ஆவார்கள்.
       </div>
     ),
   },
   {
     id: 4,
-    title: `What are the criteria for eligibility?`,
-    contents: (
-      <div>
-        This benefit plan/offer is valid only for couples seeking IVF treatment. Since eligibility
-        will be validated by the GarbhaGnan Committee, you will be able to see your eligibility only
-        after the submission of your form.
-      </div>
-    ),
+    title: `தகுதிக்கான அளவுகோல்கள் என்ன?`,
+    contents: <div>பரிபூர்ணா IVF சிகிச்சையை நாடும் தம்பதிகளுக்கு மட்டுமே செல்லுபடியாகும்.</div>,
   },
   {
     id: 5,
-    title: `If eligible, will I receive treatment plan?`,
+    title: `தகுதியுடையவராக இருந்தால், சிகிச்சைத் திட்டத்தைப் பெறுவேனா?`,
     contents: (
       <div>
-        Yes, on successful validation and approval, you will be able to receive the treatment plan
-        from the doctor.
+        ஆம், நீங்கள் கருத்தரிப்புச் சிறப்பு மருத்துவரிடமிருந்து சிகிச்சைத் திட்டத்தைப் பெற முடியும்.
       </div>
     ),
   },
   {
     id: 6,
-    title: `Can I continue my treatment without opting PARIPOORNA plan?`,
-    contents: <div>Yes, this will help other couples in genuine need to avail the benefit.</div>,
+    title: `நான் பரிபூர்ணா திட்டத்தைத் தேர்வு செய்யாமல் எனது சிகிச்சையைத் தொடரலாமா?`,
+    contents: <div>ஆம், இது உண்மையான தேவை உள்ள மற்ற தம்பதிகளுக்கு பரிபூர்ணாவைப் பெற உதவும்.</div>,
   },
   {
     id: 7,
-    title: `What is the last date to apply for PARIPOORNA program?`,
-    contents: <div>Register for the PARIPOORNA program before 31st Dec&apos;2024.</div>,
+    title: `பரிபூர்ணாவுக்கு விண்ணப்பிக்க கடைசி தேதி என்ன?`,
+    contents: <div>பரிபூர்ணா 31 டிசம்பர் 2025 வரை கிடைக்கும்.</div>,
   },
   {
     id: 8,
-    title: `I have started my treatment at another facility, am I still eligible to avail the PARIPOORNA benefit and pursue treatment at GarbhaGudi?`,
+    title: `நான் மற்றொரு வசதியில் எனது சிகிச்சையைத் தொடங்கியுள்ளேன், நான் இன்னும் கர்பகுடி IVF மையத்தில் பரிபூர்ணாவைப் பெற தகுதியுடையவனா?`,
     contents: (
       <div>
-        Yes, you can apply, but we recommend you not to discontinue the treatment as it could affect
-        the success rate of your treatment.
+        ஆம், நீங்கள் விண்ணப்பிக்கலாம், ஆனால் சிகிச்சையைத் தொடராமல் இருக்க வேண்டாம் என்று நாங்கள்
+        பரிந்துரைக்கிறோம், ஏனெனில் அது அதன் வெற்றி விகிதத்தைப் பாதிக்கலாம்.
       </div>
     ),
   },
   {
     id: 9,
-    title: `Can I register for PARIPOORNA through online without visiting the centre?   `,
+    title: `மையத்தைப் பார்வையிடாமல் ஆன்லைனில் பரிபூர்ணாவுக்குப் பதிவு செய்ய முடியுமா?`,
     contents: (
-      <div>This offer is valid only for couples who register at any of our 7 branches.</div>
+      <div>
+        இந்த சலுகை எங்கள் கர்பகுடி IVF மையங்களில் ஏதேனும் ஒன்றில் அவர்களின் நோயறிதலின் அடிப்படையில்
+        சுய-சுழற்சிக்கு (self-cycle) தகுதியுடைய தம்பதிகளுக்கு மட்டுமே செல்லுபடியாகும்.
+      </div>
     ),
   },
 ];
