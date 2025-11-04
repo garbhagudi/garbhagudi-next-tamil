@@ -78,7 +78,9 @@ const Home = () => {
         <div className='grid grid-cols-1 lg:grid-cols-2'>
           <div className='flex flex-col items-start justify-center px-3'>
             <div className='py-8 font-heading text-2xl font-bold text-gg-500 dark:text-gg-400'>
-              &quot;பெரும் சேமிப்பு, உங்கள் IVF சிகிச்சைகளுக்கு தள்ளுபடி ₹1,11,111* பெறுங்கள்;
+              &quot;பெரும் சேமிப்பு, உங்கள் IVF சிகிச்சைகளுக்கு{' '}
+              <span className='text-purple-900 dark:text-purple-200'>தள்ளுபடி ₹1,11,111*</span>{' '}
+              பெறுங்கள் &quot;
               {/* <div className='block text-right text-xs text-gray-800 dark:text-gray-200'>
                 *Terms and conditions apply
               </div> */}
