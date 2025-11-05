@@ -23,7 +23,7 @@ const PriceSlash: React.FC<PriceSlashProps> = ({ originalPrice, slashedPrice }) 
     <div className='flex flex-col items-start py-8'>
       <div className='flex items-center space-x-4'>
         <div className='font-lexend text-3xl text-gray-600 dark:text-gray-300'>
-          <span className='font-heading font-bold line-through'>
+          <span className='font-lexend font-bold line-through'>
             ₹{formatNumberWithCommas(originalPrice)}
           </span>{' '}
           IVF தொகுப்பு
@@ -31,12 +31,12 @@ const PriceSlash: React.FC<PriceSlashProps> = ({ originalPrice, slashedPrice }) 
       </div>
       <div className='mt-5 flex items-center font-lexend text-3xl text-gg-500 dark:text-gg-400'>
         இப்போது &nbsp;
-        <span className='font-heading font-bold'>₹{formatNumberWithCommas(slashedPrice)}</span>
+        <span className='font-lexend font-bold'>₹{formatNumberWithCommas(slashedPrice)}</span>
         <div className='ml-2 text-sm text-green-600 dark:text-green-500'>
           ({calculateDiscountPercentage()}% தள்ளுபடி)
         </div>
       </div>
-      <div className='mt-5 text-sm'>
+      <div className='mt-5 text-justify text-sm'>
         இதில் என்னென்ன அடங்கும்:
         <ul className='list-inside list-disc'>
           <li>தூண்டுதலின் போது (during stimulation) கருவுறுதல் நிபுணர் ஆலோசனை மற்றும் ஸ்கேன்</li>
@@ -70,34 +70,31 @@ const Home = () => {
   return (
     <div>
       <div className='mx-auto max-w-7xl'>
-        <div className='py-12 text-center font-heading text-4xl font-bold text-gg-600 lg:py-24 lg:text-5xl'>
+        <div className='py-12 text-center font-lexend text-4xl font-bold text-gg-600 lg:py-24 lg:text-5xl'>
           <h1 className='mx-auto max-w-lg rounded-md py-2 dark:bg-gray-200 dark:bg-opacity-80'>
             பரிபூர்ணா
           </h1>
         </div>
         <div className='grid grid-cols-1 lg:grid-cols-2'>
           <div className='flex flex-col items-start justify-center px-3'>
-            <div className='py-8 font-heading text-2xl font-bold text-gg-500 dark:text-gg-400'>
+            <div className='py-8 font-lexend text-2xl font-bold text-gg-500 dark:text-gg-400'>
               &quot;பெரும் சேமிப்பு, உங்கள் IVF சிகிச்சைகளுக்கு{' '}
               <span className='text-purple-900 dark:text-purple-200'>தள்ளுபடி ₹1,11,111*</span>{' '}
               பெறுங்கள் &quot;
-              {/* <div className='block text-right text-xs text-gray-800 dark:text-gray-200'>
-                *Terms and conditions apply
-              </div> */}
             </div>
 
-            <div className='font-lexend text-lg text-gray-800 dark:text-gray-200'>
+            <div className='text-justify font-lexend text-lg text-gray-800 dark:text-gray-200'>
               பெற்றோர் ஆனந்தத்தை அனுபவிக்க முடியாமல் இருக்கும் அதிகபட்ச தம்பதிகளுக்கு சேவை செய்வதே
               எங்கள் நோக்கம். பல தம்பதிகளால் IVF சிகிச்சையை மேற்கொள்ள முடியவில்லை என்பதை நாங்கள்
               புரிந்துகொள்கிறோம். இதை மனதில் வைத்து, கர்பகுடி IVF மையம், கர்பக்ஞான் அறக்கட்டளையுடன்
               இணைந்து, <span className='font-bold underline'>பரிபூர்ணா. </span> என்ற இந்தத்
               திட்டத்தைத் தொடங்கியுள்ளது.
-              <PriceSlash originalPrice={260000} slashedPrice={160000} />
+              <PriceSlash originalPrice={291111} slashedPrice={180000} />
               இந்த நவம்பர் மற்றும் டிசம்பர் 2025ல், பெற்றோர் ஆகும் பருவத்தை
               <strong>பரிபூர்ணாவுடன்</strong> கொண்டாடுங்கள். கர்பகுடி IVF மையம் உங்கள் IVF சுழற்சிச்
               செலவில் தள்ளுபடி ₹1,11,111 வழங்குகிறது. இந்த வாய்ப்பைப் பெற, அருகில் உள்ள கர்பகுடி IVF
               மையத்தைப் பார்வையிட்டு, உங்கள் முழுமைக்கான பயணத்தில் முதல் அடியை எடுத்து வைக்கவும்.
-              <div className='mt-10 flex flex-col items-start space-x-5 space-y-3 md:items-center lg:flex-row lg:space-y-0'>
+              <div className='mt-10 flex flex-col items-start space-x-0 space-y-3 md:items-center lg:flex-row lg:space-x-5 lg:space-y-0'>
                 <div className='rounded-xl bg-gg-500 px-3 py-2 font-lexend text-white dark:bg-gg-600'>
                   <WatchVideo />
                 </div>
@@ -174,9 +171,9 @@ const WatchVideo = () => {
                 <DialogPanel className='w-full max-w-4xl transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all'>
                   <DialogTitle
                     as='h3'
-                    className='text-center font-heading text-2xl font-bold leading-6 text-gray-900'
+                    className='text-center font-lexend text-2xl font-bold leading-6 text-gray-900'
                   >
-                    Paripoorna Launch
+                    பரிபூர்ணா வெளியீடு
                   </DialogTitle>
 
                   <div>
@@ -196,7 +193,7 @@ const WatchVideo = () => {
                       className='inline-flex justify-center rounded-md border border-transparent bg-blue-100 px-4 py-2 font-lexend text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2'
                       onClick={closeModal}
                     >
-                      Got it, thanks!
+                      புரிந்தது! நன்றி
                     </button>
                   </div>
                 </DialogPanel>

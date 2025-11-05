@@ -12,7 +12,7 @@ const Faq = ({ branch }) => {
           <div className='divide-y divide-gray-700 dark:divide-gray-600'>
             <div className='space-y-2 py-6 md:grid md:grid-cols-12 md:gap-8 md:space-y-0'>
               <h3 className='font-semibold md:col-span-4'>
-                ஓசூரில் உள்ள கர்ப்பகுடி IVF மையத்தை எவ்வாறு தொடர்பு கொள்வது?
+                ஓசூரில் உள்ள கர்பகுடி IVF மையத்தை எவ்வாறு தொடர்பு கொள்வது?
               </h3>
               <div className='md:col-span-8 md:pl-0'>
                 <strong>ஓசூர் கிளை IVF நிபுணரை தொடர்புகொள்ள :</strong>

@@ -60,7 +60,7 @@ const VisionMission = () => {
       <section className='body-font text-gray-800 dark:text-gray-200'>
         <div className='container mx-auto px-5 py-24'>
           <h1 className='pb-16 text-center font-heading text-4xl font-bold underline lg:text-5xl'>
-            கர்ப்பகுடியின் நோக்கம் மற்றும் தொலைநோக்குப் பார்வை
+            கர்பகுடியின் நோக்கம் மற்றும் தொலைநோக்குப் பார்வை
           </h1>
           <div className='-mx-4 -mb-10 flex flex-wrap text-center'>
             <div className='mb-10 px-4 sm:w-1/2'>

@@ -1,22 +1,23 @@
 const TermsConditions = () => {
   return (
     <div className='lg:px-00 px-3'>
-      <h3 className='py-10 text-center font-heading text-3xl font-bold text-gray-800 dark:text-gray-200 lg:py-16 lg:text-4xl'>
+      <h3 className='py-10 text-center font-lexend text-3xl font-bold text-gray-800 dark:text-gray-200 lg:py-16 lg:text-4xl'>
         நிபந்தனைகள்
       </h3>
-      <div className='mx-auto max-w-5xl pb-10 font-lexend text-base text-gray-800 dark:text-gray-200'>
+      <div className='mx-auto max-w-5xl pb-10 text-justify font-lexend text-base text-gray-800 dark:text-gray-200'>
         கர்பக்ஞான் அறக்கட்டளை நாட்டில் உள்ள முன்னணி அறக்கட்டளைகளில் ஒன்றாகும், இது தம்பதிகள் மற்றும்
         பெண்களுக்கு சிறப்பு மற்றும் சமீபத்திய சுகாதார வசதிகளை வழங்குகிறது. பல்வேறு காரணங்களால்
         உலகளவில் கருவுறாமை விகிதங்கள் அதிகரித்து வருவதால், கர்பக்ஞான் அறக்கட்டளை தம்பதிகளுக்கு
         பெற்றோர் ஆனந்தத்தையும், குடும்ப வாழ்க்கையின் பேரின்பத்தையும் அனுபவிக்க உதவுவதில் உறுதியாக
         உள்ளது.
         <br />
+        <br />
         சந்ததியைத் தேடும் தம்பதிகளுக்கு சேவையை வழங்குவதற்கான அதன் முயற்சியில், கர்பக்ஞான் அறக்கட்டளை{' '}
         <strong> "பரிபூர்ணா 2025"</strong>, ஐ வழங்க முடிவு செய்துள்ளது, இதில் கர்பகுடி IVF மையம்
         வழங்கும் தள்ளுபடி, அதன் CSR செயல்பாட்டின் ஒரு பகுதியாக கர்பக்ஞான் அறக்கட்டளையால்
         ஏற்கப்படுகிறது.
       </div>
-      <ul role='list' className='pb-8'>
+      <ul role='list' className='pb-8 text-justify'>
         {items.map((item) => (
           <li
             key={item.id}
@@ -40,7 +41,7 @@ const items = [
   {
     id: 2,
     title:
-      'கர்ப்பகுடி IVF மையத்தில் வழங்கப்படும் வேறு எந்தப் பலன் திட்டங்களுடனும் பரிபூர்ணாவை இணைக்க முடியாது.',
+      'கர்பகுடி IVF மையத்தில் வழங்கப்படும் வேறு எந்தப் பலன் திட்டங்களுடனும் பரிபூர்ணாவை இணைக்க முடியாது.',
   },
   {
     id: 3,

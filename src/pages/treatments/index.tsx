@@ -25,8 +25,8 @@ const IndexPage = ({ treatments }: TreatmentProps) => {
         {/* Primary Tags */}
 
         <meta name='viewport' content='width=device-width, initial-scale=1' />
-        <title>சிகிச்சை - கர்ப்பகுடி IVF மையம்</title>
-        <meta name='title' content='சிகிச்சை - கர்ப்பகுடி IVF மையம்' />
+        <title>சிகிச்சை - கர்பகுடி IVF மையம்</title>
+        <meta name='title' content='சிகிச்சை - கர்பகுடி IVF மையம்' />
         <meta
           name='description'
           content='ஆண் மற்றும் பெண் கருத்தரிக்கையின்மை சிகிச்சைக்கான சிகிச்சை முறைகள், செயல்முறை விவரங்கள் மற்றும் மேம்பட்ட சிகிச்சை வாய்ப்புகள் கர்பகுடியில் கிடைக்கின்றன.'
@@ -34,7 +34,7 @@ const IndexPage = ({ treatments }: TreatmentProps) => {
 
         {/* Open Graph / Facebook */}
 
-        <meta property='og:title' content='சிகிச்சை - கர்ப்பகுடி IVF மையம்' />
+        <meta property='og:title' content='சிகிச்சை - கர்பகுடி IVF மையம்' />
         <meta property='og:site_name' content='GarbhaGudi IVF Centre' />
         <meta property='og:url' content='https://garbhagudi.com' />
         <meta
@@ -51,7 +51,7 @@ const IndexPage = ({ treatments }: TreatmentProps) => {
 
         <meta name='twitter:card' content='summary_large_image' />
         <meta name='twitter:site' content='@garbhagudiivf' />
-        <meta name='twitter:title' content='சிகிச்சை - கர்ப்பகுடி IVF மையம்' />
+        <meta name='twitter:title' content='சிகிச்சை - கர்பகுடி IVF மையம்' />
         <meta
           name='twitter:description'
           content='ஆண் மற்றும் பெண் கருத்தரிக்கையின்மை சிகிச்சைக்கான சிகிச்சை முறைகள், செயல்முறை விவரங்கள் மற்றும் மேம்பட்ட சிகிச்சை வாய்ப்புகள் கர்பகுடியில் கிடைக்கின்றன.'

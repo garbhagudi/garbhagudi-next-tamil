@@ -6,10 +6,10 @@ const Steps = () => {
       className='mx-auto px-4 py-16 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-7xl lg:px-8 lg:py-24'
       id='how-to'
     >
-      <h3 className='mb-14 text-center font-heading text-3xl font-bold text-gray-800 dark:text-gray-200 lg:text-4xl'>
+      <h3 className='mb-14 text-center font-lexend text-3xl font-bold text-gray-800 dark:text-gray-200 lg:text-4xl'>
         பரிபூர்ணா பலனைப் பெறுவது எப்படி
       </h3>
-      <div className='flex flex-col items-center justify-center gap-3 lg:flex-row'>
+      <div className='flex flex-col items-center justify-center gap-3 text-justify lg:flex-row'>
         <div className='grid w-full gap-2 font-lexend md:w-7/12 lg:grid-cols-2'>
           <div className='group rounded p-3 hover:bg-green-50 md:p-2 lg:p-5 lg:transition lg:duration-300'>
             <div className='mb-1 flex items-center'>
@@ -21,7 +21,7 @@ const Steps = () => {
               </p>
             </div>
             <p className='text-sm text-gray-800 dark:text-gray-200 dark:group-hover:text-gray-800'>
-              எங்கள் அன்பான மற்றும் வரவேற்கும் கர்ப்பகுடி IVF மையக் கிளைக்குள் நுழைந்து உங்கள்
+              எங்கள் அன்பான மற்றும் வரவேற்கும் கர்பகுடி IVF மையக் கிளைக்குள் நுழைந்து உங்கள்
               கருத்தரிப்புப் பயணத்தைத் தொடங்குங்கள். நீங்கள் எங்கள் கதவுகளுக்குள் நுழைந்த
               தருணத்திலிருந்து உங்களுக்கு மிகுந்த கவனிப்பையும் வசதியையும் வழங்க எங்கள் அதிநவீன
               வசதிகள் சிந்தனையுடன் வடிவமைக்கப்பட்டுள்ளன.
@@ -53,7 +53,7 @@ const Steps = () => {
               </p>
             </div>
             <p className='text-sm text-gray-800 dark:text-gray-200 dark:group-hover:text-gray-800'>
-              கருத்தரிப்பு சிகிச்சையின் நிதி அம்சங்களை எதிர்கொள்வது கர்ப்பகுடி IVF மையத்தில் மன
+              கருத்தரிப்பு சிகிச்சையின் நிதி அம்சங்களை எதிர்கொள்வது கர்பகுடி IVF மையத்தில் மன
               அழுத்தமில்லாமல் இருக்கும். உங்களின் பெற்றோர் ஆகும் பயணத்தை முடிந்தவரை சீராக மாற்ற,
               வெளிப்படையான மற்றும் தனிப்பயனாக்கப்பட்ட தீர்வுகளை வழங்க எங்கள் அர்ப்பணிப்புள்ள நிதி
               ஆலோசகர்கள் உங்களுக்கு உதவ இங்கே இருக்கிறார்கள்.
