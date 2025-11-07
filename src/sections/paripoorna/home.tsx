@@ -1,5 +1,3 @@
-import { Dialog, DialogPanel, DialogTitle, Transition, TransitionChild } from '@headlessui/react';
-import { Fragment, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import dynamic from 'next/dynamic';
@@ -36,7 +34,7 @@ const PriceSlash: React.FC<PriceSlashProps> = ({ originalPrice, slashedPrice }) 
           ({calculateDiscountPercentage()}% தள்ளுபடி)
         </div>
       </div>
-      <div className='mt-5 text-justify text-sm'>
+      <div className='mt-5 text-left'>
         இதில் என்னென்ன அடங்கும்:
         <ul className='list-inside list-disc'>
           <li>தூண்டுதலின் போது (during stimulation) கருவுறுதல் நிபுணர் ஆலோசனை மற்றும் ஸ்கேன்</li>
@@ -83,7 +81,7 @@ const Home = () => {
               பெறுங்கள் &quot;
             </div>
 
-            <div className='text-justify font-lexend text-lg text-gray-800 dark:text-gray-200'>
+            <div className='font-lexend text-lg text-gray-800 dark:text-gray-200'>
               பெற்றோர் ஆனந்தத்தை அனுபவிக்க முடியாமல் இருக்கும் அதிகபட்ச தம்பதிகளுக்கு சேவை செய்வதே
               எங்கள் நோக்கம். பல தம்பதிகளால் IVF சிகிச்சையை மேற்கொள்ள முடியவில்லை என்பதை நாங்கள்
               புரிந்துகொள்கிறோம். இதை மனதில் வைத்து, கர்பகுடி IVF மையம், கர்பக்ஞான் அறக்கட்டளையுடன்
@@ -95,18 +93,21 @@ const Home = () => {
               செலவில் தள்ளுபடி ₹1,11,111 வழங்குகிறது. இந்த வாய்ப்பைப் பெற, அருகில் உள்ள கர்பகுடி IVF
               மையத்தைப் பார்வையிட்டு, உங்கள் முழுமைக்கான பயணத்தில் முதல் அடியை எடுத்து வைக்கவும்.
               <div className='mt-10 flex flex-col items-start space-x-0 space-y-3 md:items-center lg:flex-row lg:space-x-5 lg:space-y-0'>
-                <div className='rounded-xl bg-gg-500 px-3 py-2 font-lexend text-white dark:bg-gg-600'>
-                  <WatchVideo />
-                </div>
-                <div className='rounded-xl bg-purple-700 px-3 py-2 font-lexend text-white dark:bg-purple-800'>
+                <div className='min-w-fit rounded-xl bg-purple-700 px-3 py-2 font-lexend text-white dark:bg-purple-800'>
                   <Link href='/contact/enquiry?pageVisit=/features/paripoorna'>
-                    <div>சந்திப்பை பதிவு செய்யுங்கள்</div>
+                    <div>சந்திப்பை பதிவு செய்யுங்கள் </div>
+                  </Link>
+                </div>
+                <div className='min-w-fit cursor-pointer rounded-xl border border-gg-500 px-3 py-2 font-lexend text-gg-500 hover:border-gg-600 hover:bg-gg-500 hover:text-white dark:hover:bg-gg-600'>
+                  <Link href='tel:+919108910832' className='flex items-center gap-2'>
+                    <span>எங்களை அழைக்கவும்: </span>
+                    <span>9108 9108 32</span>
                   </Link>
                 </div>
               </div>
             </div>
           </div>
-          <div className='flex items-center justify-center lg:ml-10'>
+          <div className='flex flex-col items-center justify-center gap-5 lg:ml-10'>
             <Image
               src='https://res.cloudinary.com/garbhagudiivf/image/upload/v1731247437/paripoorna/Paripoorna_English_tfrujt.webp'
               alt='pp logo'
@@ -115,93 +116,27 @@ const Home = () => {
               className='mx-auto aspect-square scale-90 lg:scale-105'
               priority={true}
             />
+            <div className='relative aspect-[9/16] w-full max-w-[400px] overflow-hidden rounded-lg'>
+              <LiteYouTubeEmbed
+                id='v1mtK461E-w'
+                title='YouTube Shorts | Example'
+                poster='maxresdefault'
+                webp={true}
+                wrapperClass='lty-playbtn yt-lite'
+              />
+            </div>
           </div>
         </div>
       </div>
+      <style>
+        {`
+          .lty-playbtn {
+            --aspect-ratio: 200% !important;
+          }
+        `}
+      </style>
     </div>
   );
 };
 
 export default Home;
-
-const WatchVideo = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  function closeModal() {
-    setIsOpen(false);
-  }
-
-  function openModal() {
-    setIsOpen(true);
-  }
-
-  return (
-    <>
-      <div>
-        <button type='button' onClick={openModal}>
-          வீடியோ பார்க்க
-        </button>
-      </div>
-
-      <Transition appear show={isOpen} as={Fragment}>
-        <Dialog as='div' className='relative z-10' onClose={closeModal}>
-          <TransitionChild
-            as={Fragment}
-            enter='ease-out duration-300'
-            enterFrom='opacity-0'
-            enterTo='opacity-100'
-            leave='ease-in duration-200'
-            leaveFrom='opacity-100'
-            leaveTo='opacity-0'
-          >
-            <div className='fixed inset-0 bg-black bg-opacity-25' />
-          </TransitionChild>
-
-          <div className='fixed inset-0 overflow-y-auto'>
-            <div className='flex min-h-full items-center justify-center p-4 text-center'>
-              <TransitionChild
-                as={Fragment}
-                enter='ease-out duration-300'
-                enterFrom='opacity-0 scale-95'
-                enterTo='opacity-100 scale-100'
-                leave='ease-in duration-200'
-                leaveFrom='opacity-100 scale-100'
-                leaveTo='opacity-0 scale-95'
-              >
-                <DialogPanel className='w-full max-w-4xl transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all'>
-                  <DialogTitle
-                    as='h3'
-                    className='text-center font-lexend text-2xl font-bold leading-6 text-gray-900'
-                  >
-                    பரிபூர்ணா வெளியீடு
-                  </DialogTitle>
-
-                  <div>
-                    <div className='mt-8 overflow-hidden rounded-xl border-2 border-brandPink'>
-                      <LiteYouTubeEmbed
-                        id={'NyQyAcUrrOY'}
-                        title='Successful IVF Treatment Testimonial | GarbhaGudi IVF Centre | Dr Asha S Vijay'
-                        poster='maxresdefault'
-                        webp={true}
-                      />
-                    </div>
-                  </div>
-
-                  <div className='mt-4 text-center'>
-                    <button
-                      type='button'
-                      className='inline-flex justify-center rounded-md border border-transparent bg-blue-100 px-4 py-2 font-lexend text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2'
-                      onClick={closeModal}
-                    >
-                      புரிந்தது! நன்றி
-                    </button>
-                  </div>
-                </DialogPanel>
-              </TransitionChild>
-            </div>
-          </div>
-        </Dialog>
-      </Transition>
-    </>
-  );
-};

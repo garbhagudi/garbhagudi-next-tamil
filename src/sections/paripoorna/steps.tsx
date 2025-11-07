@@ -3,7 +3,7 @@ import Image from 'next/image';
 const Steps = () => {
   return (
     <div
-      className='mx-auto px-4 py-16 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-7xl lg:px-8 lg:py-24'
+      className='mx-auto px-4 py-16 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-7xl lg:px-8 lg:py-20'
       id='how-to'
     >
       <h3 className='mb-14 text-center font-lexend text-3xl font-bold text-gray-800 dark:text-gray-200 lg:text-4xl'>
@@ -33,7 +33,7 @@ const Steps = () => {
                 2
               </span>
               <p className='font-lexend text-base text-gray-800 dark:text-gray-200 dark:group-hover:text-gray-800'>
-                கருத்தரிப்புச் சிறப்பு மருத்துவருடன் ஆலோசனைக்கு திட்டமிடவும்🩺
+                கருத்தரிப்புச் சிறப்பு மருத்துவருடன் ஆலோசனைக்கு திட்டமிடவும் 👩‍⚕️
               </p>
             </div>
             <p className='text-sm text-gray-800 dark:text-gray-200 dark:group-hover:text-gray-800'>
@@ -49,7 +49,7 @@ const Steps = () => {
                 3
               </span>
               <p className='font-lexend text-base text-gray-800 dark:text-gray-200 dark:group-hover:text-gray-800'>
-                நிதி ஆலோசகருடன் பேசவும் 🤝
+                நிதி ஆலோசகருடன் பேசவும் 🧑‍💼
               </p>
             </div>
             <p className='text-sm text-gray-800 dark:text-gray-200 dark:group-hover:text-gray-800'>
@@ -65,7 +65,7 @@ const Steps = () => {
                 4
               </span>
               <p className='font-lexend text-base text-gray-800 dark:text-gray-200 dark:group-hover:text-gray-800'>
-                சாய்ந்து ஓய்வெடுக்கவும் 🤰
+                சாய்ந்து ஓய்வெடுக்கவும் 😌
               </p>
             </div>
             <p className='text-sm text-gray-800 dark:text-gray-200 dark:group-hover:text-gray-800'>
