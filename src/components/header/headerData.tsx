@@ -253,11 +253,11 @@ export const ValueAddedServices = [
     href: '/features/best-in-class-facilities',
     icon: 'https://res.cloudinary.com/garbhagudiivf/image/upload/v1642840357/Icons/Features/Best_in_Class_Facilities_fchmjr.svg',
   },
-  // {
-  //   name: 'பரிபூர்ணா',
-  //   href: '/features/paripoorna',
-  //   icon: 'https://res.cloudinary.com/garbhagudiivf/image/upload/v1642841468/Icons/Why%20GarbhaGudi/Paripoorna_nikziu.svg',
-  // },
+  {
+    name: 'பரிபூர்ணா',
+    href: '/features/paripoorna',
+    icon: 'https://res.cloudinary.com/garbhagudiivf/image/upload/v1642841468/Icons/Why%20GarbhaGudi/Paripoorna_nikziu.svg',
+  },
   {
     name: 'வசதிகள்',
     href: '/facilities',
