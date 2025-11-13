@@ -81,7 +81,7 @@ const Home = () => {
               பெறுங்கள் &quot;
             </div>
 
-            <div className='font-lexend text-lg text-gray-800 dark:text-gray-200'>
+            <div className='hidden font-lexend text-lg text-gray-800 dark:text-gray-200 md:block'>
               பெற்றோர் ஆனந்தத்தை அனுபவிக்க முடியாமல் இருக்கும் அதிகபட்ச தம்பதிகளுக்கு சேவை செய்வதே
               எங்கள் நோக்கம். பல தம்பதிகளால் IVF சிகிச்சையை மேற்கொள்ள முடியவில்லை என்பதை நாங்கள்
               புரிந்துகொள்கிறோம். இதை மனதில் வைத்து, கர்பகுடி IVF மையம், கர்பக்ஞான் அறக்கட்டளையுடன்
@@ -106,8 +106,41 @@ const Home = () => {
                 </div>
               </div>
             </div>
+            <div className='block font-lexend text-lg text-gray-800 dark:text-gray-200 md:hidden'>
+              பெற்றோர் ஆனந்தத்தை அனுபவிக்க முடியாமல் இருக்கும் அதிகபட்ச தம்பதிகளுக்கு சேவை செய்வதே
+              எங்கள் நோக்கம். பல தம்பதிகளால் IVF சிகிச்சையை மேற்கொள்ள முடியவில்லை என்பதை நாங்கள்
+              புரிந்துகொள்கிறோம். இதை மனதில் வைத்து, கர்பகுடி IVF மையம், கர்பக்ஞான் அறக்கட்டளையுடன்
+              இணைந்து, <span className='font-bold underline'>பரிபூர்ணா. </span> என்ற இந்தத்
+              திட்டத்தைத் தொடங்கியுள்ளது.
+              <Image
+                src='https://res.cloudinary.com/garbhagudiivf/image/upload/v1731247437/paripoorna/Paripoorna_English_tfrujt.webp'
+                alt='pp logo'
+                width={500}
+                height={500}
+                className='mx-auto aspect-square scale-90 lg:scale-105'
+                priority={true}
+              />
+              <PriceSlash originalPrice={291111} slashedPrice={180000} />
+              இந்த நவம்பர் மற்றும் டிசம்பர் 2025ல், பெற்றோர் ஆகும் பருவத்தை
+              <strong>பரிபூர்ணாவுடன்</strong> கொண்டாடுங்கள். கர்பகுடி IVF மையம் உங்கள் IVF சுழற்சிச்
+              செலவில் தள்ளுபடி ₹1,11,111 வழங்குகிறது. இந்த வாய்ப்பைப் பெற, அருகில் உள்ள கர்பகுடி IVF
+              மையத்தைப் பார்வையிட்டு, உங்கள் முழுமைக்கான பயணத்தில் முதல் அடியை எடுத்து வைக்கவும்.
+              <div className='mt-10 flex flex-col items-start space-x-0 space-y-3 md:items-center lg:flex-row lg:space-x-5 lg:space-y-0'>
+                <div className='min-w-fit rounded-xl bg-purple-700 px-3 py-2 font-lexend text-white dark:bg-purple-800'>
+                  <Link href='/contact/enquiry?pageVisit=/features/paripoorna'>
+                    <div>சந்திப்பை பதிவு செய்யுங்கள் </div>
+                  </Link>
+                </div>
+                <div className='min-w-fit cursor-pointer rounded-xl border border-gg-500 px-3 py-2 font-lexend text-gg-500 hover:border-gg-600 hover:bg-gg-500 hover:text-white dark:hover:bg-gg-600'>
+                  <Link href='tel:+919108910832' className='flex items-center gap-2'>
+                    <span>எங்களை அழைக்கவும்: </span>
+                    <span>9108 9108 32</span>
+                  </Link>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className='flex flex-col items-center justify-center gap-5 lg:ml-10'>
+          <div className='hidden flex-col items-center justify-center gap-5 md:flex lg:ml-10'>
             <Image
               src='https://res.cloudinary.com/garbhagudiivf/image/upload/v1731247437/paripoorna/Paripoorna_English_tfrujt.webp'
               alt='pp logo'
@@ -116,6 +149,17 @@ const Home = () => {
               className='mx-auto aspect-square scale-90 lg:scale-105'
               priority={true}
             />
+            <div className='relative aspect-[9/16] w-full max-w-[400px] overflow-hidden rounded-lg'>
+              <LiteYouTubeEmbed
+                id='TH68dBLfq2I'
+                title='YouTube Shorts | Example'
+                poster='maxresdefault'
+                webp={true}
+                wrapperClass='lty-playbtn yt-lite'
+              />
+            </div>
+          </div>
+          <div className='mt-8 flex flex-col items-center justify-center gap-5 md:hidden lg:ml-10'>
             <div className='relative aspect-[9/16] w-full max-w-[400px] overflow-hidden rounded-lg'>
               <LiteYouTubeEmbed
                 id='TH68dBLfq2I'
