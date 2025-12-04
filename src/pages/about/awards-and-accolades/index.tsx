@@ -47,7 +47,6 @@ const Awards = ({ award }: Award) => {
         {/* Primary Tags */}
         <link rel='dns-prefetch' href='https://media.graphassets.com' />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
-        <meta name='robots' content='noindex, nofollow' />
         <title>விருதுகள் மற்றும் பாராட்டுகள் - கர்பகுடி IVF மருத்துவமனை</title>
         <meta name='title' content={`விருதுகள் மற்றும் பாராட்டுகள் - கர்பகுடி IVF மருத்துவமனை`} />
         <meta
