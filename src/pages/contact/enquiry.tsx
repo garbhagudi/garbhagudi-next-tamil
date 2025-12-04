@@ -34,7 +34,13 @@ const IndexPage = () => {
           property='og:image'
           content='https://res.cloudinary.com/garbhagudiivf/image/upload/v1757330475/GG_Popup_Image-02_xtezjv.webp'
         />
-
+        <link rel='alternate' hrefLang='tm' href='https://tamil.garbhagudi.com/contact/enquiry' />
+        <link
+          rel='alternate'
+          hrefLang='x-default'
+          href='https://tamil.garbhagudi.com/contact/enquiry'
+        />
+        <link rel='canonical' href='https://tamil.garbhagudi.com/contact/enquiry' />
         {/* Twitter*/}
 
         <meta name='twitter:card' content='summary_large_image' />
