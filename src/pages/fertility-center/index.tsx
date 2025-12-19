@@ -37,7 +37,7 @@ const IndexPage = ({ articles }: Article) => {
 
         <meta property='og:title' content='கருவுறுதல் மையம்' />
         <meta property='og:site_name' content='GarbhaGudi IVF Centre' />
-        <meta property='og:url' content='https://garbhagudi.com' />
+        <meta property='og:url' content='https://tamil.garbhagudi.com' />
         <meta
           property='og:description'
           content='கர்பகுடி கருத்தரிப்பு மையத்தில் மேம்பட்ட கருத்தரிப்பு சிகிச்சையை அனுபவிக்குங்கள். நிபுணத்துவம் பெற்ற மருத்துவர்கள், நவீன சிகிச்சைகள் மற்றும் அன்பான ஆதரவு – இவை அனைத்தும் உங்களுக்காக. உங்கள் நேரத்தை இன்றே முன்பதிவு செய்யுங்கள்!'

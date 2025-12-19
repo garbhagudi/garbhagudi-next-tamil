@@ -17,7 +17,7 @@ const graphcms = new ApolloClient({
   },
 });
 
-const BASE_URL = 'https://www.garbhagudi.com';
+const BASE_URL = 'https://tamil.garbhagudi.com';
 
 // GraphQL Queries
 const BLOGS_QUERY = gql`

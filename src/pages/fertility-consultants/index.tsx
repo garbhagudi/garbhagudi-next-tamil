@@ -37,7 +37,7 @@ const IndexPage = ({ articles }: Article) => {
 
         <meta property='og:title' content='கருவுறுதல் ஆலோசகர்கள் ' />
         <meta property='og:site_name' content='GarbhaGudi IVF Centre' />
-        <meta property='og:url' content='https://garbhagudi.com' />
+        <meta property='og:url' content='https://tamil.garbhagudi.com' />
         <meta
           property='og:description'
           content='கர்பகுடி IVF இல் சிறந்த கருத்தரிப்பு நிபுணர்களிடமிருந்து நிபுணத்துவ ஆலோசனையைப் பெறுங்கள். உங்கள் பெற்றோர் பயணத்திற்கான தனிப்பட்ட பராமரிப்பு – இன்றே ஆலோசனையை முன்பதிவு செய்யுங்கள்!.'

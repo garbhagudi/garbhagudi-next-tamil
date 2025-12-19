@@ -33,7 +33,7 @@ const Paripoorna = () => {
           content='பரிபூர்ணா | உங்கள் IVF சிகிச்சைகளில் ₹1,11,111* தள்ளுபடி பெறுங்கள்'
         />
         <meta property='og:site_name' content='GarbhaGudi IVF Centre' />
-        <meta property='og:url' content='https://garbhagudi.com' />
+        <meta property='og:url' content='https://tamil.garbhagudi.com' />
         <meta
           property='og:description'
           content='கர்பகுடி என்பது கனவுகள் உயிர்பெறும், நம்பிக்கைகள் ஒருபோதும் மங்காது, சாத்தியக்கூறுகள் ஒருபோதும் முடிவடையாத இடம். உங்கள் மகிழ்ச்சியின் உச்சத்தை வைத்திருக்கும் பொன்னான தருணத்தை அனுபவப்பதிற்கு நாங்கள் உங்களுக்கு உதவுகிறோம்'

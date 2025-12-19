@@ -51,7 +51,7 @@ const IndexPage = ({ branches }: Branches) => {
 
         <meta property='og:title' content='Our Fertility Experts | GarbhaGudi IVF Centre' />
         <meta property='og:site_name' content='GarbhaGudi IVF Centre' />
-        <meta property='og:url' content='https://garbhagudi.com' />
+        <meta property='og:url' content='https://tamil.garbhagudi.com' />
         <meta
           property='og:description'
           content='GarbhaGudi is a well known and one of the best fertility hospitals in Bangalore and you can be sure of getting the best fertility care here. Our hospital specializes in IVF treatments and has helped hundreds of couples realize their dreams of parenthood.'

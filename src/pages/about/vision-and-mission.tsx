@@ -22,7 +22,7 @@ const VisionMission = () => {
 
         <meta property='og:title' content='பணி மற்றும் பார்வை ' />
         <meta property='og:site_name' content='GarbhaGudi IVF Centre' />
-        <meta property='og:url' content='https://garbhagudi.com' />
+        <meta property='og:url' content='https://tamil.garbhagudi.com' />
         <meta
           property='og:description'
           content='கர்பகுடி, ஆயிரக்கணக்கான கருத்தரிக்கையின்மை பிரச்சினை கொண்ட தம்பதிகளுக்கு நம்பிக்கையின் ஒளியாக இருந்து வருகிறது. எங்கள் அனுபவமிக்க நிபுணர்கள், செவிலியர்கள் மற்றும் கருவுறுப்பு நிபுணர்கள் (Embryologists) உங்கள் தேவைகளுக்கேற்ப அர்ப்பணிப்புடன் சேவை செய்கிறார்கள்.'

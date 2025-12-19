@@ -24,7 +24,7 @@ const Overview = ({ directors }) => {
 
         <meta property='og:title' content='கர்பகுடி பற்றி  ' />
         <meta property='og:site_name' content='GarbhaGudi IVF Centre' />
-        <meta property='og:url' content='https://garbhagudi.com' />
+        <meta property='og:url' content='https://tamil.garbhagudi.com' />
         <meta
           property='og:description'
           content='கர்பகுடி என்பது கருத்தரிக்கையின்மை சிகிச்சைக்கான புதிய தலைமுறை மருத்துவமனைகளின் சங்கிலியாகும். இது நவீன, மேம்பட்ட மற்றும் அதிநவீன தொழில்நுட்ப வசதிகளுடன் கருத்தரிக்கையின்மை சிக்கல்களை திறம்பட சமாளிக்க வடிவமைக்கப்பட்டுள்ளது.'

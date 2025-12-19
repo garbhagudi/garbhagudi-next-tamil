@@ -99,7 +99,7 @@ const AwardPage = ({ award }: AwardProps) => {
         {/* Open Graph / Facebook */}
         <meta property='og:title' content={award?.title} />
         <meta property='og:site_name' content='GarbhaGudi IVF Centre' />
-        <meta property='og:url' content='https://garbhagudi.com' />
+        <meta property='og:url' content='https://tamil.garbhagudi.com' />
         <meta property='og:description' content={award?.content?.text.slice(0, 160)} />
         <meta property='og:type' content='article' />
         <meta property='og:image' content={award?.image?.url} />

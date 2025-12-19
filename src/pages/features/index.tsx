@@ -19,7 +19,7 @@ const IndexPage = () => {
 
         <meta property='og:title' content='எங்கள் பல்துறை அணுகுமுறை - கர்பகுடி IVF மையம்' />
         <meta property='og:site_name' content='GarbhaGudi IVF Centre' />
-        <meta property='og:url' content='https://garbhagudi.com' />
+        <meta property='og:url' content='https://tamil.garbhagudi.com' />
         <meta
           property='og:description'
           content='கர்பகுடியில், கருத்தரிக்க முயலும் பலருக்கும் புதிய நம்பிக்கையின் ஒளியை கொண்டு வந்து, விருப்பங்களின் உலகை வழங்குவதற்கு எப்போதும் நாங்கள் அர்ப்பணித்துள்ளோம். எனவே, நீங்கள் எதிர்பார்க்கக்கூடியவை:'

@@ -59,7 +59,7 @@ const IndexPage = () => {
             {/* Open Graph / Facebook */}
             <meta property='og:title' content='Doctors Speak | GarbhaGudi IVF' />
             <meta property='og:site_name' content='GarbhaGudi IVF Centre' />
-            <meta property='og:url' content='https://garbhagudi.com' />
+            <meta property='og:url' content='https://tamil.garbhagudi.com' />
             <meta property='og:description' content={description} />
             <meta property='og:type' content='article' />
             {/* Twitter*/}

@@ -82,7 +82,7 @@ const Doctor = ({ doctor }) => {
         "@context": "https://schema.org/",
         "@type": "Person",
         "name": "${doctor?.name}",
-        "url": "https://garbhagudi.com/fertility-experts/${doctor?.slug}",
+        "url": "https://tamil.garbhagudi.com/fertility-experts/${doctor?.slug}",
         "image": "${doctor?.image?.url}",
         "jobTitle": "${doctor?.designation}",
         "worksFor": {
@@ -123,7 +123,7 @@ const Doctor = ({ doctor }) => {
 
         <meta property='og:title' content={doctor?.metaTitle || defaultMetaTile} />
         <meta property='og:site_name' content='GarbhaGudi IVF Centre' />
-        <meta property='og:url' content='https://garbhagudi.com' />
+        <meta property='og:url' content='https://tamil.garbhagudi.com' />
         <meta property='og:description' content={doctor?.bio?.text.slice(0, 160)} />
         <meta property='og:type' content='website' />
         <meta property='og:image' content={doctor?.image.url} />

@@ -49,7 +49,7 @@ const Branch = ({ branch }) => {
 
         <meta property='og:title' content={branch?.metaTitle} />
         <meta property='og:site_name' content='GarbhaGudi IVF Centre' />
-        <meta property='og:url' content='https://garbhagudi.com' />
+        <meta property='og:url' content='https://tamil.garbhagudi.com' />
         <meta property='og:description' content={branch?.metaDescription} />
         <meta property='og:type' content='website' />
         <meta property='og:image' content={branch?.branchPicture?.url} />

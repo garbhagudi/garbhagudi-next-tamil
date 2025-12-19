@@ -36,7 +36,7 @@ const IndexPage = () => {
           content='ஜிஜி கேர் - தம்பதிகளின் மகிழ்ச்சிக்கு உறுதியளிக்கிறது. | GarbhaGudi IVF Centre'
         />
         <meta property='og:site_name' content='GarbhaGudi IVF Centre' />
-        <meta property='og:url' content='https://garbhagudi.com' />
+        <meta property='og:url' content='https://tamil.garbhagudi.com' />
         <meta
           property='og:description'
           content='உங்கள் கருத்தரிப்பு மற்றும் IVF சிகிச்சைக்காக கர்பகுடியில் நேர்முகப் பரிசோதனைக்கு முன்பதிவு செய்ய, 9108910832 என்ற எண்ணிற்கு தொடர்பு கொள்ளலாம் அல்லது dreams@garbhagudi.com என்ற மின்னஞ்சலுக்கு எழுதலாம்.'

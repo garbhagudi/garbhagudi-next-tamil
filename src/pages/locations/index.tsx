@@ -27,7 +27,7 @@ const Locations = ({ branches }) => {
 
         <meta property='og:title' content='இடங்கள்a' />
         <meta property='og:site_name' content='GarbhaGudi IVF Centre' />
-        <meta property='og:url' content='https://garbhagudi.com' />
+        <meta property='og:url' content='https://tamil.garbhagudi.com' />
         <meta
           property='og:description'
           content='கர்பகுடி என்பது கனவுகள் நனவாகும் இடம், நம்பிக்கைகள் ஒருபோதும் மங்காத இடம், முடிவில்லா வாய்ப்புகள் நிறைந்த இடம். உங்கள் மகிழ்ச்சியின் குட்டி பொக்கிஷத்தை (குழந்தையை) தழுவும் அந்த பொற்கணத்தை நீங்கள் அனுபவிக்க நாங்கள் உழைக்கிறோம்.'

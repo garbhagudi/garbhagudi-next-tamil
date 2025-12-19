@@ -123,7 +123,7 @@ const Treatment = ({ treatment }) => {
         "description": "${treatment?.content?.text.slice(0, 160)}",
         "offers": {
         "@type": "AggregateOffer",
-        "url": "https://www.garbhagudi.com/treatments/${treatment?.slug}",
+        "url": "https://tamil.garbhagudi.com/treatments/${treatment?.slug}",
         "priceCurrency": "INR",
         "lowPrice": "90000",
         "highPrice": "280000"
@@ -156,19 +156,19 @@ const Treatment = ({ treatment }) => {
               "@type": "ListItem",
               "position": "1",
               "name": "HOME",
-              "item": "https://www.garbhagudi.com/"
+              "item": "https://tamil.garbhagudi.com/"
             },
             {
               "@type": "ListItem",
               "position": "2",
               "name": "treatments",
-              "item": "https://www.garbhagudi.com/treatments/"
+              "item": "https://tamil.garbhagudi.com/treatments/"
             },
             {
               "@type": "ListItem",
               "position": "3",
               "name": "${treatment?.title}",
-              "item": "https://www.garbhagudi.com/treatments/${treatment?.slug}"
+              "item": "https://tamil.garbhagudi.com/treatments/${treatment?.slug}"
             }
           ]
         }`,
@@ -286,7 +286,7 @@ const Treatment = ({ treatment }) => {
 
         <meta property='og:title' content={`${treatment?.title} | GarbhaGudi IVF Centre`} />
         <meta property='og:site_name' content='GarbhaGudi IVF Centre' />
-        <meta property='og:url' content='https://garbhagudi.com' />
+        <meta property='og:url' content='https://tamil.garbhagudi.com' />
         <meta property='og:description' content={treatment?.content?.text.slice(0, 160)} />
         <meta property='og:type' content='website' />
         <meta property='og:image' content={treatment?.image?.url} />

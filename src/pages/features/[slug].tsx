@@ -82,7 +82,7 @@ const Vas = ({ valueAddedService }) => {
 
         <meta property='og:title' content={title} />
         <meta property='og:site_name' content='GarbhaGudi IVF Centre' />
-        <meta property='og:url' content='https://garbhagudi.com' />
+        <meta property='og:url' content='https://tamil.garbhagudi.com' />
         <meta property='og:description' content={desc} />
         <meta property='og:type' content='website' />
         <meta property='og:image' content={image} />

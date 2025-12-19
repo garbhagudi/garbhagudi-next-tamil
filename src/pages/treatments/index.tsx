@@ -36,7 +36,7 @@ const IndexPage = ({ treatments }: TreatmentProps) => {
 
         <meta property='og:title' content='சிகிச்சை - கர்பகுடி IVF மையம்' />
         <meta property='og:site_name' content='GarbhaGudi IVF Centre' />
-        <meta property='og:url' content='https://garbhagudi.com' />
+        <meta property='og:url' content='https://tamil.garbhagudi.com' />
         <meta
           property='og:description'
           content='ஆண் மற்றும் பெண் கருத்தரிக்கையின்மை சிகிச்சைக்கான சிகிச்சை முறைகள், செயல்முறை விவரங்கள் மற்றும் மேம்பட்ட சிகிச்சை வாய்ப்புகள் கர்பகுடியில் கிடைக்கின்றன.'

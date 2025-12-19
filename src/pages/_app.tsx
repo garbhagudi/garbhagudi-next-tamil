@@ -66,8 +66,8 @@ function MyApp({ Component, pageProps }) {
   return (
     <RootLayout>
       <Head>
-        <link rel='alternate' href={`https://www.garbhagudi.com${path}`} hrefLang='en-us' />
-        <link rel='canonical' href={`https://www.garbhagudi.com${path}`} />
+        <link rel='alternate' href={`https://tamil.garbhagudi.com${path}`} hrefLang='en-us' />
+        <link rel='canonical' href={`https://tamil.garbhagudi.com${path}`} />
         <meta
           name='viewport'
           content='minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, user-scalable=no, viewport-fit=cover'

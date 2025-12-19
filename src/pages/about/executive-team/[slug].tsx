@@ -81,7 +81,7 @@ const ExecutiveTeam = ({ director }) => {
 
         <meta property='og:title' content={`${director.name} | GarbhaGudi IVF Centre`} />
         <meta property='og:site_name' content='GarbhaGudi IVF Centre' />
-        <meta property='og:url' content='https://garbhagudi.com' />
+        <meta property='og:url' content='https://tamil.garbhagudi.com' />
         <meta property='og:description' content={director?.bio?.text.slice(0, 160)} />
         <meta property='og:type' content='website' />
         <meta

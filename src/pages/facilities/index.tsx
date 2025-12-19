@@ -37,7 +37,7 @@ const IndexPage = ({ articles }: Article) => {
 
         <meta property='og:title' content='வசதிகள் - கர்பகுடி IVF மையம்' />
         <meta property='og:site_name' content='GarbhaGudi IVF Centre' />
-        <meta property='og:url' content='https://garbhagudi.com' />
+        <meta property='og:url' content='https://tamil.garbhagudi.com' />
         <meta
           property='og:description'
           content='உங்கள் வசதிக்கும், சுகத்திற்கும் ஏற்றவாறு வடிவமைக்கப்பட்ட உயர்தர வசதிகளை ஆராயுங்கள். நவீன அம்சங்களிலிருந்து சிறப்பான சேவைகள் வரை, அனைத்தையும் ஒரே இடத்தில் வழங்குகிறோம்! இன்றே  எங்களைச் சந்திக்கவும்!'

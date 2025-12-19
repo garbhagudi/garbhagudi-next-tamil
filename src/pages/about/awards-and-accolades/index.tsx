@@ -61,7 +61,7 @@ const Awards = ({ award }: Award) => {
           content={`விருதுகள் மற்றும் பாராட்டுகள் - கர்பகுடி IVF மருத்துவமனை`}
         />
         <meta property='og:site_name' content='GarbhaGudi IVF Centre' />
-        <meta property='og:url' content='https://garbhagudi.com' />
+        <meta property='og:url' content='https://tamil.garbhagudi.com' />
         <meta
           property='og:description'
           content='கர்பகுடி IVF பெற்றிருக்கும் விருதுகள் மற்றும் பாராட்டுகளை ஆராயுங்கள் – கருத்தரிப்பு சிகிச்சையில் எங்கள் சிறப்பினை வெளிப்படுத்தும் சான்றுகள். நோயாளிகளின் வெற்றிப் பயணங்களில் எட்டிய எங்கள் மைல்கற்களை கொண்டாடுகிறோம். மேலும் அறியுங்கள்!'

@@ -27,25 +27,25 @@ const Share: React.FC<Props> = ({ pinmedia }) => {
       <h3 className='mb-5 text-center font-content text-xl font-semibold text-gray-800 dark:text-gray-200'>
         இந்தப் பக்கத்தை பகிரவும்
       </h3>
-      <FacebookShareButton url={`https://garbhagudi.com${router.asPath}`}>
+      <FacebookShareButton url={`https://tamil.garbhagudi.com${router.asPath}`}>
         <FacebookIcon size={44} />
       </FacebookShareButton>
-      <WhatsappShareButton url={`https://garbhagudi.com${router.asPath}`}>
+      <WhatsappShareButton url={`https://tamil.garbhagudi.com${router.asPath}`}>
         <WhatsappIcon size={44} />
       </WhatsappShareButton>
-      <LinkedinShareButton url={`https://garbhagudi.com${router.asPath}`}>
+      <LinkedinShareButton url={`https://tamil.garbhagudi.com${router.asPath}`}>
         <LinkedinIcon size={44} />
       </LinkedinShareButton>
-      <TwitterShareButton url={`https://garbhagudi.com${router.asPath}`}>
+      <TwitterShareButton url={`https://tamil.garbhagudi.com${router.asPath}`}>
         <TwitterIcon size={44} />
       </TwitterShareButton>
-      <TelegramShareButton url={`https://garbhagudi.com${router.asPath}`}>
+      <TelegramShareButton url={`https://tamil.garbhagudi.com${router.asPath}`}>
         <TelegramIcon size={44} />
       </TelegramShareButton>
-      <PinterestShareButton url={`https://garbhagudi.com${router.asPath}`} media={pinmedia}>
+      <PinterestShareButton url={`https://tamil.garbhagudi.com${router.asPath}`} media={pinmedia}>
         <PinterestIcon size={44} />
       </PinterestShareButton>
-      <RedditShareButton url={`https://garbhagudi.com${router.asPath}`}>
+      <RedditShareButton url={`https://tamil.garbhagudi.com${router.asPath}`}>
         <RedditIcon size={44} />
       </RedditShareButton>
     </div>

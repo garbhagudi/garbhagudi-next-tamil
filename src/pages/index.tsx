@@ -21,7 +21,7 @@ const Home = ({ data, testimonials }) => {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://garbhagudi.com"
+            "item": "https://tamil.garbhagudi.com"
           }
         ]
       }`,
@@ -34,7 +34,7 @@ const Home = ({ data, testimonials }) => {
         "@context": "https://schema.org",
         "@type": "MedicalOrganization",
         "name": "GarbhaGudi IVF Centre Pvt Ltd",
-        "url": "https://garbhagudi.com",
+        "url": "https://tamil.garbhagudi.com",
         "logo": "https://res.cloudinary.com/garbhagudi/image/upload/v1633780956/garbhagudi-ivf/SVGs/logo_tyy9tg.svg",
         "alternateName": "GarbhaGudi",
         "sameAs": [
@@ -127,7 +127,7 @@ const Home = ({ data, testimonials }) => {
           content='ஓசூரில் சிறந்த IVF மையம் | ஓசூரில் IVF மருத்துவமனை - கர்பகுடி'
         />
         <meta property='og:site_name' content='GarbhaGudi IVF Centre' />
-        <meta property='og:url' content='https://garbhagudi.com' />
+        <meta property='og:url' content='https://tamil.garbhagudi.com' />
         <meta
           property='og:description'
           content='கர்பகுடி (GarbhaGudi) என்பது பெங்களூருவில் உள்ள சிறந்த IVF மருத்துவமனைகளில் ஒன்றாகும். IVF / கருத்தரிக்கையின்மை சிகிச்சைகளில் மிக உயர்ந்த வெற்றிவிகிதத்துடன் சேவையை வழங்குகிறது. ஓசூரில் உள்ள சிறந்த கர்பகுடி IVF மருத்துவமனையில் இப்போது ஆலோசனையை பதிவு செய்யுங்கள்.'

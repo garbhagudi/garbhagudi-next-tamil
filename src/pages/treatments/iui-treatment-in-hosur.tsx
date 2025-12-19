@@ -44,19 +44,19 @@ const Iui = () => {
               "@type": "ListItem",
               "position": "1",
               "name": "HOME",
-              "item": "https://www.garbhagudi.com/"
+              "item": "https://tamil.garbhagudi.com/"
             },
             {
               "@type": "ListItem",
               "position": "2",
               "name": "treatments",
-              "item": "https://www.garbhagudi.com/treatments/"
+              "item": "https://tamil.garbhagudi.com/treatments/"
             },
             {
               "@type": "ListItem",
               "position": "3",
               "name": "Intra-Uterine Insemination (IUI)",
-              "item": "https://www.garbhagudi.com/treatments/intra-uterine-insemination-iui"
+              "item": "https://tamil.garbhagudi.com/treatments/intra-uterine-insemination-iui"
             }
           ]
         }`,
@@ -132,7 +132,7 @@ const Iui = () => {
         "description": "IUI (Intrauterine Insemination) is a fertility treatment procedure in which sperm is placed directly inside a woman's uterus to increase the chance of pregnancy.",
         "offers": {
         "@type": "AggregateOffer",
-        "url": "https://www.garbhagudi.com/treatments/intra-uterine-insemination-iui",
+        "url": "https://tamil.garbhagudi.com/treatments/intra-uterine-insemination-iui",
         "priceCurrency": "INR",
         "lowPrice": "90000",
         "highPrice": "220000"
@@ -216,7 +216,7 @@ const Iui = () => {
 
         <meta property='og:title' content='ஓசூரில் IUI சிகிச்சை - நம்பகமான கருவுறுதல் தீர்வுகள்' />
         <meta property='og:site_name' content='GarbhaGudi IVF Centre' />
-        <meta property='og:url' content='https://garbhagudi.com' />
+        <meta property='og:url' content='https://tamil.garbhagudi.com' />
         <meta
           property='og:description'
           content='ஓசூரில் உள்ள கர்பகுடி IVF மையத்தில் சிறந்த IUI சிகிச்சையை அனுபவிக்குங்கள். உயர்ந்த வெற்றிவிகிதம், மலிவான செலவுகள் மற்றும் நிபுணர்களின் பராமரிப்பு – அனைத்தும் ஒரே இடத்தில். இன்றேஆலோசனையை முன்பதிவு செய்யுங்கள்!'
