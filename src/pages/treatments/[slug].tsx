@@ -127,17 +127,26 @@ const Treatment = ({ treatment }) => {
         "highPrice": "280000"
         },
         "aggregateRating": {
-        "@type": "AggregateRating",
-          "itemReviewed": {
-            "@type": "Hospital",
-            "image": "https://res.cloudinary.com/garbhagudi/image/upload/v1633780956/garbhagudi-ivf/SVGs/logo_tyy9tg.svg",
-            "name": "GarbhaGudi IVF Centre",
-            "telephone": "+91 9108 9108 32",
-            "priceRange": "160000 - 400000",
-        "ratingValue": "4.8",
-        "ratingCount": "604"
-          }
-        }
+  "@type": "AggregateRating",
+  "ratingValue": "4.9",
+  "ratingCount": "604",
+  "reviewCount": "1200",
+  "itemReviewed": {
+    "@type": "Hospital",
+    "name": "GarbhaGudi IVF Centre",
+    "image": "https://res.cloudinary.com/garbhagudi/image/upload/v1633780956/garbhagudi-ivf/SVGs/logo_tyy9tg.svg",
+    "telephone": "+91 9108 9108 32",
+    "priceRange": "160000 - 400000",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "S End Rdt",
+      "addressLocality": "Basavanagudi",
+      "addressRegion": "Bengaluru",
+      "postalCode": "560004",
+      "addressCountry": "IN"
+    }
+  }
+}
       }`,
     };
   }
