@@ -103,11 +103,9 @@ const Treatment = ({ treatment }) => {
           "name": "GarbhaGudi IVF Centre"
         },
         "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.8",
-          "bestRating": "5",
-          "worstRating": "1",
-          "reviewCount": "604"
+           "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "604"
         }
       }`,
     };
@@ -136,10 +134,8 @@ const Treatment = ({ treatment }) => {
             "name": "GarbhaGudi IVF Centre",
             "telephone": "+91 9108 9108 32",
             "priceRange": "160000 - 400000",
-            "ratingValue": "4.8",
-            "bestRating": "5",
-            "worstRating": "1",
-            "reviewCount": "604"
+        "ratingValue": "4.8",
+        "ratingCount": "604"
           }
         }
       }`,
