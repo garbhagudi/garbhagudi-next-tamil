@@ -53,7 +53,7 @@ const Locations = ({ branches }) => {
         />
       </Head>
       <div className=''>
-        <Banner branchTitle={''} />
+        <Banner />
         <h1 className='pt-10 text-center font-heading text-3xl font-bold lg:pt-16 lg:text-4xl'>
           Our Branches
         </h1>

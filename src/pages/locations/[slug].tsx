@@ -31,7 +31,7 @@ const Branch = ({ branch }) => {
         {/* Primary Tags */}
         <link
           rel='preload'
-          href='https://res.cloudinary.com/garbhagudiivf/image/upload/v1672381537/Misc/happy-pregnant-woman-late-pregnancy-stage-sitting-grass-lawn-min_11zon_xkeac0.webp'
+          href='https://res.cloudinary.com/garbhagudiivf/image/upload/v1771245472/Feb_Tamil_Offer_web_Banner-_k6obex.webp'
           as='image'
         />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
@@ -62,7 +62,7 @@ const Branch = ({ branch }) => {
         <meta name='twitter:description' content={branch?.metaDescription} />
         <meta name='twitter:image' content={branch?.branchPicture?.url} />
       </Head>
-      <Banner branchTitle={branch.title} />
+      <Banner />
       <TreatmentOptions branch={branch?.title} image={branch?.nabh?.url || ''} />
       <MapSection
         maplink={branch?.mapLink}
