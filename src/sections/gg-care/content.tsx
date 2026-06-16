@@ -110,13 +110,13 @@ export const contactData = {
       id: 1,
       name: 'நேர்முகப் பேட்டி & கேள்விகள்',
       email: 'dreams@garbhagudi.com',
-      phone: '+91 9108 9108 32',
+      phone: '+91 9071 2340 03',
     },
     {
       id: 2,
       name: 'கருத்துக்கள் & புகார்கள்',
       email: 'grievance@garbhagudi.com',
-      phone: '+91 9108 9108 32',
+      phone: '+91 9071 2340 03',
     },
     {
       id: 3,
