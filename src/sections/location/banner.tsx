@@ -7,7 +7,7 @@ import Image from 'next/image';
 //   const path = usePathname();
 //   return (
 //     <div>
-//       <div className='bg-[url(https://res.cloudinary.com/garbhagudiivf/image/upload/v1672381537/Misc/happy-pregnant-woman-late-pregnancy-stage-sitting-grass-lawn-min_11zon_xkeac0.webp)] bg-cover bg-right bg-no-repeat shadow-2xl sm:bg-center'>
+//       <div className='bg-[url(https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8vb8qj586507pl03hfxicv)] bg-cover bg-right bg-no-repeat shadow-2xl sm:bg-center'>
 //         <div className='h-full w-full bg-gradient-to-r from-white to-transparent py-6 dark:from-gray-800 dark:to-gray-800/10'>
 //           <div className='mx-auto flex h-[50vh] max-w-5xl items-center'>
 //             <div className='absolute z-10'>
@@ -45,7 +45,7 @@ const Banner = () => {
     <>
       <div className='w-full'>
         <Image
-          src='https://res.cloudinary.com/garbhagudiivf/image/upload/v1771245472/Feb_Tamil_Offer_web_Banner-_k6obex.webp'
+          src='https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8vb8pz586107pldfljrjaq'
           alt='Garbhagudi IVF Banner'
           width={1920}
           height={800}

@@ -71,7 +71,7 @@ const Nav = () => {
             <Link href='/' className='flex items-center xl:hidden'>
               <Image
                 className='h-full w-16 dark:fill-white dark:brightness-0 dark:grayscale dark:invert'
-                src='https://res.cloudinary.com/garbhagudiivf/image/upload/v1756452288/GG_Logo_Tamil_Ver_ia6kbi.webp'
+                src='https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms7ai6oz08vq08pk9nuarsth'
                 alt='logo'
                 width={50}
                 height={50}

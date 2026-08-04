@@ -128,7 +128,7 @@ const Iui = () => {
         "@context": "https://schema.org/",
         "@type": "Service",
         "name": "Intra-Uterine Insemination (IUI)",
-        "image": "https://res.cloudinary.com/garbhagudiivf/image/upload/v1674112151/Misc/c9xR52ZwxhbTdCfXFGsx4-transformed_1_lrnub0.webp",
+        "image": "https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms7ai6m708va08pkgt5xrll1",
         "description": "IUI (Intrauterine Insemination) is a fertility treatment procedure in which sperm is placed directly inside a woman's uterus to increase the chance of pregnancy.",
         "offers": {
         "@type": "AggregateOffer",
@@ -141,7 +141,7 @@ const Iui = () => {
         "@type": "AggregateRating",
           "itemReviewed": {
           "@type": "Hospital",
-          "image": "https://res.cloudinary.com/garbhagudi/image/upload/v1633780956/garbhagudi-ivf/SVGs/logo_tyy9tg.svg",
+          "image": "https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8v87q557nq07pls65nzuhg",
           "name": "GarbhaGudi IVF Centre",
           "telephone": "+91 9108 9108 32",
           "priceRange": "160000 - 400000",
@@ -175,7 +175,7 @@ const Iui = () => {
       <Head>
         <link
           rel='preload'
-          href='https://res.cloudinary.com/garbhagudiivf/image/upload/v1722501966/c9xR52ZwxhbTdCfXFGsx4-transformed_1_lrnub0_1_i7oozx.webp'
+          href='https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms7ai6m708va08pkgt5xrll1'
           as='image'
         />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
@@ -224,7 +224,7 @@ const Iui = () => {
         <meta property='og:type' content='website' />
         <meta
           property='og:image'
-          content='https://res.cloudinary.com/garbhagudiivf/image/upload/v1674112151/Misc/c9xR52ZwxhbTdCfXFGsx4-transformed_1_lrnub0.webp'
+          content='https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms7ai6m708va08pkgt5xrll1'
         />
 
         {/* Twitter*/}
@@ -238,7 +238,7 @@ const Iui = () => {
         />
         <meta
           name='twitter:image'
-          content='https://res.cloudinary.com/garbhagudiivf/image/upload/v1674112151/Misc/c9xR52ZwxhbTdCfXFGsx4-transformed_1_lrnub0.webp'
+          content='https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms7ai6m708va08pkgt5xrll1'
         />
       </Head>
       <Banner />

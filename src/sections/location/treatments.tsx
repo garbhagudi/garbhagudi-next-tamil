@@ -69,63 +69,55 @@ const Data = [
     treatent: 'IVF சிகிச்சை',
     desc: 'உங்கள் பெற்றோராகும் கனவை நிறைவேற்ற கர்பகுடியின் மேம்பட்ட IVF சிகிச்சையைப் பயன்படுத்துங்கள்',
     link: '/treatments/ivf-treatment-in-hosur',
-    image:
-      'https://res.cloudinary.com/garbhagudiivf/image/upload/v1674890412/Misc/ivf%20icons/ivf_jwjqwf.webp',
+    image: 'https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms75xwg6h0v007pngs2mcusa',
   },
   {
     id: 2,
     treatent: 'ICSI',
     desc: ' கருத்தரிப்பில் சிரமப்படும் தம்பதிகளுக்கான உயர்ந்த வெற்றி விகிதத்துடன் கூடிய கர்பகுடியின் ICSI சிகிச்சை.',
     link: '/treatments/icsi-treatment-in-hosur',
-    image:
-      'https://res.cloudinary.com/garbhagudiivf/image/upload/v1674890412/Misc/ivf%20icons/fertilization_o5hpkk.webp',
+    image: 'https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms75xwgsh0v407pnuirvx6v1',
   },
   {
     id: 3,
     treatent: 'IUI',
     desc: 'இயற்கையான முறையில் கர்ப்பமாகும் வாய்ப்பை அதிகரிக்கும் கர்பகுடியின் IUI சிகிச்சை.',
     link: '/treatments/iui-treatment-in-hosur',
-    image:
-      'https://res.cloudinary.com/garbhagudiivf/image/upload/v1674890412/Misc/ivf%20icons/in-vitro_mujzkz.webp',
+    image: 'https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms75xwhhh0v807pn6j9p68jj',
   },
   {
     id: 4,
     treatent: 'TESA/PESA',
     desc: 'குறைந்த ஸ்பெர்ம் எண்ணிக்கை அல்லது தரமற்ற ஸ்பெர்ம் கொண்ட ஆண்களுக்கு குழந்தையைப் பெற உதவும் மேம்பட்ட சிகிச்சை.',
     link: '/treatments/pesa-and-tesa',
-    image:
-      'https://res.cloudinary.com/garbhagudiivf/image/upload/v1674890412/Misc/ivf%20icons/research_j8mdnk.webp',
+    image: 'https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms75y8nfh0x107pnt4cytv4g',
   },
   {
     id: 5,
     treatent: 'பிளாஸ்டோசிஸ்ட் கல்ச்சர்',
     desc: ' எம்ப்ரியோவை நீண்ட நாட்கள் வளர்த்து வெற்றிகரமாக கருப்பை நட்டு வைக்கும் வாய்ப்பை அதிகரிக்கும் சிகிச்சை.',
     link: '/treatments/ivf-treatment-in-hosur',
-    image:
-      'https://res.cloudinary.com/garbhagudiivf/image/upload/v1674890412/Misc/ivf%20icons/sperm_utf0oe.webp',
+    image: 'https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms75y8nsh0x507pn2ena7rc5',
   },
   {
     id: 6,
     treatent: 'மகளிர் நல சிகிச்சைகள்',
     desc: ' பெண்களின் ஆரோக்கியம் மற்றும் கருத்தரிப்பை பாதுகாக்க முழுமையான சிகிச்சைகள்',
     link: '/resources/causes/polycystic-ovarian-syndrome-pcos',
-    image:
-      'https://res.cloudinary.com/garbhagudiivf/image/upload/v1674890412/Misc/ivf%20icons/gynecology_ynvds8.webp',
+    image: 'https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms75y8ofh0x907pnpm4xtraw',
   },
   {
     id: 7,
     treatent: 'இயற்கை கருத்தரிப்பு',
     desc: 'உங்கள் கருத்தரிப்பு நிலையைப் புரிந்து கொண்டு இயற்கையான முறையில் கர்ப்பமாகும் வாய்ப்பை அதிகரிக்க உதவும் திட்டம்.',
     link: '/treatments/natural-pregnancy',
-    image:
-      'https://res.cloudinary.com/garbhagudiivf/image/upload/v1674890412/Misc/ivf%20icons/maternity_cee8v2.webp',
+    image: 'https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms75y8p0h0xd07pnzx4wnhdr',
   },
   {
     id: 8,
     treatent: 'வீரிய பரிசோதனை / CASA',
     desc: ' உங்கள் கருத்தரிப்பு நிலையை மதிப்பீடு செய்ய விரிவான வீரிய பரிசோதனை.',
     link: '/resources/diagnosis/semen-analysis',
-    image:
-      'https://res.cloudinary.com/garbhagudiivf/image/upload/v1674890580/Misc/ivf%20icons/semen_nqxd6s.webp',
+    image: 'https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms75y8plh0xh07pn6z5ixmoe',
   },
 ];

@@ -55,7 +55,7 @@ const InfertilityPage = ({ doctors }) => {
         {/* Primary Tags */}
         <link
           rel='preload'
-          href='https://res.cloudinary.com/garbhagudiivf/image/upload/v1691229236/Misc/pregnant-woman-min_wvchfc.webp'
+          href='https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8vednb58v707plopapzgdk'
           as='image'
         />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
@@ -78,7 +78,7 @@ const InfertilityPage = ({ doctors }) => {
         <meta property='og:type' content='website' />
         <meta
           property='og:image'
-          content='https://res.cloudinary.com/garbhagudiivf/image/upload/v1643802154/SEO/OG_images_Home_pct8yc.webp'
+          content='https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8v87qr57nu07plks7j7nzs'
         />
 
         {/* Twitter*/}
@@ -92,7 +92,7 @@ const InfertilityPage = ({ doctors }) => {
         />
         <meta
           name='twitter:image'
-          content='https://res.cloudinary.com/garbhagudiivf/image/upload/v1643802154/SEO/OG_images_Home_pct8yc.webp'
+          content='https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8v87qr57nu07plks7j7nzs'
         />
       </Head>
       <Banner />

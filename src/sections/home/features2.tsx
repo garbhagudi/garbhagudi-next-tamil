@@ -5,7 +5,7 @@ const features = [
   {
     id: 1,
     name: 'உயர் வெற்றிவிகிதம்',
-    icon: 'https://res.cloudinary.com/garbhagudiivf/image/upload/v1642840283/Icons/Features/Success_Rate_lig6sq.svg',
+    icon: 'https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8vjtcq59d608pk178mwz9s',
     content:
       'கர்பகுடி, தொழில்துறையில் மிக உயர்ந்த IVF சிகிச்சை வெற்றிவிகிதம் கொண்ட மையங்களில் ஒன்றாகும்.',
     link: '/features/success-rates-of-ivf',
@@ -13,14 +13,14 @@ const features = [
   {
     id: 2,
     name: 'உலகத் தரமான கருத்தரிப்பு பராமரிப்பு',
-    icon: 'https://res.cloudinary.com/garbhagudiivf/image/upload/v1642840286/Icons/Features/World_Class_Fertility_Care_un83f6.svg',
+    icon: 'https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8m4n9g45y107plnrfnbx4v',
     content: '2011 முதல் இதுவரை 15,000+ குழந்தைகளை உலகிற்கு கொண்டு வருவதில் பெருமை கொண்டுள்ளது.',
     link: '/features/world-class-fertility-care',
   },
   {
     id: 3,
     name: 'முன்னணி கருத்தரிப்பு நிபுணர்கள்',
-    icon: 'https://res.cloudinary.com/garbhagudiivf/image/upload/v1642840305/Icons/Features/Top_Fertility_Specialists_zkyl9x.svg',
+    icon: 'https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8m4na445y507pllgyhyjjs',
     content:
       'மருத்துவர்கள், கருவுறுதல் நிபுணர்கள், தொழில்நுட்ப வல்லுநர்கள் மற்றும் பணியாளர்களைக் கொண்ட சிறந்த குழு உங்களுடன் உள்ளது.',
     link: '/fertility-experts',
@@ -28,7 +28,7 @@ const features = [
   {
     id: 4,
     name: 'மலிவான சிகிச்சைகள்',
-    icon: 'https://res.cloudinary.com/garbhagudiivf/image/upload/v1642840310/Icons/Features/Affordable_Treatment_lwaaku.svg',
+    icon: 'https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/SHnkyCbHSlC4ViCU9J7a',
     content:
       'சேவையிலும் மருந்துகளின் தரத்திலும் எந்தச் சமரசமும் இல்லாமல் மலிவான சிகிச்சைகளை வழங்குகிறோம்.',
     link: '/features/affordable-treatments',
@@ -36,7 +36,7 @@ const features = [
   {
     id: 5,
     name: 'இலவச இரண்டாவது ஆலோசனை',
-    icon: 'https://res.cloudinary.com/garbhagudiivf/image/upload/v1642840323/Icons/Features/Free_Second_Opinion_lkihbz.svg',
+    icon: 'https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8vjtdc59da08pkkmgw2io3',
     content:
       'நோயாளிகள் எங்கள் மருத்துவர்களைச் சந்தித்து, பரிந்துரைக்கப்பட்ட சிகிச்சை தங்களுக்கு ஏற்றதா என்பதைப் புரிந்துகொள்ளலாம்.',
     link: 'https://garbhagudi-ivf.com/contact-us',
@@ -44,14 +44,14 @@ const features = [
   {
     id: 6,
     name: 'நிதி வசதிகள்',
-    icon: 'https://res.cloudinary.com/garbhagudiivf/image/upload/v1642840329/Icons/Features/Financial_Options_rrv8hi.svg',
+    icon: 'https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8m4nbz45yh07pl47sdn9h6',
     content: 'சிகிச்சைக்கான செலவினை சமாளிக்க முடியாத நோயாளிகளுக்கு 0% வட்டியுடன் நிதி வசதி',
     link: '/features/financing-options',
   },
   {
     id: 7,
     name: 'முழுமையான அணுகுமுறை',
-    icon: 'https://res.cloudinary.com/garbhagudiivf/image/upload/v1642840338/Icons/Features/Holistic_Approach_pcqyr1.svg',
+    icon: 'https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8vjtdx59de08pkwdg0rjhy',
     content:
       'மனம்–உடல்–ஆன்மா என அனைத்தையும் ஒருங்கிணைக்கும் முழுமையான அணுகுமுறையின் மூலம் கருதரிப்பு சிகிச்சையளிக்கிறோம்.',
     link: '/features/holistic-approach',
@@ -59,7 +59,7 @@ const features = [
   {
     id: 8,
     name: 'சிகிச்சை முறைகள்',
-    icon: 'https://res.cloudinary.com/garbhagudiivf/image/upload/v1642840352/Icons/Features/Treatment_Protocols_hll4cu.svg',
+    icon: 'https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8m8s6p465z07plihrpu576',
     content:
       'சமீபத்திய தொழில்நுட்பங்கள், ஆராய்ச்சிகள் மற்றும் முன்னேற்றங்களை தொடர்ந்து இணைத்து மேம்படுத்தப்படுகின்றன.',
     link: '/features/treatment-protocols',
@@ -67,7 +67,7 @@ const features = [
   {
     id: 9,
     name: 'சிறந்த வசதிகள்',
-    icon: 'https://res.cloudinary.com/garbhagudiivf/image/upload/v1642840357/Icons/Features/Best_in_Class_Facilities_fchmjr.svg',
+    icon: 'https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8m8s7x466707plgbbzq1d4',
     content:
       'பெங்களூரில் உள்ள எங்கள் IVF மையங்கள், நவீன தொழில்நுட்பங்களுடன் மிகச் சவாலான கருவுறுதல் பிரச்சினைகளை கையாளும் திறன் கொண்டவை.',
     link: '/features/best-in-class-facilities',

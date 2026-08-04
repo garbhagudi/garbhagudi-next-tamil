@@ -82,7 +82,7 @@ const Ivf = () => {
         "@type": "AggregateRating",
           "itemReviewed": {
           "@type": "Hospital",
-          "image": "https://res.cloudinary.com/garbhagudi/image/upload/v1633780956/garbhagudi-ivf/SVGs/logo_tyy9tg.svg",
+          "image": "https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8v87q557nq07pls65nzuhg",
           "name": "GarbhaGudi IVF Centre",
           "telephone": "+91 9108 9108 32",
           "priceRange": "160000 - 400000",
@@ -205,7 +205,7 @@ const Ivf = () => {
       <Head>
         <link
           rel='preload'
-          href='https://res.cloudinary.com/garbhagudiivf/image/upload/v1672381537/Misc/happy-pregnant-woman-late-pregnancy-stage-sitting-grass-lawn-min_11zon_xkeac0.webp'
+          href='https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8vb8qj586507pl03hfxicv'
           as='image'
         />
         <meta name='viewport' content='width=device-width, initial-scale=1' />

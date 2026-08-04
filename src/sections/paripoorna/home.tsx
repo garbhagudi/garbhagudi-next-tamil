@@ -113,7 +113,7 @@ const Home = () => {
               இணைந்து, <span className='font-bold underline'>பரிபூர்ணா. </span> என்ற இந்தத்
               திட்டத்தைத் தொடங்கியுள்ளது.
               <Image
-                src='https://res.cloudinary.com/garbhagudiivf/image/upload/v1731247437/paripoorna/Paripoorna_English_tfrujt.webp'
+                src='https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8vp44h5aq707pl7oyfbuqd'
                 alt='pp logo'
                 width={500}
                 height={500}
@@ -142,7 +142,7 @@ const Home = () => {
           </div>
           <div className='hidden flex-col items-center justify-center gap-5 md:flex lg:ml-10'>
             <Image
-              src='https://res.cloudinary.com/garbhagudiivf/image/upload/v1731247437/paripoorna/Paripoorna_English_tfrujt.webp'
+              src='https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8vp44h5aq707pl7oyfbuqd'
               alt='pp logo'
               width={500}
               height={500}

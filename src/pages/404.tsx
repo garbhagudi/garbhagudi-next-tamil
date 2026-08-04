@@ -7,26 +7,26 @@ const links = [
   {
     title: 'எங்கள் மகப்பேறு நிபுணர்கள்',
     description: 'எங்கள் மகப்பேறு நிபுணர் குழுவைச் சந்தியுங்கள்.',
-    icon: 'https://res.cloudinary.com/garbhagudiivf/image/upload/v1642839012/Icons/About/Our_Fertility_Experts_bxsrrh.svg',
+    icon: 'https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8m8sc8466v07pltbnlx34t',
     path: '/fertility-experts',
   },
   // {
   //   title: 'Resources & Knowledge Center',
   //   description: 'Learn more about causes, diagnosis and treatment options of infertility.',
-  //   icon: 'https://res.cloudinary.com/garbhagudiivf/image/upload/v1643264858/Icons/Resources/FAQs_x8rsvf.svg',
+  //   icon: 'https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8m4n6545xh07pl3ackkkc5',
   //   path: '/resources',
   // },
   {
     title: 'எங்களைப் பற்றி',
     description: 'கர்பகுடி பற்றி மேலும் அறியுங்கள்.',
-    icon: 'https://res.cloudinary.com/garbhagudiivf/image/upload/v1642838895/Icons/About/About_Us_01_yz3h95.svg',
+    icon: 'https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8m4n8945xt07pltannvn9k',
     path: '/about/overview',
   },
   {
     title: 'ஜி.ஜி. கேர்',
     description:
       'மேலும் தகவல்களுக்கும், நேரம் பெறுவதற்கும் எங்கள் நிர்வாகிகளை தொடர்பு கொள்ளுங்கள்.',
-    icon: 'https://res.cloudinary.com/garbhagudiivf/image/upload/v1643459544/Icons/Contact/GG_Care_e7e1pc.svg',
+    icon: 'https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8kwhvd3z9j07plhwzi0tdb',
     path: '/gg-care',
   },
 ];
@@ -37,7 +37,7 @@ const FourOhFour = () => {
       <Head>
         <link
           rel='preload'
-          href='https://res.cloudinary.com/garbhagudi/image/upload/v1633780956/garbhagudi-ivf/SVGs/logo_tyy9tg.svg'
+          href='https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8v87q557nq07pls65nzuhg'
           as='image'
         />
         <title>Four Oh! Four Error</title>
@@ -51,7 +51,7 @@ const FourOhFour = () => {
           <div className='flex-shrink-0 pt-16'>
             <Image
               className='mx-auto h-16 w-auto'
-              src='https://res.cloudinary.com/garbhagudi/image/upload/v1633780956/garbhagudi-ivf/SVGs/logo_tyy9tg.svg'
+              src='https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8v87q557nq07pls65nzuhg'
               alt='Workflow'
               width={200}
               height={200}

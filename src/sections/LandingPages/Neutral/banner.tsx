@@ -13,7 +13,7 @@ const Banner = () => {
             <div className='relative -mr-40 pl-4 sm:mx-auto sm:max-w-3xl sm:px-0 lg:h-full lg:max-w-none lg:pl-12'>
               <Image
                 className='w-full rounded-md shadow-xl ring-1 ring-black ring-opacity-5 lg:h-full lg:w-auto lg:max-w-none'
-                src='https://res.cloudinary.com/garbhagudiivf/image/upload/v1742808594/paripoorna/IVF_Compressed_kmekqi_bewqzl.webp'
+                src='https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8vl0tj5a0807pl9sf2kx3f'
                 alt='happy couple with a baby'
                 width={590}
                 height={460}
@@ -139,7 +139,7 @@ const Banner = () => {
             <div className='relative mt-24 pl-4 sm:mx-auto sm:max-w-3xl sm:px-0 lg:h-[28rem] lg:max-w-none lg:pl-12'>
               <Image
                 className='w-full rounded-md shadow-xl ring-1 ring-black ring-opacity-5 lg:h-full lg:w-auto lg:max-w-none'
-                src='https://res.cloudinary.com/garbhagudiivf/image/upload/v1742808594/paripoorna/IVF_Compressed_kmekqi_bewqzl.webp'
+                src='https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8vl0tj5a0807pl9sf2kx3f'
                 alt='happy couple with a baby'
                 width={500}
                 height={500}
