@@ -31,7 +31,7 @@ const Branch = ({ branch }) => {
         {/* Primary Tags */}
         <link
           rel='preload'
-          href='https://res.cloudinary.com/garbhagudiivf/image/upload/v1771245472/Feb_Tamil_Offer_web_Banner-_k6obex.webp'
+          href='https://ap-south-1.graphassets.com/cmekvksn30ksu07o5fl5q801f/cmsea3erb1uvk07pdqi317l7j'
           as='image'
         />
         <meta name='viewport' content='width=device-width, initial-scale=1' />

@@ -45,7 +45,7 @@ const Banner = () => {
     <>
       <div className='w-full'>
         <Image
-          src='https://res.cloudinary.com/garbhagudiivf/image/upload/v1771245472/Feb_Tamil_Offer_web_Banner-_k6obex.webp'
+          src='https://ap-south-1.graphassets.com/cmekvksn30ksu07o5fl5q801f/cmsea3erb1uvk07pdqi317l7j'
           alt='Garbhagudi IVF Banner'
           width={1920}
           height={800}
