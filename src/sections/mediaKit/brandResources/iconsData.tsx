@@ -65,9 +65,9 @@ export const data = [
         color: '#58595b',
       },
     ],
-      svg: 'https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cmsh9hs3b4pyc06mrwf2i1jxi',
-      png: 'https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cmsh9hs434pyg06mrwwtc7a62',
-      jpg: 'https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cmsh9hs4n4pyk06mr3o10p3ak',
+    svg: 'https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cmsh9hs3b4pyc06mrwf2i1jxi',
+    png: 'https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cmsh9hs434pyg06mrwwtc7a62',
+    jpg: 'https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cmsh9hs4n4pyk06mr3o10p3ak',
   },
   {
     id: 3,

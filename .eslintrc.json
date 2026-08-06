@@ -10,6 +10,14 @@
   "parserOptions": {
     "project": "./tsconfig.json"
   },
+  "overrides": [
+    {
+      "files": ["**/*.mjs", "**/*.cjs", "**/*.js"],
+      "parserOptions": {
+        "project": null
+      }
+    }
+  ],
   "rules": {
     "react/no-unescaped-entities": "off",
     "@next/next/no-page-custom-font": "off",
