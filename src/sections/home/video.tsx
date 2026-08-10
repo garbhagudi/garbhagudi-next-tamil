@@ -19,6 +19,8 @@ interface testimonialProps {
   };
 }
 
+const HIDDEN_VIDEO_IDS: string[] = ['qiFuRrRDJBs', 'N1VPC1ngCG4', 'SLej_GKzzzw'];
+
 const Video = ({ testimonials }: testimonialProps) => {
   const defaultControlsConfig = {
     pagingDotsStyle: {
@@ -57,20 +59,22 @@ const Video = ({ testimonials }: testimonialProps) => {
               </button>
             )}
           >
-            {testimonials?.items?.map((item) => {
-              return (
-                <div
-                  className='mx-auto mt-8 aspect-video w-screen max-w-xs overflow-hidden rounded-lg border border-transparent sm:max-w-sm sm:px-0 md:max-w-md lg:max-w-3xl'
-                  key={item?.id}
-                >
-                  <LiteYouTubeEmbed
-                    id={item?.snippet?.resourceId.videoId}
-                    title='Successful IVF Treatment Testimonial | GarbhaGudi IVF Centre | Dr Asha S Vijay'
-                    poster='maxresdefault'
-                  />
-                </div>
-              );
-            })}
+            {testimonials?.items
+              ?.filter((item) => !HIDDEN_VIDEO_IDS.includes(item?.snippet?.resourceId?.videoId))
+              .map((item) => {
+                return (
+                  <div
+                    className='mx-auto mt-8 aspect-video w-screen max-w-xs overflow-hidden rounded-lg border border-transparent sm:max-w-sm sm:px-0 md:max-w-md lg:max-w-3xl'
+                    key={item?.id}
+                  >
+                    <LiteYouTubeEmbed
+                      id={item?.snippet?.resourceId.videoId}
+                      title='Successful IVF Treatment Testimonial | GarbhaGudi IVF Centre | Dr Asha S Vijay'
+                      poster='maxresdefault'
+                    />
+                  </div>
+                );
+              })}
           </Carousel>
         </div>
         <div className='mx-auto max-w-6xl py-1 pt-4 text-center font-content text-sm underline lg:text-right'>
