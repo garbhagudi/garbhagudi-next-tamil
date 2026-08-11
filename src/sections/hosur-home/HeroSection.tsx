@@ -4,7 +4,6 @@ import { PHONE_HREF } from './constants';
 export default function HeroSection() {
   return (
     <section className='relative grid place-items-center overflow-hidden bg-white px-6 py-20 pb-16 text-center'>
-
       <span className='relative mb-6 inline-flex items-center gap-2 rounded-full bg-saffron-light px-4 py-1.5 font-ui text-[13px] font-semibold text-saffron-dark'>
         <span className='h-1.5 w-1.5 rounded-full bg-saffron' />
         கர்பகுடி கருத்தரித்தல் மையம் – ஓசூர்
