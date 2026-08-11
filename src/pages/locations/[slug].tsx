@@ -31,7 +31,7 @@ const Branch = ({ branch }) => {
         {/* Primary Tags */}
         <link
           rel='preload'
-          href='https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8vb8pz586107pldfljrjaq'
+          href='https://ap-south-1.graphassets.com/cmekvksn30ksu07o5fl5q801f/cmsea3erb1uvk07pdqi317l7j'
           as='image'
         />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
