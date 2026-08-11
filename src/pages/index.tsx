@@ -1,16 +1,19 @@
 import Head from 'next/head';
-import dynamic from 'next/dynamic';
-import HomeComponent from 'sections/home';
 import apolloClient from 'lib/apollo-graphcms';
 import { gql } from '@apollo/client';
 import BannerComponent from 'sections/home/bannerComponent';
-const Faq = dynamic(() => import('sections/home/faq'), { ssr: false });
-const DoctorList = dynamic(() => import('sections/home/doctorList'), { ssr: false });
-const LandingPagePopUp = dynamic(() => import('components/landingPagePopUp'), { ssr: false });
+import Nav from 'sections/hosur-home/Nav';
+import HeroSection from 'sections/hosur-home/HeroSection';
+import TrustStrip from 'sections/hosur-home/TrustStrip';
+import WhySection from 'sections/hosur-home/WhySection';
+import TreatmentsSection from 'sections/hosur-home/TreatmentsSection';
+import ProcessSection from 'sections/hosur-home/ProcessSection';
+import TestimonialsSection from 'sections/hosur-home/TestimonialsSection';
+import FormSection from 'sections/hosur-home/FormSection';
+import Footer from 'sections/hosur-home/Footer';
+import FloatCall from 'sections/hosur-home/FloatCall';
 
-const YOUTUBE_PLAYLIST_ITEMS_API = 'https://www.googleapis.com/youtube/v3/playlistItems';
-
-const Home = ({ data, testimonials }) => {
+const Home = ({ data }) => {
   function addBreadcrumbJsonLd() {
     return {
       __html: `{
@@ -89,7 +92,7 @@ const Home = ({ data, testimonials }) => {
     };
   }
   return (
-    <div>
+    <div className='bg-white font-sans-tamil'>
       <Head>
         {/* Primary Tags */}
 
@@ -161,11 +164,20 @@ const Home = ({ data, testimonials }) => {
           content='mzhcIRsJx6D4QkbJJp3Tepas8Lyv6sJLWmGb0DvKOrw'
         />
       </Head>
+      <Nav />
       <BannerComponent banners={data.banners} />
-      <HomeComponent testimonialPassthrough={testimonials} />
-      <DoctorList doctors={data.doctors} />
-      <Faq />
-      <LandingPagePopUp />
+      {/* No <main> here — RootLayout in components/layout.tsx already provides one */}
+      <div>
+        <HeroSection />
+        <TrustStrip />
+        <WhySection />
+        <TreatmentsSection />
+        <ProcessSection />
+        <TestimonialsSection />
+        <FormSection />
+      </div>
+      <Footer />
+      <FloatCall />
     </div>
   );
 };
@@ -176,19 +188,6 @@ export const getStaticProps = async () => {
   const { data } = await apolloClient.query({
     query: gql`
       query {
-        doctors {
-          name
-          qualification
-          category
-          slug
-          image {
-            url
-          }
-          imageAlt
-          medicalRegNo
-          id
-          designation
-        }
         banners(orderBy: order_ASC) {
           title
           id
@@ -201,16 +200,9 @@ export const getStaticProps = async () => {
     `,
   });
 
-  const testimonialsData = await fetch(
-    `${YOUTUBE_PLAYLIST_ITEMS_API}?part=snippet&playlistId=PLiHJchamOyyG_IJk4YVYM_LlEkz8dWvqJ&maxResults=10&key=${process.env.REACT_APP_YOUTUBE_API_KEY}`
-  );
-
-  const testimonials = await testimonialsData.json();
-
   return {
     props: {
       data,
-      testimonials,
     },
     revalidate: 180,
   };
