@@ -134,7 +134,7 @@ const Treatment = ({ treatment }) => {
   "itemReviewed": {
     "@type": "Hospital",
     "name": "GarbhaGudi IVF Centre",
-    "image": "https://res.cloudinary.com/garbhagudi/image/upload/v1633780956/garbhagudi-ivf/SVGs/logo_tyy9tg.svg",
+    "image": "https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8v87q557nq07pls65nzuhg",
     "telephone": "+91 9108 9108 32",
     "priceRange": "160000 - 400000",
     "address": {

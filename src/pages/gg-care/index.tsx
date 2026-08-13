@@ -15,7 +15,7 @@ const IndexPage = () => {
         {/* Primary Tags */}
         <link
           rel='preload'
-          href='https://res.cloudinary.com/garbhagudiivf/image/upload/v1644049097/Banner/GG_Care_Web_Banner-6_iyxanu.webp'
+          href='https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8iqmgf3psd07pl3frcbfe7'
           as='image'
         />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
@@ -44,7 +44,7 @@ const IndexPage = () => {
         <meta property='og:type' content='website' />
         <meta
           property='og:image'
-          content='https://res.cloudinary.com/garbhagudiivf/image/upload/v1643802154/SEO/OG_images_GGCare_qclgw8.webp'
+          content='https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8vb8oy585t07plz0qahkka'
         />
 
         {/* Twitter*/}
@@ -61,7 +61,7 @@ const IndexPage = () => {
         />
         <meta
           name='twitter:image'
-          content='https://res.cloudinary.com/garbhagudiivf/image/upload/v1643802154/SEO/OG_images_GGCare_qclgw8.webp'
+          content='https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8vb8oy585t07plz0qahkka'
         />
       </Head>
       <Hero />
@@ -70,7 +70,7 @@ const IndexPage = () => {
       <Contact />
       <FindBranch />
       <div className='mb-5'>
-        <Share pinmedia='https://res.cloudinary.com/garbhagudiivf/image/upload/v1643802154/SEO/OG_images_GGCare_qclgw8.webp' />
+        <Share pinmedia='https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8vb8oy585t07plz0qahkka' />
       </div>
       <Cta />
     </div>

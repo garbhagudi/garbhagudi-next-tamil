@@ -3,7 +3,7 @@ import Image from 'next/image';
 const Logo = () => {
   return (
     <Image
-      src='https://res.cloudinary.com/garbhagudiivf/image/upload/v1756452288/GG_Logo_Tamil_Hor_qh47bj.webp'
+      src='https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms76155yh1on07pnqpdnqyzk'
       id='svg'
       width='400'
       height='84'

@@ -74,8 +74,7 @@ const Data = [
       </div>
     ),
     link: '/treatments/ivf-treatment-in-hosur',
-    image:
-      'https://res.cloudinary.com/garbhagudiivf/image/upload/v1674890412/Misc/ivf%20icons/ivf_jwjqwf.webp',
+    image: 'https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms75xwg6h0v007pngs2mcusa',
   },
   {
     id: 2,
@@ -94,8 +93,7 @@ const Data = [
       </div>
     ),
     link: '/treatments/icsi-treatment-in-hosur',
-    image:
-      'https://res.cloudinary.com/garbhagudiivf/image/upload/v1674890412/Misc/ivf%20icons/fertilization_o5hpkk.webp',
+    image: 'https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms75xwgsh0v407pnuirvx6v1',
   },
   {
     id: 3,
@@ -114,8 +112,7 @@ const Data = [
       </div>
     ),
     link: '/treatments/iui-treatment-in-hosur',
-    image:
-      'https://res.cloudinary.com/garbhagudiivf/image/upload/v1674890412/Misc/ivf%20icons/in-vitro_mujzkz.webp',
+    image: 'https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms75xwhhh0v807pn6j9p68jj',
   },
   {
     id: 4,
@@ -134,7 +131,6 @@ const Data = [
       </div>
     ),
     link: '/treatments/infertility-treatment-in-hosur',
-    image:
-      'https://res.cloudinary.com/garbhagudiivf/image/upload/v1674890412/Misc/ivf%20icons/research_j8mdnk.webp',
+    image: 'https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms75y8nfh0x107pnt4cytv4g',
   },
 ];
