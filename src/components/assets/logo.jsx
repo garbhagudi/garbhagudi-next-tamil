@@ -3,7 +3,7 @@ import Image from 'next/image';
 const Logo = () => {
   return (
     <Image
-      src='https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms76155yh1on07pnqpdnqyzk'
+      src='https://ap-south-1.graphassets.com/cmekvksn30ksu07o5fl5q801f/cmt2illy438ya06phso2ktvyr'
       id='svg'
       width='400'
       height='84'
