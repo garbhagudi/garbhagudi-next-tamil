@@ -6,51 +6,47 @@ import BreadCrumbs from 'components/breadcrumbs';
 import { useRouter } from 'next/router';
 import Loading from 'components/Loading';
 import Image from 'next/image';
-import { throttledFetch } from 'lib/throttle';
 import dynamic from 'next/dynamic';
 const FAQs = dynamic(() => import('components/FAQs'), { ssr: false });
 const Cta = dynamic(() => import('sections/gg-care/cta'), { ssr: false });
 const Share = dynamic(() => import('components/share'), { ssr: false });
 
 export const getStaticProps = async ({ params }) => {
-  const apolloQuery = async ({ slug }) => {
-    return apolloClient.query({
-      query: gql`
-        query ($slug: String!) {
-          treatment(where: { slug: $slug }) {
+  const { data } = await apolloClient.query({
+    query: gql`
+      query ($slug: String!) {
+        treatment(where: { slug: $slug }) {
+          id
+          title
+          metaTitle
+          altTitle
+          metaDescription
+          metaKeywords
+          slug
+          image {
+            url
+          }
+          imageAlt
+          content {
+            raw
+            text
+          }
+          docJsonLd
+          faq {
             id
-            title
-            metaTitle
-            altTitle
-            metaDescription
-            metaKeywords
-            slug
-            image {
-              url
-            }
-            imageAlt
-            content {
+            question
+            answer {
               raw
               text
             }
-            docJsonLd
-            faq {
-              id
-              question
-              answer {
-                raw
-                text
-              }
-            }
           }
         }
-      `,
-      variables: {
-        slug,
-      },
-    });
-  };
-  const { data } = await throttledFetch(apolloQuery, { slug: params.slug });
+      }
+    `,
+    variables: {
+      slug: params.slug,
+    },
+  });
   if (data?.error || !data?.treatment) {
     return {
       notFound: true,
@@ -60,24 +56,21 @@ export const getStaticProps = async ({ params }) => {
     props: {
       treatment: data.treatment,
     },
-    revalidate: 180,
+    revalidate: 3600,
   };
 };
 
 export const getStaticPaths = async () => {
-  const apolloQuery = async () => {
-    return apolloClient.query({
-      query: gql`
-        query {
-          treatments {
-            title
-            slug
-          }
+  const { data } = await apolloClient.query({
+    query: gql`
+      query {
+        treatments {
+          title
+          slug
         }
-      `,
-    });
-  };
-  const { data } = await throttledFetch(apolloQuery);
+      }
+    `,
+  });
   return {
     paths: data.treatments.map(({ slug }) => ({ params: { slug } })),
     fallback: true,

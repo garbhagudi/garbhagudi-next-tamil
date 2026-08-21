@@ -38,7 +38,7 @@ export const getStaticProps = async ({ params }) => {
     props: {
       director: data.director,
     },
-    revalidate: 600,
+    revalidate: 3600,
   };
 };
 
