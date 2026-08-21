@@ -51,7 +51,7 @@ export const getStaticProps = async ({ params }) => {
     props: {
       doctor: data.doctor,
     },
-    revalidate: 180,
+    revalidate: 3600,
   };
 };
 
