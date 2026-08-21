@@ -258,10 +258,14 @@ body {
   animation-delay: -2.3s;
 }
 
-@media screen and (max-width: 420px) {
-  .zsiq_flt_rel {
-    position: absolute;
-    bottom: 85px;
+
+@media screen and (max-width: 767.98px) {
+  .zsiq_floatmain {
+    bottom: calc(105px + env(safe-area-inset-bottom, 0px)) !important;
+  }
+  .zls-sptwndw.siqembed {
+    max-width: 100% !important;
+    max-height: 100dvh !important;
   }
 }
 
