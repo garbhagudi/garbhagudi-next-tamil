@@ -1,28 +1,32 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import { HiChevronLeft, HiChevronRight } from 'react-icons/hi';
 import Carousel from 'nuka-carousel';
 
-interface bannerProps {
-  banners: [
-    {
-      id: string;
-      title: string;
-      url: string;
-      image: {
-        url: string;
-      };
-    },
-  ];
+interface bannerAsset {
+  url: string;
+  width?: number;
+  height?: number;
 }
 
-const BannerComponent = (bannerData: bannerProps) => {
+interface bannerRecord {
+  id: string;
+  title: string;
+  url: string;
+  image: bannerAsset;
+  mobileImage?: bannerAsset | null;
+}
+
+// Hygraph resizes from the URL. next.config.mjs sets `images.unoptimized: true`, so nothing
+// resizes these for us — without the transform the 2.2 MB mobile original ships as-is.
+const webp = (url: string, width: number) =>
+  url?.replace(/\/([^/]+)$/, `/output=format:webp/resize=width:${width}/$1`);
+
+const BannerComponent = ({ banners = [] }: { banners: bannerRecord[] }) => {
   const defaultControlsConfig = {
     pagingDotsStyle: {
       display: 'none',
     },
   };
-  const banners = bannerData?.banners ?? [];
 
   if (!banners.length) return null;
 
@@ -56,26 +60,38 @@ const BannerComponent = (bannerData: bannerProps) => {
           </button>
         )}
       >
-        {banners.map((banner, index) => (
-          <Link
-            href={banner?.url || '#'}
-            target='_blank'
-            rel='noreferrer'
-            key={banner?.id ?? index}
-          >
-            <Image
-              src={banner?.image?.url}
-              alt={banner?.title}
-              width={1920}
-              height={1080}
-              className='h-full w-full object-cover'
-              // Only the first slide is preloaded; the rest load eagerly so a
-              // slide never animates in blank (nuka clones slides for wrapAround).
-              priority={index === 0}
-              loading={index === 0 ? undefined : 'eager'}
-            />
-          </Link>
-        ))}
+        {banners.map((banner, index) => {
+          const mobile = banner?.mobileImage ?? banner?.image;
+          return (
+            <Link
+              href={banner?.url || '#'}
+              target='_blank'
+              rel='noreferrer'
+              key={banner?.id ?? index}
+            >
+              <picture>
+                {/* Plain <picture>, not next/image: under `unoptimized` getImageProps returns
+                    `srcSet: undefined`, and a <source> without srcSet is skipped — desktop
+                    would fall through and render the portrait creative. width/height on both
+                    nodes stop the differing aspect ratios causing a layout shift. */}
+                <source
+                  media='(min-width: 768px)'
+                  srcSet={webp(banner?.image?.url, 1920)}
+                  width={banner?.image?.width}
+                  height={banner?.image?.height}
+                />
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={webp(mobile?.url, 1080)}
+                  alt={banner?.title}
+                  width={mobile?.width}
+                  height={mobile?.height}
+                  className='h-full w-full object-cover'
+                />
+              </picture>
+            </Link>
+          );
+        })}
       </Carousel>
     </div>
   );

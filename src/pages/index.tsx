@@ -194,6 +194,13 @@ export const getStaticProps = async () => {
           url
           image {
             url
+            width
+            height
+          }
+          mobileImage {
+            url
+            width
+            height
           }
         }
       }

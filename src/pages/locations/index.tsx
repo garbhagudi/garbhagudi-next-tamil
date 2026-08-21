@@ -10,11 +10,6 @@ const Locations = ({ branches }) => {
     <div>
       <Head>
         {/* Primary Tags */}
-        <link
-          rel='preload'
-          href='https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8vb8qj586507pl03hfxicv'
-          as='image'
-        />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <title>இடங்கள்</title>
         <meta name='title' content='இடங்கள்' />
