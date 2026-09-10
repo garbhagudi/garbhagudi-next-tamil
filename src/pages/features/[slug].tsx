@@ -39,7 +39,7 @@ export const getStaticProps = async ({ params }) => {
     props: {
       valueAddedService: data?.article,
     },
-    revalidate: 180,
+    revalidate: 3600,
   };
 };
 

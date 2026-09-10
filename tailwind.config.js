@@ -37,7 +37,7 @@ module.exports = {
       lime: colors.lime,
       green: colors.green,
       emerald: colors.emerald,
-      teal: colors.teal,
+      teal: { ...colors.teal, DEFAULT: '#0F6E56' },
       cyan: colors.cyan,
       sky: colors.sky,
       blue: colors.blue,
@@ -46,7 +46,13 @@ module.exports = {
       purple: colors.purple,
       fuchsia: colors.fuchsia,
       pink: colors.pink,
-      rose: colors.rose,
+      rose: { ...colors.rose, DEFAULT: '#C0395E' },
+      // GarbhaGudi Hosur landing page (/) palette
+      saffron: { DEFAULT: '#E8820C', light: '#FDF0DC', dark: '#B5620A' },
+      cream: '#FDFAF5',
+      charcoal: '#1C1C1E',
+      muted: '#6B6860',
+      hairline: 'rgb(0 0 0 / 0.10)',
       gg: {
         50: '#fef2f3',
         100: '#fde6e8',
@@ -423,6 +429,9 @@ module.exports = {
       lexend: ['var(--font-lexend), sans-serif'],
       'nunito-Sans': ['Nunito Sans'],
       figtree: ['Figtree'],
+      'sans-tamil': ['var(--font-noto-sans-tamil)', 'Noto Sans Tamil', 'sans-serif'],
+      'serif-tamil': ['var(--font-noto-serif-tamil)', 'Noto Serif Tamil', 'serif'],
+      ui: ['var(--font-inter)', 'sans-serif'],
     },
     fontSize: {
       xs: ['0.75rem', { lineHeight: '1rem' }],

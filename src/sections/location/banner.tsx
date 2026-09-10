@@ -1,60 +1,39 @@
-// import Link from 'next/link';
-// import { usePathname } from 'next/navigation';
+const ASSETS = 'https://ap-south-1.graphassets.com/cmekvksn30ksu07o5fl5q801f';
 
-import Image from 'next/image';
+// Hygraph resizes from the URL. next.config.mjs sets `images.unoptimized: true`, so nothing
+// resizes these for us — without the transform the 2.2 MB mobile original ships as-is.
+const webp = (handle: string, width: number) =>
+  `${ASSETS}/output=format:webp/resize=width:${width}/${handle}`;
 
-// const Banner = ({ branchTitle }) => {
-//   const path = usePathname();
-//   return (
-//     <div>
-//       <div className='bg-[url(https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8vb8qj586507pl03hfxicv)] bg-cover bg-right bg-no-repeat shadow-2xl sm:bg-center'>
-//         <div className='h-full w-full bg-gradient-to-r from-white to-transparent py-6 dark:from-gray-800 dark:to-gray-800/10'>
-//           <div className='mx-auto flex h-[50vh] max-w-5xl items-center'>
-//             <div className='absolute z-10'>
-//               <div className='mx-auto w-full px-3 text-center text-base text-gray-800 dark:text-gray-200 md:max-w-lg md:text-left'>
-//                 <h1 className='font-heading text-3xl font-bold leading-tight lg:text-4xl'>
-//                   கர்பகுடி IVF மையம் –
-//                   {branchTitle && <span className='text-brandPink'> {branchTitle}</span>}
-//                 </h1>
-//                 <h3 className='mt-4 font-content font-semibold leading-7 text-gray-800 dark:text-gray-200'>
-//                   கர்பகுடி IVF மையம் தனது புதிய கிளையை <strong>ஓசூர், தமிழ்நாடு</strong>வில்
-//                   துவங்கியதை மகிழ்ச்சியுடன் அறிவிக்கிறது!
-//                   <strong>கர்நாடகாவிற்கு வெளியே எங்களின் முதல் கிளை.</strong>
-//                   <br />
-//                   இன்று தொடர்பு கொண்டு எங்களின் சேவைகள் குறித்து மேலும் அறிந்து கொள்ளுங்கள் மற்றும்
-//                   உங்களுக்கு அருகிலுள்ள இடத்தை கண்டறியுங்கள்.
-//                 </h3>
-//               </div>
-//               <div className='text-center lg:px-3 lg:text-left'>
-//                 <button className='mt-4 rounded-lg bg-gg-500 px-4 py-2 font-content font-semibold text-white hover:bg-gg-400 dark:bg-gray-500 dark:hover:bg-gg-400'>
-//                   <Link href={`/contact/enquiry?pageVisit=${path}`}>எங்களை தொடர்பு கொள்ளவும்</Link>
-//                 </button>
-//               </div>
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
+const DESKTOP = 'cmt1ii3990zbu06odn5ov931h'; // Web B Desktop.jpg, 4816x1586
+const MOBILE = 'cmt2ql32y4bh006o330nl4gm7'; // Web B Mobile.jpg, 3113x4357
 
-// export default Banner;
-
+// Creatives are hardcoded here, unlike the CMS-driven homepage banner, so changing them
+// needs a deploy. Keep the 768px breakpoint in step with sections/home/bannerComponent.tsx.
 const Banner = () => {
   return (
-    <>
-      <div className='w-full'>
-        <Image
-          src='https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8vb8pz586107pldfljrjaq'
-          alt='Garbhagudi IVF Banner'
-          width={1920}
-          height={800}
-          priority
-          className='h-auto w-full object-cover'
-          sizes='100vw'
+    <div className='w-full'>
+      <picture>
+        {/* Plain <picture>, not next/image: under `unoptimized` getImageProps returns
+            `srcSet: undefined`, and a <source> without srcSet is skipped — desktop would
+            fall through and render the portrait creative. width/height on both nodes stop
+            the differing aspect ratios causing a layout shift. */}
+        <source
+          media='(min-width: 768px)'
+          srcSet={webp(DESKTOP, 1920)}
+          width={4816}
+          height={1586}
         />
-      </div>
-    </>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src={webp(MOBILE, 1080)}
+          alt='Garbhagudi IVF Banner'
+          width={3113}
+          height={4357}
+          className='h-auto w-full'
+        />
+      </picture>
+    </div>
   );
 };
 

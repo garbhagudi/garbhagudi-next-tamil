@@ -1,5 +1,36 @@
 import React from 'react';
-import { Lexend, Nunito, B612, Benne, Nunito_Sans, Figtree } from 'next/font/google';
+import {
+  Lexend,
+  Nunito,
+  B612,
+  Benne,
+  Nunito_Sans,
+  Figtree,
+  Noto_Sans_Tamil,
+  Noto_Serif_Tamil,
+  Inter,
+} from 'next/font/google';
+
+const notoSansTamil = Noto_Sans_Tamil({
+  weight: ['400', '500', '600'],
+  subsets: ['tamil'],
+  display: 'swap',
+  variable: '--font-noto-sans-tamil',
+});
+
+const notoSerifTamil = Noto_Serif_Tamil({
+  weight: ['400', '600', '700'],
+  subsets: ['tamil'],
+  display: 'swap',
+  variable: '--font-noto-serif-tamil',
+});
+
+const inter = Inter({
+  weight: ['400', '500', '600', '700'],
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-inter',
+});
 
 const lexend = Lexend({
   subsets: ['latin'],
@@ -41,7 +72,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <>
       <main
-        className={`${lexend.variable} ${nunito.variable} ${b612.variable} ${benne.variable} ${nunitoSans.className} ${figtree.className}`}
+        className={`${lexend.variable} ${nunito.variable} ${b612.variable} ${benne.variable} ${notoSansTamil.variable} ${notoSerifTamil.variable} ${inter.variable} ${nunitoSans.className} ${figtree.className}`}
       >
         {children}
       </main>

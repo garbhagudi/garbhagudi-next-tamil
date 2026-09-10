@@ -135,7 +135,7 @@ export const getStaticProps = async ({ params }) => {
     props: {
       branch: data.branch,
     },
-    revalidate: 180,
+    revalidate: 3600,
   };
 };
 

@@ -6,6 +6,12 @@ const nextConfig = {
   experimental: {
     workerThreads: false,
     cpus: 1,
+    // Hygraph 429s above ~5 simultaneous in-flight uncached queries. Next exports pages in
+    // batches of this size via Promise.all inside each worker (default 8), and every page
+    // runs one GraphQL query — so the default overruns the limit and fails the build.
+    // Keep cpus at 1: with more workers this per-worker cap multiplies.
+    staticGenerationMaxConcurrency: 4,
+    staticGenerationRetryCount: 3,
   },
   compiler: {
     removeConsole: process.env.NODE_ENV === 'production',
