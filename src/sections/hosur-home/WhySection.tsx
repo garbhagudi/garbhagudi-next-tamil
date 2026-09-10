@@ -43,15 +43,15 @@ export default function WhySection() {
           {cards.map(({ Icon, title, body }) => (
             <div
               key={title}
-              className='rounded-[14px] border border-hairline bg-white px-5 py-6 transition-all hover:border-saffron hover:shadow-[0_4px_20px_rgba(232,130,12,0.10)]'
+              className='border-hairline hover:border-saffron rounded-[14px] border bg-white px-5 py-6 transition-all hover:shadow-[0_4px_20px_rgba(232,130,12,0.10)]'
             >
-              <div className='mb-4 flex h-12 w-12 items-center justify-center rounded-[12px] bg-saffron-light'>
-                <Icon className='h-6 w-6 text-saffron' strokeWidth={2} />
+              <div className='bg-saffron-light mb-4 flex h-12 w-12 items-center justify-center rounded-[12px]'>
+                <Icon className='text-saffron h-6 w-6' strokeWidth={2} />
               </div>
-              <div className='mb-1.5 font-sans-tamil text-[15px] font-semibold text-charcoal'>
+              <div className='font-sans-tamil text-charcoal mb-1.5 text-[15px] font-semibold'>
                 {title}
               </div>
-              <div className='text-[13px] leading-[1.65] text-muted'>{body}</div>
+              <div className='text-muted text-[13px] leading-[1.65]'>{body}</div>
             </div>
           ))}
         </div>

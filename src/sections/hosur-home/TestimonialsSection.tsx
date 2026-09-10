@@ -42,27 +42,27 @@ export default function TestimonialsSection() {
           {testimonials.map((t) => (
             <div
               key={t.name}
-              className='relative rounded-[14px] border border-hairline bg-white p-6'
+              className='border-hairline relative rounded-[14px] border bg-white p-6'
             >
               <span
-                className='absolute right-4 top-2.5 select-none font-serif-tamil text-[4rem] leading-none text-saffron-light'
+                className='font-serif-tamil text-saffron-light absolute right-4 top-2.5 select-none text-[4rem] leading-none'
                 aria-hidden='true'
               >
                 &ldquo;
               </span>
-              <p className='mb-5 font-serif-tamil text-[14px] leading-[1.7] text-charcoal'>
+              <p className='font-serif-tamil text-charcoal mb-5 text-[14px] leading-[1.7]'>
                 {t.text}
               </p>
               <div className='flex items-center gap-2.5'>
                 <div
-                  className={`flex h-[38px] w-[38px] flex-shrink-0 items-center justify-center rounded-full font-serif-tamil text-[14px] font-semibold text-white ${t.avatarBg}`}
+                  className={`font-serif-tamil flex h-[38px] w-[38px] flex-shrink-0 items-center justify-center rounded-full text-[14px] font-semibold text-white ${t.avatarBg}`}
                 >
                   {t.initial}
                 </div>
                 <div>
-                  <div className='text-[13px] font-semibold text-charcoal'>{t.name}</div>
-                  <div className='text-[12px] text-muted'>{t.loc}</div>
-                  <div className='text-[12px] tracking-[1px] text-saffron'>★★★★★</div>
+                  <div className='text-charcoal text-[13px] font-semibold'>{t.name}</div>
+                  <div className='text-muted text-[12px]'>{t.loc}</div>
+                  <div className='text-saffron text-[12px] tracking-[1px]'>★★★★★</div>
                 </div>
               </div>
             </div>

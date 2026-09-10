@@ -42,17 +42,17 @@ export default function ProcessSection() {
             <div
               key={s.num}
               className={`flex items-start gap-6 py-6 ${
-                i < steps.length - 1 ? 'border-b border-hairline' : ''
+                i < steps.length - 1 ? 'border-hairline border-b' : ''
               }`}
             >
-              <span className='mt-0.5 flex-shrink-0 rounded-lg bg-saffron-light px-2.5 py-1.5 font-ui text-[11px] font-bold tracking-wider text-saffron-dark'>
+              <span className='bg-saffron-light font-ui text-saffron-dark mt-0.5 flex-shrink-0 rounded-lg px-2.5 py-1.5 text-[11px] font-bold tracking-wider'>
                 {s.num}
               </span>
               <div>
-                <div className='mb-1 font-sans-tamil text-[15px] font-semibold text-charcoal'>
+                <div className='font-sans-tamil text-charcoal mb-1 text-[15px] font-semibold'>
                   {s.title}
                 </div>
-                <div className='font-sans-tamil text-[14px] leading-[1.65] text-muted'>
+                <div className='font-sans-tamil text-muted text-[14px] leading-[1.65]'>
                   {s.desc}
                 </div>
               </div>

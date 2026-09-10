@@ -6,7 +6,7 @@ export default function FloatCall() {
     <a
       href={PHONE_HREF}
       aria-label='Call GarbhaGudi Hosur'
-      className='fixed bottom-6 right-6 z-[200] flex items-center gap-2 rounded-full bg-rose px-[22px] py-3.5 font-sans-tamil text-[14px] font-semibold text-white no-underline shadow-[0_4px_20px_rgba(192,57,94,0.40)]'
+      className='bg-rose font-sans-tamil fixed bottom-6 right-6 z-[200] flex items-center gap-2 rounded-full px-[22px] py-3.5 text-[14px] font-semibold text-white no-underline shadow-[0_4px_20px_rgba(192,57,94,0.40)]'
       style={{ animation: 'float-call-pulse 2.5s infinite' }}
     >
       <Phone className='h-[18px] w-[18px]' />

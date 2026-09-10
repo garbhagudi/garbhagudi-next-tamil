@@ -44,13 +44,13 @@ export default function TreatmentsSection() {
           {treatments.map(({ Icon, name, desc }) => (
             <div
               key={name}
-              className='rounded-[12px] border border-hairline bg-white px-4 py-[1.1rem] text-center transition-all hover:-translate-y-0.5 hover:border-saffron'
+              className='border-hairline hover:border-saffron rounded-[12px] border bg-white px-4 py-[1.1rem] text-center transition-all hover:-translate-y-0.5'
             >
-              <div className='mx-auto mb-3 flex h-10 w-10 items-center justify-center rounded-full bg-saffron-light'>
-                <Icon className='h-5 w-5 text-saffron' strokeWidth={2} />
+              <div className='bg-saffron-light mx-auto mb-3 flex h-10 w-10 items-center justify-center rounded-full'>
+                <Icon className='text-saffron h-5 w-5' strokeWidth={2} />
               </div>
-              <div className='font-ui text-[13px] font-semibold text-charcoal'>{name}</div>
-              <div className='mt-1 font-sans-tamil text-[12px] leading-[1.5] text-muted'>
+              <div className='font-ui text-charcoal text-[13px] font-semibold'>{name}</div>
+              <div className='font-sans-tamil text-muted mt-1 text-[12px] leading-[1.5]'>
                 {desc}
               </div>
             </div>

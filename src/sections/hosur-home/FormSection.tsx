@@ -109,7 +109,7 @@ const FormSection = () => {
         <div className='grid grid-cols-1 items-start gap-10 sm:grid-cols-2'>
           {/* Left column */}
           <div>
-            <p className='mb-6 font-serif-tamil text-[1.3rem] font-bold leading-[1.5] text-white opacity-95'>
+            <p className='font-serif-tamil mb-6 text-[1.3rem] font-bold leading-[1.5] text-white opacity-95'>
               இன்றே ஒரு படி முன்னேறுங்கள்.
               <br />
               உங்கள் கனவு அருகிலிருக்கிறது.
@@ -118,7 +118,7 @@ const FormSection = () => {
               {benefits.map((b) => (
                 <li
                   key={b}
-                  className='flex items-start gap-2.5 border-b border-white/10 py-2.5 font-sans-tamil text-[14px] text-white/90 last:border-b-0'
+                  className='font-sans-tamil flex items-start gap-2.5 border-b border-white/10 py-2.5 text-[14px] text-white/90 last:border-b-0'
                 >
                   <span className='bg-white/15 mt-0.5 flex h-[22px] w-[22px] flex-shrink-0 items-center justify-center rounded-full'>
                     <Check className='h-3 w-3 text-white' strokeWidth={3} />
@@ -129,10 +129,10 @@ const FormSection = () => {
             </ul>
 
             <div className='mt-8 rounded-[12px] bg-white/[0.12] p-5'>
-              <div className='mb-2 flex items-center gap-2 font-serif-tamil text-[1.1rem] font-bold text-white'>
+              <div className='font-serif-tamil mb-2 flex items-center gap-2 text-[1.1rem] font-bold text-white'>
                 <MapPin className='h-4 w-4' /> கர்பகுடி IVF மையம் – ஓசூர்
               </div>
-              <div className='space-y-1 font-sans-tamil text-[13px] leading-[1.7] text-white/80'>
+              <div className='font-sans-tamil space-y-1 text-[13px] leading-[1.7] text-white/80'>
                 <div>ஓசூர் பஸ் நிலையம் அருகில்</div>
                 <div className='flex items-center gap-1.5'>
                   <Phone className='h-3.5 w-3.5' />
@@ -151,9 +151,9 @@ const FormSection = () => {
           {/* Right column — form card */}
           <form
             onSubmit={handleSubmit(onSubmit)}
-            className='rounded-[16px] bg-white p-8 font-sans-tamil text-charcoal'
+            className='font-sans-tamil text-charcoal rounded-[16px] bg-white p-8'
           >
-            <h3 className='mb-5 font-serif-tamil text-[1.1rem] font-bold text-charcoal'>
+            <h3 className='font-serif-tamil text-charcoal mb-5 text-[1.1rem] font-bold'>
               இலவச ஆலோசனை பதிவு செய்யுங்கள்
             </h3>
 
@@ -234,7 +234,7 @@ const FormSection = () => {
             <button
               type='submit'
               disabled={load}
-              className='mt-5 w-full rounded-[10px] bg-saffron py-3.5 text-[15px] font-semibold text-white transition-colors hover:bg-saffron-dark disabled:cursor-not-allowed disabled:opacity-60'
+              className='bg-saffron hover:bg-saffron-dark mt-5 w-full rounded-[10px] py-3.5 text-[15px] font-semibold text-white transition-colors disabled:cursor-not-allowed disabled:opacity-60'
             >
               {load ? 'பதிவு செய்கிறது…' : 'இலவச ஆலோசனை பெறுங்கள் →'}
             </button>
@@ -242,14 +242,14 @@ const FormSection = () => {
             {failed && (
               <p
                 aria-live='polite'
-                className='mt-3 text-center font-sans-tamil text-[13px] text-rose'
+                className='font-sans-tamil text-rose mt-3 text-center text-[13px]'
               >
                 பதிவு செய்ய முடியவில்லை. தயவுசெய்து மீண்டும் முயற்சிக்கவும் அல்லது எங்களை
                 அழைக்கவும்.
               </p>
             )}
 
-            <p className='mt-3 text-center text-[11px] text-muted'>
+            <p className='text-muted mt-3 text-center text-[11px]'>
               🔒 உங்கள் தகவல்கள் பாதுகாப்பாக வைக்கப்படும். எந்த ஸ்பாமும் இல்லை.
             </p>
           </form>
@@ -279,12 +279,12 @@ function Field({
 }) {
   return (
     <div className='mt-4 first:mt-0'>
-      <label htmlFor={id} className='mb-1.5 block text-[13px] font-medium text-charcoal'>
+      <label htmlFor={id} className='text-charcoal mb-1.5 block text-[13px] font-medium'>
         {label}
         {required && <span className='sr-only'> (required)</span>}
       </label>
       {children}
-      {error && <p className='mt-1 text-[12px] text-rose'>{error}</p>}
+      {error && <p className='text-rose mt-1 text-[12px]'>{error}</p>}
     </div>
   );
 }

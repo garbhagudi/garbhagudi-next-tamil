@@ -29,6 +29,11 @@ const Branch = ({ branch }) => {
     <div>
       <Head>
         {/* Primary Tags */}
+        <link
+          rel='preload'
+          href='https://ap-south-1.graphassets.com/cmekvksn30ksu07o5fl5q801f/cmsea3erb1uvk07pdqi317l7j'
+          as='image'
+        />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <title>{branch?.metaTitle}</title>
         <meta name='title' content={branch?.metaTitle} />
