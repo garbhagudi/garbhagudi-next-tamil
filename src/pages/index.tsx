@@ -1,8 +1,8 @@
 import Head from 'next/head';
+import dynamic from 'next/dynamic';
 import apolloClient from 'lib/apollo-graphcms';
 import { gql } from '@apollo/client';
 import BannerComponent from 'sections/home/bannerComponent';
-import Nav from 'sections/hosur-home/Nav';
 import HeroSection from 'sections/hosur-home/HeroSection';
 import TrustStrip from 'sections/hosur-home/TrustStrip';
 import WhySection from 'sections/hosur-home/WhySection';
@@ -10,8 +10,9 @@ import TreatmentsSection from 'sections/hosur-home/TreatmentsSection';
 import ProcessSection from 'sections/hosur-home/ProcessSection';
 import TestimonialsSection from 'sections/hosur-home/TestimonialsSection';
 import FormSection from 'sections/hosur-home/FormSection';
-import Footer from 'sections/hosur-home/Footer';
-import FloatCall from 'sections/hosur-home/FloatCall';
+
+const Faq = dynamic(() => import('sections/home/faq'), { ssr: false });
+const DoctorList = dynamic(() => import('sections/home/doctorList'), { ssr: false });
 
 const Home = ({ data }) => {
   function addBreadcrumbJsonLd() {
@@ -164,7 +165,6 @@ const Home = ({ data }) => {
           content='mzhcIRsJx6D4QkbJJp3Tepas8Lyv6sJLWmGb0DvKOrw'
         />
       </Head>
-      <Nav />
       <BannerComponent banners={data.banners} />
       {/* No <main> here — RootLayout in components/layout.tsx already provides one */}
       <div>
@@ -175,9 +175,9 @@ const Home = ({ data }) => {
         <ProcessSection />
         <TestimonialsSection />
         <FormSection />
+        <DoctorList doctors={data.doctors} />
+        <Faq />
       </div>
-      <Footer />
-      <FloatCall />
     </div>
   );
 };
@@ -188,6 +188,19 @@ export const getStaticProps = async () => {
   const { data } = await apolloClient.query({
     query: gql`
       query {
+        doctors {
+          name
+          qualification
+          category
+          slug
+          image {
+            url
+          }
+          imageAlt
+          medicalRegNo
+          id
+          designation
+        }
         banners(orderBy: order_ASC) {
           title
           id

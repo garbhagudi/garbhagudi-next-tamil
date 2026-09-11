@@ -33,11 +33,7 @@ function MyApp({ Component, pageProps }) {
     '/treatments/iui-treatment-in-bangalore',
   ];
 
-  // Pages that ship their own header/footer/CTAs and must not get the site chrome at all
-  const bareChromePaths = ['/'];
-
   const shouldDisplay = !noRenderPaths.includes(router.pathname);
-  const bareChrome = bareChromePaths.includes(router.pathname);
   const [loading, setLoading] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
   useEffect(() => {
@@ -90,12 +86,12 @@ function MyApp({ Component, pageProps }) {
           <Loading />
         ) : (
           <div className='min-h-screen selection:bg-gg-500 selection:text-white dark:bg-gray-800'>
-            {shouldDisplay && !bareChrome && <Nav />}
+            {shouldDisplay && <Nav />}
             <Component {...pageProps} />
-            {!bareChrome && <Footer />}
+            <Footer />
           </div>
         )}
-        {shouldDisplay && !bareChrome && showSalesIQ && (
+        {shouldDisplay && showSalesIQ && (
           <Salesiq
             widgetCode='93210c756ea31b2224df734860e5d813b081008ce54deb21426241464ccb8de2e6558490d76d66086d0b48b1ed4abff0'
             domain='https://salesiq.zoho.com/widget'
@@ -103,13 +99,9 @@ function MyApp({ Component, pageProps }) {
         )}
       </ThemeProvider>
       {/* <SpeedInsights /> */}
-      {!bareChrome && (
-        <>
-          <FloatRequestCallBack />
-          <FloatWhatsApp />
-          <FloatPhone />
-        </>
-      )}
+      <FloatRequestCallBack />
+      <FloatWhatsApp />
+      <FloatPhone />
     </RootLayout>
   );
 }
