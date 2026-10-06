@@ -15,6 +15,7 @@ const Nav = dynamic(() => import('components/header/header'), { ssr: true });
 const Salesiq = dynamic(() => import('components/SalesIQ'), { ssr: false });
 const Loading = dynamic(() => import('components/Loading'), { ssr: true });
 const FloatPhone = dynamic(() => import('components/FloatPhone'), { ssr: false });
+const FloatPhoneRound = dynamic(() => import('components/FloatPhoneRound'), { ssr: false });
 const FloatRequestCallBack = dynamic(() => import('components/FloatRequestCallBack'), {
   ssr: false,
 });
@@ -42,6 +43,12 @@ function MyApp({ Component, pageProps }) {
   }, []);
 
   const showSalesIQ = !(router.pathname === '/contact/enquiry' && isMobile);
+
+  /* Lets globals.css pin the SalesIQ bubble below FloatPhoneRound. */
+  useEffect(() => {
+    document.documentElement.classList.add('gg-phone-round-floats');
+    return () => document.documentElement.classList.remove('gg-phone-round-floats');
+  }, []);
 
   useEffect(() => {
     TagManager.initialize({ gtmId: 'GTM-5T77DVZ' });
@@ -101,6 +108,7 @@ function MyApp({ Component, pageProps }) {
       {/* <SpeedInsights /> */}
       <FloatRequestCallBack />
       <FloatWhatsApp />
+      <FloatPhoneRound />
       <FloatPhone />
     </RootLayout>
   );
