@@ -269,6 +269,30 @@ body {
   }
 }
 
+/* Desktop-only floating stack (bottom-right): the SalesIQ chat bubble sits above the round
+ * phone button (FloatPhoneRound), which stays at the bottom of the stack, same right edge.
+ * Only the position is forced (not size) since the widget's own dimensions aren't fixed here —
+ * forcing a smaller box than it needs makes its contents overflow the box and bleed down over
+ * FloatPhoneRound, so the gap below is sized generously instead to clear it either way.
+ * Enabled by `gg-phone-round-floats` on <html> (see _app.tsx). Mobile is untouched
+ * (FloatPhoneRound is hidden there and SalesIQ is left at its default spot, same as before —
+ * see the max-width rule above). */
+@media screen and (min-width: 768px) {
+  html.gg-phone-round-floats .zsiq_floatmain {
+    right: 20px !important;
+    bottom: 90px !important;
+  }
+}
+
+/* Desktop: keep the opened chat window from covering FloatPhoneRound — push it up instead,
+ * clearing it with the same margin as the bubble above. */
+@media screen and (min-width: 768px) {
+  html.gg-phone-round-floats .zls-sptwndw.siqembed {
+    bottom: 90px !important;
+    max-height: calc(100vh - 160px) !important;
+  }
+}
+
 /* GarbhaGudi Hosur landing page (/) — FloatCall pulse */
 @keyframes float-call-pulse {
   0%,
