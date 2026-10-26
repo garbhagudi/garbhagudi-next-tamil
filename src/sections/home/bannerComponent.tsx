@@ -16,10 +16,32 @@ interface bannerRecord {
   mobileImage?: bannerAsset | null;
 }
 
-// Hygraph resizes from the URL. next.config.mjs sets `images.unoptimized: true`, so nothing
-// resizes these for us — without the transform the 2.2 MB mobile original ships as-is.
 const webp = (url: string, width: number) =>
   url?.replace(/\/([^/]+)$/, `/output=format:webp/resize=width:${width}/$1`);
+
+const renderBanner = (banner: bannerRecord, index: number) => {
+  const mobile = banner?.mobileImage ?? banner?.image;
+  return (
+    <Link href={banner?.url || '#'} target='_blank' rel='noreferrer' key={banner?.id ?? index}>
+      <picture>
+        <source
+          media='(min-width: 768px)'
+          srcSet={webp(banner?.image?.url, 1920)}
+          width={banner?.image?.width}
+          height={banner?.image?.height}
+        />
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src={webp(mobile?.url, 1080)}
+          alt={banner?.title}
+          width={mobile?.width}
+          height={mobile?.height}
+          className='h-full w-full object-cover'
+        />
+      </picture>
+    </Link>
+  );
+};
 
 const BannerComponent = ({ banners = [] }: { banners: bannerRecord[] }) => {
   const defaultControlsConfig = {
@@ -29,6 +51,10 @@ const BannerComponent = ({ banners = [] }: { banners: bannerRecord[] }) => {
   };
 
   if (!banners.length) return null;
+
+  if (banners.length === 1) {
+    return <div className='border-0 shadow-2xl drop-shadow-2xl'>{renderBanner(banners[0], 0)}</div>;
+  }
 
   return (
     <div>
@@ -60,38 +86,7 @@ const BannerComponent = ({ banners = [] }: { banners: bannerRecord[] }) => {
           </button>
         )}
       >
-        {banners.map((banner, index) => {
-          const mobile = banner?.mobileImage ?? banner?.image;
-          return (
-            <Link
-              href={banner?.url || '#'}
-              target='_blank'
-              rel='noreferrer'
-              key={banner?.id ?? index}
-            >
-              <picture>
-                {/* Plain <picture>, not next/image: under `unoptimized` getImageProps returns
-                    `srcSet: undefined`, and a <source> without srcSet is skipped — desktop
-                    would fall through and render the portrait creative. width/height on both
-                    nodes stop the differing aspect ratios causing a layout shift. */}
-                <source
-                  media='(min-width: 768px)'
-                  srcSet={webp(banner?.image?.url, 1920)}
-                  width={banner?.image?.width}
-                  height={banner?.image?.height}
-                />
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src={webp(mobile?.url, 1080)}
-                  alt={banner?.title}
-                  width={mobile?.width}
-                  height={mobile?.height}
-                  className='h-full w-full object-cover'
-                />
-              </picture>
-            </Link>
-          );
-        })}
+        {banners.map(renderBanner)}
       </Carousel>
     </div>
   );
