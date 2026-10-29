@@ -1,4 +1,4 @@
-import Banner from 'sections/location/banner';
+import BannerComponent from 'sections/home/bannerComponent';
 import TreatmentOptions from 'sections/location/treatments';
 import apolloClient from 'lib/apollo-graphcms';
 import { gql } from '@apollo/client';
@@ -11,7 +11,7 @@ const Cta = dynamic(() => import('sections/gg-care/cta'), { ssr: false });
 const Faq = dynamic(() => import('sections/location/faq'), { ssr: false });
 const VirtualTour = dynamic(() => import('sections/location/virtualTour'), { ssr: false });
 
-const Branch = ({ branch }) => {
+const Branch = ({ branch, banners }) => {
   const router = useRouter();
   if (router.isFallback) {
     return <Loading />;
@@ -57,7 +57,7 @@ const Branch = ({ branch }) => {
         <meta name='twitter:description' content={branch?.metaDescription} />
         <meta name='twitter:image' content={branch?.branchPicture?.url} />
       </Head>
-      <Banner />
+      <BannerComponent banners={banners} />
       <TreatmentOptions branch={branch?.title} image={branch?.nabh?.url || ''} />
       <MapSection
         maplink={branch?.mapLink}
@@ -119,6 +119,21 @@ export const getStaticProps = async ({ params }) => {
             }
           }
         }
+        banners(orderBy: order_ASC, first: 1) {
+          title
+          id
+          url
+          image {
+            url
+            width
+            height
+          }
+          mobileImage {
+            url
+            width
+            height
+          }
+        }
       }
     `,
     variables: {
@@ -129,6 +144,7 @@ export const getStaticProps = async ({ params }) => {
   return {
     props: {
       branch: data.branch,
+      banners: data.banners,
     },
     revalidate: 3600,
   };
