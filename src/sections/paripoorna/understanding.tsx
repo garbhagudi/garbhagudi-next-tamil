@@ -24,7 +24,7 @@ const Fertility360 = () => (
         />
       </div>
       <div>
-        <h2 className='m-0 font-pp-head text-[clamp(1.7rem,2.6vw,2.5rem)] font-bold leading-[1.25] text-pp-char max-[640px]:text-[1.5rem]'>
+        <h2 className='m-0 font-pp-head text-[clamp(1.7rem,2.6vw,2.5rem)] font-bold leading-[1.4] text-pp-char max-[640px]:text-[1.5rem]'>
           முதலில் புரிந்துகொள்ளுங்கள். <em className={EM}>பிறகு முடிவு செய்யுங்கள்.</em>
         </h2>
       </div>
@@ -42,7 +42,7 @@ const Fertility360 = () => (
           <span className='relative z-[1] mx-auto grid h-[132px] w-[132px] place-items-center overflow-hidden rounded-full max-[1040px]:row-span-2 max-[1040px]:mx-0 max-[1040px]:h-[88px] max-[1040px]:w-[88px] max-[1040px]:self-center max-[640px]:h-[76px] max-[640px]:w-[76px]'>
             <img src={step.image} alt='' width='170' height='170' className='h-full w-full' />
           </span>
-          <h3 className='mb-1.5 mt-[22px] font-pp-ui text-[1.08rem] font-semibold leading-[1.35] tracking-normal text-pp-char max-[1040px]:col-start-2 max-[1040px]:mt-0 max-[1040px]:self-end max-[1040px]:text-[1.02rem]'>
+          <h3 className='mb-1.5 mt-[22px] font-pp-ui text-[1.08rem] font-semibold leading-[1.5] tracking-normal text-pp-char max-[1040px]:col-start-2 max-[1040px]:mt-0 max-[1040px]:self-end max-[1040px]:text-[1.02rem]'>
             {step.title}
           </h3>
           <p className='text-[0.96rem] leading-[1.55] text-pp-grey-2 max-[1040px]:col-start-2 max-[1040px]:m-0 max-[1040px]:self-start max-[1040px]:text-[0.92rem]'>
@@ -74,7 +74,7 @@ const Understanding = () => (
             {questions.map((q) => (
               <li
                 key={q}
-                className="flex items-center gap-3 py-1 font-pp-ui text-[1.08rem] font-medium leading-[1.4] text-pp-char before:h-[7px] before:w-[7px] before:flex-none before:rounded-full before:bg-pp-pink before:content-[''] max-[640px]:text-[1rem]"
+                className="flex items-center gap-3 py-1 font-pp-ui text-[1.08rem] font-medium leading-[1.55] text-pp-char before:h-[7px] before:w-[7px] before:flex-none before:rounded-full before:bg-pp-pink before:content-[''] max-[640px]:text-[1rem]"
               >
                 {q}
               </li>
@@ -91,7 +91,7 @@ const Understanding = () => (
         {mantras.map((m, i) => (
           <span
             key={m}
-            className={`py-[22px] pr-6 font-pp-ui text-[1.15rem] font-medium leading-[1.4] text-pp-char max-[1040px]:px-0 max-[1040px]:py-4 max-[640px]:text-[1.02rem] ${
+            className={`py-[22px] pr-6 font-pp-ui text-[1.15rem] font-medium leading-[1.55] text-pp-char max-[1040px]:px-0 max-[1040px]:py-4 max-[640px]:text-[1.02rem] ${
               i > 0
                 ? 'border-l border-l-pp-line pl-6 max-[1040px]:border-l-0 max-[1040px]:border-t max-[1040px]:border-t-pp-line'
                 : 'pl-0'

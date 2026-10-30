@@ -45,7 +45,7 @@ const Hero = () => (
       className={`${WRAP} relative z-[2] py-[clamp(16px,3vh,40px)] max-[640px]:pb-10 max-[640px]:pt-4`}
     >
       <div className='max-w-[560px] max-[1180px]:max-w-[500px] max-[1040px]:max-w-none'>
-        <h1 className='m-0 mb-[clamp(6px,1.2vh,12px)] font-pp-head text-[clamp(2rem,min(3.8vw,5.6vh),3.1rem)] font-bold leading-[1.22] text-pp-char max-[640px]:mt-1 max-[640px]:text-[1.7rem]'>
+        <h1 className='m-0 mb-[clamp(6px,1.2vh,12px)] font-pp-head text-[clamp(2rem,min(3.8vw,5.6vh),3.1rem)] font-bold leading-[1.4] text-pp-char max-[640px]:mt-1 max-[640px]:text-[1.7rem]'>
           இரண்டு{' '}
           <em className='relative inline-block not-italic text-pp-pink'>
             கோடுகளுக்குக்காக
@@ -53,7 +53,7 @@ const Hero = () => (
               viewBox='0 0 200 20'
               preserveAspectRatio='none'
               aria-hidden='true'
-              className='absolute bottom-[-0.24em] left-[-1%] h-[0.26em] w-[102%] overflow-visible'
+              className='absolute bottom-[-0.12em] left-[-1%] h-[0.26em] w-[102%] overflow-visible'
             >
               <path
                 d='M3 13 C 40 6, 90 4, 130 9 S 185 15, 197 7'
@@ -63,7 +63,7 @@ const Hero = () => (
             </svg>
           </em>
         </h1>
-        <p className='mt-1 font-pp-ui text-[clamp(1.6rem,min(3.5vw,4.75vh),3rem)] font-normal leading-[1.2] text-pp-mauve-d max-[640px]:text-[1.45rem]'>
+        <p className='mt-1 font-pp-ui text-[clamp(1.6rem,min(3.5vw,4.75vh),3rem)] font-normal leading-[1.4] text-pp-mauve-d max-[640px]:text-[1.45rem]'>
           இன்னும் எத்தனை நாட்கள் காத்திருபீர்?
         </p>
         <div className='mt-[clamp(16px,2.6vh,26px)] font-pp-ui text-[clamp(1.02rem,2vh,1.18rem)] leading-[1.6]'>
@@ -76,9 +76,9 @@ const Hero = () => (
           </p>
         </div>
         <p className='mt-[clamp(14px,2.2vh,22px)] max-w-[470px] text-[clamp(0.94rem,1.9vh,1.04rem)] max-[1040px]:max-w-none'>
-          கர்பகுடியில், நாங்கள் முதலில் உங்களுக்குச் செவிசாய்க்கிறோம். நீங்கள் தற்போது எந்த
-          நிலையில் இருக்கிறீர்கள் என்பதைத் தெரிந்துகொள்ள உதவி, உங்களுக்குப் பொருத்தமான கருவுறுதல்
-          சிகிச்சை வாய்ப்புகளை மென்மையாக ஆராய்வோம்.
+          கர்பகுடியில், நாங்கள் முதலில் உங்களுக்குச் செவிசாய்க்கிறோம். நீங்கள் தற்போது எந்த நிலையில்
+          இருக்கிறீர்கள் என்பதைத் தெரிந்துகொள்ள உதவி, உங்களுக்குப் பொருத்தமான கருவுறுதல் சிகிச்சை
+          வாய்ப்புகளை மென்மையாக ஆராய்வோம்.
         </p>
         <div className='mt-[clamp(16px,2.6vh,26px)] flex flex-wrap gap-3 max-[640px]:gap-2.5'>
           <a href='#path' className={button('ink', 'max-[640px]:flex-[1_1_100%]')}>

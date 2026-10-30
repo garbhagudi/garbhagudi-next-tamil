@@ -4,7 +4,7 @@ export const SEC_HEAD =
   'mb-9 grid grid-cols-2 items-center gap-20 max-[1040px]:grid-cols-1 max-[1040px]:gap-6';
 
 export const H2 =
-  'm-0 font-pp-head text-[clamp(2.2rem,4.4vw,3.5rem)] font-bold leading-[1.1] text-pp-char';
+  'm-0 font-pp-head text-[clamp(2.2rem,4.4vw,3.5rem)] font-bold leading-[1.4] text-pp-char';
 
 export const EM = 'not-italic text-pp-pink';
 
@@ -18,7 +18,7 @@ const VARIANTS = {
 };
 
 const SINGLE_LINE = 'whitespace-nowrap px-[30px] leading-none';
-const MULTI_LINE = 'max-w-full whitespace-normal px-6 text-center leading-[1.3]';
+const MULTI_LINE = 'max-w-full whitespace-normal px-6 text-center leading-[1.45]';
 
 export const button = (variant: keyof typeof VARIANTS, extra = '', wrap = false) =>
   `${BTN} ${wrap ? MULTI_LINE : SINGLE_LINE} ${VARIANTS[variant]} ${extra}`;

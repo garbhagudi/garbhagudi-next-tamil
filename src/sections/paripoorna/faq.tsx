@@ -3,7 +3,7 @@ import { PHONE_HREF, PHONE_LABEL, faqs, terms, termsIntro } from './data';
 import { H2, WRAP } from './ui';
 
 const SUMMARY =
-  'flex cursor-pointer list-none items-center justify-between gap-5 font-pp-ui leading-[1.4] text-pp-char max-[640px]:px-[18px] max-[640px]:py-4 max-[640px]:text-[0.98rem] [&::-webkit-details-marker]:hidden';
+  'flex cursor-pointer list-none items-center justify-between gap-5 font-pp-ui leading-[1.55] text-pp-char max-[640px]:px-[18px] max-[640px]:py-4 max-[640px]:text-[0.98rem] [&::-webkit-details-marker]:hidden';
 
 const BAR =
   "before:absolute before:left-1/2 before:top-1/2 before:h-[2px] before:w-3 before:-translate-x-1/2 before:-translate-y-1/2 before:rounded-[2px] before:bg-pp-pink before:transition-transform before:duration-300 before:content-[''] group-open:before:bg-white after:absolute after:left-1/2 after:top-1/2 after:h-[2px] after:w-3 after:-translate-x-1/2 after:-translate-y-1/2 after:rotate-90 after:rounded-[2px] after:bg-pp-pink after:transition-transform after:duration-300 after:content-[''] group-open:after:rotate-0 group-open:after:bg-white";

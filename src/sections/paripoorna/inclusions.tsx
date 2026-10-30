@@ -31,7 +31,7 @@ const Inclusions = () => (
                 {item.icon}
               </LineIcon>
             </span>
-            <h3 className='mb-1.5 mt-0 font-pp-head text-[1.12rem] font-bold leading-[1.2] text-white max-[640px]:text-[1rem]'>
+            <h3 className='mb-1.5 mt-0 font-pp-head text-[1.12rem] font-bold leading-[1.4] text-white max-[640px]:text-[1rem]'>
               {item.title}
             </h3>
             <p className='text-[0.88rem] leading-[1.5] text-[#fff1f4] max-[640px]:text-[0.82rem]'>
