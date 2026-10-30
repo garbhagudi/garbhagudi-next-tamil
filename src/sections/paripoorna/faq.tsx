@@ -1,106 +1,92 @@
-import React, { useState } from 'react';
-import AccordionLayout from '../Faq/FaqLayout';
+import { useState, type MouseEvent } from 'react';
+import { PHONE_HREF, PHONE_LABEL, faqs, terms, termsIntro } from './data';
+import { H2, WRAP } from './ui';
 
-const FAQ = () => {
-  const [activeIndex, setActiveIndex] = useState<string | number>(1);
+const SUMMARY =
+  'flex cursor-pointer list-none items-center justify-between gap-5 font-pp-ui leading-[1.55] text-pp-char max-[640px]:px-[18px] max-[640px]:py-4 max-[640px]:text-[0.98rem] [&::-webkit-details-marker]:hidden';
+
+const BAR =
+  "before:absolute before:left-1/2 before:top-1/2 before:h-[2px] before:w-3 before:-translate-x-1/2 before:-translate-y-1/2 before:rounded-[2px] before:bg-pp-pink before:transition-transform before:duration-300 before:content-[''] group-open:before:bg-white after:absolute after:left-1/2 after:top-1/2 after:h-[2px] after:w-3 after:-translate-x-1/2 after:-translate-y-1/2 after:rotate-90 after:rounded-[2px] after:bg-pp-pink after:transition-transform after:duration-300 after:content-[''] group-open:after:rotate-0 group-open:after:bg-white";
+
+const PlusMinus = () => (
+  <span
+    className={`relative h-[34px] w-[34px] flex-none rounded-full bg-pp-pink-t transition-[background,transform] duration-300 group-open:bg-pp-pink max-[640px]:h-[30px] max-[640px]:w-[30px] ${BAR}`}
+  />
+);
+
+const Faq = () => {
+  const [openIndex, setOpenIndex] = useState(0);
+
+  const toggle = (i: number) => (e: MouseEvent) => {
+    e.preventDefault();
+    setOpenIndex((current) => (current === i ? -1 : i));
+  };
+
   return (
-    <div className='mx-auto max-w-4xl px-3 pb-10 text-justify lg:px-0'>
-      <h3 className='text 3xl py-10 text-center font-lexend font-bold text-gray-800 dark:text-gray-200 lg:py-16 lg:text-4xl'>
-        அடிக்கடி கேட்கப்படும் கேள்விகள்
-      </h3>
-      {Data.map((items) => (
-        <AccordionLayout
-          title={items.title}
-          key={items.id}
-          index={items.id}
-          activeIndex={activeIndex}
-          setActiveIndex={setActiveIndex}
-        >
-          {items.contents}
-        </AccordionLayout>
-      ))}
-    </div>
+    <section
+      id='faqs'
+      className='relative bg-white pb-[110px] pt-11 max-[1040px]:pt-8 max-[640px]:pt-7'
+    >
+      <div className={`${WRAP} grid max-w-[900px] grid-cols-1 items-start gap-9`}>
+        <div className='text-center'>
+          <h2 className={`${H2} max-[640px]:text-[1.9rem]`}>
+            தம்பதிகள் எங்களிடம் அடிக்கடி கேட்கும் கேள்விகள்
+          </h2>
+          <p className='mt-4 text-pp-grey-2'>
+            இன்னும் ஏதேனும் புரியவில்லையா?{' '}
+            <a href={PHONE_HREF} className='whitespace-nowrap font-bold text-pp-pink-d'>
+              {PHONE_LABEL}
+            </a>{' '}
+            க்கு கால் செய்யவும்.
+          </p>
+        </div>
+        <div>
+          <div className='flex flex-col gap-3'>
+            {faqs.map((faq, i) => (
+              <details
+                key={faq.q}
+                open={openIndex === i}
+                className='group rounded-[20px] border border-pp-line bg-white text-left transition-[border-color,background] duration-300 open:border-pp-mauve open:bg-pp-mauve-t'
+              >
+                <summary
+                  onClick={toggle(i)}
+                  className={`${SUMMARY} px-[26px] py-[22px] text-[1.06rem] font-semibold`}
+                >
+                  {faq.q}
+                  <PlusMinus />
+                </summary>
+                <div className='px-[26px] pb-6 text-[1rem] text-pp-grey max-[640px]:px-5 max-[640px]:pb-5 [&_a]:border-b [&_a]:border-current [&_a]:font-bold [&_a]:text-pp-pink-d'>
+                  {faq.a}
+                </div>
+              </details>
+            ))}
+          </div>
+          <div id='terms' className='mt-6'>
+            <details className='group rounded-[22px] border-2 border-pp-char bg-white'>
+              <summary className={`${SUMMARY} px-7 py-6 font-pp-head text-[1.4rem] font-bold`}>
+                விதிமுறைகள் மற்றும் நிபந்தனைகள்
+                <PlusMinus />
+              </summary>
+              <div className='px-7 pb-7 text-[0.95rem] text-pp-grey max-[640px]:px-[22px] max-[640px]:pb-6'>
+                {termsIntro.map((p) => (
+                  <p key={p} className='mb-3'>
+                    {p}
+                  </p>
+                ))}
+                <ol className='mt-2 list-decimal pl-[22px]'>
+                  {terms.map((term) => (
+                    <li key={term} className='py-[5px] pl-1.5 marker:font-bold marker:text-pp-pink'>
+                      {term}
+                    </li>
+                  ))}
+                </ol>
+              </div>
+            </details>
+          </div>
+        </div>
+      </div>
+    </section>
   );
 };
 
-export default FAQ;
-
-const Data = [
-  {
-    id: 1,
-    title: 'பரிபூர்ணா சலுகைக்கு பதிவு செய்வதற்கான நடைமுறை என்ன?',
-    contents: (
-      <div>
-        பரிபூர்ணாவுக்குப் பதிவு செய்ய, கருத்தரிப்புச் சிறப்பு மருத்துவர் ஆலோசனைக்காக எங்கள்
-        கிளைகளைப் பார்வையிடவும் அல்லது - 9108 9108 22 என்ற எண்ணில் எங்கள் கர்பகுடி கேர் ஆதரவுக்
-        குழுவைத் தொடர்பு கொள்ளவும். நாங்கள் உங்களுக்கு செயல்முறையின் மூலம் வழிகாட்டி, செயல்முறையை
-        சீராக முடிக்க உதவுவோம்.
-      </div>
-    ),
-  },
-  {
-    id: 2,
-    title: 'பரிபூர்ணாவுக்கு யார் தகுதியானவர்?',
-    contents: (
-      <div>
-        இது கருவுறாமை சிகிச்சை தேடும் மற்றும் நிதி உதவி தேவைப்படும் தம்பதிகளுக்காக சிறப்பாக
-        வடிவமைக்கப்பட்டுள்ளது.
-      </div>
-    ),
-  },
-  {
-    id: 3,
-    title: `பதிவு செய்யும் அனைவருக்கும் பலன் பெற உரிமை உள்ளதா?`,
-    contents: (
-      <div>
-        ஒரு தம்பதியினர் பதிவு செய்தல், கருத்தரிப்புச் சிறப்பு மருத்துவருடன் ஆலோசனை செய்தல், நோய்
-        கண்டறிதல் மற்றும் தம்பதிகளின் தனிப்பட்ட தேவைகளைப் பூர்த்தி செய்ய ஒரு சிகிச்சை
-        பரிந்துரைக்கப்பட்ட பிறகு பரிபூர்ணாவுக்குத் தகுதியுடையவர்கள் ஆவார்கள்.
-      </div>
-    ),
-  },
-  {
-    id: 4,
-    title: `தகுதிக்கான அளவுகோல்கள் என்ன?`,
-    contents: <div>பரிபூர்ணா IVF சிகிச்சையை நாடும் தம்பதிகளுக்கு மட்டுமே செல்லுபடியாகும்.</div>,
-  },
-  {
-    id: 5,
-    title: `தகுதியுடையவராக இருந்தால், சிகிச்சைத் திட்டத்தைப் பெறுவேனா?`,
-    contents: (
-      <div>
-        ஆம், நீங்கள் கருத்தரிப்புச் சிறப்பு மருத்துவரிடமிருந்து சிகிச்சைத் திட்டத்தைப் பெற முடியும்.
-      </div>
-    ),
-  },
-  {
-    id: 6,
-    title: `நான் பரிபூர்ணா திட்டத்தைத் தேர்வு செய்யாமல் எனது சிகிச்சையைத் தொடரலாமா?`,
-    contents: <div>ஆம், இது உண்மையான தேவை உள்ள மற்ற தம்பதிகளுக்கு பரிபூர்ணாவைப் பெற உதவும்.</div>,
-  },
-  {
-    id: 7,
-    title: `பரிபூர்ணாவுக்கு விண்ணப்பிக்க கடைசி தேதி என்ன?`,
-    contents: <div>பரிபூர்ணா 31 டிசம்பர் 2025 வரை கிடைக்கும்.</div>,
-  },
-  {
-    id: 8,
-    title: `நான் மற்றொரு வசதியில் எனது சிகிச்சையைத் தொடங்கியுள்ளேன், நான் இன்னும் கர்பகுடி IVF மையத்தில் பரிபூர்ணாவைப் பெற தகுதியுடையவனா?`,
-    contents: (
-      <div>
-        ஆம், நீங்கள் விண்ணப்பிக்கலாம், ஆனால் சிகிச்சையைத் தொடராமல் இருக்க வேண்டாம் என்று நாங்கள்
-        பரிந்துரைக்கிறோம், ஏனெனில் அது அதன் வெற்றி விகிதத்தைப் பாதிக்கலாம்.
-      </div>
-    ),
-  },
-  {
-    id: 9,
-    title: `மையத்தைப் பார்வையிடாமல் ஆன்லைனில் பரிபூர்ணாவுக்குப் பதிவு செய்ய முடியுமா?`,
-    contents: (
-      <div>
-        இந்த சலுகை எங்கள் கர்பகுடி IVF மையங்களில் ஏதேனும் ஒன்றில் அவர்களின் நோயறிதலின் அடிப்படையில்
-        சுய-சுழற்சிக்கு (self-cycle) தகுதியுடைய தம்பதிகளுக்கு மட்டுமே செல்லுபடியாகும்.
-      </div>
-    ),
-  },
-];
+export default Faq;

@@ -11,7 +11,28 @@ module.exports = {
   darkMode: 'class', // or 'media'
   plugins: [require('@headlessui/tailwindcss')],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        pp: {
+          pink: '#ef4266',
+          'pink-d': '#d42d52',
+          'pink-t': '#fdeaee',
+          mauve: '#b479a4',
+          'mauve-d': '#8e5682',
+          'mauve-t': '#f5ebf2',
+          char: '#353635',
+          grey: '#4d4d4e',
+          'grey-2': '#5b5a5d',
+          bg: '#fcfbfb',
+          line: '#ebe7e8',
+        },
+      },
+      fontFamily: {
+        'pp-head': ['var(--font-b612)', '"Noto Sans Tamil"', 'system-ui', 'sans-serif'],
+        'pp-ui': ['var(--font-lexend)', '"Noto Sans Tamil"', 'system-ui', 'sans-serif'],
+        'pp-body': ['var(--font-nunito)', '"Noto Sans Tamil"', 'system-ui', 'sans-serif'],
+      },
+    },
     screens: {
       sm: '640px',
       md: '768px',
