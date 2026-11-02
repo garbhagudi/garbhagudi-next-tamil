@@ -76,6 +76,9 @@ const Offer = () => (
           ₹1,75,000
         </div>
         <div className='font-pp-ui text-[1.2rem] text-pp-char'>வரையறுக்கப்பட்ட IVF பராமரிப்பு</div>
+        <div className="font-pp-ui text-[1.2rem] text-pp-char before:relative before:top-[-1px] before:mr-[9px] before:inline-block before:h-[7px] before:w-[7px] before:rounded-full before:bg-pp-pink before:align-middle before:content-['']">
+          EMI வசதியில் சிகிச்சை
+        </div>
         <a href='#included' className={button('ink', 'relative z-[5] mt-5', true)}>
           ஏனெல்லாம் அதனுள் அடங்கியது என்று பாருங்கள்
           <Arrow />
