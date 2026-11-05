@@ -230,7 +230,7 @@ const Doctor = ({ doctor }) => {
                 <div className='mt-10 border-t border-gray-300 py-10'>
                   <div className='flex flex-col items-center justify-center gap-y-2'>
                     <div className='w-full px-4 lg:w-9/12'>
-                      <h2 className='text-2xl font-bold'>{`${doctor?.name} பற்றி`}</h2>
+                      <h2 className='text-2xl font-bold'>{doctor?.name}</h2>
                       <div className='prose mb-4 text-justify text-gray-800 dark:text-gray-200'>
                         <RichText
                           content={doctor?.bio?.raw?.children}
