@@ -125,7 +125,7 @@ export const inclusions: { title: string; text: string; icon: ReactNode }[] = [
     ),
   },
   {
-    title: 'கர்ப உறுதிப்படுத்தல்',
+    title: 'கர்ப பரிசோதனை',
     text: 'கரு மாற்றத்திற்குப் பிறகு கர்ப பரிசோதனை.',
     icon: (
       <>
