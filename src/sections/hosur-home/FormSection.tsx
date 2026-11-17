@@ -106,13 +106,13 @@ const FormSection = () => {
   return (
     <section
       id='form'
-      className='bg-pp-mauve-d px-4 py-12 text-white sm:px-6 sm:py-16 lg:px-8 lg:py-20'
+      className='bg-gradient-to-tr from-brandPink3/70 via-brandPurple/50 to-purple-100 px-4 py-12 text-pp-char sm:px-6 sm:py-16 lg:px-8 lg:py-20'
     >
       <div className='mx-auto max-w-7xl'>
         <div className='grid grid-cols-1 items-start gap-10 sm:grid-cols-2 lg:gap-16'>
           {/* Left column */}
           <div>
-            <p className='mb-6 font-serif-tamil text-[1.3rem] font-bold leading-[1.5] text-white opacity-95'>
+            <p className='mb-6 font-serif-tamil text-[1.3rem] font-bold leading-[1.5] text-pp-char'>
               இன்றே ஒரு படி முன்னேறுங்கள்.
               <br />
               உங்கள் கனவு அருகிலிருக்கிறது.
@@ -121,9 +121,9 @@ const FormSection = () => {
               {benefits.map((b) => (
                 <li
                   key={b}
-                  className='flex items-start gap-2.5 border-b border-white/10 py-2.5 font-sans-tamil text-[14px] text-white/90 last:border-b-0'
+                  className='flex items-start gap-2.5 border-b border-pp-char/10 py-2.5 font-sans-tamil text-[14px] text-pp-char last:border-b-0'
                 >
-                  <span className='bg-white/15 mt-0.5 flex h-[22px] w-[22px] flex-shrink-0 items-center justify-center rounded-full'>
+                  <span className='mt-0.5 flex h-[22px] w-[22px] flex-shrink-0 items-center justify-center rounded-full bg-pp-pink'>
                     <Check className='h-3 w-3 text-white' strokeWidth={3} />
                   </span>
                   <span>{b}</span>
@@ -131,15 +131,18 @@ const FormSection = () => {
               ))}
             </ul>
 
-            <div className='mt-8 rounded-[12px] bg-white/[0.12] p-5'>
-              <div className='mb-2 flex items-center gap-2 font-serif-tamil text-[1.1rem] font-bold text-white'>
+            <div className='mt-8 rounded-[12px] bg-white/60 p-5'>
+              <div className='mb-2 flex items-center gap-2 font-serif-tamil text-[1.1rem] font-bold text-pp-char'>
                 <MapPin className='h-4 w-4' /> கர்பகுடி IVF மையம் – ஓசூர்
               </div>
-              <div className='space-y-1 font-sans-tamil text-[13px] leading-[1.7] text-white/80'>
+              <div className='space-y-1 font-sans-tamil text-[13px] leading-[1.7] text-pp-grey'>
                 <div>ஓசூர் பஸ் நிலையம் அருகில்</div>
                 <div className='flex items-center gap-1.5'>
                   <Phone className='h-3.5 w-3.5' />
-                  <a href={PHONE_HREF} className='text-pp-pink-t no-underline hover:underline'>
+                  <a
+                    href={PHONE_HREF}
+                    className='font-semibold text-pp-pink-d no-underline hover:underline'
+                  >
                     {PHONE_DISPLAY}
                   </a>
                 </div>
