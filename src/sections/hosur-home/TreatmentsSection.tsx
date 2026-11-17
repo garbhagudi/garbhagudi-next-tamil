@@ -33,24 +33,24 @@ const treatments = [
 
 export default function TreatmentsSection() {
   return (
-    <section className='bg-saffron-light px-6 py-[4.5rem]'>
-      <div className='mx-auto max-w-[960px]'>
+    <section className='bg-pp-mauve-t px-4 py-12 sm:px-6 sm:py-16 lg:px-8 lg:py-20'>
+      <div className='mx-auto max-w-7xl'>
         <SectionHeader
           eyebrow='சிகிச்சை விருப்பங்கள்'
           title='எல்லா நிலைக்கும் தீர்வு இருக்கிறது'
           body='கருத்தரிப்பு சவால்களுக்கு அறிவியல் பூர்வமான, நவீன தீர்வுகள்.'
         />
-        <div className='mt-10 grid grid-cols-[repeat(auto-fit,minmax(160px,1fr))] gap-4'>
+        <div className='grid grid-cols-[repeat(auto-fit,minmax(160px,1fr))] gap-4'>
           {treatments.map(({ Icon, name, desc }) => (
             <div
               key={name}
-              className='rounded-[12px] border border-hairline bg-white px-4 py-[1.1rem] text-center transition-all hover:-translate-y-0.5 hover:border-saffron'
+              className='rounded-[12px] border border-pp-line bg-white px-4 py-[1.1rem] text-center transition-all hover:-translate-y-0.5 hover:border-pp-pink'
             >
-              <div className='mx-auto mb-3 flex h-10 w-10 items-center justify-center rounded-full bg-saffron-light'>
-                <Icon className='h-5 w-5 text-saffron' strokeWidth={2} />
+              <div className='mx-auto mb-3 flex h-10 w-10 items-center justify-center rounded-full bg-pp-pink-t'>
+                <Icon className='h-5 w-5 text-pp-pink' strokeWidth={2} />
               </div>
-              <div className='font-ui text-[13px] font-semibold text-charcoal'>{name}</div>
-              <div className='mt-1 font-sans-tamil text-[12px] leading-[1.5] text-muted'>
+              <div className='font-ui text-[13px] font-semibold text-pp-char'>{name}</div>
+              <div className='mt-1 font-sans-tamil text-[12px] leading-[1.5] text-pp-grey'>
                 {desc}
               </div>
             </div>

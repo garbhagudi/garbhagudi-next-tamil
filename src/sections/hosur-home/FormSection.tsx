@@ -104,9 +104,12 @@ const FormSection = () => {
   };
 
   return (
-    <section id='form' className='bg-teal px-6 py-[4.5rem] text-white'>
-      <div className='mx-auto max-w-[960px]'>
-        <div className='grid grid-cols-1 items-start gap-10 sm:grid-cols-2'>
+    <section
+      id='form'
+      className='bg-pp-mauve-d px-4 py-12 text-white sm:px-6 sm:py-16 lg:px-8 lg:py-20'
+    >
+      <div className='mx-auto max-w-7xl'>
+        <div className='grid grid-cols-1 items-start gap-10 sm:grid-cols-2 lg:gap-16'>
           {/* Left column */}
           <div>
             <p className='mb-6 font-serif-tamil text-[1.3rem] font-bold leading-[1.5] text-white opacity-95'>
@@ -136,7 +139,7 @@ const FormSection = () => {
                 <div>ஓசூர் பஸ் நிலையம் அருகில்</div>
                 <div className='flex items-center gap-1.5'>
                   <Phone className='h-3.5 w-3.5' />
-                  <a href={PHONE_HREF} className='text-[#FAC775] no-underline hover:underline'>
+                  <a href={PHONE_HREF} className='text-pp-pink-t no-underline hover:underline'>
                     {PHONE_DISPLAY}
                   </a>
                 </div>
@@ -151,9 +154,9 @@ const FormSection = () => {
           {/* Right column — form card */}
           <form
             onSubmit={handleSubmit(onSubmit)}
-            className='rounded-[16px] bg-white p-8 font-sans-tamil text-charcoal'
+            className='rounded-[16px] bg-white p-8 font-sans-tamil text-pp-char'
           >
-            <h3 className='mb-5 font-serif-tamil text-[1.1rem] font-bold text-charcoal'>
+            <h3 className='mb-5 font-serif-tamil text-[1.1rem] font-bold text-pp-char'>
               இலவச ஆலோசனை பதிவு செய்யுங்கள்
             </h3>
 
@@ -234,7 +237,7 @@ const FormSection = () => {
             <button
               type='submit'
               disabled={load}
-              className='mt-5 w-full rounded-[10px] bg-saffron py-3.5 text-[15px] font-semibold text-white transition-colors hover:bg-saffron-dark disabled:cursor-not-allowed disabled:opacity-60'
+              className='mt-5 w-full rounded-[10px] bg-pp-pink py-3.5 text-[15px] font-semibold text-white transition-colors hover:bg-pp-pink-d disabled:cursor-not-allowed disabled:opacity-60'
             >
               {load ? 'பதிவு செய்கிறது…' : 'இலவச ஆலோசனை பெறுங்கள் →'}
             </button>
@@ -242,14 +245,14 @@ const FormSection = () => {
             {failed && (
               <p
                 aria-live='polite'
-                className='mt-3 text-center font-sans-tamil text-[13px] text-rose'
+                className='mt-3 text-center font-sans-tamil text-[13px] text-pp-pink-d'
               >
                 பதிவு செய்ய முடியவில்லை. தயவுசெய்து மீண்டும் முயற்சிக்கவும் அல்லது எங்களை
                 அழைக்கவும்.
               </p>
             )}
 
-            <p className='mt-3 text-center text-[11px] text-muted'>
+            <p className='mt-3 text-center text-[11px] text-pp-grey'>
               🔒 உங்கள் தகவல்கள் பாதுகாப்பாக வைக்கப்படும். எந்த ஸ்பாமும் இல்லை.
             </p>
           </form>
@@ -262,7 +265,7 @@ const FormSection = () => {
 export default FormSection;
 
 const inputCls =
-  'w-full rounded-[10px] border-[1.5px] border-hairline bg-cream px-3.5 py-3 font-sans-tamil text-[14px] text-charcoal outline-none transition-colors focus:border-saffron';
+  'w-full rounded-[10px] border-[1.5px] border-pp-line bg-pp-bg px-3.5 py-3 font-sans-tamil text-[14px] text-pp-char outline-none transition-colors focus:border-pp-pink';
 
 function Field({
   id,
@@ -279,12 +282,12 @@ function Field({
 }) {
   return (
     <div className='mt-4 first:mt-0'>
-      <label htmlFor={id} className='mb-1.5 block text-[13px] font-medium text-charcoal'>
+      <label htmlFor={id} className='mb-1.5 block text-[13px] font-medium text-pp-char'>
         {label}
         {required && <span className='sr-only'> (required)</span>}
       </label>
       {children}
-      {error && <p className='mt-1 text-[12px] text-rose'>{error}</p>}
+      {error && <p className='mt-1 text-[12px] text-pp-pink-d'>{error}</p>}
     </div>
   );
 }

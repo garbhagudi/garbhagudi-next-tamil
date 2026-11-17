@@ -4,8 +4,8 @@ import AccordionLayout from 'sections/Faq/FaqLayout';
 const Faq = () => {
   const [activeIndex1, setActiveIndex1] = useState<number | string>(1);
   return (
-    <div className='bg-fuchsia-50 dark:bg-gray-800'>
-      <h2 className='lg:pt:16 pt-10 text-center font-heading text-3xl font-bold text-gray-800 dark:text-white lg:text-4xl'>
+    <div className='bg-pp-mauve-t dark:bg-gray-800'>
+      <h2 className='pt-10 text-center font-heading text-3xl font-bold text-pp-char dark:text-white lg:pt-16 lg:text-4xl'>
         அடிக்கடி கேட்கப்படும் கேள்விகள்
       </h2>
       <div className='px-3 pb-10 lg:pb-16'>

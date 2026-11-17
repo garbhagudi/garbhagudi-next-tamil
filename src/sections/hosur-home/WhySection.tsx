@@ -26,32 +26,32 @@ const cards = [
 
 export default function WhySection() {
   return (
-    <section className='bg-cream px-6 py-[4.5rem]'>
-      <div className='mx-auto max-w-[960px]'>
+    <section className='bg-pp-bg px-4 py-12 sm:px-6 sm:py-16 lg:px-8 lg:py-20'>
+      <div className='mx-auto max-w-7xl'>
         <SectionHeader
           eyebrow='எங்களை ஏன் தேர்வு செய்ய வேண்டும்?'
           title={
             <>
               உங்கள் கனவுக்கு அருகிலிருக்கும்
               <br />
-              <span className='text-rose'>கர்பகுடி</span>
+              <span className='text-pp-pink'>கர்பகுடி</span>
             </>
           }
           body='ஒவ்வொரு தம்பதியினரின் கதையும் தனிப்பட்டது. நாங்கள் உங்கள் பயணத்தை புரிந்துகொண்டு, அறிவியல் மற்றும் அனுதாபத்தோடு உங்களுக்கு வழிகாட்டுகிறோம்.'
         />
-        <div className='mt-10 grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-5'>
+        <div className='grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-5'>
           {cards.map(({ Icon, title, body }) => (
             <div
               key={title}
-              className='rounded-[14px] border border-hairline bg-white px-5 py-6 transition-all hover:border-saffron hover:shadow-[0_4px_20px_rgba(232,130,12,0.10)]'
+              className='rounded-[14px] border border-pp-line bg-white px-5 py-6 transition-all hover:border-pp-pink hover:shadow-[0_4px_20px_rgba(0,0,0,0.1)] hover:shadow-pp-pink/10'
             >
-              <div className='mb-4 flex h-12 w-12 items-center justify-center rounded-[12px] bg-saffron-light'>
-                <Icon className='h-6 w-6 text-saffron' strokeWidth={2} />
+              <div className='mb-4 flex h-12 w-12 items-center justify-center rounded-[12px] bg-pp-pink-t'>
+                <Icon className='h-6 w-6 text-pp-pink' strokeWidth={2} />
               </div>
-              <div className='mb-1.5 font-sans-tamil text-[15px] font-semibold text-charcoal'>
+              <div className='mb-1.5 font-sans-tamil text-[15px] font-semibold text-pp-char'>
                 {title}
               </div>
-              <div className='text-[13px] leading-[1.65] text-muted'>{body}</div>
+              <div className='text-[13px] leading-[1.65] text-pp-grey'>{body}</div>
             </div>
           ))}
         </div>
