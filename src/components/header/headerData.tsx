@@ -121,6 +121,7 @@ export const Contact = [
   {
     name: 'பயிற்சி கூட்டாண்மை',
     href: 'https://ggirhr.com',
+    target: '_blank',
     icon: 'https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8kwhwf3z9r07ple7jfk7np',
   },
   {
