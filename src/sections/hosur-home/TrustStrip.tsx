@@ -10,7 +10,7 @@ const items = [
 export default function TrustStrip() {
   return (
     <div
-      className='flex flex-wrap items-center justify-center gap-x-12 gap-y-4 bg-teal px-6 py-5 text-center text-white'
+      className='flex flex-wrap items-center justify-center gap-x-12 gap-y-4 bg-pp-mauve-d px-4 py-6 text-center text-white sm:px-6 lg:px-8'
       role='region'
       aria-label='நம்பிக்கை புள்ளிவிவரங்கள்'
     >

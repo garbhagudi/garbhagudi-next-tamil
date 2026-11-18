@@ -234,7 +234,14 @@ export function Contacts() {
               <div className='overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 dark:ring-gray-600 dark:ring-opacity-100'>
                 <div className='relative grid gap-8 bg-white bg-opacity-95 p-5 backdrop-blur-2xl dark:bg-gray-800 dark:bg-opacity-95 lg:grid-cols-1'>
                   {Contact.map((item) => (
-                    <Link key={item.name} href={item.href} passHref className='group'>
+                    <Link
+                      key={item.name}
+                      href={item.href}
+                      target={item.target}
+                      rel={item.target === '_blank' ? 'noopener noreferrer' : undefined}
+                      passHref
+                      className='group'
+                    >
                       <div
                         onClick={() => close()}
                         role='none'

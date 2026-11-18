@@ -25,8 +25,8 @@ const steps = [
 
 export default function ProcessSection() {
   return (
-    <section className='bg-white px-6 py-[4.5rem]'>
-      <div className='mx-auto max-w-[960px]'>
+    <section className='bg-white px-4 py-12 sm:px-6 sm:py-16 lg:px-8 lg:py-20'>
+      <div className='mx-auto max-w-7xl'>
         <SectionHeader
           eyebrow='உங்கள் பயணம்'
           title={
@@ -37,22 +37,22 @@ export default function ProcessSection() {
             </>
           }
         />
-        <div className='mt-10 flex flex-col'>
+        <div className='flex max-w-3xl flex-col'>
           {steps.map((s, i) => (
             <div
               key={s.num}
               className={`flex items-start gap-6 py-6 ${
-                i < steps.length - 1 ? 'border-b border-hairline' : ''
+                i < steps.length - 1 ? 'border-b border-pp-line' : ''
               }`}
             >
-              <span className='mt-0.5 flex-shrink-0 rounded-lg bg-saffron-light px-2.5 py-1.5 font-ui text-[11px] font-bold tracking-wider text-saffron-dark'>
+              <span className='mt-0.5 flex-shrink-0 rounded-lg bg-pp-pink-t px-2.5 py-1.5 font-ui text-[11px] font-bold tracking-wider text-pp-pink-d'>
                 {s.num}
               </span>
               <div>
-                <div className='mb-1 font-sans-tamil text-[15px] font-semibold text-charcoal'>
+                <div className='mb-1 font-sans-tamil text-[15px] font-semibold text-pp-char'>
                   {s.title}
                 </div>
-                <div className='font-sans-tamil text-[14px] leading-[1.65] text-muted'>
+                <div className='font-sans-tamil text-[14px] leading-[1.65] text-pp-grey'>
                   {s.desc}
                 </div>
               </div>
